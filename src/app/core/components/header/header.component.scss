@@ -1,0 +1,43 @@
+@use './../../../../styles/variables' as *;
+
+.mat-mdc-button {
+  font-family: $font-family-base !important;
+  font-size: $font-size-body;
+  font-weight: $font-weight-medium;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.logo {
+  height: 32px;
+}
+
+.spacer {
+  flex: 1 1 auto; // Take up remaining space
+}
+
+.desktop-links {
+  display: flex;
+}
+
+.menu-button {
+  display: none; // Hide menu button by default
+}
+
+@media (max-width: 600px) {
+  .menu-button {
+    display: inline; // Show menu button on small screens
+  }
+
+  .desktop-links {
+    display: none; // Hide links in toolbar on small screens
+  }
+
+  /* Ensure the menu opens below the hamburger icon */
+  mat-menu {
+    top: auto !important;
+    left: auto !important;
+  }
+}

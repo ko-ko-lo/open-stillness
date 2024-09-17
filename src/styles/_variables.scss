@@ -1,0 +1,142 @@
+// styles/_variables.scss
+
+// ========================================================================
+// Colors
+// ========================================================================
+
+// Neutral Colors
+$color-neutral-50: #ffffff;
+$color-neutral-100: #EAEEF0;
+$color-neutral-200: #AEBFC7;
+$color-neutral-300: #86A0AC;
+$color-neutral-400: #607D8B;
+$color-neutral-500: #455A64;
+$color-neutral-600: #36474E;
+$color-neutral-700: #2A363C;
+$color-neutral-800: #1B2327;
+$color-neutral-900: #000000;
+
+// Green Colors
+$color-green-50: #D6FFFA;
+$color-green-100: #B3FFF6;
+$color-green-200: #61FFED;
+$color-green-300: #14FFE4;
+$color-green-400: #00C7B0;
+$color-green-500: #00796B;
+$color-green-600: #006156;
+$color-green-700: #00473F;
+$color-green-800: #002E29;
+$color-green-900: #001917;                                              ;
+
+// Blue Colors
+$color-blue-50: #E3EFFC;
+$color-blue-100: #C8DFF9;
+$color-blue-200: #95C1F3;
+$color-blue-300: #5EA1ED;
+$color-blue-400: #2781E7;
+$color-blue-500: #1565C0;
+$color-blue-600: #115098;
+$color-blue-700: #0D3C73;
+$color-blue-800: #09294E;
+$color-blue-900: #041325;
+
+// Purple Colors
+$color-purple-50: #ECE7F9;
+$color-purple-100: #D9CFF2;
+$color-purple-200: #B7A3E6;
+$color-purple-300: #9172D9;
+$color-purple-400: #6B42CC;
+$color-purple-500: #512DA8;
+$color-purple-600: #412485;
+$color-purple-700: #311B65;
+$color-purple-800: #211244;
+$color-purple-900: #100920;
+
+// Background Colors
+$background-white: $color-neutral-50;
+$background-neutral-100: $color-neutral-100;
+$background-neutral-200: $color-neutral-200;
+
+$background-green-50: $color-green-50;
+$background-green-500: $color-green-500;
+$background-green-600: $color-green-600;
+$background-green-800: $color-green-800;
+
+$background-blue-50: $color-blue-50;
+
+$background-purple-50: $color-purple-50;
+$background-purple-200: $color-purple-200;
+$background-purple-800: $color-purple-800;
+
+// Divider Colors
+$divider-neutral-200: $color-neutral-200;
+
+// Border Colors
+$border-neutral-200: $color-neutral-200;
+$border-green-800: $color-green-800;
+
+// Link Color
+$link-color: $color-purple-700;
+
+// Button Colors
+$button-default-bg: $color-green-600;
+$button-hover-bg: $color-green-500;
+$button-focused-bg: $color-green-600;
+$button-focused-border: $color-green-800;
+$button-selected-bg: $color-green-800;
+$button-disabled-bg: $color-neutral-200;
+$button-disabled-font-color: $color-neutral-500;
+
+// ========================================================================
+// Typography
+// ========================================================================
+
+// Font Family
+$font-family-base: 'Quicksand', sans-serif;
+
+// Font Weights
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font Sizes in rem
+$font-size-h1: 3.4375rem;      // 55px
+$font-size-h2: 2.75rem;        // 44px
+$font-size-h3: 2.1875rem;      // 35px
+$font-size-h3-small: 1.75rem;  // 28px
+$font-size-subheadline: 1.4375rem; // 23px
+$font-size-body: 1.125rem;     // 18px
+$font-size-breadcrumb: 0.875rem; // 14px
+$font-size-highlighted: 2rem;  // 32px
+
+// Font Colors
+$font-color-breadcrumb: $color-neutral-500;
+$font-color-headlines: $color-purple-900;
+$font-color-button: $color-neutral-50;
+$font-color-button-disabled: $color-neutral-500;
+
+// Font Optical Sizing
+$font-optical-sizing: auto;
+
+// Other Text Styles
+$breadcrumb-text-transform: uppercase;
+
+// ========================================================================
+// Spacing
+// ========================================================================
+
+// Spacing Scale in rem
+$space-1: 0.5rem;    // 8px
+$space-2: 0.75rem;   // 12px
+$space-3: 1rem;      // 16px
+$space-4: 1.125rem;  // 18px
+$space-5: 1.5rem;    // 24px
+$space-6: 2rem;      // 32px
+$space-7: 2.5rem;    // 40px
+$space-8: 3rem;      // 48px
+$space-9: 3.5rem;    // 56px
+$space-10: 4rem;     // 64px
+$space-11: 4.5rem;   // 72px
+$space-12: 5.5rem;   // 88px
+$space-13: 6rem;     // 96px
+$space-14: 7.5rem;   // 120px
