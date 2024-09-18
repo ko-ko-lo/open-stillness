@@ -1,0 +1,119 @@
+@use "./../../../styles/variables" as variables;
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: variables.$spacing-elements;
+}
+.column-4 {
+  flex: 1;
+  max-width: 392px;
+  box-sizing: border-box;
+}
+
+.column-8 {
+  flex: 2;
+  max-width: 821px;
+  box-sizing: border-box;
+}
+
+.background-purple-light {
+  padding: variables.$space-13 0;
+}
+
+// ========================================================================
+// Angular Material specific Overridings
+// ========================================================================
+/*
+mat-accordion {
+  font-family: variables.$font-family-base;
+}
+
+mat-expansion-panel-header,
+mat-panel-title,
+mat-expansion-panel,
+mat-expansion-panel-body,
+.ng-star-inserted {
+  font-family: variables.$font-family-base;
+}
+
+mat-expansion-panel {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+mat-expansion-panel-header {
+  background-color: transparent;
+}
+
+::ng-deep mat-expansion-panel-header {
+  padding-top: 32px; // Add padding to the top
+  padding-bottom: 32px; // Add padding to the bottom if needed
+  display: flex; // Ensure the content is flex container
+  align-items: center; // Vertically align the content
+}
+
+::ng-deep mat-panel-title {
+  width: 100%; // Ensure the title takes the full width
+}
+
+::ng-deep mat-panel-title h3 {
+  margin: 0; // Reset default margin on h3
+}
+*/
+
+mat-expansion-panel p {
+  margin-bottom: 1em;
+}
+
+.example-accordion {
+  display: block;
+}
+
+.example-accordion-item-body {
+  padding: 16px;
+}
+
+.example-accordion-item-icon {
+  display: flex;
+  align-items: center;
+}
+
+mat-icon {
+  transition: transform 0.3s ease;
+}
+
+mat-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.example-accordion-item {
+  display: block;
+  border: none;
+  border-bottom: solid 1px variables.$color-neutral-400;
+}
+
+.example-accordion-item:first-child {
+  border-top: solid 1px variables.$color-neutral-400;
+}
+
+.example-accordion-item-header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  font-size: variables.$font-size-h3;
+  font-weight: variables.$font-weight-semibold;
+  padding: 1em 0.25em;
+}
+
+.example-accordion-item-header:hover {
+  cursor: pointer;
+  background-color: variables.$color-purple-100;
+}
+
+.example-accordion-item-body {
+  font-size: variables.$font-size-body;
+  font-weight: variables.$font-weight-medium;
+  padding-bottom: variables.$space-6;
+  line-height: 140%;
+}

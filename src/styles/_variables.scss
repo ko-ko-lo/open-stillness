@@ -6,49 +6,49 @@
 
 // Neutral Colors
 $color-neutral-50: #ffffff;
-$color-neutral-100: #EAEEF0;
-$color-neutral-200: #AEBFC7;
-$color-neutral-300: #86A0AC;
-$color-neutral-400: #607D8B;
-$color-neutral-500: #455A64;
-$color-neutral-600: #36474E;
-$color-neutral-700: #2A363C;
-$color-neutral-800: #1B2327;
+$color-neutral-100: #eaeef0;
+$color-neutral-200: #aebfc7;
+$color-neutral-300: #86a0ac;
+$color-neutral-400: #607d8b;
+$color-neutral-500: #455a64;
+$color-neutral-600: #36474e;
+$color-neutral-700: #2a363c;
+$color-neutral-800: #1b2327;
 $color-neutral-900: #000000;
 
 // Green Colors
-$color-green-50: #D6FFFA;
-$color-green-100: #B3FFF6;
-$color-green-200: #61FFED;
-$color-green-300: #14FFE4;
-$color-green-400: #00C7B0;
-$color-green-500: #00796B;
+$color-green-50: #d6fffa;
+$color-green-100: #b3fff6;
+$color-green-200: #61ffed;
+$color-green-300: #14ffe4;
+$color-green-400: #00c7b0;
+$color-green-500: #00796b;
 $color-green-600: #006156;
-$color-green-700: #00473F;
-$color-green-800: #002E29;
-$color-green-900: #001917;                                              ;
+$color-green-700: #00473f;
+$color-green-800: #002e29;
+$color-green-900: #001917;
 
 // Blue Colors
-$color-blue-50: #E3EFFC;
-$color-blue-100: #C8DFF9;
-$color-blue-200: #95C1F3;
-$color-blue-300: #5EA1ED;
-$color-blue-400: #2781E7;
-$color-blue-500: #1565C0;
+$color-blue-50: #e3effc;
+$color-blue-100: #c8dff9;
+$color-blue-200: #95c1f3;
+$color-blue-300: #5ea1ed;
+$color-blue-400: #2781e7;
+$color-blue-500: #1565c0;
 $color-blue-600: #115098;
-$color-blue-700: #0D3C73;
-$color-blue-800: #09294E;
+$color-blue-700: #0d3c73;
+$color-blue-800: #09294e;
 $color-blue-900: #041325;
 
 // Purple Colors
-$color-purple-50: #ECE7F9;
-$color-purple-100: #D9CFF2;
-$color-purple-200: #B7A3E6;
-$color-purple-300: #9172D9;
-$color-purple-400: #6B42CC;
-$color-purple-500: #512DA8;
+$color-purple-50: #ece7f9;
+$color-purple-100: #d9cff2;
+$color-purple-200: #b7a3e6;
+$color-purple-300: #9172d9;
+$color-purple-400: #6b42cc;
+$color-purple-500: #512da8;
 $color-purple-600: #412485;
-$color-purple-700: #311B65;
+$color-purple-700: #311b65;
 $color-purple-800: #211244;
 $color-purple-900: #100920;
 
@@ -86,28 +86,30 @@ $button-focused-border: $color-green-800;
 $button-selected-bg: $color-green-800;
 $button-disabled-bg: $color-neutral-200;
 $button-disabled-font-color: $color-neutral-500;
+$button-standard-font-color: $color-neutral-50;
 
 // ========================================================================
 // Typography
 // ========================================================================
 
 // Font Family
-$font-family-base: 'Quicksand', sans-serif;
+$font-family-base: "Quicksand", sans-serif;
 
 // Font Weights
+$font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
 // Font Sizes in rem
-$font-size-h1: 3.4375rem;      // 55px
-$font-size-h2: 2.75rem;        // 44px
-$font-size-h3: 2.1875rem;      // 35px
-$font-size-h3-small: 1.75rem;  // 28px
+$font-size-h1: 3.4375rem; // 55px
+$font-size-h2: 2.75rem; // 44px
+$font-size-h3: 2.1875rem; // 35px
+$font-size-h3-small: 1.75rem; // 28px
 $font-size-subheadline: 1.4375rem; // 23px
-$font-size-body: 1.125rem;     // 18px
+$font-size-body: 1.125rem; // 18px
 $font-size-breadcrumb: 0.875rem; // 14px
-$font-size-highlighted: 2rem;  // 32px
+$font-size-highlighted: 2rem; // 32px
 
 // Font Colors
 $font-color-breadcrumb: $color-neutral-500;
@@ -126,17 +128,49 @@ $breadcrumb-text-transform: uppercase;
 // ========================================================================
 
 // Spacing Scale in rem
-$space-1: 0.5rem;    // 8px
-$space-2: 0.75rem;   // 12px
-$space-3: 1rem;      // 16px
-$space-4: 1.125rem;  // 18px
-$space-5: 1.5rem;    // 24px
-$space-6: 2rem;      // 32px
-$space-7: 2.5rem;    // 40px
-$space-8: 3rem;      // 48px
-$space-9: 3.5rem;    // 56px
-$space-10: 4rem;     // 64px
-$space-11: 4.5rem;   // 72px
-$space-12: 5.5rem;   // 88px
-$space-13: 6rem;     // 96px
-$space-14: 7.5rem;   // 120px
+$space-0: 0.25rem; // 4px
+$space-1: 0.5rem; // 8px
+$space-2: 0.75rem; // 12px
+$space-3: 1rem; // 16px
+$space-4: 1.125rem; // 18px
+$space-5: 1.5rem; // 24px
+$space-6: 2rem; // 32px
+$space-7: 2.5rem; // 40px
+$space-8: 3rem; // 48px
+$space-9: 3.5rem; // 56px
+$space-10: 4rem; // 64px
+$space-11: 4.5rem; // 72px
+$space-12: 5.5rem; // 88px
+$space-13: 6rem; // 96px
+$space-14: 7.5rem; // 120px
+
+$space-full: 62.438rem; // 999px
+
+$gap-desktop: $space-6;
+$spacing-elements: $space-6;
+
+$max-width: 1440px;
+$global-padding-desktop: $space-13;
+
+// Button Padding
+$padding-top-bottom: $space-3;
+$padding-left-right: $space-6;
+
+// ========================================================================
+// Radius
+// ========================================================================
+
+$radius-s: $space-0;
+$radius-m: $space-1;
+$radius-l: $space-2;
+$radius-xl: $space-3;
+$radius-full: $space-full;
+
+// ========================================================================
+// Elevation
+// ========================================================================
+
+$elevation-xs: 0 2px 4px 0 rgba(54, 71, 78, 0.16);
+
+$elevation-s: 0 2px 4px 0 rgba(54, 71, 78, 0.04),
+  0 16px 32px -4px rgba(54, 71, 78, 0.1);

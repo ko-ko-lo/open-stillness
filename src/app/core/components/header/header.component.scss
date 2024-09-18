@@ -1,9 +1,9 @@
-@use './../../../../styles/variables' as *;
+@use './../../../../styles/variables' as variables;
 
 .mat-mdc-button {
-  font-family: $font-family-base !important;
-  font-size: $font-size-body;
-  font-weight: $font-weight-medium;
+  font-family: variables.$font-family-base !important;
+  font-size: variables.$font-size-body;
+  font-weight: variables.$font-weight-medium;
 }
 
 .sidenav-container {
@@ -24,6 +24,10 @@
 
 .menu-button {
   display: none; // Hide menu button by default
+}
+
+mat-toolbar {
+  margin-bottom: variables.$space-10;
 }
 
 @media (max-width: 600px) {

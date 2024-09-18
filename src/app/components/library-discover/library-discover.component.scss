@@ -1,0 +1,41 @@
+@use "./../../../styles/variables" as variables;
+
+.flexcontent {
+  display: flex;
+  flex-direction: column;
+  gap: variables.$spacing-elements;
+  max-width: 821px;
+  width: 100%;
+  margin-bottom: variables.$space-9;
+}
+
+.library-discovery {
+  padding: variables.$space-13 0;
+}
+
+button {
+  align-self: flex-start;
+}
+
+.flex-container {
+  display: flex;
+  gap: variables.$spacing-elements;
+}
+
+.flex-item {
+  background-color: variables.$background-green-50;
+  border-radius: variables.$radius-l;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: variables.$elevation-xs;
+}
+
+.flex-item img {
+  max-width: 100%; // Ensure image fits within the flex item
+  height: auto; // Maintain aspect ratio
+}
+
+h2 {
+  max-width: 821px;
+}

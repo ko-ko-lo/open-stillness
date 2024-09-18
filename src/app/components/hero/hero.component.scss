@@ -1,0 +1,36 @@
+@use './../../../styles/variables' as variables;
+
+.hero {
+  display: flex;
+  justify-content: space-between; /* Aligns the boxes to the left and right */
+  gap: variables.$gap-desktop;
+  margin-bottom: variables.$space-6;
+}
+
+.hero-box {
+  flex: 1; /* Each box takes up equal space */
+}
+
+.hero-box-right img {
+  max-height: 499px;
+}
+
+.hero-box-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-headline-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: variables.$spacing-elements;
+}
+
+button {
+  align-self: flex-start;
+}

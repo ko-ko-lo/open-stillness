@@ -1,24 +1,26 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@use '@angular/material' as mat;
+@use "@angular/material" as mat;
 
 // Import custom variables
-@use 'styles/variables' as *;
+@use "styles/variables" as variables;
 
 // Include the common styles for Angular Material, required for Angular Material components to work correctly.
 @include mat.core();
 
 // Define the theme object.
-$kokolo-yoga-theme: mat.define-theme((
-  color: (
-    theme-type: light,
-    primary: mat.$azure-palette,
-    tertiary: mat.$blue-palette,
-  ),
-  density: (
-    scale: 0,
+$kokolo-yoga-theme: mat.define-theme(
+  (
+    color: (
+      theme-type: light,
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+    density: (
+      scale: 0,
+    ),
   )
-));
+);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
@@ -34,17 +36,111 @@ $kokolo-yoga-theme: mat.define-theme((
 // Comment out the line below if you want to use the deprecated `color` inputs.
 // @include mat.color-variants-backwards-compatibility($kokolo-yoga-theme);
 /* You can add global styles to this file, and also import other style files */
-
-html, body {
-  height: 100%;
+* {
   margin: 0;
-  font-family: $font-family-base;
-  background-color: $background-white;
 }
 
-h1, h2, h3 {
-  margin: 0;
-  font-weight: $font-weight-semibold;
-  color: $font-color-headlines;
-  font-optical-sizing: $font-optical-sizing;
+html,
+body {
+  height: 100%;
+  font-family: variables.$font-family-base;
+  background-color: variables.$background-white;
+}
+
+.container {
+  max-width: variables.$max-width;
+  margin: 0 auto;
+  padding: 0 variables.$global-padding-desktop;
+}
+
+// ========================================================================
+// Typography
+// ========================================================================
+
+h1,
+h2,
+h3,
+.h3-small {
+  font-weight: variables.$font-weight-semibold;
+  color: variables.$font-color-headlines;
+  font-optical-sizing: variables.$font-optical-sizing;
+  line-height: 120%;
+}
+
+h1 {
+  font-size: variables.$font-size-h1;
+}
+
+h2 {
+  font-size: variables.$font-size-h2;
+  margin-bottom: variables.$space-7;
+}
+
+h3 {
+  font-size: variables.$font-size-h3;
+}
+
+.h3-small {
+  font-size: variables.$font-size-h3-small;
+}
+
+p {
+  font-size: variables.$font-size-body;
+  font-weight: variables.$font-weight-medium;
+  line-height: 140%;
+}
+
+.subheadline {
+  font-size: variables.$font-size-subheadline;
+  font-weight: variables.$font-weight-regular;
+}
+
+// ========================================================================
+// Buttons & Icons
+// ========================================================================
+
+button {
+  background-color: variables.$button-default-bg;
+  color: variables.$button-standard-font-color;
+  border: none;
+  border-radius: variables.$radius-s;
+  padding: variables.$padding-top-bottom variables.$padding-left-right;
+  font-size: variables.$font-size-body;
+  font-weight: variables.$font-weight-regular;
+  cursor: pointer;
+  box-shadow: variables.$elevation-xs;
+
+  &:hover {
+    background-color: variables.$button-hover-bg;
+  }
+
+  &:focus {
+    background-color: variables.$button-focused-bg;
+    border: 2px solid variables.$button-focused-border;
+  }
+
+  &:active {
+    background-color: variables.$button-selected-bg;
+  }
+
+  &:disabled {
+    background-color: variables.$button-disabled-bg;
+    color: variables.$button-disabled-font-color;
+  }
+}
+
+// ========================================================================
+// Backgrounds
+// ========================================================================
+
+.background-neutral-light {
+  background-color: variables.$color-neutral-100;
+}
+
+.background-blue-light {
+  background-color: variables.$color-blue-50;
+}
+
+.background-purple-light {
+  background-color: variables.$color-purple-50;
 }

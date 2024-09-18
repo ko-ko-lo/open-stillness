@@ -1,0 +1,19 @@
+@use "./../../../styles/variables" as variables;
+
+.benefits {
+  padding: variables.$space-13 0;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: variables.$spacing-elements;
+}
+
+.benefits-container > div {
+  max-width: 395px;
+}
+
+.h3-small {
+  margin-bottom: variables.$space-1;
+}
