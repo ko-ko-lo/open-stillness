@@ -1,0 +1,601 @@
+[
+    {
+      "name": "Ankle Stretch",
+      "targetAreas": ["Legs"],
+      "targetDescription": "Stretches the front of the ankles and shins, promoting flexibility and relieving tension in the lower legs.",
+      "startingPosition": "Sitting on your heels",
+      "stepsIntoPose": [
+        "Place your hands on the ground behind you and bend back slightly.",
+        "As you lean back, raise your knees as high as comfortable.",
+        "Your chest is open, as if you were doing a backbend."
+      ],
+      "stepsOutOfPose": [
+        "Lower your knees to the ground, bend forward and return to sit on your heels.",
+        "Stretch your legs out in front of you. "
+      ],
+      "possibleVariants": [
+        "For more comfort, you can place a blanket under your knees.",
+        "For a lower level of intensity, keep your knees on the ground.",
+        "To intensify the stretch, place your hands on your knees and gently pull them up."
+      ],
+      "practiceOnBothSides": false,
+      "image": "/public/yoga-poses/ankle-stretch.png"
+    },
+
+    {
+        "name": "Bananasana",
+        "targetAreas": ["Back / Spine", "Upper Body"],
+        "targetDescription": "Stretches the entire side body, lengthening the spine, providing a deep release to the hips and obliques.",
+        "startingPosition": "Lying on your back",
+        "stepsIntoPose": [
+          "Place your legs together in a straight line on the floor.",
+          "Raise arms overhead and grasp hands or elbows.",
+          "Move your upper body to the right, keeping your buttocks firmly on the ground.",
+          "When you have moved your upper body to the right as far as you feel comfortable, move both legs to the right.",
+          "Arch like a banana by bending your spine to the side. Be careful not to twist your hips or roll off the ground."
+        ],
+        "stepsOutOfPose": [
+          "Bring your legs back into a straight position and place your arms at the side of your body. Rest for a few moments in Shavasana."
+        ],
+        "possibleVariants": [
+          "For extra stretch, try crossing your ankles with the outside ankle over the inside ankle."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/bananasana.png"
+      },
+
+      {
+        "name": "Butterfly",
+        "targetAreas": ["Hips", "Back / Spine"],
+        "targetDescription": "Gently opens the hips and groin while stretching the inner thighs, promoting flexibility in the lower back and pelvis.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Make a diamond shape with your legs by bringing the soles of your feet together and sliding them away from you as far as you like.",
+          "Straighten your spine and slowly fold your body forward in the direction of your feet. Allow your back to round.",
+          "Place your hands on your feet or on the floor in front of you. Let your head hang down."
+        ],
+        "stepsOutOfPose": [
+          "Use your hands to push yourself off the ground and slowly roll up.",
+          "Lean back on your hands and slowly straighten your legs."
+        ],
+        "possibleVariants": [
+          "Sit on a cushion so that you can lean forward more easily.",
+          "For extra knee support, use a yoga bolster under both legs.",
+          "Support your head with a bolster for extra comfort."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/butterfly.png"
+      },
+
+      {
+        "name": "Cat Pulling Its Tail",
+        "targetAreas": ["Back / Spine", "Hips", "Legs"],
+        "targetDescription": "Provides a gentle twist for the spine while stretching the hips and quads, promoting release in the back and legs.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Stretch your legs straight out in front of you.",
+          "Turn to one side of your body and lean on your elbow.",
+          "Bend the leg on the bottom and bring the heel towards your buttocks.",
+          "Reach back with your upper hand and grasp your bottom foot.",
+          "Pull the foot away from you."
+        ],
+        "stepsOutOfPose": [
+          "Release the lower foot and straighten the leg.",
+          "Slowly return to a sitting position."
+        ],
+        "possibleVariants": [
+          "Keep your upper body on the ground to make the pose more accessible."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/cat-pulling-its-tail.png"
+      },
+
+      {
+        "name": "Caterpillar",
+        "targetAreas": ["Back / Spine", "Hips", "Legs"],
+        "targetDescription": "Primarily stretches the entire spine and upper back, offering relief to the back and calming the nervous system.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Stretch your legs straight out in front of you. Straighten your spine and relax your shoulders.",
+          "Slowly bend your upper body forward from the hips. Allow your spine to round."
+        ],
+        "stepsOutOfPose": [
+          "Use your hands to push yourself off the ground and slowly roll up.",
+          "Lean back on your hands to release your hips."
+        ],
+        "possibleVariants": [
+          "Sit on a cushion so that you can lean forward more easily.",
+          "Place your chest on a yoga bolster for a more relaxed version.",
+          "If you are very flexible, pull your legs slightly apart and place your upper body between your legs."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/caterpillar.png"
+      },
+
+      {
+        "name": "Child's Pose",
+        "targetAreas": ["Back / Spine", "Hips", "Legs"],
+        "targetDescription": "Gently stretches the hips, thighs, and lower back, promoting relaxation and grounding the body while calming the mind.",
+        "startingPosition": "Sitting on your heels",
+        "stepsIntoPose": [
+          "Slowly bend forward, bringing your upper body to your thighs and gently lowering your forehead to the ground.",
+          "Stretch your arms forward over your head, keeping your elbows and shoulders relaxed."
+        ],
+        "stepsOutOfPose": [
+          "Use your hands to push yourself off the ground and slowly roll up. Sit on your heels for a few moments."
+        ],
+        "possibleVariants": [
+          "Place your arms beside your body. Keep your elbows and shoulders relaxed and your palms up.",
+          "Place your upper body and head on a yoga bolster for a more relaxed version.",
+          "Start with your knees apart and your big toes touching. From here, follow the steps into the pose."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/childspose.png"
+      },
+
+      {
+        "name": "Dangling",
+        "targetAreas": ["Back / Spine", "Upper Body"],
+        "targetDescription": "Gently stretches the hamstrings and lower back, decompressing the spine while promoting circulation and calming the nervous system.",
+        "startingPosition": "Standing with feet hip-width apart",
+        "stepsIntoPose": [
+          "Bend your knees slightly.",
+          "Bend your upper body forward and allow your spine to round.",
+          "Grasp your elbows with opposite hands. So your left hand is around your right elbow and your right hand is around your left elbow.",
+          "Relax your shoulders and neck."
+        ],
+        "stepsOutOfPose": [
+          "Bend your knees even further down and release your arms.",
+          "Roll slowly upwards, your head coming up last."
+        ],
+        "possibleVariants": [
+          "Your hamstrings will also be stretched by keeping your legs straight.",
+          "You can swing your upper body slightly to the left and right if this is comfortable for you.",
+          "For a half forward bend, align your upper body and head parallel to the floor. Pull your shoulders away from your ears and place your hands on your shins."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/dangling.png"
+      },
+
+      {
+        "name": "Deer",
+        "targetAreas": ["Legs", "Back / Spine"],
+        "targetDescription": "Gently opens the hips and stretches the quads, while providing a mild twist to the spine, promoting flexibility in the lower back and pelvis.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Make a diamond shape with your legs by bringing the soles of your feet together and sliding them away from you as far as you like.",
+          "Swing one leg behind you and bring your foot behind your hip.",
+          "Adjust the position of your legs. There is no right or wrong way, but traditionally both legs are at a 90 degree angle.",
+          "Keep both sit bones firmly in the ground, straighten your spine and twist to the side of your front leg.  Put one hand on your knee and the other behind you. Look in the direction of the twist."
+        ],
+        "stepsOutOfPose": [
+          "Release the twist.",
+          "Lean away from your back leg and bring it forward. Find yourself in the Butterfly starting position."
+        ],
+        "possibleVariants": [
+          "Instead of twisting, you can fold forward.",
+          "You can lower your upper body and place your elbows on the floor or rest your chest on a yoga bolster for more comfort."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/deer.png"
+      },
+
+      {
+        "name": "Dragonfly",
+        "targetAreas": ["Hips", "Back / Spine", "Legs"],
+        "targetDescription": "Targets the inner thighs and hamstrings, while gently stretching the lower back, providing a deep release to the hips and spine.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Spread your legs apart so that they are well stretched but still comfortable.",
+          "Bend forward from the hips, allowing your spine to round. Your neck is relaxed.",
+          "Rest your weight on your hands in front of you or come down on your elbows."
+        ],
+        "stepsOutOfPose": [
+          "Use your hands to push away from the ground and slowly roll up.",
+          "Lean back slightly and support yourself on your hands to take the weight off your hips.",
+          "Gently bring your legs together."
+        ],
+        "possibleVariants": [
+          "Sit on a cushion so that you can lean forward more easily.",
+          "Place your upper body and head on a yoga bolster (or two) for a more relaxed version.",
+          "If you are stiff, bend your knees as much as you like and place your feet on the floor.",
+          "Instead of bending forward, you can do a sitting twist. Straighten your spine and twist to one side with the support of your arms. "
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/dragonfly.png"
+      },
+
+      {
+        "name": "Frog",
+        "targetAreas": ["Legs", "Hips", "Back / Spine"],
+        "targetDescription": "Deeply opens the hips and inner thighs, promoting flexibility and release in the groin and lower back.",
+        "startingPosition": "Table top",
+        "stepsIntoPose": [
+          "Spread your knees as far apart as comfortable, keeping your shins parallel. The feet should point outwards.",
+          "With your arms extended, slide both hands forward. Slowly lower the upper body towards the ground.",
+          "Gently lower your forehead to the ground."
+        ],
+        "stepsOutOfPose": [
+          "Slide forward on your belly and bring your legs together.",
+          "Rest your forehead on your hands for a few moments."
+        ],
+        "possibleVariants": [
+          "To reduce the amount of backbending and support your upper body, place your chest and head on a yoga bolster.",
+          "To additionally stretch the neck, you can place one cheek down and switch sides halfway through. ",
+          "You can control the intensity of the stretch by moving your hips slightly forwards to decrease the intensity and moving your hips slightly backwards to increase the intensity.",
+          "For an easier version, bring your big toes together and lift your hips. You can also rest on your elbows."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/frog.png"
+      },
+
+      {
+        "name": "Half Butterfly",
+        "targetAreas": ["Back / Spine", "Hips", "Legs"],
+        "targetDescription": "Gently stretches the hamstrings and lower back, while also opening the hips and promoting relaxation in the spine.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Draw one foot towards you.",
+          "Stretch your other leg straight out to the side.",
+          "Straighten your spine and slowly fold your body over the straight leg. Allow your back to round.",
+          "Place your hands on the floor next to your straight leg. Let your head hang down."
+        ],
+        "stepsOutOfPose": [
+          "Use your hands to push yourself off the ground and slowly roll up.",
+          "Lean back on your hands and slowly straighten your legs."
+        ],
+        "possibleVariants": [
+          "Sit on a cushion so that you can lean forward more easily.",
+          "Support your head with a bolster for extra comfort.",
+          "Instead of folding over the straight leg, fold forward."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/half-butterfly.png"
+      },
+
+      {
+        "name": "Happy Baby",
+        "targetAreas": ["Hips", "Back / Spine", "Legs"],
+        "targetDescription": "Stretches the hips, inner thighs, and lower back, creating a deep release in the lower spine and encouraging relaxation.",
+        "startingPosition": "Lying on your back",
+        "stepsIntoPose": [
+          "Bring your knees in towards your chest and point the soles of your feet upwards.",
+          "Grab the outside of your feet and pull your knees towards the floor, along your chest. Push the tailbone towards the ground.",
+          " Pull your hands towards the ground. Press your feet into your hands so that you feel a slight resistance.",
+          "Relax your shoulders and neck."
+        ],
+        "stepsOutOfPose": [
+          "Release your feet and place them on the ground with your knees bent. ",
+          "Slowly straighten your legs."
+        ],
+        "possibleVariants": [
+          "If you can't reach your feet, hold on to the back of your thighs.",
+          "A more intense variation is to keep your hips on the floor and straighten your legs as you pull your feet down."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/happy-baby.png"
+      },
+
+      {
+        "name": "Low-Flying Dragon",
+        "targetAreas": ["Hips", "Back / Spine"],
+        "targetDescription": "Stretches the hip flexors and quads while opening the hips and lower back, promoting deep release in the legs and pelvis.",
+        "startingPosition": "Table top",
+        "stepsIntoPose": [
+          "Step your right foot between your hands. Place your foot so that your knee is over your heel.",
+          "Lower your left knee to the floor and slide your leg back as far as comfortable. ",
+          "Place both hands on the inside of your right foot, move your foot slightly to the right and walk with your hands forward, lowering your hips.",
+          "Support yourself on your elbows."
+        ],
+        "stepsOutOfPose": [
+          "Lean on your hands and slide your left knee forward.",
+          "Tuck your left toes in and press your hands into the ground. Slowly bring your right leg back to the table top pose."
+        ],
+        "possibleVariants": [
+          "For more comfort, rest your elbows on a yoga bolster.",
+          "For the Baby Dragon pose (simple low lunge), place your hands on either side of the front foot.",
+          "In Winged Dragon place your hands on the ground. Roll onto the outside of the front foot, keeping the knee low. For more depth come down on your elbows."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/dragon-low-flying.png"
+      },
+
+      {
+        "name": "Melting Heart",
+        "targetAreas": ["Back / Spine", "Upper Body"],
+        "targetDescription": "Opens the chest and shoulders while deeply stretching the upper back, releasing tension in the spine.",
+        "startingPosition": "Table top",
+        "stepsIntoPose": [
+          "From the Table top position, slowly come down on your elbows.",
+          "Straighten your arms out in front of you, one at a time. Find the optimum position for the distance between your arms.",
+          "Keep your hips above your knees and your chest in contact with the ground.",
+          "Gently lower your forehead to the ground."
+        ],
+        "stepsOutOfPose": [
+          "Slowly walk your hands back and lower your hips onto your heels. Find yourself in Child’s Pose and rest for a few moments."
+        ],
+        "possibleVariants": [
+          "For more comfort, rest your chest on a yoga bolster.",
+          "To intensify the pose, place your chin on the ground and look ahead.",
+          "For extra stretch in the shoulders, you can rest your outstretched hands on blocks."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/melting-heart.png"
+      },
+
+      {
+        "name": "Seal",
+        "targetAreas": ["Back / Spine"],
+        "targetDescription": "Offers a deep extension to the spine, opening the chest and stretching the lower back, providing relief for tightness along the back.",
+        "startingPosition": "Lying on your belly",
+        "stepsIntoPose": [
+          "Place your palms a little more than shoulder width apart in front of you. Your hands are turned slightly outwards.",
+          "Adjust the distance of your hands from your body. Bringing your hands further forward makes the stretch more accessible.",
+          "Using the support of your arms and the strength of your back, lift your upper body. Keep your hips connected to the ground. Your arms are straight."
+        ],
+        "stepsOutOfPose": [
+          "Bend your elbows and lie back on your stomach slowly and controlled.",
+          "Rest your forehead on your hands for a few moments."
+        ],
+        "possibleVariants": [
+          "You can control the intensity of the stretch by moving your forearms forward to decrease the intensity and moving your forearms backward to increase the intensity.",
+          "You can open your legs wider and discover the effect on your lower back."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/seal.png"
+      },
+
+      {
+        "name": "Shavasana",
+        "targetAreas": [],
+        "targetDescription": "Encourages full body relaxation and surrender, helping the body to integrate and rest after practice, calming both body and mind.",
+        "startingPosition": "Lying on your back",
+        "stepsIntoPose": [
+          "Your arms point slightly outwards with your palms facing upwards.",
+          "Your feet fall slightly outwards.",
+          "Position your head and spine in a straight line.",
+          "Pull your chin slightly towards your chest to lengthen your neck.",
+          "Breathe in and out deeply and feel your belly rise and fall. Relax your whole body and mind."
+        ],
+        "stepsOutOfPose": [
+          "Slowly move parts of your body and open your eyes.",
+          "Gently raise your body by bending your legs, lying down to the side and then sitting up."
+        ],
+        "possibleVariants": [
+          "You can put your hands on your belly and feel your breathing.",
+          "A yoga bolster under your knees can add extra comfort."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/shavasana.png"
+      },
+
+      {
+        "name": "Shoelace",
+        "targetAreas": ["Hips", "Back / Spine"],
+        "targetDescription": "Targets the outer hips and glutes, offering a deep stretch to the lower back and pelvis, while promoting flexibility in the legs.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Come to sit cross-legged.",
+          "Draw one foot under the opposite thigh and the other foot over to the opposite hip. Your knees are roughly on top of each other.",
+          "Place your hands beside you."
+        ],
+        "stepsOutOfPose": [
+          "Bring your hands behind you.",
+          "Lean back and slowly straighten your legs."
+        ],
+        "possibleVariants": [
+          "Sit on a cushion to make the pose more accessible.",
+          "To increase flexion in the hips and spine, fold forward over the legs.",
+          "You can bend sideways to stretch the side of your body."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/shoelace.png"
+      },
+
+      {
+        "name": "Snail",
+        "targetAreas": ["Back / Spine"],
+        "targetDescription": "Deeply stretches the entire spine, particularly the neck and upper back, offering a profound release to the back and shoulders.",
+        "startingPosition": "Lying on your back",
+        "stepsIntoPose": [
+          "Lift your hips up and use your hands to support them.",
+          "Move your feet up and over your head and towards the floor.",
+          "Shift the weight of your body onto your shoulders. There should be little or no weight on your neck. You can round your back."
+        ],
+        "stepsOutOfPose": [
+          "Bend your knees and slowly roll down.",
+          "Rest for a moment with bent knees and feet on the ground."
+        ],
+        "possibleVariants": [
+          "Place your hips on a yoga bolster for easier access to the pose.",
+          "Keep your knees bent for a more relaxed variation.",
+          "A challenging variation is to bend your knees towards the ground and place them next to your ears.",
+          "Reach out with your hands above your head and take hold of your feet. This is more like the classic Plough Pose."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/snail.png"
+      },
+
+      {
+        "name": "Sphinx",
+        "targetAreas": ["Back / Spine"],
+        "targetDescription": "Targets the lower back and spine through gentle extension, providing a restorative stretch to the back.",
+        "startingPosition": "Lying on your belly",
+        "stepsIntoPose": [
+          "Place your palms about shoulder width apart in front of you. Your fingertips are pointing forward. ",
+          "Bring your elbows close to your body at shoulder height.",
+          "Using the support of your forearms and the strength of your back, lift your upper body. Keep your hips connected to the ground."
+        ],
+        "stepsOutOfPose": [
+          "Lie back on your stomach slowly and controlled.",
+          "Rest your forehead on your hands for a few moments."
+        ],
+        "possibleVariants": [
+          "You can control the intensity of the stretch by moving your forearms forward to decrease the intensity and moving your forearms backward to increase the intensity.",
+          "You can open your legs wider and discover the effect on your lower back.",
+          "For a stronger backbend, place a yoga bolster under your forearms."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/sphinx.png"
+      },
+
+      {
+        "name": "Square",
+        "targetAreas": ["Hips", "Back / Spine"],
+        "targetDescription": "Opens the hips and stretches the glutes and lower back, enhancing stability and flexibility in the pelvis and lower back.",
+        "startingPosition": "Upright sitting posture",
+        "stepsIntoPose": [
+          "Your legs are crossed. From here, place your left foot in front of your right knee. So one leg is in front of the other. ",
+          "Keep your shins parallel as much as possible.",
+          "Bend forward from the hips, allowing your spine to round. Your neck is relaxed."
+        ],
+        "stepsOutOfPose": [
+          "Use your hands to push away from the ground and slowly roll up.",
+          "Lean back on your hands and straighten your legs."
+        ],
+        "possibleVariants": [
+          "Sit on a cushion so that you can lean forward more easily.",
+          "To address the side of the body, you can bend sideways instead of forward.",
+          "Place a yoga bolster over your legs to support your chest as you bend forward."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/square.png"
+      },
+
+      {
+        "name": "Supine Spinal Twist",
+        "targetAreas": ["Back / Spine", "Hips"],
+        "targetDescription": "Gently twists the spine, releasing tension in the lower back and hips, while promoting flexibility in the upper and middle back and calming the nervous system.",
+        "startingPosition": "Lying on your back",
+        "stepsIntoPose": [
+          "Bend your legs and place your feet on the ground. Open your arms out to the sides like wings. Keep your shoulders on the ground.",
+          "Move your hips slightly to the left side. Pull your knees towards your chest and drop your legs to the right side.",
+          "Place your right hand on your left leg and gently lower your head to the left."
+        ],
+        "stepsOutOfPose": [
+          "Turn your head back to the middle.",
+          "Slowly roll onto your back, pull your knees to your chest and rest for a few moments."
+        ],
+        "possibleVariants": [
+          "By moving your knees up and down, you can control the intensity of the stretch.",
+          "To intensify the stretch, you can cross your knees and bring your legs into an eagle position. From here, drop your knees to the opposite side of the upper leg.",
+          "Pull one knee into the chest and, holding the knee with the opposite hand, pull it across the body."
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/supine-twist.png"
+      },
+
+      {
+        "name": "Supported Bridge",
+        "targetAreas": ["Back / Spine", "Chest", "Upper Back"],
+        "targetDescription": "Engages the glutes and lower back, lifting the spine into a gentle backbend while stretching the chest and shoulders.",
+        "startingPosition": "Lying on your back",
+        "stepsIntoPose": [
+          "Place your feet hip width apart and close to your buttocks. Your arms are on the floor, pointing slightly outwards.",
+          "Raise your hips so that you can place a block or yoga bolster under your pelvis.",
+          "Relax your shoulders and neck."
+        ],
+        "stepsOutOfPose": [
+          "Lift your heels so that you can slide the support away from under your pelvis.",
+          "Slowly lower your hips to the ground and rest for a few moments."
+        ],
+        "possibleVariants": [
+          "Raising your arms above your head increases the stretch in your abs and hip flexors.",
+          "Straighten your legs to increase stretching of the lower back, sacrum and hip flexors."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/supported-bridge.png"
+      },
+
+      {
+        "name": "Supported Saddle",
+        "targetAreas": ["Back / Spine", "Legs", "Chest", "Hips"],
+        "targetDescription": "Deeply stretches the front of the thighs and hip flexors, while gently extending the spine and opening the chest in a supported backbend.",
+        "startingPosition": "Sitting on your heels or beside your heels",
+        "stepsIntoPose": [
+          "Place a pillow lengthwise behind your spine as support.",
+          "Place your hands behind you and carefully start to lean backwards. Your back is slightly rounded.",
+          "Place your arms comfortably next to your upper body."
+        ],
+        "stepsOutOfPose": [
+          "Slowly lean on your elbows and then on your hands.",
+          "Release your legs and rest for a few moments."
+        ],
+        "possibleVariants": [
+          "Raise your arms above your head to open your shoulders and increase the tension in your hip flexors.",
+          "For a deeper stretch, don't use the yoga bolster, but lean back and lie completely on the floor."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/supported-saddle.png"
+      },
+
+      {
+        "name": "Swan",
+        "targetAreas": ["Hips", "Back / Spine", "Legs"],
+        "targetDescription": "Targets the hips and glutes through a deep stretch, while also gently extending the lower back, providing  flexibility to the lower spine and pelvis.",
+        "startingPosition": "Table top",
+        "stepsIntoPose": [
+          "Slide your right knee forward close to your right wrist.",
+          "Bring your right foot close to your left hip and flex your foot.",
+          "Move your left foot backwards as far as comfortable. The toes should point backwards.",
+          "Centre yourself so that your weight is evenly distributed between your hips. The buttock of the right leg is on the floor or as low as possible.",
+          "Place your hands in front of you."
+        ],
+        "stepsOutOfPose": [
+          "Tuck your left toes in, lean forward slightly and press your hands into the ground. ",
+          "Slowly bring your right leg, then your left leg, back to a table top position."
+        ],
+        "possibleVariants": [
+          "You can control the intensity of the stretch by moving your front foot forward to increase the intensity and moving your front foot backward to decrease the intensity.",
+          "The Sleeping Swan pose can be done with the elbows down or completely over the front leg. ",
+          "For the Sleeping Swan pose, you can place your upper body and head on a yoga bolster. To additionally stretch the neck, you can place one cheek down and switch sides halfway through. "
+        ],
+        "practiceOnBothSides": true,
+        "image": "/public/yoga-poses/swan.png"
+      },
+
+      {
+        "name": "Toe Squat",
+        "targetAreas": ["Legs"],
+        "targetDescription": "Stretches the toes and feet, promoting flexibility and relieving tension in the arches of the feet, while engaging the ankles and lower legs.",
+        "startingPosition": "Table top",
+        "stepsIntoPose": [
+          "Start by tucking in your toes.",
+          "Now sit back on your heels.",
+          "Try to keep your weight on the balls of your feet rather than the tips of your toes. Make sure that your little toes are also tucked in.",
+          "Place your hands comfortably on your thighs."
+        ],
+        "stepsOutOfPose": [
+          "Lean forward on your hands and release your feet.",
+          "Lean back on your heels with your toes untucked and rest for a moment."
+        ],
+        "possibleVariants": [
+          "For more comfort, you can place a blanket under your knees.",
+          "You can incorporate stretches of the upper body into this pose, such as eagle arms."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/toe-squat.png"
+      },
+
+      {
+        "name": "Yoga Squat",
+        "targetAreas": ["Hips", "Legs", "Back / Spine"],
+        "targetDescription": "Opens the hips and groin, while strengthening and stretching the ankles, promoting mobility in the legs and lower back.",
+        "startingPosition": "Standing position, feet apart and slightly turned outwards",
+        "stepsIntoPose": [
+          "Bend your knees and squat down. Make sure your knees point in the same direction as your toes. Keep your arms in front of you for balance. Your body weight is evenly distributed over your feet.",
+          "When you are all the way down, bring your hands into a prayer position. Press your elbows against the inside of your thighs and vice versa."
+        ],
+        "stepsOutOfPose": [
+          "Support yourself on the floor and sit down gently, then slowly straighten your legs."
+        ],
+        "possibleVariants": [
+          "Adjust the distance between your feet according to your target area: move your feet closer together to target the ankles and further apart to target the hips.",
+          "Instead of placing your hands in a praying position, place them on the ground in front of you.",
+          "To stretch your neck, place your hands behind your head and gently draw your chin towards your chest."
+        ],
+        "practiceOnBothSides": false,
+        "image": "/public/yoga-poses/yoga-squat.png"
+      }
+
+  ]

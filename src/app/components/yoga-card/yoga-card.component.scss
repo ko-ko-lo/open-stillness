@@ -1,0 +1,49 @@
+@use "./../../../styles/variables" as variables;
+
+.yoga-card {
+  padding: variables.$space-7 variables.$space-6 variables.$space-10;
+  border-radius: variables.$radius-l;
+  margin-bottom: variables.$space-8;
+}
+
+.yoga-card h2 {
+  margin-bottom: variables.$space-6;
+}
+
+.yoga-card img {
+  max-height: 576px;
+}
+
+.flex-container {
+  display: flex;
+  gap: variables.$gap-desktop;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.bold {
+  margin-bottom: variables.$space-0;
+  margin-top: variables.$space-5;
+}
+
+.bold:first-child {
+  margin-top: 0;
+}
+
+ul li,
+ol li {
+  font-size: variables.$font-size-body;
+  font-weight: variables.$font-weight-medium;
+}
+
+ol,
+ul {
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+li {
+  margin-bottom: 4px;
+}

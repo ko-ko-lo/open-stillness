@@ -28,7 +28,7 @@ export class AccordeonComponent {
     {
       question: 'Breathing in Yin-Style Yoga',
       answer:
-        'In Yin Yoga, breathing plays a crucial role in deepening the connection between body and mind. Conscious, slow breathing helps promote relaxation and calm the mind. Breath is often used to guide movement into a pose. Inhaling creates space and allows the body to open and stretch, while exhaling encourages you to relax and release tension within the pose. Once in the pose, the focus is on maintaining a steady, deep breath to support stillness and mindfulness. It’s important to practice what feels best for you. Explore different breathing techniques to find the one that helps you relax most deeply.',
+        'In Yin-Style Yoga, breathing plays a crucial role in deepening the connection between body and mind. Conscious, slow breathing helps promote relaxation and calm the mind. Breath is often used to guide movement into a pose. Inhaling creates space and allows the body to open and stretch, while exhaling encourages you to relax and release tension within the pose. Once in the pose, the focus is on maintaining a steady, deep breath to support stillness and mindfulness. It’s important to practice what feels best for you. Explore different breathing techniques to find the one that helps you relax most deeply.',
     },
     {
       question: 'Holding the Poses for a Long Time',
@@ -43,7 +43,7 @@ export class AccordeonComponent {
     {
       question: 'Who is the Website For?',
       answer:
-        'This website is designed for people of all ages with a basic knowledge of yoga. While the poses are not described in full detail, they provide clear guidance on entering and exiting the posture, highlight the target areas, and offer variations. Hand-painted illustrations complement the descriptions to enhance understanding. Ready-made Yin-Style Yoga routines focus on specific areas of the body, such as the back or hips, providing a holistic practice for targeted training and overall well-being.',
+        'This website is designed for people of all ages with a basic knowledge of yoga. While the poses are not described in full detail, they provide clear guidance on entering and exiting the posture, highlight the target areas, and offer variations. Hand-painted illustrations complement the descriptions to enhance understanding.',
     },
     {
       question: 'Do I Need Props for Yin-Style Yoga?',

@@ -49,7 +49,7 @@ body {
 
 .container {
   max-width: variables.$max-width;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 variables.$global-padding-desktop;
 }
 
@@ -93,6 +93,10 @@ p {
 .subheadline {
   font-size: variables.$font-size-subheadline;
   font-weight: variables.$font-weight-regular;
+}
+
+.bold {
+  font-weight: variables.$font-weight-bold;
 }
 
 // ========================================================================

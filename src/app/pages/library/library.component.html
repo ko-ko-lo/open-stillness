@@ -1,3 +1,15 @@
-<div class="container">
-  <p>library works!</p>
+<div class="intro container">
+  <h1>Find your Yin-Style Yoga Poses in the Library</h1>
+  <p>
+    Explore a variety of Yin-Style Yoga Poses. Hold each pose for as long as
+    feels comfortable, which could be several minutes. Remember to take short
+    breaks between poses to tune into your body. Avoid pushing yourself into
+    discomfort—listen to your body's signals. If a pose is performed on both
+    sides, a note will indicate this.
+  </p>
+</div>
+
+<div *ngFor="let pose of yogaPoses">
+  <app-yoga-card [pose]="pose"></app-yoga-card>
+  <!-- Passing pose to the YogaCardComponent -->
 </div>
