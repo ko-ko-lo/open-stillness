@@ -1,4 +1,4 @@
-@use './../../../styles/variables' as variables;
+@use "./../../../styles/variables" as variables;
 
 .hero {
   display: flex;
@@ -33,4 +33,8 @@
 
 button {
   align-self: flex-start;
+}
+
+h1 {
+  margin-bottom: 0;
 }

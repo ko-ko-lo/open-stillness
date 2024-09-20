@@ -4,6 +4,7 @@
   padding: variables.$space-7 variables.$space-6 variables.$space-10;
   border-radius: variables.$radius-l;
   margin-bottom: variables.$space-8;
+  box-shadow: variables.$elevation-xs;
 }
 
 .yoga-card h2 {
@@ -11,7 +12,10 @@
 }
 
 .yoga-card img {
-  max-height: 576px;
+  max-width: 576px;
+  height: auto;
+  display: block;
+  max-width: 100%;
 }
 
 .flex-container {
@@ -46,4 +50,33 @@ ul {
 
 li {
   margin-bottom: 4px;
+}
+
+@media (max-width: 1100px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item:nth-child(2) {
+    order: -1;
+  }
+}
+
+// ========================================================================
+// Pill Design
+// ========================================================================
+
+.target-areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: variables.$space-1;
+}
+
+.practice-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: variables.$space-1;
+  background-color: variables.$color-neutral-200;
+  padding: 14px 32px;
+  margin-top: variables.$space-5;
 }

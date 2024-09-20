@@ -1,0 +1,6 @@
+@use "./../../../styles/variables" as variables;
+
+.intro {
+  max-width: 821px;
+  margin-bottom: variables.$space-6;
+}

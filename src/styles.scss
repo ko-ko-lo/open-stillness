@@ -69,6 +69,7 @@ h3,
 
 h1 {
   font-size: variables.$font-size-h1;
+  margin-bottom: variables.$space-6;
 }
 
 h2 {
@@ -147,4 +148,21 @@ button {
 
 .background-purple-light {
   background-color: variables.$color-purple-50;
+}
+
+// ========================================================================
+// Pill Design
+// ========================================================================
+
+.pill {
+  background-color: variables.$color-purple-200;
+  color: variables.$font-color-body;
+  padding: 6px 16px;
+  border-radius: variables.$radius-full;
+  font-weight: variables.$font-weight-medium;
+  font-size: variables.$font-size-body;
+  display: inline-block;
+  white-space: nowrap;
+  margin-bottom: variables.$space-3;
+  margin-top: variables.$space-1;
 }

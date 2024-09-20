@@ -1,0 +1,52 @@
+@use "./../../../styles/variables" as variables;
+
+.training-card {
+  padding: variables.$space-7 variables.$space-6 variables.$space-10;
+  border-radius: variables.$radius-l;
+  margin-bottom: variables.$space-8;
+  box-shadow: variables.$elevation-xs;
+}
+
+.training-card h2 {
+  margin-bottom: variables.$space-6;
+}
+
+.training-card img {
+  max-width: 576px;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  border-radius: variables.$radius-l;
+  box-shadow: variables.$elevation-s;
+}
+
+.flex-container {
+  display: flex;
+  gap: variables.$gap-desktop;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.bold {
+  margin-bottom: variables.$space-0;
+  margin-top: variables.$space-5;
+}
+
+button {
+  margin-top: variables.$space-7;
+}
+
+.icon-setup {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-setup i {
+  margin-right: variables.$space-1;
+}
+
+.pill {
+  margin-bottom: 0;
+}

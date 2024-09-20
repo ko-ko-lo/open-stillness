@@ -1,0 +1,15 @@
+<div class="container">
+  <div *ngIf="routineData">
+    <h1>{{ routineData.name }}</h1>
+    <p><strong>Time:</strong> {{ routineData.time }} minutes</p>
+    <p>
+      <strong>Target Areas:</strong> {{ routineData.targetAreas.join(", ") }}
+    </p>
+    <p>{{ routineData.description }}</p>
+    <img [src]="routineData.image" alt="{{ routineData.name }}" />
+  </div>
+
+  <div *ngIf="!routineData">
+    <p>Routine not found!</p>
+  </div>
+</div>

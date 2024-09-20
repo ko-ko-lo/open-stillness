@@ -1,5 +1,5 @@
 @use "./../../../../styles/variables" as variables;
 
 .footer {
-  padding: variables.$global-padding-desktop;
+  padding: variables.$global-padding-desktop 0;
 }

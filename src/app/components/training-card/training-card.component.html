@@ -1,0 +1,25 @@
+<div
+  *ngFor="let routine of routines"
+  class="training-card background-neutral-light"
+>
+  <h2>{{ routine.name }}</h2>
+
+  <div class="flex-container">
+    <div class="flex-item">
+      <p class="icon-setup">
+        <i class="material-icons">schedule</i> {{ routine.time }} minutes
+      </p>
+
+      <p class="bold">Target Areas</p>
+      <p class="pill">{{ routine.targetAreas }}</p>
+      <p class="bold">Description</p>
+      <p>{{ routine.description }}</p>
+      <button [routerLink]="['/yoga-routines', routine.slug]">
+        View Routine
+      </button>
+    </div>
+    <div class="flex-item">
+      <img [src]="routine.image" alt="{{ routine.name }}" />
+    </div>
+  </div>
+</div>

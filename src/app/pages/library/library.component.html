@@ -1,5 +1,5 @@
 <div class="intro container">
-  <h1>Find your Yin-Style Yoga Poses in the Library</h1>
+  <h1>Find your Yin&#8209;Style Yoga Poses in the Library</h1>
   <p>
     Explore a variety of Yin-Style Yoga Poses. Hold each pose for as long as
     feels comfortable, which could be several minutes. Remember to take short
@@ -9,7 +9,9 @@
   </p>
 </div>
 
-<div *ngFor="let pose of yogaPoses">
+<app-filtering (filterChange)="onFilterChange($event)"></app-filtering>
+
+<div *ngFor="let pose of filteredPoses">
   <app-yoga-card [pose]="pose"></app-yoga-card>
   <!-- Passing pose to the YogaCardComponent -->
 </div>

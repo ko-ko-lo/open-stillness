@@ -5,9 +5,11 @@
     <div class="flex-container">
       <div class="flex-item">
         <p class="bold">Main Target Areas</p>
-        <p *ngIf="pose.targetAreas.length > 0">
-          {{ pose.targetAreas.join(", ") }}
-        </p>
+        <div class="target-areas">
+          <span *ngFor="let target of pose.targetAreas" class="pill">{{
+            target
+          }}</span>
+        </div>
         <p>{{ pose.targetDescription }}</p>
 
         <p class="bold">Starting Position</p>
@@ -28,9 +30,9 @@
           <li *ngFor="let variant of pose.possibleVariants">{{ variant }}</li>
         </ul>
 
-        <p *ngIf="pose.practiceOnBothSides">
-          Practice on both sides <span class="icon">🌀</span>
-        </p>
+        <div *ngIf="pose.practiceOnBothSides" class="pill practice-pill">
+          Practice on both sides <i class="material-icons">repeat</i>
+        </div>
       </div>
       <div class="flex-item">
         <img [src]="pose.image" alt="{{ pose.name }}" class="yoga-pose-image" />
