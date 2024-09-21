@@ -5,20 +5,12 @@
       Explore a variety of Yin-Style Yoga Poses. Hold each pose for as long as
       feels comfortable, which could be several minutes. Remember to take short
       breaks between poses to tune into your body. Avoid pushing yourself into
-      discomfort—listen to your body's signals. If a pose is performed on both
+      discomfort, listen to your body's signals. If a pose is performed on both
       sides, a note will indicate this.
     </p>
   </div>
 
-  <app-filtering
-    [filterOptions]="filterOptions"
-    [selectedFilter]="selectedFilter"
-    (filterChange)="onFilterChange($event)"
-  >
-  </app-filtering>
+  <app-yoga-card></app-yoga-card>
 
-  <div *ngFor="let pose of filteredPoses">
-    <app-yoga-card [pose]="pose"></app-yoga-card>
-    <!-- Passing pose to the YogaCardComponent -->
-  </div>
+  <app-meditation-card></app-meditation-card>
 </div>

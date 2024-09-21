@@ -1,0 +1,14 @@
+<nav class="breadcrumb">
+  <ul>
+    <!-- Home link -->
+    <li><a [routerLink]="homeLink">HOME</a></li>
+    <li>&gt;</li>
+
+    <!-- Routines link -->
+    <li><a [routerLink]="routinesLink">ROUTINES</a></li>
+    <li *ngIf="routineName">&gt;</li>
+
+    <!-- Current routine name (dynamically shown if on routine page) -->
+    <li *ngIf="routineName">{{ routineName }}</li>
+  </ul>
+</nav>

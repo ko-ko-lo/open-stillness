@@ -14,7 +14,7 @@ import { FilteringComponent } from '../filtering/filtering.component';
 export class TrainingCardComponent implements OnInit {
   routines: any[] = [];
   filteredRoutines: any[] = [];
-  selectedFilter: string = 'All Yoga Routines'; // Default filter
+  selectedFilter: string = 'All Yoga Routines';
   filterOptions: string[] = [
     'All Yoga Routines',
     'Arms and Chest',

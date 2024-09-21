@@ -1,0 +1,30 @@
+<div
+  *ngFor="let meditation of meditations"
+  class="meditation-card background-purple-light"
+>
+  <h2>{{ meditation.name }}</h2>
+
+  <!-- Flex container for text and image -->
+  <div class="flex-container">
+    <!-- Text content -->
+    <div class="flex-item">
+      <div class="content">
+        <p class="bold">Description</p>
+        <p>{{ meditation.description }}</p>
+
+        <p class="bold">Step-by-Step Guide</p>
+        <ol>
+          <li *ngFor="let step of meditation.stepByStep">{{ step }}</li>
+        </ol>
+
+        <p class="bold">Suggestion</p>
+        <p>{{ meditation.suggestion }}</p>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="flex-item">
+      <img [src]="meditation.image" alt="{{ meditation.name }}" />
+    </div>
+  </div>
+</div>

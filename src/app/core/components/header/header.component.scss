@@ -1,4 +1,4 @@
-@use './../../../../styles/variables' as variables;
+@use "./../../../../styles/variables" as variables;
 
 .mat-mdc-button {
   font-family: variables.$font-family-base !important;
@@ -28,6 +28,9 @@
 
 mat-toolbar {
   margin-bottom: variables.$space-10;
+  &.no-margin {
+    margin-bottom: 0; /* Remove margin on yoga routine pages */
+  }
 }
 
 @media (max-width: 600px) {

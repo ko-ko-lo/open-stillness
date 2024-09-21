@@ -2,11 +2,12 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { BreadcrumbComponent } from '../../components/breadcrumb/breadcrumb.component';
 
 @Component({
   selector: 'app-yoga-routine',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, BreadcrumbComponent],
   templateUrl: './yoga-routine.component.html',
   styleUrl: './yoga-routine.component.scss',
 })

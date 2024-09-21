@@ -1,17 +1,17 @@
 @use "./../../../styles/variables" as variables;
 
-.yoga-card {
+.meditation-card {
   padding: variables.$space-7 variables.$space-6 variables.$space-10;
   border-radius: variables.$radius-l;
   margin-bottom: variables.$space-8;
   box-shadow: variables.$elevation-xs;
 }
 
-.yoga-card h2 {
+.meditation-card h2 {
   margin-bottom: variables.$space-6;
 }
 
-.yoga-card img {
+.meditation-card img {
   max-width: 100%; /* Ensure image resizes within the flex item */
   height: auto;
   display: block;
@@ -36,14 +36,12 @@
   margin-top: 0;
 }
 
-ol li,
-ul li {
+ol li {
   font-size: variables.$font-size-body;
   font-weight: variables.$font-weight-medium;
 }
 
-ol,
-ul {
+ol {
   padding-left: 20px;
   margin-left: 0;
 }
@@ -60,23 +58,4 @@ li {
   .flex-item:nth-child(2) {
     order: -1;
   }
-}
-
-// ========================================================================
-// Pill Design
-// ========================================================================
-
-.target-areas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: variables.$space-1;
-}
-
-.practice-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: variables.$space-1;
-  background-color: variables.$color-neutral-200;
-  padding: 14px 32px;
-  margin-top: variables.$space-5;
 }

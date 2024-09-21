@@ -1,4 +1,4 @@
-<div class="yoga-card background-neutral-light">
+<!-- <div class="yoga-card background-neutral-light">
   <h2>{{ pose.name }}</h2>
 
   <div class="flex-container">
@@ -34,7 +34,88 @@
       </div>
     </div>
     <div class="flex-item">
-      <img [src]="pose.image" alt="{{ pose.name }}" class="yoga-pose-image" />
+      <img [src]="pose.image" alt="{{ pose.name }}" />
+    </div>
+  </div>
+</div>
+
+
+<div *ngFor="let pose of yogaPoses" class="yoga-card background-neutral-light">
+  <h2>{{ pose.name }}</h2>
+
+  <div class="flex-container">
+    <div class="flex-item">
+      <p class="bold">Main Target Areas</p>
+      <div class="target-areas">
+        <span *ngFor="let target of pose.targetAreas" class="pill">{{
+          target
+        }}</span>
+      </div>
+      <p>{{ pose.targetDescription }}</p>
+
+      <p class="bold">Steps into the Pose</p>
+      <ol>
+        <li *ngFor="let step of pose.stepsIntoPose">{{ step }}</li>
+      </ol>
+      <p class="bold">Steps out of the Pose</p>
+      <ol>
+        <li *ngFor="let step of pose.stepsOutOfPose">{{ step }}</li>
+      </ol>
+      <p class="bold">Possible Variants</p>
+      <ul>
+        <li *ngFor="let variant of pose.possibleVariants">{{ variant }}</li>
+      </ul>
+      <div *ngIf="pose.practiceOnBothSides" class="pill practice-pill">
+        Practice on both sides <i class="material-icons">repeat</i>
+      </div>
+    </div>
+    <div class="flex-item">
+      <img [src]="pose.image" alt="{{ pose.name }}" />
+    </div>
+  </div>
+</div>
+-->
+
+<app-filtering
+  [filterOptions]="filterOptions"
+  [selectedFilter]="selectedFilter"
+  (filterChange)="onFilterChange($event)"
+></app-filtering>
+
+<div
+  *ngFor="let pose of filteredPoses"
+  class="yoga-card background-neutral-light"
+>
+  <h2>{{ pose.name }}</h2>
+
+  <div class="flex-container">
+    <div class="flex-item">
+      <p class="bold">Main Target Areas:</p>
+      <div class="target-areas">
+        <span *ngFor="let target of pose.targetAreas" class="pill">{{
+          target
+        }}</span>
+      </div>
+      <p>{{ pose.targetDescription }}</p>
+
+      <p class="bold">Steps into the Pose:</p>
+      <ol>
+        <li *ngFor="let step of pose.stepsIntoPose">{{ step }}</li>
+      </ol>
+      <p class="bold">Steps out of the Pose:</p>
+      <ol>
+        <li *ngFor="let step of pose.stepsOutOfPose">{{ step }}</li>
+      </ol>
+      <p class="bold">Possible Variants:</p>
+      <ul>
+        <li *ngFor="let variant of pose.possibleVariants">{{ variant }}</li>
+      </ul>
+      <div *ngIf="pose.practiceOnBothSides" class="pill practice-pill">
+        Practice on both sides <i class="material-icons">repeat</i>
+      </div>
+    </div>
+    <div class="flex-item">
+      <img [src]="pose.image" alt="{{ pose.name }}" />
     </div>
   </div>
 </div>

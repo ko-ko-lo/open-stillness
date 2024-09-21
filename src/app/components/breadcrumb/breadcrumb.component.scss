@@ -1,0 +1,24 @@
+@use "./../../../styles/variables" as variables;
+
+.breadcrumb ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: variables.$space-5;
+  margin-bottom: variables.$space-6;
+}
+/*
+.breadcrumb ul li a {
+  text-decoration: none;
+  &a:hover {
+    text-decoration: underline;
+  }
+}*/
+
+.breadcrumb ul li {
+  margin-right: variables.$space-4;
+  font-size: variables.$font-size-breadcrumb;
+  font-weight: variables.$font-weight-medium;
+  color: variables.$font-color-breadcrumb;
+  text-transform: variables.$breadcrumb-text-transform;
+}
