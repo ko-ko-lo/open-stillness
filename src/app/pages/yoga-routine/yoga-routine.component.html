@@ -1,12 +1,17 @@
 <div class="container">
   <div *ngIf="routineData">
-    <h1>{{ routineData.name }}</h1>
-    <p><strong>Time:</strong> {{ routineData.time }} minutes</p>
-    <p>
-      <strong>Target Areas:</strong> {{ routineData.targetAreas.join(", ") }}
-    </p>
-    <p>{{ routineData.description }}</p>
+    <div class="intro">
+      <h1>{{ routineData.name }}</h1>
+      <p class="margin-bottom-40 icon-setup">
+        <i class="material-icons">schedule</i> {{ routineData.time }} minutes
+      </p>
+      <p class="margin-bottom-40">{{ routineData.introText }}</p>
+      <p class="pill">{{ routineData.targetAreas }}</p>
+    </div>
+
     <img [src]="routineData.image" alt="{{ routineData.name }}" />
+
+    <h2 class="max-width-s">The poses for this Yin-Style Yoga Routine</h2>
   </div>
 
   <div *ngIf="!routineData">

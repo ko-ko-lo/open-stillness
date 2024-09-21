@@ -1,0 +1,6 @@
+@use "./../../../styles/variables" as variables;
+
+img {
+  width: 100%;
+  box-shadow: variables.$elevation-s;
+}

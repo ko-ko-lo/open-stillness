@@ -1,5 +1,12 @@
+<app-filtering
+  [filterOptions]="filterOptions"
+  [selectedFilter]="selectedFilter"
+  (filterChange)="onFilterChange($event)"
+>
+</app-filtering>
+
 <div
-  *ngFor="let routine of routines"
+  *ngFor="let routine of filteredRoutines"
   class="training-card background-neutral-light"
 >
   <h2>{{ routine.name }}</h2>

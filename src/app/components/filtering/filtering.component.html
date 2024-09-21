@@ -1,43 +1,13 @@
-<div class="container">
-  <div class="filter-buttons">
-    <button
-      (click)="onFilterSelect('All Target Areas')"
-      [class.active]="selectedFilter === 'All Target Areas'"
-    >
-      All Target Areas
-    </button>
-    <button
-      (click)="onFilterSelect('Back / Spine')"
-      [class.active]="selectedFilter === 'Back / Spine'"
-    >
-      Back / Spine
-    </button>
-    <button
-      (click)="onFilterSelect('Chest')"
-      [class.active]="selectedFilter === 'Chest'"
-    >
-      Chest
-    </button>
-    <button
-      (click)="onFilterSelect('Hips')"
-      [class.active]="selectedFilter === 'Hips'"
-    >
-      Hips
-    </button>
-    <button
-      (click)="onFilterSelect('Legs')"
-      [class.active]="selectedFilter === 'Legs'"
-    >
-      Legs
-    </button>
-    <button
-      (click)="onFilterSelect('Upper Body')"
-      [class.active]="selectedFilter === 'Upper Body'"
-    >
-      Upper Body
-    </button>
-  </div>
-  <p class="current-filter">
-    Current Filter: <span class="bold">{{ selectedFilter }}</span>
-  </p>
+<div class="filter-buttons">
+  <!-- Loop through dynamic filter options -->
+  <button
+    *ngFor="let filter of filterOptions"
+    (click)="onFilterSelect(filter)"
+    [class.active]="selectedFilter === filter"
+  >
+    {{ filter }}
+  </button>
 </div>
+<p class="current-filter">
+  Current Filter: <span class="bold">{{ selectedFilter }}</span>
+</p>

@@ -2,7 +2,6 @@
 // For more information: https://material.angular.io/guide/theming
 @use "@angular/material" as mat;
 
-// Import custom variables
 @use "styles/variables" as variables;
 
 // Include the common styles for Angular Material, required for Angular Material components to work correctly.
@@ -134,6 +133,16 @@ button {
   }
 }
 
+// Icon Set-up
+.icon-setup {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-setup i {
+  margin-right: variables.$space-1;
+}
+
 // ========================================================================
 // Backgrounds
 // ========================================================================
@@ -165,4 +174,24 @@ button {
   white-space: nowrap;
   margin-bottom: variables.$space-3;
   margin-top: variables.$space-1;
+}
+
+// ========================================================================
+// Margin / Padding
+// ========================================================================
+.margin-bottom-40 {
+  margin-bottom: variables.$space-7;
+}
+
+// ========================================================================
+// Re-used Stylings
+// ========================================================================
+
+.intro {
+  max-width: 821px;
+  margin-bottom: variables.$space-6;
+}
+
+.max-width-s {
+  max-width: 821px;
 }

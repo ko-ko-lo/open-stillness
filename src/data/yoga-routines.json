@@ -4,6 +4,7 @@
       "time": "60",
       "targetAreas": "Back and Spine",
       "description": "This Yin-Style Yoga Routine is all about strengthening and relaxing your back. You start with a short meditation, followed by a series of poses such as Butterfly, Deer and Sphinx.",
+      "introText": "",
       "image": "/public/routines/preview-sphinx.png",
       "slug": "yin-style-yoga-healthy-back"
     },
@@ -12,6 +13,7 @@
       "time": "40",
       "targetAreas": "Hips and Legs",
       "description": "This Yin-Style Yoga Routine will help you open and relax your hips and stretch your legs. It begins with a short Meditation and continues with a series of poses such as Dangling, Yoga Squat and Caterpillar.",
+      "introText": "This Yin-Style Yoga Routine is designed to gently open your hips and deeply stretch your legs, promoting relaxation and flexibility. Begin with a short mindfulness meditation to center yourself, followed by poses such as Dangling, Yoga Squat, and Caterpillar. Each pose is held to allow a deep release, with the routine gradually progressing toward restorative postures like Supine Spinal Twist and Shavasana to leave you feeling grounded and relaxed.",
       "image": "/public/routines/preview-swan.png",
       "slug": "yin-style-yoga-relaxed-hips-legs"
     }
