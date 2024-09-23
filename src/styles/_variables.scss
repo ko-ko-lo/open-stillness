@@ -101,7 +101,7 @@ $font-weight-medium: 500;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
-// Font Sizes in rem
+// Desktop - Font Sizes in rem
 $font-size-h1: 3.4375rem; // 55px
 $font-size-h2: 2.75rem; // 44px
 $font-size-h3: 2.1875rem; // 35px
@@ -110,6 +110,21 @@ $font-size-subheadline: 1.4375rem; // 23px
 $font-size-body: 1.125rem; // 18px
 $font-size-breadcrumb: 0.875rem; // 14px
 $font-size-highlighted: 2rem; // 32px
+
+// Tablet - Font Sizes in rem
+$font-size-h1-tablet: 2.1875rem; // 35px
+$font-size-h2-tablet: 2rem; // 32px
+$font-size-h3-tablet: 1.75rem; // 28px
+$font-size-h3-small-tablet: 1.4375rem; // 23px
+$font-size-subheadline-tablet: 1.25rem; // 20px
+$font-size-highlighted-tablet: 1.4375rem; // 23px
+
+// Phone - Font Sizes in rem
+$font-size-h2-phone: 1.75rem; // 28px
+$font-size-h3-phone: 1.5rem; // 24px
+$font-size-h3-small-phone: 1.25rem; // 20px
+$font-size-subheadline-phone: 1.125rem; // 18px
+$font-size-body-phone: 1rem; // 16px
 
 // Font Colors
 $font-color-breadcrumb: $color-neutral-500;
@@ -152,6 +167,8 @@ $spacing-elements: $space-6;
 
 $max-width: 1440px;
 $global-padding-desktop: $space-13;
+$global-padding-tablet: $space-5;
+$global-padding-phone: $space-3;
 
 // Button Padding
 $padding-top-bottom: $space-3;

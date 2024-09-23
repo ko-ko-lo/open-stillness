@@ -1,40 +1,27 @@
 @use "./../../../styles/variables" as variables;
 
-.hero {
-  display: flex;
+.flex-container {
   justify-content: space-between; /* Aligns the boxes to the left and right */
-  gap: variables.$gap-desktop;
-  margin-bottom: variables.$space-6;
+  margin-bottom: variables.$space-12;
 }
 
-.hero-box {
-  flex: 1; /* Each box takes up equal space */
+img {
+  max-width: 499px;
+  float: right;
 }
 
-.hero-box-right img {
-  max-height: 499px;
+@media (max-width: 768px) {
+  .flex-container {
+    margin-bottom: variables.$space-11;
+    img {
+      width: 100%;
+      float: none;
+    }
+  }
 }
 
-.hero-box-right {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.hero-headline-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  gap: variables.$spacing-elements;
-}
-
-button {
-  align-self: flex-start;
-}
-
-h1 {
-  margin-bottom: 0;
+@media (max-width: 390px) {
+  .flex-container {
+    margin-bottom: variables.$space-10;
+  }
 }

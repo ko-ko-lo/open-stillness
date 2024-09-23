@@ -1,11 +1,97 @@
 @use "./../../../styles/variables" as variables;
 
 img {
-  width: 100%;
-  max-width: 823px;
   box-shadow: variables.$elevation-s;
+  border-radius: variables.$radius-l;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 66.67%;
+  }
 }
 
-mat-toolbar {
-  margin-bottom: 0;
+ol {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: variables.$space-1 0;
+    display: flex;
+    border-bottom: 1px solid variables.$border-neutral-200;
+
+    .pose-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .pose-name {
+      max-width: 60%; /* Ensure name doesn't overlap */
+    }
+
+    .pose-time {
+      display: flex;
+      align-items: center;
+
+      .icon-repeat {
+        margin-right: variables.$space-2;
+      }
+    }
+
+    /* Pseudo-element for the numbering */
+    &::before {
+      content: counter(item);
+      counter-increment: item;
+      display: inline-block;
+      width: 30px;
+      height: 35px;
+      line-height: 35px;
+      border-radius: variables.$radius-full;
+      background-color: variables.$background-purple-800;
+      color: variables.$color-neutral-50;
+      text-align: center;
+      margin-right: variables.$space-2;
+    }
+  }
+}
+
+.short-intro .material-icons {
+  font-size: 2rem;
+  padding-top: 32px;
+  color: variables.$color-purple-200;
+}
+
+/* Reset the counter at the start of the ordered list */
+ol {
+  counter-reset: item;
+}
+
+// ========================================================================
+// Legend
+// ========================================================================
+
+.legend {
+  text-align: right;
+  padding-top: variables.$space-5;
+  margin-bottom: variables.$space-11;
+
+  p {
+    display: inline-flex; /* Flexbox to align icon and text in a row */
+    align-items: center; /* Aligns icon and text vertically */
+    justify-content: flex-end; /* Pushes the p tag to the right */
+    font-size: 0.875rem;
+
+    i.material-icons {
+      margin-right: variables.$space-0;
+      font-size: 1.2rem;
+    }
+  }
 }

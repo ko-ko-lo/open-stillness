@@ -88,6 +88,7 @@ p {
   font-size: variables.$font-size-body;
   font-weight: variables.$font-weight-medium;
   line-height: 140%;
+  color: variables.$font-color-body;
 }
 
 .subheadline {
@@ -113,6 +114,7 @@ button {
   font-weight: variables.$font-weight-regular;
   cursor: pointer;
   box-shadow: variables.$elevation-xs;
+  align-self: flex-start;
 
   &:hover {
     background-color: variables.$button-hover-bg;
@@ -159,6 +161,10 @@ button {
   background-color: variables.$color-purple-50;
 }
 
+.background-green-light {
+  background-color: variables.$color-green-50;
+}
+
 // ========================================================================
 // Pill Design
 // ========================================================================
@@ -179,8 +185,100 @@ button {
 // ========================================================================
 // Margin / Padding
 // ========================================================================
+
+// Margin
 .margin-bottom-40 {
   margin-bottom: variables.$space-7;
+}
+
+.margin-top-32 {
+  margin-top: variables.$space-6;
+}
+
+.margin-top-72 {
+  margin-top: variables.$space-11;
+}
+
+.margin-top-86 {
+  margin-top: variables.$space-12;
+}
+
+.benefits,
+.library-discovery,
+.background-blue-light,
+.background-purple-light {
+  padding: variables.$space-13 0;
+}
+
+// ========================================================================
+// Card Design (Yoga and Meditation), Flex Design - 2 Items
+// ========================================================================
+.card,
+.training-card {
+  padding: variables.$space-7 variables.$space-6 variables.$space-10;
+  border-radius: variables.$radius-l;
+  margin-bottom: variables.$space-8;
+  box-shadow: variables.$elevation-xs;
+}
+
+.card h2 {
+  margin-bottom: variables.$space-6;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+.card img,
+.flex-item img {
+  max-width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  gap: variables.$gap-desktop;
+  align-items: flex-start;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.bold {
+  margin-bottom: variables.$space-0;
+  margin-top: variables.$space-5;
+}
+
+.bold:first-child {
+  margin-top: 0;
+}
+
+ol li,
+ul li {
+  font-size: variables.$font-size-body;
+  font-weight: variables.$font-weight-medium;
+}
+
+ol,
+ul {
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 1200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-item:nth-child(2) {
+    order: -1;
+    margin: 0 auto;
+  }
 }
 
 // ========================================================================
@@ -212,4 +310,105 @@ a:active {
 
 .max-width-s {
   max-width: 821px;
+}
+
+.short-intro {
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.intro-text {
+  font-size: variables.$font-size-highlighted;
+  font-weight: variables.$font-weight-semibold;
+  max-width: 1034px;
+  text-align: center;
+}
+
+// ========================================================================
+// Responsive Design
+// ========================================================================
+
+// Tablet
+@media (max-width: 768px) {
+  .container {
+    padding-left: variables.$global-padding-tablet;
+    padding-right: variables.$global-padding-tablet;
+  }
+  .intro-text {
+    max-width: 534px;
+    font-size: variables.$font-size-highlighted-tablet;
+  }
+  .short-intro {
+    padding: variables.$space-11 0;
+  }
+  h1 {
+    font-size: variables.$font-size-h1-tablet;
+  }
+
+  h2 {
+    font-size: variables.$font-size-h2-tablet;
+    margin-bottom: variables.$space-5;
+  }
+
+  h3 {
+    font-size: variables.$font-size-h3-tablet;
+  }
+
+  .h3-small {
+    font-size: variables.$font-size-h3-small-tablet;
+  }
+
+  .subheadline {
+    font-size: variables.$font-size-highlighted-tablet;
+  }
+  .library-discovery,
+  .benefits,
+  .background-blue-light {
+    padding: variables.$space-11 0;
+  }
+}
+
+// Phone
+@media (max-width: 390px) {
+  .container {
+    padding-left: variables.$global-padding-phone;
+    padding-right: variables.$global-padding-phone;
+  }
+  .intro-text {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: variables.$font-size-h2-phone;
+  }
+
+  h3 {
+    font-size: variables.$font-size-h3-phone;
+  }
+
+  .h3-small {
+    font-size: variables.$font-size-h3-small-phone;
+  }
+
+  p,
+  .pill,
+  button {
+    font-size: variables.$font-size-body-phone;
+  }
+  .library-discovery,
+  .benefits,
+  .background-blue-light,
+  .background-purple-light {
+    padding: variables.$space-10 0;
+  }
+  .card,
+  .training-card {
+    padding: variables.$space-6 variables.$space-3;
+    margin-bottom: variables.$space-6;
+  }
+  ol li,
+  ul li {
+    font-size: variables.$font-size-body-phone;
+  }
 }

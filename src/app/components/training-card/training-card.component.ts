@@ -17,11 +17,10 @@ export class TrainingCardComponent implements OnInit {
   selectedFilter: string = 'All Yoga Routines';
   filterOptions: string[] = [
     'All Yoga Routines',
-    'Arms and Chest',
-    'Back and Spine',
     'Full Body',
+    'Upper Body',
+    'Back and Spine',
     'Hips and Legs',
-    'Shoulders and Neck',
   ];
 
   constructor(private http: HttpClient) {}

@@ -10,7 +10,13 @@
     </p>
   </div>
 
-  <app-yoga-card></app-yoga-card>
+  <app-filtering
+    [filterOptions]="filterOptions"
+    [selectedFilter]="selectedFilter"
+    (filterChange)="onFilterChange($event)"
+  ></app-filtering>
 
-  <app-meditation-card></app-meditation-card>
+  <div *ngFor="let pose of filteredPoses">
+    <app-yoga-card [pose]="pose"></app-yoga-card>
+  </div>
 </div>

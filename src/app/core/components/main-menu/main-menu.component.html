@@ -1,0 +1,18 @@
+<div class="border-bottom">
+  <div class="container">
+    <nav class="navbar">
+      <a routerLink="/" class="logo">
+        <img src="public/logo.svg" alt="Logo" />
+      </a>
+      <div class="menu-toggle" (click)="toggleMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-menu" [class.active]="menuOpen">
+        <li><a routerLink="/library">Library</a></li>
+        <li><a routerLink="/routines">Routines</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

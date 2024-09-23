@@ -2,65 +2,36 @@
 
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
   gap: variables.$spacing-elements;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 }
+
 .column-4 {
   flex: 1;
-  max-width: 392px;
   box-sizing: border-box;
+
+  @media (max-width: 1024px) {
+    flex: 1 100%;
+    max-width: 100%;
+  }
 }
 
 .column-8 {
   flex: 2;
-  max-width: 821px;
   box-sizing: border-box;
-}
+  width: 100%;
 
-.background-purple-light {
-  padding: variables.$space-13 0;
+  @media (max-width: 1024px) {
+    flex: 1 100%;
+  }
 }
 
 // ========================================================================
 // Angular Material specific Overridings
 // ========================================================================
-/*
-mat-accordion {
-  font-family: variables.$font-family-base;
-}
-
-mat-expansion-panel-header,
-mat-panel-title,
-mat-expansion-panel,
-mat-expansion-panel-body,
-.ng-star-inserted {
-  font-family: variables.$font-family-base;
-}
-
-mat-expansion-panel {
-  background-color: transparent;
-  box-shadow: none;
-}
-
-mat-expansion-panel-header {
-  background-color: transparent;
-}
-
-::ng-deep mat-expansion-panel-header {
-  padding-top: 32px; // Add padding to the top
-  padding-bottom: 32px; // Add padding to the bottom if needed
-  display: flex; // Ensure the content is flex container
-  align-items: center; // Vertically align the content
-}
-
-::ng-deep mat-panel-title {
-  width: 100%; // Ensure the title takes the full width
-}
-
-::ng-deep mat-panel-title h3 {
-  margin: 0; // Reset default margin on h3
-}
-*/
 
 mat-expansion-panel p {
   margin-bottom: 1em;
@@ -116,4 +87,23 @@ mat-icon.expanded {
   font-weight: variables.$font-weight-medium;
   padding-bottom: variables.$space-6;
   line-height: 140%;
+}
+
+// ========================================================================
+// Additional Responsive Design
+// ========================================================================
+
+@media (max-width: 768px) {
+  .example-accordion-item-header {
+    font-size: variables.$font-size-h3-tablet;
+  }
+}
+
+@media (max-width: 390px) {
+  .example-accordion-item-header {
+    font-size: variables.$font-size-h3-phone;
+  }
+  .example-accordion-item-body {
+    font-size: variables.$font-size-body-phone;
+  }
 }

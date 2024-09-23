@@ -1,20 +1,230 @@
 [
-    {
-      "name": "Yin-Style Yoga for a Healthy Back",
-      "time": "60",
-      "targetAreas": "Back and Spine",
-      "description": "This Yin-Style Yoga Routine is all about strengthening and relaxing your back. You start with a short meditation, followed by a series of poses such as Butterfly, Deer and Sphinx.",
-      "introText": "",
-      "image": "/public/routines/preview-sphinx.png",
-      "slug": "yin-style-yoga-healthy-back"
-    },
-    {
-      "name": "Yin-Style Yoga for relaxed Hips and Legs",
-      "time": "40",
-      "targetAreas": "Hips and Legs",
-      "description": "This Yin-Style Yoga Routine will help you open and relax your hips and stretch your legs. It begins with a short Meditation and continues with a series of poses such as Dangling, Yoga Squat and Caterpillar.",
-      "introText": "This Yin-Style Yoga Routine is designed to gently open your hips and deeply stretch your legs, promoting relaxation and flexibility. Begin with a short mindfulness meditation to center yourself, followed by poses such as Dangling, Yoga Squat, and Caterpillar. Each pose is held to allow a deep release, with the routine gradually progressing toward restorative postures like Supine Spinal Twist and Shavasana to leave you feeling grounded and relaxed.",
-      "image": "/public/routines/preview-swan.png",
-      "slug": "yin-style-yoga-relaxed-hips-legs"
-    }
-  ]
+  {
+    "name": "Yin-Style Yoga for a Healthy Back",
+    "time": "40",
+    "targetAreas": "Back and Spine",
+    "description": "This Yin-Style Yoga Routine is all about strengthening and relaxing your back. You start with a short Meditation, followed by a series of poses such as Butterfly, Deer and Sphinx.",
+    "introText": "Do something good for your back. This Yin-Style Yoga Routine is all about strengthening and relaxing your back. You start with a short Meditation to prepare you for the routine, followed by a series of gentle and focused poses such as Butterfly, Deer and Sphinx. Each exercise has been chosen to soothe your back.",
+    "image": "/public/routines/preview-sphinx.png",
+    "slug": "yin-style-yoga-healthy-back",
+    "lists": [
+      {
+        "name": "Meditation",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Butterfly",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Half Butterfly",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Deer",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Sphinx",
+        "time": "4",
+        "repeat": false
+      },
+      {
+        "name": "Supine Spinal Twist",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Bananasana",
+        "time": "2",
+        "repeat": true
+      },
+      {
+        "name": "Melting Heart",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Child's Pose",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Shavasana",
+        "time": "5",
+        "repeat": false
+      }
+    ],
+    "poses": [
+      "Butterfly",
+      "Half Butterfly",
+      "Deer",
+      "Sphinx",
+      "Supine Spinal Twist",
+      "Bananasana",
+      "Melting Heart",
+      "Child's Pose",
+      "Shavasana"
+    ]
+  },
+  {
+    "name": "Yin-Style Yoga for relaxed Hips and Legs",
+    "time": "40",
+    "targetAreas": "Hips and Legs",
+    "description": "This Yin-Style Yoga Routine will help you open and relax your hips and stretch your legs. It begins with a short Meditation and continues with a series of poses such as Dangling, Yoga Squat and Caterpillar.",
+    "introText": "This Yin-Style Yoga Routine is designed to gently open your hips and deeply stretch your legs, promoting relaxation and flexibility. Begin with a short mindfulness meditation to center yourself, followed by poses such as Dangling, Yoga Squat, and Caterpillar. Each pose is held to allow a deep release, with the routine gradually progressing toward restorative postures like Supine Spinal Twist and Shavasana to leave you feeling grounded and relaxed.",
+    "image": "/public/routines/preview-swan.png",
+    "slug": "yin-style-yoga-relaxed-hips-legs",
+    "lists": [
+      {
+        "name": "Meditation",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Dangling",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Yoga Squat",
+        "time": "1",
+        "repeat": false
+      },
+      {
+        "name": "Caterpillar",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Deer",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Low-Flying Dragon",
+        "time": "2",
+        "repeat": true
+      },
+      {
+        "name": "Child's Pose",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Swan",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Supine Spinal Twist",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Happy Baby",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Shavasana",
+        "time": "5",
+        "repeat": false
+      }
+    ],
+    "poses": [
+      "Dangling",
+      "Yoga Squat",
+      "Caterpillar",
+      "Deer",
+      "Low-Flying Dragon",
+      "Child's Pose",
+      "Swan",
+      "Supine Spinal Twist",
+      "Happy Baby",
+      "Shavasana"
+    ]
+  },
+  {
+    "name": "Full-Body Yin-Style Yoga: Ground, Stretch, and Restore",
+    "time": "40",
+    "targetAreas": "Full Body",
+    "description": "Reconnect with your body through this Full Body Routine designed to stretch and relax you from head to toe. Whether you're looking for strength, flexibility or deep relaxation, this sequence will leave you feeling balanced and calm.",
+    "introText": "Welcome to this Yin-Style Yoga Routine that combines mindful movement with deep stretches to awaken and rejuvenate every part of your body. This routine offers a perfect balance of grounding poses, gentle stretches and restorative postures to build strength and flexibility. From the quiet stillness of meditation to the deep relaxation of Shavasana, each pose invites you to connect with your breath and inner peace. This sequence will leave you deeply relaxed.",
+    "image": "/public/routines/preview-square.png",
+    "slug": "full-body-yoga-flow-ground-stretch-restore",
+    "lists": [
+      {
+        "name": "Meditation",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Square",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Dangling",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Yoga Squat",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Toe Squat",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Ankle Stretch",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Seal",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Happy Baby",
+        "time": "2",
+        "repeat": false
+      },
+      {
+        "name": "Bananasana",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Supine Spinal Twist",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Shavasana",
+        "time": "5",
+        "repeat": false
+      }
+    ],
+    "poses": [
+      "Square",
+      "Dangling",
+      "Yoga Squat",
+      "Toe Squat",
+      "Ankle Stretch",
+      "Seal",
+      "Happy Baby",
+      "Bananasana",
+      "Supine Spinal Twist",
+      "Shavasana"
+    ]
+  }
+]

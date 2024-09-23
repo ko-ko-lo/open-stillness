@@ -1,0 +1,78 @@
+@use "./../../../../styles/variables" as variables;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.logo img {
+  height: 32px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-menu li {
+  display: inline;
+}
+
+.nav-menu a {
+  color: variables.$font-color-body;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background-color: variables.$color-purple-900;
+  border-radius: variables.$radius-s;
+}
+
+.border-bottom {
+  border-bottom: 1px solid variables.$color-purple-100;
+  margin-bottom: variables.$space-10;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none; /* Hide by default on mobile */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: variables.$color-neutral-100;
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+  }
+
+  .nav-menu.active {
+    display: flex; /* Show the menu when the active class is added */
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+// Responsive Styling
+@media (max-width: 768px) {
+  .border-bottom {
+    margin-bottom: variables.$space-10;
+  }
+}

@@ -1,17 +1,25 @@
 @use "./../../../styles/variables" as variables;
 
-.benefits {
-  padding: variables.$space-13 0;
-}
-
 .benefits-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: variables.$spacing-elements;
+
+  // 1 column on mobile by default
+  grid-template-columns: 1fr;
+
+  @media (min-width: 768px) {
+    // 2 columns on tablets
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    // 3 columns on desktops
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .benefits-container > div {
-  max-width: 395px;
+  max-width: 100%; // Allow the items to be fluid inside the grid
 }
 
 .h3-small {

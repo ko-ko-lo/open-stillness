@@ -48,3 +48,32 @@ mat-toolbar {
     left: auto !important;
   }
 }
+
+button {
+  background-color: transparent;
+  color: variables.$color-purple-900;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  box-shadow: none;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &:focus {
+    background-color: transparent;
+    border: none;
+  }
+
+  &:active {
+    background-color: transparent;
+  }
+}
+
+// Responsive Styling
+@media (max-width: 768px) {
+  mat-toolbar {
+    margin-bottom: variables.$space-10;
+  }
+}

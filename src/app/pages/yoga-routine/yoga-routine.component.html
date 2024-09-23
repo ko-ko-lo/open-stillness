@@ -10,12 +10,56 @@
       <p class="pill">{{ routineData.targetAreas }}</p>
     </div>
 
-    <img [src]="routineData.image" alt="{{ routineData.name }}" />
+    <img
+      [src]="routineData.image"
+      alt="{{ routineData.name }}"
+      class="max-width-s"
+    />
 
-    <h2 class="max-width-s">The poses for this Yin-Style Yoga Routine</h2>
+    <h2 class="margin-top-72 max-width-s">
+      The poses for this Yin-Style Yoga Routine
+    </h2>
+  </div>
+
+  <div class="max-width-s">
+    <ol>
+      <li *ngFor="let list of routineData.lists">
+        <div class="pose-info">
+          <!-- Yoga Pose Name (Left-aligned) -->
+          <span class="pose-name">{{ list.name }}</span>
+
+          <!-- Repeat Icon and Time (Right-aligned) -->
+          <div class="pose-time">
+            <span *ngIf="list.repeat" class="icon-repeat"
+              ><i class="material-icons">repeat</i></span
+            >
+            <span>{{ list.time }} min</span>
+          </div>
+        </div>
+      </li>
+    </ol>
+
+    <div class="legend">
+      <p><i class="material-icons">repeat</i> = Practice on both sides</p>
+    </div>
+  </div>
+  <app-meditation-card></app-meditation-card>
+  <!-- Display the relevant yoga cards for this routine -->
+  <div class="pose-cards">
+    <app-yoga-card *ngFor="let pose of yogaPoses" [pose]="pose"></app-yoga-card>
   </div>
 
   <div *ngIf="!routineData">
     <p>Routine not found!</p>
+  </div>
+</div>
+
+<div class="background-green-light margin-top-86">
+  <div class="short-intro container">
+    <p class="intro-text">
+      Well done! <br />
+      You've taken an important step in caring for your body and mind.<br />
+      <i class="material-icons">favorite</i>
+    </p>
   </div>
 </div>

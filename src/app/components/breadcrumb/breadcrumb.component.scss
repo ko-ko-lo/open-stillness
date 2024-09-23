@@ -2,18 +2,12 @@
 
 .breadcrumb ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin-top: variables.$space-5;
   margin-bottom: variables.$space-6;
 }
-/*
-.breadcrumb ul li a {
-  text-decoration: none;
-  &a:hover {
-    text-decoration: underline;
-  }
-}*/
 
 .breadcrumb ul li {
   margin-right: variables.$space-4;

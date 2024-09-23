@@ -9,14 +9,6 @@
   margin-bottom: variables.$space-9;
 }
 
-button {
-  align-self: flex-start;
-}
-
-.background-blue-light {
-  padding: variables.$space-13 0;
-}
-
 .explore-routines-img {
   display: flex;
   justify-content: flex-end;
@@ -30,4 +22,10 @@ button {
 
 h2 {
   max-width: 821px;
+}
+
+@media (max-width: 768px) {
+  .explore-routines-img img {
+    width: 100%;
+  }
 }

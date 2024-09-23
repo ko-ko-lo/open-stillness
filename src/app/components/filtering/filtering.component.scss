@@ -2,6 +2,7 @@
 
 .filter-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: variables.$space-2;
   margin-bottom: variables.$spacing-elements;
 }

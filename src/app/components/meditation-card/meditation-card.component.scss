@@ -1,61 +1,17 @@
 @use "./../../../styles/variables" as variables;
-
-.meditation-card {
+/*
+.card {
   padding: variables.$space-7 variables.$space-6 variables.$space-10;
-  border-radius: variables.$radius-l;
-  margin-bottom: variables.$space-8;
-  box-shadow: variables.$elevation-xs;
 }
-
-.meditation-card h2 {
-  margin-bottom: variables.$space-6;
-}
-
-.meditation-card img {
-  max-width: 100%; /* Ensure image resizes within the flex item */
-  height: auto;
-  display: block;
-}
-
-.flex-container {
-  display: flex;
-  gap: variables.$gap-desktop;
-  align-items: flex-start; /* Align items at the start to keep them aligned */
-}
-
-.flex-item {
-  flex: 1; /* Ensure both text and image take up equal space */
-}
-
-.bold {
-  margin-bottom: variables.$space-0;
-  margin-top: variables.$space-5;
-}
-
-.bold:first-child {
-  margin-top: 0;
-}
-
-ol li {
-  font-size: variables.$font-size-body;
-  font-weight: variables.$font-weight-medium;
-}
-
-ol {
-  padding-left: 20px;
-  margin-left: 0;
-}
-
-li {
-  margin-bottom: 4px;
-}
-
-@media (max-width: 1100px) {
-  .flex-container {
-    flex-direction: column;
+*/
+@media (max-width: 1200px) {
+  .card img {
+    max-width: 450px;
   }
+}
 
-  .flex-item:nth-child(2) {
-    order: -1;
+@media (max-width: 767px) {
+  .card img {
+    max-width: 100%;
   }
 }
