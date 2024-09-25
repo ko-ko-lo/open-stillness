@@ -1,56 +1,10 @@
 <div class="benefits">
   <div class="container">
-    <h2>The Benefits of Yin&#8209;Style Yoga</h2>
-
+    <h2>{{ title }}</h2>
     <div class="benefits-container">
-      <div class="benefit">
-        <h3 class="h3-small">Relaxation &amp; Inner peace</h3>
-        <p>
-          Yin-Style Yoga encourages deep relaxation, helping you find inner
-          peace by holding poses for longer periods of time.
-        </p>
-      </div>
-      <div class="benefit">
-        <h3 class="h3-small">Stress Relief &amp; Mental Calm</h3>
-        <p>
-          Holding postures helps calm the mind and reduce stress, leading to a
-          profound sense of relaxation and mental balance.
-        </p>
-      </div>
-      <div class="benefit">
-        <h3 class="h3-small">Increased Flexibility</h3>
-        <p>
-          Long-held stretches in Yin-Style Yoga gradually increase flexibility
-          by working into the deep tissues of the body.
-        </p>
-      </div>
-      <div class="benefit">
-        <h3 class="h3-small">Enhanced Mindfulness</h3>
-        <p>
-          Yin-Style Yoga enhances mindfulness by encouraging you to stay present
-          and connected to your body&rsquo;s sensations.
-        </p>
-      </div>
-      <div class="benefit">
-        <h3 class="h3-small">Improved Posture</h3>
-        <p>
-          Practicing Yin-Style Yoga can improve posture by lengthening and
-          releasing tension in the muscles around the spine.
-        </p>
-      </div>
-      <div class="benefit">
-        <h3 class="h3-small">Deeper Breathing</h3>
-        <p>
-          Yin-Style Yoga encourages deeper breathing, which promotes relaxation
-          and greater awareness of your breath.
-        </p>
-      </div>
-      <div class="benefit">
-        <h3 class="h3-small">Deeper Connection</h3>
-        <p>
-          Through Yin-Style Yoga, you cultivate a deeper connection to yourself,
-          both mentally and physically.
-        </p>
+      <div class="benefit" *ngFor="let benefit of benefits">
+        <h3 class="h3-small">{{ benefit.title }}</h3>
+        <p>{{ benefit.description }}</p>
       </div>
     </div>
   </div>

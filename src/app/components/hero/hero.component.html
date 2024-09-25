@@ -1,18 +1,14 @@
 <div class="flex-container container">
   <div class="flex-item">
-    <p class="subheadline">Explore Yin&#8209;Style Yoga</p>
-    <h1>Embrace the calm and meditative practice of Yin&#8209;Style Yoga</h1>
-    <p>
-      Discover Yin&#8209;Style Yoga Routines that target key areas of your body
-      while deepening your connection to yourself. Unwind, restore, and explore
-      your inner calm.
-    </p>
-    <button class="margin-top-32" routerLink="/routines">
-      Explore Routines
+    <p class="subheadline">{{ subheadline }}</p>
+    <h1>{{ headline }}</h1>
+    <p>{{ description }}</p>
+    <button class="margin-top-32" [routerLink]="buttonLink">
+      {{ buttonLabel }}
     </button>
   </div>
 
   <div class="flex-item">
-    <img src="public/yoga-poses/meditation.png" alt="" />
+    <img [src]="imagePath" alt="Yoga Pose" />
   </div>
 </div>

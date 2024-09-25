@@ -1,18 +1,12 @@
 <div class="background-blue-light">
   <div class="container">
-    <h2>Deepen Your Practice with Guided Yin&#8209;Style Yoga Routines</h2>
+    <h2>{{ title }}</h2>
     <div class="flexcontent">
-      <p>
-        Discover a collection of carefully curated Yin-Style Yoga routines
-        designed to target different areas of the body and help you achieve
-        balance, flexibility, and relaxation. Whether you're looking for a
-        gentle stretch, a focused hip release, or a full-body experience, our
-        routines guide you through sequences that support your well-being.
-      </p>
-      <button routerLink="/routines">Explore Routines</button>
+      <p>{{ description }}</p>
+      <button [routerLink]="buttonLink">{{ buttonLabel }}</button>
     </div>
     <div class="explore-routines-img">
-      <img src="public/routines/preview-sphinx.png" alt="" />
+      <img [src]="imagePath" alt="Yoga Routine Preview" />
     </div>
   </div>
 </div>

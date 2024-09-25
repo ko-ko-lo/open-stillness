@@ -15,7 +15,6 @@ export class MeditationCardComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    // Fetch the meditation data from the JSON file
     this.http.get<any[]>('data/meditations.json').subscribe((data) => {
       this.meditations = data;
     });

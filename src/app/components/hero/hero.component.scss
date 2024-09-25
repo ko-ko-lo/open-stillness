@@ -1,7 +1,7 @@
 @use "./../../../styles/variables" as variables;
 
 .flex-container {
-  justify-content: space-between; /* Aligns the boxes to the left and right */
+  justify-content: space-between;
   margin-bottom: variables.$space-12;
 }
 
