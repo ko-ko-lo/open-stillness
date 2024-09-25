@@ -226,5 +226,77 @@
       "Supine Spinal Twist",
       "Shavasana"
     ]
+  },
+  {
+    "name": "Upper Body Yin-Style Yoga for Relaxation and Release",
+    "time": "40",
+    "targetAreas": "Upper Body",
+    "description": "This Yin-Style Yoga routine focuses on releasing tension in the upper body through gentle stretches and mindful relaxation. Perfect for soothing the shoulders, chest, and spine, it leaves you feeling refreshed and rejuvenated.",
+    "introText": "This upper body-focused Yin-Style Yoga sequence offers a soothing blend of gentle heart openers, shoulder stretches, and spinal twists, designed to ease tension and promote deep relaxation. Starting with meditation and progressing through supportive poses, it invites you to slow down, breathe deeply, and connect with your body. Each pose is held for several minutes, allowing your muscles to soften and release, especially in areas like the shoulders and chest. By the end, you'll feel more spacious and open in your upper body, leaving with a sense of calm and well-being.",
+    "image": "/public/routines/preview-saddle.png",
+    "slug": "upper-body-yin-style-yoga-routine",
+    "lists": [
+      {
+        "name": "Meditation",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Supine Spinal Twist",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Supported Bridge",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Supported Saddle",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Child's Pose",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Sphinx",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Melting Heart",
+        "time": "3",
+        "repeat": false
+      },
+      {
+        "name": "Shoelace",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Bananasana",
+        "time": "3",
+        "repeat": true
+      },
+      {
+        "name": "Shavasana",
+        "time": "5",
+        "repeat": false
+      }
+    ],
+    "poses": [
+      "Supine Spinal Twist",
+      "Supported Bridge",
+      "Supported Saddle",
+      "Child's Pose",
+      "Sphinx",
+      "Melting Heart",
+      "Shoelace",
+      "Bananasana",
+      "Shavasana"
+    ]
   }
 ]

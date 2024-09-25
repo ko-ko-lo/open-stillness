@@ -12,10 +12,6 @@ export const routes: Routes = [
   { path: 'yoga-routines/:slug', component: YogaRoutinesComponent },
 ];
 
-/*
-export const routes: Routes = [
-  { path: '', redirectTo: 'routines', pathMatch: 'full' },          // Redirect to training overview
-  { path: 'routines', component: TrainingCardComponent },           // Overview of all routines
-  { path: 'yoga-routines/:slug', component: YogaRoutinesComponent } // Dynamic route for individual routine
-];
-*/
+export const routingConfig = {
+  scrollPositionRestoration: 'top',
+};

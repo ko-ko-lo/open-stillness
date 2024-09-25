@@ -16,3 +16,7 @@
   color: variables.$font-color-breadcrumb;
   text-transform: variables.$breadcrumb-text-transform;
 }
+
+.breadcrumb ul li a {
+  color: variables.$font-color-breadcrumb;
+}

@@ -1,17 +1,39 @@
-<div class="border-bottom">
+<div [class.no-margin]="isYogaRoutinePage" class="border-bottom">
   <div class="container">
     <nav class="navbar">
-      <a routerLink="/" class="logo">
+      <a routerLink="/" (click)="closeMenuAndNavigate()" class="logo">
         <img src="public/logo.svg" alt="Logo" />
       </a>
+
       <div class="menu-toggle" (click)="toggleMenu()">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+        <ng-container *ngIf="!menuOpen; else closeIcon">
+          <i class="material-icons">menu</i>
+        </ng-container>
+
+        <ng-template #closeIcon>
+          <span class="close-icon">
+            <i class="material-icons">close</i>
+          </span>
+        </ng-template>
       </div>
+
       <ul class="nav-menu" [class.active]="menuOpen">
-        <li><a routerLink="/library">Library</a></li>
-        <li><a routerLink="/routines">Routines</a></li>
+        <li>
+          <a
+            routerLink="/library"
+            routerLinkActive="active-link"
+            (click)="toggleMenu()"
+            >Library</a
+          >
+        </li>
+        <li>
+          <a
+            routerLink="/routines"
+            routerLinkActive="active-link"
+            (click)="toggleMenu()"
+            >Routines</a
+          >
+        </li>
       </ul>
     </nav>
   </div>

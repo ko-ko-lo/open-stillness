@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TrainingCardComponent } from '../../components/training-card/training-card.component';
+import { TitleService } from '../../services/title.service';
 
 @Component({
   selector: 'app-routines',
@@ -10,13 +11,19 @@ import { TrainingCardComponent } from '../../components/training-card/training-c
   templateUrl: './routines.component.html',
   styleUrl: './routines.component.scss',
 })
-export class RoutinesComponent {
+export class RoutinesComponent implements OnInit {
   routineSlug: string | null = null;
   routineData: any;
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) {}
+  constructor(
+    private route: ActivatedRoute,
+    private http: HttpClient,
+    private titleService: TitleService
+  ) {}
 
   ngOnInit(): void {
+    this.titleService.setFullTitle('Routine Overview');
+
     this.routineSlug = this.route.snapshot.paramMap.get('slug');
 
     // Fetch routine data from JSON

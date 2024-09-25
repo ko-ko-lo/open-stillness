@@ -8,6 +8,10 @@ img {
   justify-content: center;
   align-items: center;
 
+  .short-intro {
+    padding: 0;
+  }
+
   @media (min-width: 768px) {
     width: 100%;
   }
@@ -66,7 +70,7 @@ ol {
 .short-intro .material-icons {
   font-size: 2rem;
   padding-top: 32px;
-  color: variables.$color-purple-200;
+  color: variables.$color-blue-300;
 }
 
 /* Reset the counter at the start of the ordered list */

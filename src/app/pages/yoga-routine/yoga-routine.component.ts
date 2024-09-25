@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import { BreadcrumbComponent } from '../../components/breadcrumb/breadcrumb.component';
 import { MeditationCardComponent } from '../../components/meditation-card/meditation-card.component';
 import { YogaCardComponent } from '../../components/yoga-card/yoga-card.component';
+import { TitleService } from '../../services/title.service';
 
 @Component({
   selector: 'app-yoga-routine',
@@ -23,13 +24,17 @@ export class YogaRoutinesComponent implements OnInit {
   routineData: any;
   yogaPoses: any[] = [];
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) {}
+  constructor(
+    private route: ActivatedRoute,
+    private http: HttpClient,
+    private titleService: TitleService
+  ) {}
 
   ngOnInit(): void {
-    // Get the slug from the URL
+    this.titleService.setFullTitle('Customized Routine');
+
     this.routineSlug = this.route.snapshot.paramMap.get('slug');
 
-    // Fetch the routine data from the JSON file
     this.http.get<any[]>('data/yoga-routines.json').subscribe((data) => {
       this.routineData = data.find(
         (routine) => routine.slug === this.routineSlug
@@ -40,7 +45,6 @@ export class YogaRoutinesComponent implements OnInit {
     });
   }
   loadYogaPoses(poses: string[]): void {
-    // Load all yoga poses from another JSON (yoga-poses.json)
     this.http.get<any[]>('data/yoga-poses.json').subscribe((allPoses) => {
       // Filter the poses to get only the relevant ones for this routine
       this.yogaPoses = allPoses

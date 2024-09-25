@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { FilteringComponent } from '../../components/filtering/filtering.component';
 import { MeditationCardComponent } from '../../components/meditation-card/meditation-card.component';
 import { YogaCardComponent } from '../../components/yoga-card/yoga-card.component';
+import { TitleService } from '../../services/title.service';
 
 @Component({
   selector: 'app-library',
@@ -18,8 +19,8 @@ import { YogaCardComponent } from '../../components/yoga-card/yoga-card.componen
   styleUrls: ['./library.component.scss'],
 })
 export class LibraryComponent implements OnInit {
-  yogaPoses: any[] = []; // Stores all yoga poses
-  filteredPoses: any[] = []; // Stores filtered yoga poses
+  yogaPoses: any[] = [];
+  filteredPoses: any[] = [];
   selectedFilter: string = 'All Target Areas';
   filterOptions: string[] = [
     'All Target Areas',
@@ -30,10 +31,11 @@ export class LibraryComponent implements OnInit {
     'Upper Body',
   ];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private titleService: TitleService) {}
 
   ngOnInit(): void {
-    // Fetch yoga poses from the JSON file
+    this.titleService.setFullTitle('Library');
+
     this.http.get<any[]>('data/yoga-poses.json').subscribe((data) => {
       this.yogaPoses = data;
       this.filteredPoses = this.yogaPoses; // Initially show all poses

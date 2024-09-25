@@ -4,16 +4,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 20px 0;
 }
 
 .logo img {
-  height: 32px;
+  max-height: variables.$space-6;
 }
 
 .nav-menu {
   display: flex;
-  gap: 20px;
+  gap: variables.$space-6;
   list-style: none;
 }
 
@@ -23,8 +23,12 @@
 
 .nav-menu a {
   color: variables.$font-color-body;
+  font-weight: variables.$font-weight-medium;
   text-decoration: none;
-  font-weight: 600;
+}
+
+.nav-menu a.active-link {
+  font-weight: variables.$font-weight-bold;
 }
 
 /* Mobile Menu Toggle */
@@ -32,19 +36,21 @@
   display: none;
   cursor: pointer;
   flex-direction: column;
-  gap: 4px;
-}
-
-.menu-toggle .bar {
-  width: 25px;
-  height: 3px;
-  background-color: variables.$color-purple-900;
-  border-radius: variables.$radius-s;
+  gap: variables.$space-0;
 }
 
 .border-bottom {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: variables.$color-neutral-50;
   border-bottom: 1px solid variables.$color-purple-100;
   margin-bottom: variables.$space-10;
+
+  &.no-margin {
+    margin-bottom: 0; /* No margin on yoga-routines pages */
+  }
 }
 
 /* Responsive Styles */
@@ -53,12 +59,12 @@
     display: none; /* Hide by default on mobile */
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 72px;
     right: 0;
-    background-color: variables.$color-neutral-100;
+    background-color: variables.$color-neutral-50;
     width: 100%;
+    height: calc(100vh - 72px);
     text-align: right;
-    padding: 10px 20px;
   }
 
   .nav-menu.active {
@@ -68,11 +74,27 @@
   .menu-toggle {
     display: flex;
   }
-}
-
-// Responsive Styling
-@media (max-width: 768px) {
   .border-bottom {
     margin-bottom: variables.$space-10;
+  }
+
+  ul li {
+    font-size: variables.$space-6;
+    border-bottom: 1px solid variables.$border-neutral-200;
+    padding: variables.$space-6 variables.$global-padding-tablet;
+  }
+
+  ul li:first-child {
+    border-top: 1px solid variables.$border-neutral-200;
+  }
+
+  .nav-menu {
+    gap: 0;
+  }
+}
+
+@media (max-width: 390px) {
+  ul li {
+    padding: variables.$space-6 variables.$global-padding-phone;
   }
 }
