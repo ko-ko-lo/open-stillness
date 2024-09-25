@@ -4,26 +4,23 @@ img {
   box-shadow: variables.$elevation-s;
   border-radius: variables.$radius-l;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
 
-  .short-intro {
-    padding: 0;
-  }
+.short-intro {
+  padding: 0;
 
-  @media (min-width: 768px) {
-    width: 100%;
-  }
-
-  @media (min-width: 1024px) {
-    width: 66.67%;
+  .material-icons {
+    font-size: variables.$space-6;
+    padding-top: variables.$space-6;
+    color: variables.$color-blue-300;
   }
 }
 
 ol {
   list-style: none;
   padding-left: 0;
+  /* Reset the counter at the start of the ordered list */
+  counter-reset: item;
 
   li {
     padding: variables.$space-1 0;
@@ -55,9 +52,9 @@ ol {
       content: counter(item);
       counter-increment: item;
       display: inline-block;
-      width: 30px;
-      height: 35px;
-      line-height: 35px;
+      width: variables.$space-6;
+      height: variables.$space-7;
+      line-height: variables.$space-7;
       border-radius: variables.$radius-full;
       background-color: variables.$background-purple-800;
       color: variables.$color-neutral-50;
@@ -65,17 +62,6 @@ ol {
       margin-right: variables.$space-2;
     }
   }
-}
-
-.short-intro .material-icons {
-  font-size: 2rem;
-  padding-top: 32px;
-  color: variables.$color-blue-300;
-}
-
-/* Reset the counter at the start of the ordered list */
-ol {
-  counter-reset: item;
 }
 
 // ========================================================================
@@ -88,14 +74,14 @@ ol {
   margin-bottom: variables.$space-11;
 
   p {
-    display: inline-flex; /* Flexbox to align icon and text in a row */
-    align-items: center; /* Aligns icon and text vertically */
-    justify-content: flex-end; /* Pushes the p tag to the right */
-    font-size: 0.875rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: variables.$space-02;
 
     i.material-icons {
       margin-right: variables.$space-0;
-      font-size: 1.2rem;
+      font-size: variables.$space-4;
     }
   }
 }

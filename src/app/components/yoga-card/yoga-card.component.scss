@@ -11,7 +11,7 @@
   align-items: center;
   gap: variables.$space-1;
   background-color: variables.$color-neutral-200;
-  padding: 14px 32px;
+  padding: variables.$space-02 variables.$space-6;
   margin-top: variables.$space-5;
 }
 

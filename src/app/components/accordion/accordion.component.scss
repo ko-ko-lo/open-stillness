@@ -6,35 +6,43 @@
     border: none;
     border-bottom: solid 1px variables.$color-neutral-400;
 
+    &:first-child {
+      border-top: solid 1px variables.$color-neutral-400;
+    }
+
     .accordion-header {
-      padding: 32px 10px;
+      padding: variables.$space-6 variables.$space-2;
       display: flex;
-      align-content: center;
       justify-content: space-between;
       align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
 
       h3 {
         margin: 0;
       }
 
       .icon {
-        font-size: 32px;
-        padding-left: 16px;
+        font-size: variables.$space-6;
+        padding-left: variables.$space-3;
+      }
+
+      &:hover,
+      &:focus {
+        background-color: variables.$color-purple-100;
+        outline: none;
+      }
+
+      // Improve accessibility by ensuring focus styles
+      &:focus-visible {
+        outline: 3px solid variables.$border-neutral-200;
+        outline-offset: 2px;
       }
     }
 
     .accordion-content {
-      padding: 10px 10px 32px;
+      padding: variables.$space-2 variables.$space-2 variables.$space-6;
     }
-  }
-
-  .accordion-item:first-child {
-    border-top: solid 1px variables.$color-neutral-400;
-  }
-
-  .accordion-header:hover {
-    cursor: pointer;
-    background-color: variables.$color-purple-100;
   }
 }
 
@@ -46,7 +54,6 @@
     flex-direction: column;
   }
 }
-
 .column-4 {
   flex: 1;
   box-sizing: border-box;

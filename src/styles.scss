@@ -22,29 +22,27 @@ html {
 // Typography
 // ========================================================================
 
-h1,
-h2,
-h3,
-.h3-small {
+@mixin headline($size, $margin-bottom) {
   font-weight: variables.$font-weight-semibold;
   color: variables.$font-color-headlines;
   font-optical-sizing: variables.$font-optical-sizing;
   line-height: 120%;
   margin-top: 0;
+  font-size: $size;
+  margin-bottom: $margin-bottom;
 }
 
 h1 {
-  font-size: variables.$font-size-h1;
-  margin-bottom: variables.$space-6;
+  @include headline(variables.$font-size-h1, variables.$space-6);
 }
 
 h2 {
-  font-size: variables.$font-size-h2;
-  margin-bottom: variables.$space-7;
+  @include headline(variables.$font-size-h2, variables.$space-7);
 }
 
-h3 {
-  font-size: variables.$font-size-h3;
+h3,
+.h3-small {
+  @include headline(variables.$font-size-h3, variables.$space-0);
 }
 
 .h3-small {
@@ -69,10 +67,21 @@ p {
 }
 
 // ========================================================================
+// Flex Mixin
+// ========================================================================
+
+@mixin flexbox($direction: row, $justify: flex-start, $align: stretch) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+// ========================================================================
 // Buttons & Icons
 // ========================================================================
 
-button {
+@mixin button-style {
   background-color: variables.$button-default-bg;
   color: variables.$button-standard-font-color;
   border: none;
@@ -83,6 +92,10 @@ button {
   cursor: pointer;
   box-shadow: variables.$elevation-xs;
   align-self: flex-start;
+}
+
+button {
+  @include button-style;
 
   &:hover {
     background-color: variables.$button-hover-bg;
@@ -91,6 +104,11 @@ button {
   &:focus {
     background-color: variables.$button-focused-bg;
     border: 2px solid variables.$button-focused-border;
+  }
+
+  &:focus-visible {
+    outline: 3px solid variables.$border-neutral-200;
+    outline-offset: 2px;
   }
 
   &:active {
@@ -117,20 +135,24 @@ button {
 // Backgrounds
 // ========================================================================
 
+@mixin background-color($color) {
+  background-color: $color;
+}
+
 .background-neutral-light {
-  background-color: variables.$color-neutral-100;
+  @include background-color(variables.$color-neutral-100);
 }
 
 .background-blue-light {
-  background-color: variables.$color-blue-50;
+  @include background-color(variables.$color-blue-50);
 }
 
 .background-purple-light {
-  background-color: variables.$color-purple-50;
+  @include background-color(variables.$color-purple-50);
 }
 
 .background-green-light {
-  background-color: variables.$color-green-50;
+  @include background-color(variables.$color-green-50);
 }
 
 // ========================================================================
@@ -140,7 +162,7 @@ button {
 .pill {
   background-color: variables.$color-purple-200;
   color: variables.$font-color-body;
-  padding: 6px 16px;
+  padding: variables.$space-01 variables.$space-3;
   border-radius: variables.$radius-full;
   font-weight: variables.$font-weight-medium;
   font-size: variables.$font-size-body;
@@ -154,21 +176,22 @@ button {
 // Margin / Padding
 // ========================================================================
 
-// Margin
-.margin-bottom-40 {
-  margin-bottom: variables.$space-7;
-}
-
-.margin-top-32 {
-  margin-top: variables.$space-6;
-}
-
-.margin-top-72 {
-  margin-top: variables.$space-11;
-}
-
-.margin-top-86 {
-  margin-top: variables.$space-12;
+.margin-top {
+  &-0 {
+    margin-top: 0;
+  }
+  &-32 {
+    margin-top: variables.$space-6;
+  }
+  &-40 {
+    margin-top: variables.$space-7;
+  }
+  &-72 {
+    margin-top: variables.$space-11;
+  }
+  &-86 {
+    margin-top: variables.$space-12;
+  }
 }
 
 .benefits,
@@ -196,17 +219,12 @@ button {
 img {
   height: auto;
   display: block;
-}
-
-.card img,
-.flex-item img {
   max-width: 100%;
 }
 
 .flex-container {
-  display: flex;
+  @include flexbox(row, space-between, flex-start);
   gap: variables.$gap-desktop;
-  align-items: flex-start;
 }
 
 .flex-item {
@@ -222,25 +240,24 @@ img {
   margin-top: 0;
 }
 
-ol li,
-ul li {
+@mixin list-style {
   font-size: variables.$font-size-body;
   font-weight: variables.$font-weight-medium;
+  padding-left: variables.$space-4;
+  margin: 0;
+  li {
+    margin-bottom: variables.$space-0;
+  }
 }
 
 ol,
 ul {
-  padding-left: 20px;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 4px;
+  @include list-style;
 }
 
 @media (max-width: 1200px) {
   .flex-container {
-    flex-direction: column;
+    @include flexbox(column);
   }
 
   .flex-item:nth-child(2) {

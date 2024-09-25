@@ -24,7 +24,7 @@ export class LibraryComponent implements OnInit {
   selectedFilter: string = 'All Target Areas';
   filterOptions: string[] = [
     'All Target Areas',
-    'Back / Spine',
+    'Back and Spine',
     'Chest',
     'Hips',
     'Legs',

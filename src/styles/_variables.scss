@@ -145,8 +145,10 @@ $breadcrumb-text-transform: uppercase;
 
 // Spacing Scale in rem
 $space-0: 0.25rem; // 4px
+$space-01: 0.375rem; // 6px
 $space-1: 0.5rem; // 8px
 $space-2: 0.75rem; // 12px
+$space-02: 0.88rem; // 14px
 $space-3: 1rem; // 16px
 $space-4: 1.125rem; // 18px
 $space-5: 1.5rem; // 24px
@@ -173,6 +175,9 @@ $global-padding-phone: $space-3;
 // Button Padding
 $padding-top-bottom: $space-3;
 $padding-left-right: $space-6;
+
+// Max-width
+$max-content-width-821: 821px;
 
 // ========================================================================
 // Radius

@@ -1,9 +1,3 @@
-@use "./../../../styles/variables" as variables;
-/*
-.card {
-  padding: variables.$space-7 variables.$space-6 variables.$space-10;
-}
-*/
 @media (max-width: 1200px) {
   .card img {
     max-width: 450px;

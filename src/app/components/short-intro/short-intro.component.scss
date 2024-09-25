@@ -1,11 +1,11 @@
 @use "./../../../styles/variables" as variables;
 
 .short-intro {
-  padding: 120px 6rem;
+  padding: variables.$space-14 variables.$space-13;
 }
 
 @media (max-width: 390px) {
   .short-intro {
-    padding: 60px 16px;
+    padding: variables.$space-10 variables.$space-3;
   }
 }

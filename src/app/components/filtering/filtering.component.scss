@@ -5,10 +5,11 @@
   flex-wrap: wrap;
   gap: variables.$space-2;
   margin-bottom: variables.$spacing-elements;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .filter-buttons button {
-  padding: 6px 14px;
+  padding: variables.$space-0 variables.$space-02;
   background-color: transparent;
   border: 1px solid variables.$color-neutral-200;
   border-radius: variables.$radius-s;
