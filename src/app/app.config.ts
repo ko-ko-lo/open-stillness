@@ -4,13 +4,13 @@ import {
   InMemoryScrollingOptions,
   provideRouter,
   withInMemoryScrolling,
-} from '@angular/router'; // Import scrolling-related APIs
-import { routes } from './app.routes'; // Import your routes
+} from '@angular/router';
+import { routes } from './app.routes';
 
 // Define scrolling options
 const scrollConfig: InMemoryScrollingOptions = {
-  scrollPositionRestoration: 'enabled', // Scrolls to the top on navigation
-  anchorScrolling: 'enabled', // Handles anchor links
+  scrollPositionRestoration: 'top',
+  anchorScrolling: 'enabled',
 };
 
 // Define the feature using the scrolling config

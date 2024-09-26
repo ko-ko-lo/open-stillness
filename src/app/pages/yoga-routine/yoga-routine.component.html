@@ -2,17 +2,17 @@
   <div *ngIf="routineData">
     <app-breadcrumb></app-breadcrumb>
     <div class="intro">
-      <h1>{{ routineData.name }}</h1>
+      <h1>{{ routineData?.name }}</h1>
       <p class="margin-bottom-40 icon-setup">
-        <i class="material-icons">schedule</i> {{ routineData.time }} minutes
+        <i class="material-icons">schedule</i> {{ routineData?.time }} minutes
       </p>
-      <p class="margin-bottom-40">{{ routineData.introText }}</p>
-      <p class="pill">{{ routineData.targetAreas }}</p>
+      <p class="margin-bottom-40">{{ routineData?.introText }}</p>
+      <p class="pill">{{ routineData?.targetAreas }}</p>
     </div>
 
     <img
-      [src]="routineData.image"
-      alt="{{ routineData.name }}"
+      [src]="routineData?.image"
+      alt="{{ routineData?.name }}"
       class="max-width-s w-100 radius-l box-shadow-s"
     />
 
@@ -23,15 +23,15 @@
   <!-- List with Yoga Poses and Time -->
   <div class="max-width-s">
     <ol>
-      <li *ngFor="let list of routineData.lists" class="d-flex">
+      <li *ngFor="let list of routineData?.lists" class="d-flex">
         <div class="pose-info d-flex justify-between align-center w-100">
           <span class="pose-name">{{ list.name }}</span>
 
           <div class="pose-time d-flex align-center">
-            <span *ngIf="list.repeat" class="icon-repeat"
+            <span *ngIf="list?.repeat" class="icon-repeat"
               ><i class="material-icons">repeat</i></span
             >
-            <span>{{ list.time }} min</span>
+            <span>{{ list?.time }} min</span>
           </div>
         </div>
       </li>

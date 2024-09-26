@@ -21,7 +21,7 @@ import { TitleService } from '../../services/title.service';
 })
 export class YogaRoutinesComponent implements OnInit {
   routineSlug: string | null = null;
-  routineData: any;
+  routineData: any = null;
   yogaPoses: any[] = [];
 
   constructor(
