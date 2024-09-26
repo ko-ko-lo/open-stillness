@@ -1,0 +1,208 @@
+@use "./variables" as variables;
+
+// ========================================================================
+// Utility Classes for Margin
+// ========================================================================
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-top {
+  &-0 {
+    margin-top: 0;
+  }
+  &-24 {
+    margin-top: variables.$space-5;
+  }
+  &-32 {
+    margin-top: variables.$space-6;
+  }
+  &-40 {
+    margin-top: variables.$space-7;
+  }
+  &-72 {
+    margin-top: variables.$space-11;
+  }
+  &-86 {
+    margin-top: variables.$space-12;
+  }
+}
+
+.margin-bottom {
+  &-0 {
+    margin-bottom: 0;
+  }
+  &-4 {
+    margin-bottom: variables.$space-0;
+  }
+  &-8 {
+    margin-bottom: variables.$space-1;
+  }
+  &-32 {
+    margin-bottom: variables.$space-6;
+  }
+  &-40 {
+    margin-bottom: variables.$space-7;
+  }
+  &-48 {
+    margin-bottom: variables.$space-8;
+  }
+  &-56 {
+    margin-bottom: variables.$space-9;
+  }
+  &-64 {
+    margin-bottom: variables.$space-10;
+  }
+  &-72 {
+    margin-bottom: variables.$space-11;
+  }
+  &-88 {
+    margin-bottom: variables.$space-12;
+  }
+}
+
+// ========================================================================
+// Utility Classes for Padding
+// ========================================================================
+.padding-0 {
+  padding: 0;
+}
+
+.padding-top {
+  &-24 {
+    padding-top: variables.$space-5;
+  }
+  &-32 {
+    padding-top: variables.$space-6;
+  }
+}
+
+// ========================================================================
+// Utility Classes for Flexbox
+// ========================================================================
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justifiy-end {
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+// ========================================================================
+// Utility Classes for Width and Display
+// ========================================================================
+.w-100 {
+  width: 100%;
+}
+
+.maxw-100 {
+  max-width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-none {
+  display: none;
+}
+
+// ========================================================================
+// Utility Classes for Gap
+// ========================================================================
+
+.gap {
+  &-0 {
+    gap: 0;
+  }
+  &-4 {
+    gap: variables.$space-0;
+  }
+  &-8 {
+    gap: variables.$space-1;
+  }
+  &-12 {
+    gap: variables.$space-2;
+  }
+  &-32 {
+    gap: variables.$space-6;
+  }
+}
+
+// ========================================================================
+// Utility Classes for Radius
+// ========================================================================
+
+.radius {
+  &-s {
+    border-radius: variables.$radius-s;
+  }
+  &-m {
+    border-radius: variables.$radius-m;
+  }
+  &-l {
+    border-radius: variables.$radius-l;
+  }
+}
+
+// ========================================================================
+// Utility Classes for Box-Shadow
+// ========================================================================
+
+.box-shadow {
+  &-xs {
+    box-shadow: variables.$elevation-xs;
+  }
+  &-s {
+    box-shadow: variables.$elevation-s;
+  }
+}

@@ -1,10 +1,7 @@
 @use "./../../../../styles/variables" as variables;
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
+  padding: variables.$space-4 0;
 }
 
 .logo img {
@@ -12,13 +9,7 @@
 }
 
 .nav-menu {
-  display: flex;
-  gap: variables.$space-6;
   list-style: none;
-}
-
-.nav-menu li {
-  display: inline;
 }
 
 .nav-menu a {
@@ -33,10 +24,7 @@
 
 /* Mobile Menu Toggle */
 .menu-toggle {
-  display: none;
   cursor: pointer;
-  flex-direction: column;
-  gap: variables.$space-0;
 }
 
 .border-bottom {
@@ -44,9 +32,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  background-color: variables.$color-neutral-50;
   border-bottom: 1px solid variables.$color-purple-100;
-  margin-bottom: variables.$space-10;
 
   &.no-margin {
     margin-bottom: 0; /* No margin on yoga-routines pages */
@@ -63,7 +49,7 @@
     right: 0;
     background-color: variables.$color-neutral-50;
     width: 100%;
-    height: calc(100vh - 72px);
+    height: calc(100vh - 68px);
     text-align: right;
   }
 

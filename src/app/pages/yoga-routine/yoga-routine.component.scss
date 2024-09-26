@@ -1,19 +1,8 @@
 @use "./../../../styles/variables" as variables;
 
-img {
-  box-shadow: variables.$elevation-s;
-  border-radius: variables.$radius-l;
-  width: 100%;
-}
-
-.short-intro {
-  padding: 0;
-
-  .material-icons {
-    font-size: variables.$space-6;
-    padding-top: variables.$space-6;
-    color: variables.$color-blue-300;
-  }
+.short-intro .material-icons {
+  font-size: variables.$space-6;
+  color: variables.$color-blue-300;
 }
 
 ol {
@@ -24,27 +13,14 @@ ol {
 
   li {
     padding: variables.$space-1 0;
-    display: flex;
     border-bottom: 1px solid variables.$border-neutral-200;
-
-    .pose-info {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
 
     .pose-name {
       max-width: 60%; /* Ensure name doesn't overlap */
     }
 
-    .pose-time {
-      display: flex;
-      align-items: center;
-
-      .icon-repeat {
-        margin-right: variables.$space-2;
-      }
+    .pose-time .icon-repeat {
+      margin-right: variables.$space-2;
     }
 
     /* Pseudo-element for the numbering */
@@ -56,7 +32,7 @@ ol {
       height: variables.$space-7;
       line-height: variables.$space-7;
       border-radius: variables.$radius-full;
-      background-color: variables.$background-purple-800;
+      background-color: variables.$color-purple-800;
       color: variables.$color-neutral-50;
       text-align: center;
       margin-right: variables.$space-2;
@@ -70,13 +46,8 @@ ol {
 
 .legend {
   text-align: right;
-  padding-top: variables.$space-5;
-  margin-bottom: variables.$space-11;
 
   p {
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-end;
     font-size: variables.$space-02;
 
     i.material-icons {

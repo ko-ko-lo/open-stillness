@@ -2,7 +2,6 @@
 
 .accordion {
   .accordion-item {
-    display: block;
     border: none;
     border-bottom: solid 1px variables.$color-neutral-400;
 
@@ -12,15 +11,8 @@
 
     .accordion-header {
       padding: variables.$space-6 variables.$space-2;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       cursor: pointer;
       transition: background-color 0.3s ease;
-
-      h3 {
-        margin: 0;
-      }
 
       .icon {
         font-size: variables.$space-6;
@@ -48,7 +40,6 @@
 
 .flex-container {
   display: flex;
-  gap: variables.$spacing-elements;
 
   @media (max-width: 1024px) {
     flex-direction: column;

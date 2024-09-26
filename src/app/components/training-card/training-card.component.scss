@@ -1,26 +1,5 @@
 @use "./../../../styles/variables" as variables;
 
-.training-card h2 {
-  margin-bottom: variables.$space-6;
-  margin-top: 0;
-}
-
 img {
   max-width: 576px;
-  max-width: 100%;
-  border-radius: variables.$radius-l;
-  box-shadow: variables.$elevation-s;
-}
-
-.bold {
-  margin-bottom: variables.$space-0;
-  margin-top: variables.$space-5;
-}
-
-button {
-  margin-top: variables.$space-7;
-}
-
-.pill {
-  margin-bottom: 0;
 }

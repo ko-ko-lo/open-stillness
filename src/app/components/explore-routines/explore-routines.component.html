@@ -1,12 +1,18 @@
 <div class="background-blue-light">
   <div class="container">
-    <h2>{{ title }}</h2>
-    <div class="flexcontent">
+    <h2 class="max-width-821">{{ title }}</h2>
+    <div
+      class="flexcontent flex-column d-flex w-100 max-width-821 margin-bottom-56 gap-32"
+    >
       <p>{{ description }}</p>
       <button [routerLink]="buttonLink">{{ buttonLabel }}</button>
     </div>
-    <div class="explore-routines-img">
-      <img [src]="imagePath" alt="Yoga Routine Preview" />
+    <div class="explore-routines-img d-flex justifiy-end">
+      <img
+        class="radius-l box-shadow-s"
+        [src]="imagePath"
+        alt="Yoga Routine Preview"
+      />
     </div>
   </div>
 </div>

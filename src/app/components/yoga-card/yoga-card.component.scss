@@ -1,15 +1,11 @@
 @use "./../../../styles/variables" as variables;
 
 .target-areas {
-  display: flex;
-  flex-wrap: wrap;
   gap: variables.$space-1;
 }
 
 .practice-pill {
   display: inline-flex;
-  align-items: center;
-  gap: variables.$space-1;
   background-color: variables.$color-neutral-200;
   padding: variables.$space-02 variables.$space-6;
   margin-top: variables.$space-5;

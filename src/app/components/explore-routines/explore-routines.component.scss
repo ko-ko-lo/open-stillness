@@ -1,27 +1,7 @@
 @use "./../../../styles/variables" as variables;
 
-.flexcontent {
-  display: flex;
-  flex-direction: column;
-  gap: variables.$spacing-elements;
-  max-width: variables.$max-content-width-821;
-  width: 100%;
-  margin-bottom: variables.$space-9;
-}
-
-.explore-routines-img {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .explore-routines-img img {
   max-height: 402px;
-  box-shadow: variables.$elevation-s;
-  border-radius: variables.$radius-l;
-}
-
-h2 {
-  max-width: variables.$max-content-width-821;
 }
 
 @media (max-width: 768px) {

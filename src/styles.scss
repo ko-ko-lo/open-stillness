@@ -1,11 +1,10 @@
 @use "styles/variables" as variables;
+@use "styles/utilities" as utilities;
 
 html,
 body {
-  margin: 0;
-  padding: 0;
   font-family: variables.$font-family-base;
-  background-color: variables.$background-white;
+  background-color: variables.$color-neutral-50;
 }
 
 html {
@@ -13,7 +12,7 @@ html {
 }
 
 .container {
-  max-width: variables.$max-width;
+  max-width: 1440px;
   margin: 0;
   padding: 0 variables.$global-padding-desktop;
 }
@@ -86,7 +85,7 @@ p {
   color: variables.$button-standard-font-color;
   border: none;
   border-radius: variables.$radius-s;
-  padding: variables.$padding-top-bottom variables.$padding-left-right;
+  padding: variables.$space-3 variables.$space-6;
   font-size: variables.$font-size-body;
   font-weight: variables.$font-weight-regular;
   cursor: pointer;
@@ -135,24 +134,24 @@ button {
 // Backgrounds
 // ========================================================================
 
-@mixin background-color($color) {
-  background-color: $color;
+.background-white {
+  background-color: variables.$color-neutral-50;
 }
 
 .background-neutral-light {
-  @include background-color(variables.$color-neutral-100);
+  background-color: variables.$color-neutral-100;
 }
 
 .background-blue-light {
-  @include background-color(variables.$color-blue-50);
+  background-color: variables.$color-blue-50;
 }
 
 .background-purple-light {
-  @include background-color(variables.$color-purple-50);
+  background-color: variables.$color-purple-50;
 }
 
 .background-green-light {
-  @include background-color(variables.$color-green-50);
+  background-color: variables.$color-green-50;
 }
 
 // ========================================================================
@@ -176,29 +175,15 @@ button {
 // Margin / Padding
 // ========================================================================
 
-.margin-top {
-  &-0 {
-    margin-top: 0;
-  }
-  &-32 {
-    margin-top: variables.$space-6;
-  }
-  &-40 {
-    margin-top: variables.$space-7;
-  }
-  &-72 {
-    margin-top: variables.$space-11;
-  }
-  &-86 {
-    margin-top: variables.$space-12;
-  }
-}
-
 .benefits,
 .library-discovery,
 .background-blue-light,
 .background-purple-light {
   padding: variables.$space-13 0;
+}
+
+.max-width-821 {
+  max-width: 821px;
 }
 
 // ========================================================================
@@ -224,7 +209,7 @@ img {
 
 .flex-container {
   @include flexbox(row, space-between, flex-start);
-  gap: variables.$gap-desktop;
+  gap: variables.$space-6;
 }
 
 .flex-item {

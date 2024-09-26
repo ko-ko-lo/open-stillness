@@ -2,7 +2,6 @@
 
 .benefits-container {
   display: grid;
-  gap: variables.$spacing-elements;
 
   grid-template-columns: 1fr;
 
@@ -13,12 +12,4 @@
   @media (min-width: 1024px) {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-.benefits-container > div {
-  max-width: 100%;
-}
-
-.h3-small {
-  margin-bottom: variables.$space-1;
 }

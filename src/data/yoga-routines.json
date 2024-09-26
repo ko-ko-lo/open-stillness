@@ -229,7 +229,7 @@
   },
   {
     "name": "Upper Body Yin-Style Yoga for Relaxation and Release",
-    "time": "40",
+    "time": "35",
     "targetAreas": "Upper Body",
     "description": "This Yin-Style Yoga routine focuses on releasing tension in the upper body through gentle stretches and mindful relaxation. Perfect for soothing the shoulders, chest, and spine, it leaves you feeling refreshed and rejuvenated.",
     "introText": "This upper body-focused Yin-Style Yoga sequence offers a soothing blend of gentle heart openers, shoulder stretches, and spinal twists, designed to ease tension and promote deep relaxation. Starting with meditation and progressing through supportive poses, it invites you to slow down, breathe deeply, and connect with your body. Each pose is held for several minutes, allowing your muscles to soften and release, especially in areas like the shoulders and chest. By the end, you'll feel more spacious and open in your upper body, leaving with a sense of calm and well-being.",
@@ -272,11 +272,6 @@
         "repeat": false
       },
       {
-        "name": "Shoelace",
-        "time": "3",
-        "repeat": true
-      },
-      {
         "name": "Bananasana",
         "time": "3",
         "repeat": true
@@ -294,7 +289,6 @@
       "Child's Pose",
       "Sphinx",
       "Melting Heart",
-      "Shoelace",
       "Bananasana",
       "Shavasana"
     ]

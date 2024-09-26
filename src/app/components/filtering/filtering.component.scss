@@ -1,10 +1,6 @@
 @use "./../../../styles/variables" as variables;
 
 .filter-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: variables.$space-2;
-  margin-bottom: variables.$spacing-elements;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -12,7 +8,6 @@
   padding: variables.$space-0 variables.$space-02;
   background-color: transparent;
   border: 1px solid variables.$color-neutral-200;
-  border-radius: variables.$radius-s;
   cursor: pointer;
   color: variables.$font-color-body;
 }
@@ -20,8 +15,4 @@
 .filter-buttons button:hover {
   background-color: variables.$color-neutral-800;
   color: variables.$color-neutral-100;
-}
-
-.current-filter {
-  margin-bottom: variables.$space-8;
 }

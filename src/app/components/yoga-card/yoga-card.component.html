@@ -4,7 +4,7 @@
   <div class="flex-container">
     <div class="flex-item">
       <p class="bold">Main Target Areas:</p>
-      <div class="target-areas">
+      <div class="target-areas d-flex flex-wrap gap-8">
         <span *ngFor="let target of pose.targetAreas" class="pill">{{
           target
         }}</span>
@@ -23,12 +23,15 @@
       <ul>
         <li *ngFor="let variant of pose.possibleVariants">{{ variant }}</li>
       </ul>
-      <div *ngIf="pose.practiceOnBothSides" class="pill practice-pill">
+      <div
+        *ngIf="pose.practiceOnBothSides"
+        class="pill practice-pill align-center gap-8"
+      >
         Practice on both sides <i class="material-icons">repeat</i>
       </div>
     </div>
     <div class="flex-item">
-      <img [src]="pose.image" alt="{{ pose.name }}" />
+      <img class="w-100" [src]="pose.image" alt="{{ pose.name }}" />
     </div>
   </div>
 </div>

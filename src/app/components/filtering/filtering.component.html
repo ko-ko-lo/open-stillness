@@ -1,4 +1,4 @@
-<div class="filter-buttons">
+<div class="filter-buttons d-flex flex-wrap margin-bottom-32 gap-12 radius-s">
   <button
     *ngFor="let filter of filterOptions"
     (click)="onFilterSelect(filter)"
@@ -7,6 +7,6 @@
     {{ filter }}
   </button>
 </div>
-<p class="current-filter">
+<p class="current-filter margin-bottom-48">
   Current Filter: <span class="bold">{{ selectedFilter }}</span>
 </p>

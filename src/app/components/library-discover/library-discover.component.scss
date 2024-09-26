@@ -1,32 +1,7 @@
 @use "./../../../styles/variables" as variables;
 
-.flexcontent {
-  display: flex;
-  flex-direction: column;
-  gap: variables.$spacing-elements;
-  max-width: variables.$max-content-width-821;
-  width: 100%;
-  margin-bottom: variables.$space-9;
-}
-
 .flex-container {
-  gap: variables.$spacing-elements;
-}
-
-.flex-item {
-  background-color: variables.$background-green-50;
-  border-radius: variables.$radius-l;
-  align-items: center;
-  justify-content: center;
-  box-shadow: variables.$elevation-xs;
-}
-
-h2 {
-  max-width: variables.$max-content-width-821;
-}
-
-:host .flex-container {
-  flex-direction: row !important;
+  flex-direction: row;
 }
 
 :host .flex-item:nth-child(2) {

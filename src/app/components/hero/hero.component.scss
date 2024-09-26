@@ -1,7 +1,6 @@
 @use "./../../../styles/variables" as variables;
 
 .flex-container {
-  justify-content: space-between;
   margin-bottom: variables.$space-12;
 }
 

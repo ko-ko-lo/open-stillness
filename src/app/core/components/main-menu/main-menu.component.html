@@ -1,11 +1,14 @@
-<div [class.no-margin]="isYogaRoutinePage" class="border-bottom">
+<div
+  [class.no-margin]="isYogaRoutinePage"
+  class="border-bottom margin-bottom-64 background-white"
+>
   <div class="container">
-    <nav class="navbar">
+    <nav class="navbar d-flex justify-between align-center">
       <a routerLink="/" (click)="closeMenuAndNavigate()" class="logo">
         <img src="public/logo.svg" alt="Logo" />
       </a>
 
-      <div class="menu-toggle" (click)="toggleMenu()">
+      <div class="menu-toggle flex-column d-none gap-4" (click)="toggleMenu()">
         <ng-container *ngIf="!menuOpen; else closeIcon">
           <i class="material-icons">menu</i>
         </ng-container>
@@ -17,8 +20,8 @@
         </ng-template>
       </div>
 
-      <ul class="nav-menu" [class.active]="menuOpen">
-        <li>
+      <ul class="nav-menu d-flex gap-32" [class.active]="menuOpen">
+        <li class="d-inline">
           <a
             routerLink="/library"
             routerLinkActive="active-link"

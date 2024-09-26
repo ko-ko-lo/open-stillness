@@ -2,10 +2,6 @@
 
 .breadcrumb {
   ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
     list-style: none;
     padding: 0;
     margin: variables.$space-5 0 variables.$space-6;
@@ -16,7 +12,7 @@
     font-size: variables.$font-size-breadcrumb;
     font-weight: variables.$font-weight-medium;
     color: variables.$font-color-breadcrumb;
-    text-transform: variables.$breadcrumb-text-transform;
+    text-transform: uppercase;
 
     a {
       color: inherit;
