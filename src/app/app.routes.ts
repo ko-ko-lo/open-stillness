@@ -11,7 +11,3 @@ export const routes: Routes = [
 
   { path: 'yoga-routines/:slug', component: YogaRoutinesComponent },
 ];
-
-export const routingConfig = {
-  scrollPositionRestoration: 'top',
-};
