@@ -49,7 +49,7 @@ Check out the live version of the app: [Yin-Style Yoga App](https://kokoloyoga.c
 
 - Add more yoga poses and routines to the library.
 - Further refinement of filter options.
-- **Create graphical videos** of the individual routines and **embed them on the platform** for enhanced learning.
+- **Create graphical videos** of the individual routines and **embed them on the platform** for enhanced experience.
 - **Convert the app into a Progressive Web Application (PWA)** to allow offline access and improve performance.
 - Introduce user accounts to save routines and track progress.
 - **Implement Dark Mode** to provide users with a visually comfortable experience in low-light environments.
