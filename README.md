@@ -23,8 +23,8 @@ Check out the live version of the app: [Yin-Style Yoga App](https://kokoloyoga.c
 ![entry-point](https://github.com/user-attachments/assets/3fa8305b-84fc-499e-8876-694a2d8f5632)
 ![routines-overview](https://github.com/user-attachments/assets/a5d06ec4-b27f-42d1-a1da-02e1c11e8b71)
 ![individual-routine](https://github.com/user-attachments/assets/c68beb4b-d1c6-43e6-a76d-c9553b75bbea)
-![meditation](https://github.com/user-attachments/assets/a5d37bde-8612-469f-88c7-688c30b97866)
-![bananasana](https://github.com/user-attachments/assets/7039ee13-0dec-4b1a-a614-2927968f3754)
+![meditation](https://github.com/user-attachments/assets/c982f4ad-e9c7-4fcd-9d00-36c0884a45cb)
+![bananasana](https://github.com/user-attachments/assets/d1b8c8a3-c2f7-4382-a52e-aa417d11f991)
 
 ## How to Run Locally
 
