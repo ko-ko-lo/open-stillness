@@ -8,7 +8,13 @@
         <img src="public/logo.svg" alt="Logo" />
       </a>
 
-      <div class="menu-toggle flex-column d-none gap-4" (click)="toggleMenu()">
+      <div
+        class="menu-toggle flex-column d-none gap-4"
+        (click)="toggleMenu()"
+        role="button"
+        aria-label="Toggle menu"
+        [attr.aria-expanded]="menuOpen"
+      >
         <ng-container *ngIf="!menuOpen; else closeIcon">
           <i class="material-icons">menu</i>
         </ng-container>
@@ -20,7 +26,11 @@
         </ng-template>
       </div>
 
-      <ul class="nav-menu d-flex gap-32" [class.active]="menuOpen">
+      <ul
+        class="nav-menu d-flex gap-32"
+        [class.active]="menuOpen"
+        role="navigation"
+      >
         <li class="d-inline">
           <a
             routerLink="/library"

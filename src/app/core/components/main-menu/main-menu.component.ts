@@ -28,8 +28,8 @@ export class MainMenuComponent implements OnInit {
 
   toggleMenu(): void {
     this.menuOpen = !this.menuOpen;
+    document.body.classList.toggle('no-scroll', this.menuOpen);
   }
-
   // Close the menu when navigating via the logo
   closeMenuAndNavigate(): void {
     this.menuOpen = false;
