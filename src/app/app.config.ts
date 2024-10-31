@@ -7,22 +7,17 @@ import {
 } from '@angular/router';
 import { routes } from './app.routes';
 
-// Define scrolling options
 const scrollConfig: InMemoryScrollingOptions = {
   scrollPositionRestoration: 'top',
   anchorScrolling: 'enabled',
 };
 
-// Define the feature using the scrolling config
 const inMemoryScrollingFeature = withInMemoryScrolling(scrollConfig);
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(
-      routes,
-      inMemoryScrollingFeature // Apply scrolling configuration here
-    ),
+    provideRouter(routes, inMemoryScrollingFeature),
     provideAnimationsAsync(),
   ],
 };

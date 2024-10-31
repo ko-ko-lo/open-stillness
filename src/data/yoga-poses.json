@@ -487,7 +487,7 @@
 
   {
     "name": "Supported Bridge",
-    "targetAreas": ["Back and Spine", "Chest", "Upper Back"],
+    "targetAreas": ["Back and Spine", "Chest", "Upper Body"],
     "targetDescription": "Engages the glutes and lower back, lifting the spine into a gentle backbend while stretching the chest and shoulders.",
     "startingPosition": "Lying on your back",
     "stepsIntoPose": [
