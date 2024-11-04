@@ -8,6 +8,10 @@
   margin: 0;
 }
 
+.margin-middle {
+  margin: 0 auto;
+}
+
 .margin-top {
   &-0 {
     margin-top: 0;
@@ -205,4 +209,12 @@
   &-s {
     box-shadow: variables.$elevation-s;
   }
+}
+
+// ========================================================================
+// Utility Classes for Text
+// ========================================================================
+
+.text-middle {
+  text-align: center;
 }
