@@ -17,6 +17,11 @@ html {
   padding: 0 variables.$global-padding-desktop;
 }
 
+* {
+  opacity: 0;
+  animation: fadeIn variables.$fade-duration variables.$fade-ease forwards;
+}
+
 // ========================================================================
 // Typography
 // ========================================================================
