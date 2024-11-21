@@ -170,3 +170,22 @@ $elevation-xs: 0 2px 4px 0 rgba(54, 71, 78, 0.16);
 
 $elevation-s: 0 2px 4px 0 rgba(54, 71, 78, 0.04),
   0 16px 32px -4px rgba(54, 71, 78, 0.1);
+
+// ========================================================================
+// Elevation
+// ========================================================================
+
+$fade-duration: 0.8s; // Duration of the animation
+$fade-ease: ease; // Easing type
+
+// Keyframes for fade-in animation
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
