@@ -26,25 +26,6 @@ Check out the live version of the app: [Yin-Style Yoga App](https://kokoloyoga.c
 ![meditation](https://github.com/user-attachments/assets/c982f4ad-e9c7-4fcd-9d00-36c0884a45cb)
 ![bananasana](https://github.com/user-attachments/assets/d1b8c8a3-c2f7-4382-a52e-aa417d11f991)
 
-## How to Run Locally
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/ko-ko-lo/kokolo-yoga.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd kokolo-yoga
-    ```
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-4. Run the application:
-    ```bash
-    ng serve
-    ```
-
 ## Future Enhancements
 
 - Add more yoga poses and routines to the library.
