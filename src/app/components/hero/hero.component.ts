@@ -16,4 +16,5 @@ export class HeroComponent {
   buttonLabel: string = 'Explore Routines';
   buttonLink: string = '/routines';
   imagePath: string = 'public/yoga-poses/meditation.png';
+  imagePathWebP: string = 'public/yoga-poses/meditation.webp';
 }

@@ -44,4 +44,9 @@ export class TrainingCardComponent implements OnInit {
       );
     }
   }
+
+  getWebpImage(imagePath: string | undefined): string | undefined {
+    if (!imagePath) return undefined;
+    return imagePath.replace(/\.(png|jpg|jpeg)$/, '.webp');
+  }
 }

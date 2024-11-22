@@ -9,6 +9,9 @@
   </div>
 
   <div class="flex-item">
-    <img [src]="imagePath" alt="Yoga Pose" />
+    <picture>
+      <source [srcset]="imagePathWebP" type="image/webp" />
+      <img [src]="imagePath" alt="Yoga Pose" />
+    </picture>
   </div>
 </div>

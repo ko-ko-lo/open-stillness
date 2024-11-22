@@ -20,4 +20,8 @@ export class LibraryDiscoverComponent {
     { src: 'public/yoga-poses/yoga-squat.png', alt: 'Yoga Squat' },
     { src: 'public/yoga-poses/toe-squat.png', alt: 'Toe Squat' },
   ];
+
+  getWebpImage(imagePath: string): string {
+    return imagePath.replace(/\.(png|jpg|jpeg)$/, '.webp');
+  }
 }

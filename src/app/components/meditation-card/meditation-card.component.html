@@ -4,9 +4,7 @@
 >
   <h2>{{ meditation.name }}</h2>
 
-  <!-- Flex container for text and image -->
   <div class="flex-container">
-    <!-- Text content -->
     <div class="flex-item">
       <div class="content">
         <p class="bold">Description</p>
@@ -22,9 +20,11 @@
       </div>
     </div>
 
-    <!-- Image -->
     <div class="flex-item">
-      <img [src]="meditation.image" alt="{{ meditation.name }}" />
+      <picture>
+        <source [srcset]="getWebpImage(meditation.image)" type="image/webp" />
+        <img [src]="meditation.image" alt="{{ meditation.name }}" />
+      </picture>
     </div>
   </div>
 </div>

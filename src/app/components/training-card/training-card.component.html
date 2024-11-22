@@ -29,11 +29,14 @@
       </button>
     </div>
     <div class="flex-item">
-      <img
-        class="radius-l box-shadow-s w-100"
-        [src]="routine.image"
-        alt="{{ routine.name }}"
-      />
+      <picture *ngIf="routine.image">
+        <source [srcset]="getWebpImage(routine.image)" type="image/webp" />
+        <img
+          class="radius-l box-shadow-s w-100"
+          [src]="routine.image"
+          alt="{{ routine.name }}"
+        />
+      </picture>
     </div>
   </div>
 </div>

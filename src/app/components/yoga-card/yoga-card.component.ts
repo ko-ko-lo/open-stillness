@@ -10,4 +10,8 @@ import { Component, Input } from '@angular/core';
 })
 export class YogaCardComponent {
   @Input() pose: any;
+
+  getWebpImage(imagePath: string): string {
+    return imagePath.replace(/\.(png|jpg|jpeg)$/, '.webp');
+  }
 }
