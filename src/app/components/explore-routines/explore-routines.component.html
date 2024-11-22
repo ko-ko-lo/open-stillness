@@ -8,11 +8,14 @@
       <button [routerLink]="buttonLink">{{ buttonLabel }}</button>
     </div>
     <div class="explore-routines-img d-flex justifiy-end">
-      <img
-        class="radius-l box-shadow-s"
-        [src]="imagePath"
-        alt="Yoga Routine Preview"
-      />
+      <picture>
+        <source [srcset]="imagePathWebP" type="image/webp" />
+        <img
+          class="radius-l box-shadow-s"
+          [src]="imagePath"
+          alt="Yoga Routine Preview"
+        />
+      </picture>
     </div>
   </div>
 </div>

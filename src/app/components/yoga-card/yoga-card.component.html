@@ -31,7 +31,10 @@
       </div>
     </div>
     <div class="flex-item">
-      <img class="w-100" [src]="pose.image" alt="{{ pose.name }}" />
+      <picture>
+        <source [srcset]="getWebpImage(pose.image)" type="image/webp" />
+        <img class="w-100" [src]="pose.image" alt="{{ pose.name }}" />
+      </picture>
     </div>
   </div>
 </div>

@@ -19,4 +19,5 @@ export class ExploreRoutinesComponent {
   buttonLabel: string = 'Explore Routines';
   buttonLink: string = '/routines';
   imagePath: string = 'public/routines/preview-sphinx.png';
+  imagePathWebP: string = 'public/routines/preview-sphinx.webp';
 }

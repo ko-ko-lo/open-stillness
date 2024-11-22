@@ -19,4 +19,7 @@ export class MeditationCardComponent implements OnInit {
       this.meditations = data;
     });
   }
+  getWebpImage(imagePath: string): string {
+    return imagePath.replace(/\.(png|jpg|jpeg)$/, '.webp');
+  }
 }

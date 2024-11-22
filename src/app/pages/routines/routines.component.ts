@@ -1,13 +1,14 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { MeditationCardComponent } from '../../components/meditation-card/meditation-card.component';
 import { TrainingCardComponent } from '../../components/training-card/training-card.component';
 import { TitleService } from '../../services/title.service';
 
 @Component({
   selector: 'app-routines',
   standalone: true,
-  imports: [TrainingCardComponent],
+  imports: [TrainingCardComponent, MeditationCardComponent],
   templateUrl: './routines.component.html',
   styleUrl: './routines.component.scss',
 })
