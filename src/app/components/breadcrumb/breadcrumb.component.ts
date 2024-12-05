@@ -13,8 +13,8 @@ import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 export class BreadcrumbComponent implements OnInit {
   routineName: string = ''; // Store the routine name for the breadcrumb
   currentRoute: string = ''; // Store the current route
-  homeLink = '/'; // Link to Home
-  routinesLink = '/routines'; // Link to Routines overview
+  homeLink = '/';
+  routinesLink = '/yin-style-yoga/routines-overview';
 
   constructor(
     private route: ActivatedRoute,

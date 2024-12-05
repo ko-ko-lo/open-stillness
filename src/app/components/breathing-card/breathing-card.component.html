@@ -1,0 +1,35 @@
+<div class="card">
+  <h2>{{ breathing.name }}</h2>
+
+  <div class="flex-container">
+    <div class="flex-item">
+      <div class="pill">{{ breathing.targetBreathing }}</div>
+      <p>{{ breathing.description }}</p>
+
+      <p class="bold">Preparation</p>
+      <p>{{ breathing.preparation }}</p>
+
+      <p class="bold">Step by Step Guide</p>
+      <ol>
+        <li *ngFor="let step of breathing.stepBystep">{{ step }}</li>
+      </ol>
+
+      <p class="bold">Completion</p>
+      <p>{{ breathing.completion }}</p>
+
+      <p class="bold">Tips and Variations</p>
+      <ul>
+        <li *ngFor="let variant of breathing.tips">
+          {{ variant }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="flex-item">
+      <picture>
+        <source [srcset]="getWebpImage(breathing.image)" type="image/webp" />
+        <img class="w-100" [src]="breathing.image" alt="{{ breathing.name }}" />
+      </picture>
+    </div>
+  </div>
+</div>

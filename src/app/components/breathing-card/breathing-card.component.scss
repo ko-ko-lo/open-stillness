@@ -1,0 +1,9 @@
+@use "./../../../styles/variables" as variables;
+
+.pill {
+  background-color: variables.$color-blue-200;
+}
+
+.card {
+  background-color: variables.$color-blue-50;
+}
