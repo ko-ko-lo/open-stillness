@@ -1,110 +1,106 @@
 [
   {
+    "name": "Abdominal Breathing",
+    "targetBreathing": "Modern",
+    "description": "Abdominal Breathing is the most natural way for us to breathe. This simple yet powerful technique can be practiced anytime, anywhere, and is wonderfully easy to learn. Deep abdominal breathing serves as the foundational practice in yoga.",
+    "preparation": "Sit comfortably in an upright position or lie on your back. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
+      "Place one hand gently on your abdomen, feeling the warmth and connection to your breath.",
+      "Take a slow, deep breath in, allowing your abdomen to rise.",
+      "Breathe out softly, feeling your abdominal lower as you release the air."
+    ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
+    "tips": [
+      "If your mind begins to wander, gently bring your focus back by counting your inhalations and exhalations. This simple practice can help anchor you in the moment.",
+      "You can experiment with the length of your inhale and exhale. For example, try inhaling for 4 seconds and exhaling for 6 seconds."
+    ],
+    "image": "/public/breathing-poses/abdominal-breathing.png",
+    "imageWebp": "/public/breathing-poses/abdominal-breathing.webp"
+  },
+
+  {
     "name": "Alternate Nostril Breathing",
-    "sanskrit": "Nadi Shodana",
-    "description": "In this breathing technique, you gently breathe alternately through each nostril. It calms the nervous system, brings inner balance, enhances concentration, and reduces stress. This practice has also been shown to improve mental clarity and support emotional regulation.",
-    "startingPosition": "Sit comfortably in an upright position. Close your eyes, settle into the present moment and exhale fully.",
-    "stepByStep": [
+    "targetBreathing": "Traditional",
+    "description": "In Alternate Nostril Breathing (Nadi Shodana), you gently breathe alternately through each nostril. It calms the nervous system, brings inner balance, enhances concentration, and reduces stress. This practice has also been shown to improve mental clarity and support emotional regulation.",
+    "preparation": "Sit comfortably in an upright position. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
       "Bend the index and middle fingers of your right hand. Keep the other fingers extended.",
       "With your right hand, softly place your thumb on your right nostril to close it completely. It's best to position your thumb on the soft cartilage just below the bridge of your nose.",
       "Slowly inhale through your left nostril.",
       "Pause briefly, then close your left nostril with your ring finger and open the right.",
       "Slowly exhale and than inhale through your right nostril."
     ],
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "tipsAndVariations": [
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
+    "tips": [
       "For left-handers the sequence can be mirrored using the left hand, following the same steps in reverse.",
       "You can experiment with the length of your inhale, exhale, and pause. For example, try inhaling for 4 seconds, pausing for 4 seconds, and exhaling for 8 seconds."
-    ]
+    ],
+    "image": "/public/breathing-poses/alternate-nostril-breathing.png",
+    "imageWebp": "/public/breathing-poses/alternate-nostril-breathing.webp"
+  },
+
+  {
+    "name": "Box Breathing",
+    "targetBreathing": "Modern",
+    "description": "Box Breathing is a simple yet powerful technique that cultivates focus and calm through steady, rhythmic breathing. By following an even ratio - inhale, hold, exhale, and hold for equal lengths - it helps to reduce stress, enhance mental clarity, and bring harmony to the mind and body.",
+    "preparation": "Sit comfortably in an upright position or lie on your back. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
+      "Inhale slowly and deeply through your nose for 4 seconds, feeling your belly expand as you breathe in.",
+      "Hold your breath for 4 seconds.",
+      "Breathe out softly for 4 seconds, feeling your abdominal lower as you release the air.",
+      "Hold your breath for another 4 seconds and continue this cycle."
+    ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
+    "tips": [
+      "Picture a box forming in your mind, with each side representing one phase of the breath (inhale, hold, exhale, hold).",
+      "Mentally count “1, 2, 3, 4” during each phase to stay on track."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
   },
 
   {
     "name": "Breath of Fire",
-    "sanskrit": "Kapalabhati",
-    "description": "Breath of Fire is an invigorating breathing technique that emphasizes rapid, rhythmic exhalation. This practice increases oxygen flow and stimulates the nervous system, helping to recharge your body with fresh energy. It's an excellent way to start your day feeling alert and focused.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
+    "targetBreathing": "Traditional",
+    "description": "Breath of Fire (Kapalabhati) is an invigorating breathing technique that emphasizes rapid, rhythmic exhalation. This practice increases oxygen flow and stimulates the nervous system, helping to recharge your body with fresh energy. It's an excellent way to start your day feeling alert and focused.",
+    "preparation": "Sit comfortably in an upright position. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
       "Inhale slowly and deeply through your nostrils, filling your stomach and lungs about three-quarters full with air. Feel your belly expand as you breathe in.",
       "With purpose, exhale all the air through your nose, creating a gentle hissing sound. As you do this, draw your belly button towards your spine, feeling the release.",
       "Shift your attention solely to the exhalation. Trust that your body will naturally inhale as you release your abdomen."
     ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
     "tips": [
       "Imagine yourself sitting at the hairdresser, wrapped snugly in a cape. A stray hair begins to tickle your nose, but your hands are tucked away. In that moment, you take a strong, purposeful exhale, sending the pesky hair away and finding relief.",
       "If you start to feel dizzy, simply return to your normal breathing."
-    ]
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
   },
 
   {
-    "name": "Abdominal Breathing",
-    "description": "Abdominal Breathing is the most natural way for us to breathe. This simple yet powerful technique can be practiced anytime, anywhere, and is wonderfully easy to learn. Deep abdominal breathing serves as the foundational practice in yoga.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
-      "Place one hand gently on your abdomen, feeling the warmth and connection to your breath.",
-      "Take a slow, deep breath in, allowing your abdomen to rise.",
-      "Breathe out softly, feeling your abdominal lower as you release the air."
+    "name": "Coherent Breathing",
+    "targetBreathing": "Modern",
+    "description": "Coherent Breathing is a wonderfully accessible technique that promotes balance and harmony in the body and mind through steady, rhythmic breathing. By maintaining a 1:1 ratio - equal lengths for the inhale and exhale - it can help to reduce stress and calm the nervous system.",
+    "preparation": "Sit comfortably in an upright position or lie on your back. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
+      "Inhale slowly and deeply through your nose for 5 seconds, feeling your belly expand as you breathe in.",
+      "Breathe out softly for 5 seconds, feeling your abdominal lower as you release the air."
     ],
     "tips": [
-      "If your mind begins to wander, gently bring your focus back by counting your inhalations and exhalations. This simple practice can help anchor you in the moment.",
-      "You can experiment with the length of your inhale and exhale. For example, try inhaling for 4 seconds and exhaling for 8 seconds."
-    ]
-  },
-
-  {
-    "name": "Full Yogic Breath",
-    "description": "If you're comfortable with Abdominal Breathing, you're ready to explore Full Yogic Breath. This enriching technique beautifully combines abdominal and chest breathing, allowing you to engage your entire lung capacity while encouraging relaxation and mindfulness.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
-      "Place one hand gently on your abdomen and the other on your chest, feeling the connection to your breath.",
-      "Breathe deeply, allowing your abdomen to expand, noticing how the lower hand rises.",
-      "Continue to inhale, allowing the breath to fill the chest area and the tips of your lungs. Feel how the upper hand lifts last, completing the full breath.",
-      "As you exhale, let the chest lower first, followed by the abdomen, releasing any tension as you breathe out."
+      "Use a breathing pattern that feels comfortable and natural for you. You might start with inhaling and exhaling for 4 seconds each, or adjust to a longer duration as it suits your rhythm and needs."
     ],
-    "tips": [
-      "If your mind begins to wander, gently bring your focus back by counting your full inhalations and exhalations. This simple practice can help anchor you in the moment.",
-      "You can experiment with the length of your inhale and exhale. For example, try inhaling for 4 seconds to fill your abdomen and chest, then exhaling for 8 seconds."
-    ]
-  },
-
-  {
-    "name": "Victorious Breath",
-    "sanskrit": "Ujjayi",
-    "description": "Ujjayi breathing is often likened to the gentle sound of ocean waves. This technique fosters a deep sense of calm and presence. The term 'Ujjayi' translates to 'victorious,' reflecting the empowerment we experience as we regain control over our breath and enhance our focus.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
-      "Inhale slowly and deeply through both nostrils, feeling your belly expand as you fill your lungs.",
-      "As you exhale, narrow your glottis to breathe out longer and more gently, creating a soft murmur in your throat. At the same time, draw your belly button towards your spine.",
-      "Start by practicing this technique with the exhale only. Once you feel familiar with the sound, incorporate the Ujjayi breath into your inhalation as well.",
-      "Maintain this rhythmic process for as many exhalations as feels comfortable. Listen to your body and find a pace that resonates with you."
-    ],
-    "tips": [
-      "Imagine that you are breathing onto a mirror, creating a gentle fog. In Ujjayi breathing, you achieve a similar effect, but with your mouth closed.",
-      "Ujjayi breathing produces a very gentle, subtle sound. In general: less is more."
-    ]
-  },
-
-  {
-    "name": "Humming Bee Breath",
-    "sanskrit": "Bhramari",
-    "description": "Humming Bee Breath is a unique and relaxing breathing exercise that creates a pleasant vibration throughout your body. While the sound of humming may feel a bit unusual at first, it's a wonderful practice worth exploring for its calming effects.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
-      "Gently press your index fingers onto your ear cartilage to create a soft seal, enhancing your focus on the sound.",
-      "Inhale slowly and deeply through both nostrils, feeling your belly expand as you fill your lungs with air.",
-      "As you exhale, keep your mouth closed and produce a gentle buzzing sound, mimicking the sound of a bee. At the same time, draw your belly button towards your spine."
-    ],
-    "tips": [
-      "Try humming at different pitches to discover how each one feels.",
-      "Integrate Ujjayi inhalation into your practice by inhaling deeply with the Ujjayi breath and then exhaling with the humming sound. This combination can amplify the calming effects.",
-      "As you hum, visualize the sound vibrations gently filling your body. Imagine the soothing buzz flowing from the crown of your head to your toes, releasing tension and creating a sense of harmony and peace."
-    ]
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
   },
 
   {
     "name": "Cooling Breath",
-    "sanskrit": "Shitali",
-    "description": "Cooling Breath involves inhaling through a rolled-up, moist tongue, allowing the breath to become cool and refreshing as it passes over. This simple yet effective technique provides an internal cooling effect, making it especially beneficial during hot weather or times of stress.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
+    "targetBreathing": "Traditional",
+    "description": "Cooling Breath (Shitali) involves inhaling through a rolled-up, moist tongue, allowing the breath to become cool and refreshing as it passes over. This simple yet effective technique provides an internal cooling effect, making it especially beneficial during hot weather or times of stress.",
+    "preparation": "Sit comfortably in an upright position. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
       "Gently curl your tongue outward, creating a small cup shape.",
       "Inhale deeply through the curled tongue, feeling the coolness as the breath passes over it.",
       "Exhale slowly through both nostrils, keeping your tongue relaxed and your mouth closed."
@@ -112,36 +108,68 @@
     "tips": [
       "If you can't curl your tongue, you can simply open your mouth slightly to inhale. Keep your mouth open just a little to maintain the cooling effect, as opening it fully may diminish the benefits.",
       "As you exhale through your nostrils, try using Ujjayi breath to create a gentle, calming sound. This variation enhances the cooling effect while promoting relaxation and mindfulness."
-    ]
+    ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
+    "image": "/public/breathing-poses/cooling-breath.png",
+    "imageWebp": "/public/breathing-poses/meditation.webp"
   },
 
   {
-    "name": "Coherent Breathing",
-    "description": "Coherent Breathing is a wonderfully accessible technique that promotes balance and harmony in the body and mind through steady, rhythmic breathing. By maintaining a 1:1 ratio - equal lengths for the inhale and exhale - it can help to reduce stress and calm the nervous system.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
-      "Inhale slowly and deeply through your nose for 5 seconds, feeling your belly expand as you breathe in.",
-      "Breathe out softly for 5 seconds, feeling your abdominal lower as you release the air."
+    "name": "Full Yogic Breath",
+    "targetBreathing": "Modern",
+    "description": "If you're comfortable with Abdominal Breathing, you're ready to explore Full Yogic Breath. This enriching technique beautifully combines abdominal and chest breathing, allowing you to engage your entire lung capacity while encouraging relaxation and mindfulness.",
+    "preparation": "Sit comfortably in an upright position or lie on your back. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
+      "Place one hand gently on your abdomen and the other on your chest, feeling the connection to your breath.",
+      "Breathe deeply, allowing your abdomen to expand, noticing how the lower hand rises.",
+      "Continue to inhale, allowing the breath to fill the chest area and the tips of your lungs. Feel how the upper hand lifts last, completing the full breath.",
+      "As you exhale, let the chest lower first, followed by the abdomen, releasing any tension as you breathe out."
     ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
     "tips": [
-      "Use a breathing pattern that feels comfortable and natural for you. You might start with inhaling and exhaling for 4 seconds each, or adjust to a longer duration as it suits your rhythm and needs.",
-      "Add a gentle mental count (e.g., \"1, 2, 3, 4, 5\" as you inhale and exhale)"
-    ]
+      "If your mind begins to wander, gently bring your focus back by counting your full inhalations and exhalations. This simple practice can help anchor you in the moment.",
+      "You can experiment with the length of your inhale and exhale. For example, try inhaling for 4 seconds to fill your abdomen and chest, then exhaling for 8 seconds."
+    ],
+    "image": "/public/breathing-poses/full-yogic-breath.png",
+    "imageWebp": "/public/breathing-poses/full-yogic-breath.webp"
   },
 
   {
-    "name": "Box Breathing",
-    "description": "Box Breathing is a simple yet powerful technique that cultivates focus and calm through steady, rhythmic breathing. By following an even ratio - inhale, hold, exhale, and hold for equal lengths - it helps to reduce stress, enhance mental clarity, and bring harmony to the mind and body.",
-    "Starting Position": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
-    "step-by-step": [
-      "Inhale slowly and deeply through your nose for 4 seconds, feeling your belly expand as you breathe in.",
-      "Hold your breath for 4 seconds.",
-      "Breathe out softly for 4 seconds, feeling your abdominal lower as you release the air.",
-      "Hold your breath for another 4 seconds and continue this cycle."
+    "name": "Humming Bee Breath",
+    "targetBreathing": "Traditional",
+    "description": "Humming Bee Breath (Bhramari) is a unique and relaxing breathing exercise that creates a pleasant vibration throughout your body. While the sound of humming may feel a bit unusual at first, it's a wonderful practice worth exploring for its calming effects.",
+    "preparation": "Sit comfortably in an upright position. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
+      "Gently press your index fingers onto your ear cartilage to create a soft seal, enhancing your focus on the sound.",
+      "Inhale slowly and deeply through both nostrils, feeling your belly expand as you fill your lungs with air.",
+      "As you exhale, keep your mouth closed and produce a gentle buzzing sound, mimicking the sound of a bee. At the same time, draw your belly button towards your spine."
     ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
     "tips": [
-      "Picture a box forming in your mind, with each side representing one phase of the breath (inhale, hold, exhale, hold).",
-      "Mentally count “1, 2, 3, 4” during each phase to stay on track."
-    ]
+      "Try humming at different pitches to discover how each one feels.",
+      "Integrate Ujjayi inhalation into your practice by inhaling deeply with the Ujjayi breath and then exhaling with the humming sound. This combination can amplify the calming effects.",
+      "As you hum, visualize the sound vibrations gently filling your body. Imagine the soothing buzz flowing from the crown of your head to your toes, releasing tension and creating a sense of harmony and peace."
+    ],
+    "image": "/public/breathing-poses/humming-bee-breath.png",
+    "imageWebp": "/public/breathing-poses/humming-bee-breath.webp"
+  },
+
+  {
+    "name": "Victorious Breath",
+    "targetBreathing": "Traditional",
+    "description": "Victorious Breath (Ujjayi) is often compared to the gentle sound of ocean waves. This technique fosters a deep sense of calm and presence. The term 'Ujjayi' translates to 'victorious,' reflecting the empowerment we experience as we regain control over our breath and enhance our focus.",
+    "preparation": "Sit comfortably in an upright position or lie on your back. Close your eyes, settle into the present moment and exhale fully.",
+    "stepBystep": [
+      "Inhale slowly and deeply through both nostrils, feeling your belly expand as you fill your lungs.",
+      "As you exhale, narrow your glottis to breathe out longer and more gently, creating a soft murmur in your throat. At the same time, draw your belly button towards your spine.",
+      "Maintain this rhythmic process for as many exhalations as feels comfortable. Listen to your body and find a pace that resonates with you."
+    ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
+    "tips": [
+      "Imagine that you are breathing onto a mirror, creating a gentle fog. In Ujjayi breathing, you achieve a similar effect, but with your mouth closed.",
+      "Once you feel familiar with the sound, incorporate the Ujjayi breath into your inhalation as well."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
   }
 ]

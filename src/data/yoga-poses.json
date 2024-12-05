@@ -19,7 +19,8 @@
       "To intensify the stretch, place your hands on your knees and gently pull them up."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/ankle-stretch.png"
+    "image": "/public/yoga-poses/ankle-stretch.png",
+    "imageWebp": "/public/yoga-poses/ankle-stretch.webp"
   },
 
   {
@@ -41,7 +42,8 @@
       "For extra stretch, try crossing your ankles with the outside ankle over the inside ankle."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/bananasana.png"
+    "image": "/public/yoga-poses/bananasana.png",
+    "imageWebp": "/public/yoga-poses/bananasana.webp"
   },
 
   {
@@ -64,7 +66,8 @@
       "Support your head with a bolster for extra comfort."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/butterfly.png"
+    "image": "/public/yoga-poses/butterfly.png",
+    "imageWebp": "/public/yoga-poses/butterfly.webp"
   },
 
   {
@@ -87,7 +90,8 @@
       "Keep your upper body on the ground to make the pose more accessible."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/cat-pulling-its-tail.png"
+    "image": "/public/yoga-poses/cat-pulling-its-tail.png",
+    "imageWebp": "/public/yoga-poses/cat-pulling-its-tail.webp"
   },
 
   {
@@ -109,7 +113,8 @@
       "If you are very flexible, pull your legs slightly apart and place your upper body between your legs."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/caterpillar.png"
+    "image": "/public/yoga-poses/caterpillar.png",
+    "imageWebp": "/public/yoga-poses/caterpillar.webp"
   },
 
   {
@@ -130,7 +135,8 @@
       "Start with your knees apart and your big toes touching. From here, follow the steps into the pose."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/childspose.png"
+    "image": "/public/yoga-poses/childspose.png",
+    "imageWebp": "/public/yoga-poses/childspose.webp"
   },
 
   {
@@ -154,7 +160,8 @@
       "For a half forward bend, align your upper body and head parallel to the floor. Pull your shoulders away from your ears and place your hands on your shins."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/dangling.png"
+    "image": "/public/yoga-poses/dangling.png",
+    "imageWebp": "/public/yoga-poses/dangling.webp"
   },
 
   {
@@ -177,7 +184,8 @@
       "You can lower your upper body and place your elbows on the floor or rest your chest on a yoga bolster for more comfort."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/deer.png"
+    "image": "/public/yoga-poses/deer.png",
+    "imageWebp": "/public/yoga-poses/deer.webp"
   },
 
   {
@@ -202,7 +210,8 @@
       "Instead of bending forward, you can do a sitting twist. Straighten your spine and twist to one side with the support of your arms. "
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/dragonfly.png"
+    "image": "/public/yoga-poses/dragonfly.png",
+    "imageWebp": "/public/yoga-poses/dragonfly.webp"
   },
 
   {
@@ -226,7 +235,8 @@
       "For an easier version, bring your big toes together and lift your hips. You can also rest on your elbows."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/frog.png"
+    "image": "/public/yoga-poses/frog.png",
+    "imageWebp": "/public/yoga-poses/frog.webp"
   },
 
   {
@@ -250,7 +260,8 @@
       "Instead of folding over the straight leg, fold forward."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/half-butterfly.png"
+    "image": "/public/yoga-poses/half-butterfly.png",
+    "imageWebp": "/public/yoga-poses/half-butterfly.webp"
   },
 
   {
@@ -273,7 +284,8 @@
       "A more intense variation is to keep your hips on the floor and straighten your legs as you pull your feet down."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/happy-baby.png"
+    "image": "/public/yoga-poses/happy-baby.png",
+    "imageWebp": "/public/yoga-poses/happy-baby.webp"
   },
 
   {
@@ -297,7 +309,8 @@
       "In Winged Dragon place your hands on the ground. Roll onto the outside of the front foot, keeping the knee low. For more depth come down on your elbows."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/dragon-low-flying.png"
+    "image": "/public/yoga-poses/dragon-low-flying.png",
+    "imageWebp": "/public/yoga-poses/dragon-low-flying.webp"
   },
 
   {
@@ -320,7 +333,8 @@
       "For extra stretch in the shoulders, you can rest your outstretched hands on blocks."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/melting-heart.png"
+    "image": "/public/yoga-poses/melting-heart.png",
+    "imageWebp": "/public/yoga-poses/melting-heart.webp"
   },
 
   {
@@ -342,7 +356,8 @@
       "You can open your legs wider and discover the effect on your lower back."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/seal.png"
+    "image": "/public/yoga-poses/seal.png",
+    "imageWebp": "/public/yoga-poses/seal.webp"
   },
 
   {
@@ -366,7 +381,8 @@
       "A yoga bolster under your knees can add extra comfort."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/shavasana.png"
+    "image": "/public/yoga-poses/shavasana.png",
+    "imageWebp": "/public/yoga-poses/shavasana.webp"
   },
 
   {
@@ -389,7 +405,8 @@
       "You can bend sideways to stretch the side of your body."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/shoelace.png"
+    "image": "/public/yoga-poses/shoelace.png",
+    "imageWebp": "/public/yoga-poses/shoelace.webp"
   },
 
   {
@@ -413,7 +430,8 @@
       "Reach out with your hands above your head and take hold of your feet. This is more like the classic Plough Pose."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/snail.png"
+    "image": "/public/yoga-poses/snail.png",
+    "imageWebp": "/public/yoga-poses/snail.webp"
   },
 
   {
@@ -436,7 +454,8 @@
       "For a stronger backbend, place a yoga bolster under your forearms."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/sphinx.png"
+    "image": "/public/yoga-poses/sphinx.png",
+    "imageWebp": "/public/yoga-poses/sphinx.webp"
   },
 
   {
@@ -459,7 +478,8 @@
       "Place a yoga bolster over your legs to support your chest as you bend forward."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/square.png"
+    "image": "/public/yoga-poses/square.png",
+    "imageWebp": "/public/yoga-poses/square.webp"
   },
 
   {
@@ -482,7 +502,8 @@
       "Pull one knee into the chest and, holding the knee with the opposite hand, pull it across the body."
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/supine-twist.png"
+    "image": "/public/yoga-poses/supine-twist.png",
+    "imageWebp": "/public/yoga-poses/supine-twist.webp"
   },
 
   {
@@ -504,7 +525,8 @@
       "Straighten your legs to increase stretching of the lower back, sacrum and hip flexors."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/supported-bridge.png"
+    "image": "/public/yoga-poses/supported-bridge.png",
+    "imageWebp": "/public/yoga-poses/supported-bridge.webp"
   },
 
   {
@@ -526,7 +548,8 @@
       "For a deeper stretch, don't use the yoga bolster, but lean back and lie completely on the floor."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/supported-saddle.png"
+    "image": "/public/yoga-poses/supported-saddle.png",
+    "imageWebp": "/public/yoga-poses/supported-saddle.webp"
   },
 
   {
@@ -551,7 +574,8 @@
       "For the Sleeping Swan pose, you can place your upper body and head on a yoga bolster. To additionally stretch the neck, you can place one cheek down and switch sides halfway through. "
     ],
     "practiceOnBothSides": true,
-    "image": "/public/yoga-poses/swan.png"
+    "image": "/public/yoga-poses/swan.png",
+    "imageWebp": "/public/yoga-poses/swan.webp"
   },
 
   {
@@ -574,7 +598,8 @@
       "You can incorporate stretches of the upper body into this pose, such as eagle arms."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/toe-squat.png"
+    "image": "/public/yoga-poses/toe-squat.png",
+    "imageWebp": "/public/yoga-poses/toe-squat.webp"
   },
 
   {
@@ -595,6 +620,7 @@
       "To stretch your neck, place your hands behind your head and gently draw your chin towards your chest."
     ],
     "practiceOnBothSides": false,
-    "image": "/public/yoga-poses/yoga-squat.png"
+    "image": "/public/yoga-poses/yoga-squat.png",
+    "imageWebp": "/public/yoga-poses/yoga-squat.webp"
   }
 ]

@@ -176,6 +176,29 @@ button {
   margin-top: variables.$space-1;
 }
 
+.target-areas {
+  gap: variables.$space-1;
+}
+
+.practice-pill {
+  display: inline-flex;
+  background-color: variables.$color-neutral-200;
+  padding: variables.$space-02 variables.$space-6;
+  margin-top: variables.$space-5;
+}
+
+@media (max-width: 1200px) {
+  .card img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card img {
+    max-width: 100%;
+  }
+}
+
 // ========================================================================
 // Margin / Padding
 // ========================================================================
