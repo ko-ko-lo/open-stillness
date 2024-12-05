@@ -14,7 +14,7 @@ export class HeroComponent {
     'Embrace the calm and meditative practice of Yin\u2011Style Yoga';
   description: string = `Discover Yin\u2011Style Yoga routines that target key areas of your body while deepening your connection to yourself. Unwind, restore, and explore your inner calm.`;
   buttonLabel: string = 'Explore Routines';
-  buttonLink: string = '/routines';
+  buttonLink: string = '/yin-style-yoga/routines-overview';
   imagePath: string = 'public/yoga-poses/meditation.png';
   imagePathWebP: string = 'public/yoga-poses/meditation.webp';
 }

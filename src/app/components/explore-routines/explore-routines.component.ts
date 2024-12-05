@@ -17,7 +17,7 @@ export class ExploreRoutinesComponent {
   gentle stretch, a focused hip release, or a full-body experience, our
   routines guide you through sequences that support your well-being.`;
   buttonLabel: string = 'Explore Routines';
-  buttonLink: string = '/routines';
+  buttonLink: string = '/yin-style-yoga/routines-overview';
   imagePath: string = 'public/routines/preview-sphinx.png';
   imagePathWebP: string = 'public/routines/preview-sphinx.webp';
 }

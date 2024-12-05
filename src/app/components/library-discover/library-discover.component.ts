@@ -13,7 +13,7 @@ export class LibraryDiscoverComponent {
   title: string = 'Discover a Library of Yin\u2011Style Yoga Poses';
   description: string = `Explore a comprehensive collection of Yin\u2011Style Yoga poses in the Library. Each pose is designed to help you target specific areas of your body, promoting flexibility, balance, and relaxation. Whether you're new to Yin Yoga or looking to deepen your practice.`;
   buttonLabel: string = 'Explore Poses';
-  buttonLink: string = '/library';
+  buttonLink: string = '/yin-style-yoga/library';
 
   images: { src: string; alt: string }[] = [
     { src: 'public/yoga-poses/dangling.png', alt: 'Dangling Pose' },
