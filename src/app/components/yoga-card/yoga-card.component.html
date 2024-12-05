@@ -3,7 +3,7 @@
 
   <div class="flex-container">
     <div class="flex-item">
-      <p class="bold">Main Target Areas:</p>
+      <p class="bold">Main Target Areas</p>
       <div class="target-areas d-flex flex-wrap gap-8">
         <span *ngFor="let target of pose.targetAreas" class="pill">{{
           target
@@ -11,15 +11,15 @@
       </div>
       <p>{{ pose.targetDescription }}</p>
 
-      <p class="bold">Steps into the Pose:</p>
+      <p class="bold">Steps into the Pose</p>
       <ol>
         <li *ngFor="let step of pose.stepsIntoPose">{{ step }}</li>
       </ol>
-      <p class="bold">Steps out of the Pose:</p>
+      <p class="bold">Steps out of the Pose</p>
       <ol>
         <li *ngFor="let step of pose.stepsOutOfPose">{{ step }}</li>
       </ol>
-      <p class="bold">Possible Variants:</p>
+      <p class="bold">Possible Variants</p>
       <ul>
         <li *ngFor="let variant of pose.possibleVariants">{{ variant }}</li>
       </ul>

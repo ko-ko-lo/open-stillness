@@ -21,10 +21,7 @@
       <p class="pill margin-bottom-0">{{ routine.targetAreas }}</p>
       <p class="bold margin-top-24 margin-bottom-4">Description</p>
       <p>{{ routine.description }}</p>
-      <button
-        class="margin-top-40"
-        [routerLink]="['/yoga-routines', routine.slug]"
-      >
+      <button class="margin-top-40" [routerLink]="['/routine', routine.slug]">
         View Routine
       </button>
     </div>
