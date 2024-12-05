@@ -21,8 +21,8 @@ export class MainMenuComponent implements OnInit {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {
-        // Check if the current route includes "/yoga-routines"
-        this.isYogaRoutinePage = event.url.includes('/yoga-routines');
+        // Check if the current route includes "/routine" -> no margin
+        this.isYogaRoutinePage = event.url.includes('/routine');
       });
   }
 

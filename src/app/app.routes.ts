@@ -1,16 +1,18 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { LibraryComponent } from './pages/library/library.component';
-import { NotFoundComponent } from './pages/not-found/not-found.component';
-import { RoutinesComponent } from './pages/routines/routines.component';
-import { YogaRoutinesComponent } from './pages/yoga-routine/yoga-routine.component';
+import { BreathingLibraryComponent } from './features/breathing/library/library.component';
+import { HomeComponent } from './features/yin-style-yoga/home/home.component';
+import { LibraryComponent } from './features/yin-style-yoga/library/library.component';
+import { YogaRoutinesComponent } from './features/yin-style-yoga/routine/yoga-routine.component';
+import { RoutinesComponent } from './features/yin-style-yoga/routines-overview/routines.component';
+import { NotFoundComponent } from './shared/not-found/not-found.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'library', component: LibraryComponent },
-  { path: 'routines', component: RoutinesComponent },
+  { path: 'yin-style-yoga/library', component: LibraryComponent },
+  { path: 'yin-style-yoga/routines-overview', component: RoutinesComponent },
+  { path: 'breathing/library', component: BreathingLibraryComponent },
 
-  { path: 'yoga-routines/:slug', component: YogaRoutinesComponent },
+  { path: 'routine/:slug', component: YogaRoutinesComponent },
 
   { path: '**', component: NotFoundComponent },
 ];

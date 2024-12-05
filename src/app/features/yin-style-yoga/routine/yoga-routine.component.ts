@@ -2,10 +2,10 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { BreadcrumbComponent } from '../../components/breadcrumb/breadcrumb.component';
-import { MeditationCardComponent } from '../../components/meditation-card/meditation-card.component';
-import { YogaCardComponent } from '../../components/yoga-card/yoga-card.component';
-import { TitleService } from '../../services/title.service';
+import { BreadcrumbComponent } from '../../../components/breadcrumb/breadcrumb.component';
+import { MeditationCardComponent } from '../../../components/meditation-card/meditation-card.component';
+import { YogaCardComponent } from '../../../components/yoga-card/yoga-card.component';
+import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-yoga-routine',

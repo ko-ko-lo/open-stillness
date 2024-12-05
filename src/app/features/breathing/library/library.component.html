@@ -1,0 +1,15 @@
+<div class="container">
+  <section>
+    <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
+  </section>
+
+  <app-filtering
+    [filterOptions]="filterOptions"
+    [selectedFilter]="selectedFilter"
+    (filterChange)="onFilterChange($event)"
+  ></app-filtering>
+
+  <div *ngFor="let breathing of filteredBreathing">
+    <app-breathing-card [breathing]="breathing"></app-breathing-card>
+  </div>
+</div>
