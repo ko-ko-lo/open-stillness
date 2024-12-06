@@ -1,0 +1,62 @@
+<div class="container">
+  <div *ngIf="routineData">
+    <app-breadcrumb></app-breadcrumb>
+
+    <div class="intro">
+      <h1>{{ routineData?.name }}</h1>
+      <p class="margin-bottom-40 icon-setup">
+        <i class="material-icons">schedule</i> {{ routineData?.time }} minutes
+      </p>
+      <p class="margin-bottom-40">{{ routineData?.introText }}</p>
+      <p class="pill">{{ routineData?.intensity }}</p>
+    </div>
+
+    <img
+      [src]="routineData?.image"
+      alt="{{ routineData?.name }}"
+      class="max-width-s w-100 radius-l box-shadow-s"
+    />
+
+    <h2 class="margin-top-72 max-width-s">
+      The techniques for this Breathing Routine
+    </h2>
+    <p class="max-width-s margin-bottom-40">
+      It's recommended to take small breaks between each breathing technique.
+      Use this time to breathe naturally, observe how you feel, and allow your
+      body and mind to transition smoothly to the next practice.
+    </p>
+
+    <!-- List with Breathing Techniques and Time -->
+    <div class="max-width-s" id="list">
+      <ol>
+        <li
+          *ngFor="let breathings of routineData?.breathings"
+          class="breathing-item"
+        >
+          <div class="pose-info d-flex justify-between align-center">
+            <span>{{ breathings.name }}</span>
+            <div class="time-and-ratio text-right">
+              <span>{{ breathings?.time }} min</span>
+              <div class="pose-ratio">{{ breathings?.ratio }}</div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Display the relevant Breathing Techniques for this routine -->
+  <div class="pose-cards" *ngIf="breathingTechniques.length > 0">
+    <app-breathing-card
+      *ngFor="let breathing of breathingTechniques"
+      [breathing]="breathing"
+    ></app-breathing-card>
+  </div>
+
+  <div *ngIf="breathingTechniques.length === 0">
+    <p>No breathing techniques found!</p>
+  </div>
+
+  <app-meditation-card></app-meditation-card>
+</div>
+<app-routine-end></app-routine-end>

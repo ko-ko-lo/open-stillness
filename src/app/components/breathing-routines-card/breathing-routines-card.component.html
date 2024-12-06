@@ -17,13 +17,23 @@
         <i class="material-icons">schedule</i> {{ routine.time }} minutes
       </p>
 
-      <p class="bold margin-top-24 margin-bottom-4">Target Areas</p>
-      <p class="pill margin-bottom-0">{{ routine.targetAreas }}</p>
+      <p class="bold margin-top-24 margin-bottom-4">Intensity</p>
+      <p
+        class="pill margin-bottom-0"
+        [ngClass]="{
+          'pill-easy': routine.intensity === 'Easy',
+          'pill-medium': routine.intensity === 'Medium',
+          'pill-difficult': routine.intensity === 'Difficult',
+          'pill-default': !routine.intensity
+        }"
+      >
+        {{ routine.intensity || "No Intensity" }}
+      </p>
       <p class="bold margin-top-24 margin-bottom-4">Description</p>
       <p>{{ routine.description }}</p>
       <button
         class="margin-top-40"
-        [routerLink]="['/yin-style-yoga/routine', routine.slug]"
+        [routerLink]="['/breathing/routine', routine.slug]"
       >
         View Routine
       </button>

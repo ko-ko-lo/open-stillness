@@ -5,9 +5,10 @@
     "intensity": "Easy",
     "description": "Through simple, soothing techniques like Coherent Breathing and Humming Bee Breath, you'll gently balance your energy and quiet your mind.",
     "introText": "This gentle breathing routine is designed to bring calm and clarity to your day. Through simple, soothing techniques like Coherent Breathing and Humming Bee Breath, you'll gently balance your energy and quiet your mind. Conclude with a peaceful meditation, leaving you feeling centered, refreshed, and at ease.",
-    "image": "",
-    "slug": "",
-    "lists": [
+    "image": "/public/routines/preview-nostril.png",
+    "imageWebp": "/public/routines/preview-nostril.webp",
+    "slug": "breathing-calm-focus",
+    "breathings": [
       {
         "name": "Coherent Breathing",
         "time": "4",
@@ -30,7 +31,55 @@
       },
       {
         "name": "Meditation",
-        "time": "3"
+        "time": "3",
+        "ratio": ""
+      }
+    ]
+  },
+  {
+    "name": "Breath Journey: Energize, Balance, and Find Peace",
+    "time": "30",
+    "intensity": "Medium",
+    "description": "Begin with the invigorating Breath of Fire to awaken your energy, followed by soothing techniques like Full Yogic Breath and Alternate Nostril Breathing to bring harmony and focus.",
+    "introText": "This Breathing Session is designed to gently energize, balance, and calm your mind and body. Begin with the invigorating Breath of Fire to awaken your energy, followed by soothing techniques like Full Yogic Breath and Alternate Nostril Breathing to bring harmony and focus. As you progress, practices such as Victorious Breath and Cooling Breath guide you into deeper relaxation, while Humming Bee Breath helps quiet the mind with its calming resonance. The session concludes with a brief meditation, leaving you feeling refreshed, centered, and at peace.",
+    "image": "/public/routines/preview-humming.png",
+    "imageWebp": "/public/routines/preview-humming.webp",
+    "slug": "breathing-energize-balance-peace",
+    "breathings": [
+      {
+        "name": "Breath of Fire",
+        "time": "2",
+        "ratio": "3x 30 sec, 15 sec rest between rounds"
+      },
+      {
+        "name": "Full Yogic Breath",
+        "time": "3",
+        "ratio": "4-8 ratio"
+      },
+      {
+        "name": "Alternate Nostril Breathing",
+        "time": "6",
+        "ratio": "4-8 ratio, brief pause when switching nostrils"
+      },
+      {
+        "name": "Victorious Breath",
+        "time": "4",
+        "ratio": "4-8 ratio"
+      },
+      {
+        "name": "Cooling Breath",
+        "time": "3",
+        "ratio": "4-8 ratio"
+      },
+      {
+        "name": "Humming Bee Breath",
+        "time": "4",
+        "ratio": "4-8 ratio"
+      },
+      {
+        "name": "Meditation",
+        "time": "3",
+        "ratio": ""
       }
     ]
   }
