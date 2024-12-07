@@ -69,10 +69,21 @@
 // ========================================================================
 // Utility Classes for Padding
 // ========================================================================
+// Padding all directions
 .padding-0 {
   padding: 0;
 }
 
+.padding-16 {
+  padding: variables.$space-3;
+}
+
+// Padding right
+.padding-right-12 {
+  padding-right: variables.$space-2;
+}
+
+// Padding top
 .padding-top {
   &-24 {
     padding-top: variables.$space-5;
@@ -217,4 +228,32 @@
 
 .text-middle {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// ========================================================================
+// Utility Classes for Background
+// ========================================================================
+
+.background-white {
+  background-color: variables.$color-neutral-50;
+}
+
+.background-neutral-light {
+  background-color: variables.$color-neutral-100;
+}
+
+.background-blue-light {
+  background-color: variables.$color-blue-50;
+}
+
+.background-purple-light {
+  background-color: variables.$color-purple-50;
+}
+
+.background-green-light {
+  background-color: variables.$color-green-50;
 }

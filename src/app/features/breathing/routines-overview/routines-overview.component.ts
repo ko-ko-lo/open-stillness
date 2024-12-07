@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { BreathingRoutinesCardComponent } from '../../../components/breathing-routines-card/breathing-routines-card.component';
 import { IntroSubpagesComponent } from '../../../components/intro-subpages/intro-subpages.component';
 
 @Component({
   selector: 'app-routines-overview',
   standalone: true,
-  imports: [IntroSubpagesComponent],
+  imports: [IntroSubpagesComponent, BreathingRoutinesCardComponent],
   templateUrl: './routines-overview.component.html',
   styleUrl: './routines-overview.component.scss',
 })

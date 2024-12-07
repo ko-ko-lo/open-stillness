@@ -1,0 +1,6 @@
+@use "./../../../styles/variables" as variables;
+
+.material-icons {
+  font-size: variables.$space-6;
+  color: variables.$color-blue-300;
+}

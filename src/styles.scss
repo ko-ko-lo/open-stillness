@@ -136,30 +136,6 @@ button {
 }
 
 // ========================================================================
-// Backgrounds
-// ========================================================================
-
-.background-white {
-  background-color: variables.$color-neutral-50;
-}
-
-.background-neutral-light {
-  background-color: variables.$color-neutral-100;
-}
-
-.background-blue-light {
-  background-color: variables.$color-blue-50;
-}
-
-.background-purple-light {
-  background-color: variables.$color-purple-50;
-}
-
-.background-green-light {
-  background-color: variables.$color-green-50;
-}
-
-// ========================================================================
 // Pill Design
 // ========================================================================
 
@@ -187,6 +163,26 @@ button {
   margin-top: variables.$space-5;
 }
 
+.pill {
+  &-easy {
+    background-color: variables.$color-neutral-200;
+  }
+
+  &-medium {
+    background-color: variables.$color-neutral-500;
+    color: variables.$color-neutral-50;
+  }
+
+  &-difficult {
+    background-color: variables.$color-neutral-800;
+    color: variables.$color-neutral-50;
+  }
+
+  &-default {
+    background-color: variables.$color-neutral-100;
+  }
+}
+
 @media (max-width: 1200px) {
   .card img {
     max-width: 450px;
@@ -205,8 +201,7 @@ button {
 
 .benefits,
 .library-discovery,
-.background-blue-light,
-.background-purple-light {
+.background-blue-light {
   padding: variables.$space-13 0;
 }
 
@@ -295,6 +290,57 @@ a:hover {
 
 a:active {
   color: variables.$color-purple-500;
+}
+
+// ========================================================================
+// List Routines
+// ========================================================================
+#list ol {
+  list-style: none;
+  padding-left: 0;
+  /* Reset the counter at the start of the ordered list */
+  counter-reset: item;
+
+  li {
+    padding: variables.$space-2 0;
+    border-bottom: 1px solid variables.$border-neutral-200;
+
+    .pose-name {
+      max-width: 60%; /* Ensure name doesn't overlap */
+    }
+
+    .pose-time .icon-repeat {
+      margin-right: variables.$space-2;
+    }
+
+    /* Pseudo-element for the numbering */
+    &::before {
+      content: counter(item);
+      counter-increment: item;
+      display: inline-block;
+      width: variables.$space-6;
+      height: variables.$space-7;
+      line-height: variables.$space-7;
+      border-radius: variables.$radius-full;
+      background-color: variables.$color-purple-800;
+      color: variables.$color-neutral-50;
+      text-align: center;
+      margin-right: variables.$space-2;
+    }
+  }
+}
+
+.legend {
+  text-align: right;
+
+  p {
+    font-size: variables.$space-02;
+
+    i.material-icons {
+      margin-right: variables.$space-0;
+      font-size: variables.$space-4;
+    }
+  }
 }
 
 // ========================================================================
@@ -396,7 +442,7 @@ a:active {
   .library-discovery,
   .benefits,
   .background-blue-light,
-  .background-purple-light {
+  .accordion .background-purple-light {
     padding: variables.$space-10 0;
   }
   .card,

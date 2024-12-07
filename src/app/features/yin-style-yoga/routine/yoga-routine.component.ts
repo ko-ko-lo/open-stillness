@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { BreadcrumbComponent } from '../../../components/breadcrumb/breadcrumb.component';
 import { MeditationCardComponent } from '../../../components/meditation-card/meditation-card.component';
+import { RoutineEndComponent } from '../../../components/routine-end/routine-end.component';
 import { YogaCardComponent } from '../../../components/yoga-card/yoga-card.component';
 import { TitleService } from '../../../services/title.service';
 
@@ -15,6 +16,7 @@ import { TitleService } from '../../../services/title.service';
     BreadcrumbComponent,
     YogaCardComponent,
     MeditationCardComponent,
+    RoutineEndComponent,
   ],
   templateUrl: './yoga-routine.component.html',
   styleUrl: './yoga-routine.component.scss',
@@ -31,7 +33,7 @@ export class YogaRoutinesComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Customized Routine');
+    this.titleService.setFullTitle('Routine');
 
     this.routineSlug = this.route.snapshot.paramMap.get('slug');
 

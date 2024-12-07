@@ -1,0 +1,11 @@
+@use "../../../../styles/variables" as variables;
+
+.pose-ratio {
+  font-size: variables.$font-size-breadcrumb;
+  color: variables.$color-neutral-500;
+  margin-top: variables.$space-0;
+}
+
+.ratio-text {
+  font-size: variables.$font-size-breadcrumb;
+}
