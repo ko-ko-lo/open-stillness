@@ -12,7 +12,7 @@ import { FilteringComponent } from '../filtering/filtering.component';
   styleUrl: './breathing-routines-card.component.scss',
 })
 export class BreathingRoutinesCardComponent implements OnInit {
-  routines: any[] = [];
+  routineData: any[] = []; // Updated to use routineData consistently
   filteredRoutines: any[] = [];
   selectedFilter: string = 'All Intensities';
   filterOptions: string[] = ['All Intensities', 'Easy', 'Medium'];
@@ -21,8 +21,8 @@ export class BreathingRoutinesCardComponent implements OnInit {
 
   ngOnInit(): void {
     this.http.get<any[]>('data/breathing-routines.json').subscribe((data) => {
-      this.routines = data;
-      this.filteredRoutines = this.routines;
+      this.routineData = data;
+      this.filteredRoutines = this.routineData;
     });
   }
 
@@ -31,10 +31,10 @@ export class BreathingRoutinesCardComponent implements OnInit {
     this.selectedFilter = selectedFilter;
 
     if (selectedFilter === 'All Intensities') {
-      this.filteredRoutines = this.routines;
+      this.filteredRoutines = this.routineData; // Show all routines
     } else {
-      this.filteredRoutines = this.routines.filter((routine) =>
-        routine.intensity.includes(selectedFilter)
+      this.filteredRoutines = this.routineData.filter((routine) =>
+        routine.intensity?.includes(selectedFilter)
       );
     }
   }

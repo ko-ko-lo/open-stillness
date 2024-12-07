@@ -12,9 +12,9 @@ import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 })
 export class BreadcrumbComponent implements OnInit {
   routineName: string = ''; // Store the routine name for the breadcrumb
-  currentRoute: string = ''; // Store the current route
+  currentSection: string = ''; // Current section (e.g., 'yin-style-yoga' or 'breathing')
   homeLink = '/';
-  routinesLink = '/yin-style-yoga/routines-overview';
+  routinesLink = ''; // Adjust dynamically based on the section
 
   constructor(
     private route: ActivatedRoute,
@@ -23,13 +23,25 @@ export class BreadcrumbComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    // Determine the current section based on the route
+    const urlSegments = this.router.url.split('/');
+    this.currentSection = urlSegments[1]; // The first segment after the base URL
+
+    // Set routinesLink dynamically
+    this.routinesLink = `/${this.currentSection}/routines-overview`;
+
     // Get the current route's slug (if exists)
     this.route.paramMap.subscribe((params) => {
       const slug = params.get('slug');
 
-      // If there is a slug, fetch the routine name from the JSON file
+      // If there is a slug, fetch the routine name from the correct JSON file
       if (slug) {
-        this.http.get<any[]>('data/yoga-routines.json').subscribe((data) => {
+        const jsonFile =
+          this.currentSection === 'yin-style-yoga'
+            ? 'data/yoga-routines.json'
+            : 'data/breathing-routines.json';
+
+        this.http.get<any[]>(jsonFile).subscribe((data) => {
           const routine = data.find((r) => r.slug === slug);
           if (routine) {
             this.routineName = routine.name;

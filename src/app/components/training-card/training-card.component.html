@@ -8,6 +8,7 @@
 <div
   *ngFor="let routine of filteredRoutines"
   class="training-card background-neutral-light"
+  [routerLink]="['/yin-style-yoga/routine', routine.slug]"
 >
   <h2 class="margin-top-0 margin-bottom-32">{{ routine.name }}</h2>
 
