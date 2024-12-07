@@ -5,10 +5,21 @@
     <div class="intro">
       <h1>{{ routineData?.name }}</h1>
       <p class="margin-bottom-40 icon-setup">
-        <i class="material-icons">schedule</i> {{ routineData?.time }} minutes
+        <i class="material-icons-outlined">schedule</i>
+        {{ routineData?.time }} minutes
       </p>
       <p class="margin-bottom-40">{{ routineData?.introText }}</p>
-      <p class="pill">{{ routineData?.intensity }}</p>
+      <p
+        class="pill margin-bottom-0"
+        [ngClass]="{
+          'pill-easy': routineData?.intensity === 'Easy',
+          'pill-medium': routineData?.intensity === 'Medium',
+          'pill-difficult': routineData?.intensity === 'Difficult',
+          'pill-default': !routineData?.intensity
+        }"
+      >
+        {{ routineData?.intensity || "No Intensity" }}
+      </p>
     </div>
 
     <img
@@ -26,16 +37,16 @@
       body and mind to transition smoothly to the next practice.
     </p>
 
-    <!-- List with Breathing Techniques and Time -->
+    <!-- List with Breathing Techniques, Time and Ratio -->
     <div class="max-width-s" id="list">
       <ol>
         <li
           *ngFor="let breathings of routineData?.breathings"
-          class="breathing-item"
+          class="d-flex align-cente"
         >
-          <div class="pose-info d-flex justify-between align-center">
+          <div class="w-100 d-flex justify-between align-center">
             <span>{{ breathings.name }}</span>
-            <div class="time-and-ratio text-right">
+            <div class="text-right">
               <span>{{ breathings?.time }} min</span>
               <div class="pose-ratio">{{ breathings?.ratio }}</div>
             </div>
@@ -43,20 +54,34 @@
         </li>
       </ol>
     </div>
-  </div>
 
-  <!-- Display the relevant Breathing Techniques for this routine -->
-  <div class="pose-cards" *ngIf="breathingTechniques.length > 0">
-    <app-breathing-card
-      *ngFor="let breathing of breathingTechniques"
-      [breathing]="breathing"
-    ></app-breathing-card>
-  </div>
+    <div
+      class="max-width-s background-purple-light radius-m margin-bottom-88 margin-top-24"
+    >
+      <div class="padding-16 d-flex align-center">
+        <i class="material-icons-outlined icon padding-right-12">info</i>
+        <p class="ratio-text">
+          Ratios guide the timing of each breath and retention. For example, 4-4
+          means inhale and exhale for 4 seconds, while 4-4-4-4 means inhale for
+          4 seconds, hold for 4 seconds, exhale for 4 seconds, and hold for 4
+          seconds.
+        </p>
+      </div>
+    </div>
 
-  <div *ngIf="breathingTechniques.length === 0">
-    <p>No breathing techniques found!</p>
-  </div>
+    <!-- Display the relevant Breathing Techniques for this routine -->
+    <div class="pose-cards" *ngIf="breathingTechniques.length > 0">
+      <app-breathing-card
+        *ngFor="let breathing of breathingTechniques"
+        [breathing]="breathing"
+      ></app-breathing-card>
+    </div>
 
-  <app-meditation-card></app-meditation-card>
+    <div *ngIf="breathingTechniques.length === 0">
+      <p>No breathing techniques found!</p>
+    </div>
+
+    <app-meditation-card></app-meditation-card>
+  </div>
 </div>
 <app-routine-end></app-routine-end>

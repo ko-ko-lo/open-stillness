@@ -1,25 +1,11 @@
-ol {
-  list-style-position: outside;
-  padding-left: 2rem;
-}
-
-.breathing-item {
-  display: flex;
-  align-items: center;
-}
-
-.pose-info {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.time-and-ratio {
-  text-align: right;
-}
+@use "../../../../styles/variables" as variables;
 
 .pose-ratio {
-  font-size: 0.9rem;
-  color: #6c757d;
-  margin-top: 0.2rem;
+  font-size: variables.$font-size-breadcrumb;
+  color: variables.$color-neutral-500;
+  margin-top: variables.$space-0;
+}
+
+.ratio-text {
+  font-size: variables.$font-size-breadcrumb;
 }
