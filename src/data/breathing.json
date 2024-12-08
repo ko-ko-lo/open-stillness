@@ -79,6 +79,26 @@
   },
 
   {
+    "name": "Breath of Joy",
+    "targetBreathing": "Movement-Based",
+    "description": "Breath of Joy is an energizing breathing exercise that combines rhythmic breathing with dynamic arm movements. This uplifting technique involves a three-part inhalation through the nose, followed by a forceful exhalation through the mouth, all synchronized with arm movements. It is excellent for releasing physical and emotional tension.",
+    "preparation": "Standing with feet shoulder-width apart and a soft bend in your knees. Settle into the present moment and exhale fully.",
+    "stepBystep": [
+      "Take the first inhale through your nose, filling one-third of your lungs, as you gently extend your arms forward to shoulder height.",
+      "Continue the second inhale through your nose, filling two-thirds of your lungs, as you sweep your arms out to the sides, creating a T-shape.",
+      "Complete the third inhale through your nose, filling your lungs fully, as you lift your arms overhead towards the sky.",
+      "Exhale forcefully through your mouth as you bend your knees, fold your upper body forward, and swing your arms back behind you."
+    ],
+    "completion": "After completing your repetitions, take a few moments to breathe calmly. Observe how your body feels and enjoy the sense of balance and relaxation.",
+    "tips": [
+      "For a quick energy boost, perform only 3-5 rounds instead of a longer session.",
+      "Focus on coordinating your breath with your movements rather than rushing."
+    ],
+    "image": "/public/breathing-poses/breath-of-joy.png",
+    "imageWebp": "/public/breathing-poses/breath-of-joy.webp"
+  },
+
+  {
     "name": "Coherent Breathing",
     "targetBreathing": "Modern",
     "description": "Coherent Breathing is a wonderfully accessible technique that promotes balance and harmony in the body and mind through steady, rhythmic breathing. By maintaining a 1:1 ratio - equal lengths for the inhale and exhale - it can help to reduce stress and calm the nervous system.",
