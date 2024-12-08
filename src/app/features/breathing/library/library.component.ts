@@ -31,6 +31,7 @@ export class BreathingLibraryComponent implements OnInit {
     'All Breathing Techniques',
     'Modern',
     'Traditional',
+    'Movement-Based',
   ];
 
   constructor(private http: HttpClient, private titleService: TitleService) {}
