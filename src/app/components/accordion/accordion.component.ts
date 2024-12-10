@@ -14,6 +14,7 @@ export class AccordionComponent {
   @Input() items: { title: string; content: string }[] = [];
   @Input() title: string = '';
   @Input() backgroundClass: string = 'background-purple-light';
+  @Input() hoverColor?: string;
 
   togglePanel(index: number): void {
     this.activeIndex = this.activeIndex === index ? null : index;

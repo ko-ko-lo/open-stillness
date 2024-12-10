@@ -33,7 +33,7 @@ export class BreathingRoutineComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Routine');
+    this.titleService.setFullTitle('Breathing Routine');
 
     this.routineSlug = this.route.snapshot.paramMap.get('slug');
 

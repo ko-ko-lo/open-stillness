@@ -37,7 +37,7 @@ export class BreathingLibraryComponent implements OnInit {
   constructor(private http: HttpClient, private titleService: TitleService) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Library');
+    this.titleService.setFullTitle('Breathing Library');
 
     this.http.get<any[]>('data/breathing.json').subscribe((data) => {
       this.breathingExercises = data;

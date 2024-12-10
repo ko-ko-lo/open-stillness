@@ -5,6 +5,7 @@ import { ExploreRoutinesComponent } from '../../../components/explore-routines/e
 import { HeroComponent } from '../../../components/hero/hero.component';
 import { LibraryDiscoverComponent } from '../../../components/library-discover/library-discover.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
+import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-home',
@@ -151,4 +152,10 @@ export class BreathingHomeComponent {
       },
     ],
   };
+
+  constructor(private titleService: TitleService) {}
+
+  ngOnInit() {
+    this.titleService.setFullTitle('Home Breathing');
+  }
 }
