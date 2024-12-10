@@ -1,8 +1,11 @@
-<div class="accordion background-purple-light">
+<div
+  class="accordion padding-top-96 padding-bottom-96"
+  [ngClass]="backgroundClass"
+>
   <div class="container">
     <div class="flex-container d-flex">
       <div class="column-4">
-        <h2>Yin-Style Yoga:<br />Your Questions Answered and More</h2>
+        <h2>{{ title }}</h2>
       </div>
 
       <div class="column-8">

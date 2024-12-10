@@ -7,7 +7,8 @@
     </div>
     <div class="flex-container gap-32">
       <div
-        class="flex-item align-center justify-center background-green-light radius-l box-shadow-xs"
+        class="flex-item align-center justify-center radius-l box-shadow-xs"
+        [ngClass]="backgroundClass"
         *ngFor="let image of images"
       >
         <picture>

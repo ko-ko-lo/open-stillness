@@ -7,14 +7,21 @@
   [imagePath]="heroData.imagePath"
   [imagePathWebP]="heroData.imagePathWebP"
 ></app-hero>
-<app-short-intro [text]="shortIntro.text"></app-short-intro>
+
+<app-short-intro
+  [text]="shortIntro.text"
+  [backgroundClass]="'background-blue-light'"
+></app-short-intro>
+
 <app-library-discover
   [title]="libraryData.title"
   [description]="libraryData.description"
   [buttonLabel]="libraryData.buttonLabel"
   [buttonLink]="libraryData.buttonLink"
   [images]="libraryData.images"
+  [backgroundClass]="'background-purple-light'"
 ></app-library-discover>
+
 <app-explore-routines
   [title]="routinesData.title"
   [description]="routinesData.description"
@@ -22,13 +29,16 @@
   [buttonLink]="routinesData.buttonLink"
   [imagePath]="routinesData.imagePath"
   [imagePathWebP]="routinesData.imagePathWebP"
+  [backgroundClass]="'background-green-light'"
 ></app-explore-routines>
+
 <app-benefits
   [title]="benefitsData.title"
   [benefits]="benefitsData.benefits"
 ></app-benefits>
 
 <app-accordion
+  [backgroundClass]="'background-blue-light'"
   [title]="accordionData.title"
   [items]="accordionData.items"
 ></app-accordion>

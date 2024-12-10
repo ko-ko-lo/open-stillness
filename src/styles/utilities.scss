@@ -91,6 +91,14 @@
   &-32 {
     padding-top: variables.$space-6;
   }
+  &-96 {
+    padding-top: variables.$space-13;
+  }
+}
+
+// Padding bottom
+.padding-bottom-96 {
+  padding-bottom: variables.$space-13;
 }
 
 // ========================================================================
