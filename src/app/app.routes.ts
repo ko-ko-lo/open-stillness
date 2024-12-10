@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { BreathingHomeComponent } from './features/breathing/home/home.component';
 import { BreathingLibraryComponent } from './features/breathing/library/library.component';
 import { BreathingRoutineComponent } from './features/breathing/routine/routine.component';
 import { BreathingRoutinesOverviewComponent } from './features/breathing/routines-overview/routines-overview.component';
@@ -19,9 +20,11 @@ export const routes: Routes = [
       { path: 'routine/:slug', component: YogaRoutinesComponent },
     ],
   },
+
   {
     path: 'breathing',
     children: [
+      { path: '', component: BreathingHomeComponent },
       { path: '', redirectTo: 'library', pathMatch: 'full' },
       { path: 'library', component: BreathingLibraryComponent },
       {
