@@ -21,7 +21,7 @@ import { TitleService } from '../../../services/title.service';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent implements OnInit {
+export class YinStyleYogaHomeComponent implements OnInit {
   heroData = {
     subheadline: 'Explore Yin\u2011Style Yoga',
     headline: 'Embrace the calm and meditative practice of Yin\u2011Style Yoga',
@@ -149,6 +149,6 @@ export class HomeComponent implements OnInit {
   constructor(private titleService: TitleService) {}
 
   ngOnInit() {
-    this.titleService.setFullTitle('Home');
+    this.titleService.setFullTitle('Home Yin-Style Yoga');
   }
 }

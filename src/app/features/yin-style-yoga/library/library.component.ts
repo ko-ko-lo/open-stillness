@@ -46,7 +46,6 @@ export class LibraryComponent implements OnInit {
     });
   }
 
-  // Handle filter changes
   onFilterChange(selectedFilter: string): void {
     this.selectedFilter = selectedFilter;
 

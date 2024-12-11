@@ -22,7 +22,7 @@ export class MainMenuComponent implements OnInit {
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {
         // Check if the current route includes "/routine" -> no margin
-        this.isYogaRoutinePage = event.url.startsWith('/routine/');
+        this.isYogaRoutinePage = event.url.includes('/routine/');
       });
   }
 
