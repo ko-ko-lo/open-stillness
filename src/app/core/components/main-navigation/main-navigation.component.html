@@ -1,6 +1,6 @@
 <div
   [class.no-margin]="isYogaRoutinePage"
-  class="border-bottom margin-bottom-64 background-white"
+  class="border-bottom margin-bottom-64 menu-position background-white"
 >
   <div class="container">
     <nav class="navbar d-flex justify-between align-center">
@@ -42,7 +42,10 @@
             {{ item.label }}
           </a>
           <!-- Submenu -->
-          <ul *ngIf="item.children?.length" class="submenu">
+          <ul
+            *ngIf="item.children?.length"
+            class="submenu radius-s border-bottom"
+          >
             <li *ngFor="let child of item.children">
               <a
                 [routerLink]="child.link"
