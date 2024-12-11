@@ -1,0 +1,124 @@
+@use "./../../../../styles/variables" as variables;
+
+.navbar {
+  padding: variables.$space-4 0;
+}
+
+ul {
+  padding: 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: variables.$space-6;
+
+  .nav-item {
+    a {
+      text-decoration: none;
+      color: variables.$font-color-body;
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+      }
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      list-style: none;
+      padding: variables.$space-4;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 9999;
+      background-color: rgba(255, 255, 255, 0.95);
+
+      li {
+        a {
+          padding: variables.$space-2 variables.$space-4;
+          display: block;
+        }
+      }
+
+      opacity: 0;
+      transform: translateY(-10px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .nav-item:hover .submenu {
+      display: block; /* Make it visible */
+      opacity: 1; /* Fade in */
+      transform: translateY(0); /* Slide into position */
+    }
+
+    &:hover .submenu {
+      display: block; /* Show submenu on hover */
+    }
+  }
+
+  /* Mobile menu styles */
+  &.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - 68px);
+    background: variables.$color-neutral-50;
+    z-index: 9999;
+  }
+}
+
+.nav-item:hover .submenu {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu-toggle {
+  display: none; /* Hamburger: Hidden on larger screens */
+}
+
+.menu-position {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  &.no-margin {
+    margin-bottom: 0; /* No margin on yoga-routines pages */
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none; /* Hidden by default on mobile */
+    flex-direction: column;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu .nav-item .submenu {
+    display: block;
+    position: relative;
+    top: 0;
+    width: 100%; /* Match the parent width */
+    box-shadow: none; /* Remove shadow for mobile */
+    padding: variables.$space-4 0;
+  }
+
+  .menu-toggle {
+    display: flex; /* Visible only on mobile screens */
+    flex-direction: column;
+    gap: variables.$space-2;
+    cursor: pointer;
+  }
+
+  ul li:first-child.nav-item {
+    padding-top: variables.$space-6;
+  }
+}

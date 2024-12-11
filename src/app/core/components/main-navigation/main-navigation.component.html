@@ -1,15 +1,17 @@
 <div
   [class.no-margin]="isYogaRoutinePage"
-  class="border-bottom margin-bottom-64 background-white"
+  class="border-bottom margin-bottom-64 menu-position background-white"
 >
   <div class="container">
     <nav class="navbar d-flex justify-between align-center">
+      <!-- Logo -->
       <a routerLink="/" (click)="closeMenuAndNavigate()" class="logo">
-        <img src="public/logo.svg" alt="" />
+        <img src="public/logo.svg" alt="Logo" />
       </a>
 
+      <!-- Menu Toggle for Mobile -->
       <div
-        class="menu-toggle flex-column d-none gap-4"
+        class="menu-toggle flex-column gap-4"
         (click)="toggleMenu()"
         role="button"
         aria-label="Toggle menu"
@@ -18,7 +20,6 @@
         <ng-container *ngIf="!menuOpen; else closeIcon">
           <i class="material-icons">menu</i>
         </ng-container>
-
         <ng-template #closeIcon>
           <span class="close-icon">
             <i class="material-icons">close</i>
@@ -26,26 +27,35 @@
         </ng-template>
       </div>
 
+      <!-- Main Navigation -->
       <ul
         class="nav-menu d-flex gap-32"
         [class.active]="menuOpen"
         role="navigation"
       >
-        <li class="d-inline">
+        <li *ngFor="let item of menuItems" class="nav-item">
           <a
-            routerLink="/yin-style-yoga/library"
+            [routerLink]="item.link"
             routerLinkActive="active-link"
-            (click)="toggleMenu()"
-            >Library</a
+            (click)="closeMenuAndNavigate()"
           >
-        </li>
-        <li>
-          <a
-            routerLink="yin-style-yoga/routines-overview"
-            routerLinkActive="active-link"
-            (click)="toggleMenu()"
-            >Routines</a
+            {{ item.label }}
+          </a>
+          <!-- Submenu -->
+          <ul
+            *ngIf="item.children?.length"
+            class="submenu radius-s border-bottom"
           >
+            <li *ngFor="let child of item.children">
+              <a
+                [routerLink]="child.link"
+                routerLinkActive="active-link"
+                (click)="closeMenuAndNavigate()"
+              >
+                {{ child.label }}
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </nav>
