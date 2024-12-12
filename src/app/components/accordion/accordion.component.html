@@ -21,7 +21,9 @@
             <span class="icon">{{ activeIndex === i ? "-" : "+" }}</span>
           </div>
           <div class="accordion-content" *ngIf="activeIndex === i">
-            <p>{{ item.content }}</p>
+            <p class="margin-bottom-16" *ngFor="let paragraph of item.content">
+              {{ paragraph }}
+            </p>
           </div>
         </div>
       </div>

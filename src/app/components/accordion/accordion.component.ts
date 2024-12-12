@@ -11,7 +11,7 @@ import { Component, Input } from '@angular/core';
 export class AccordionComponent {
   activeIndex: number | null = null;
 
-  @Input() items: { title: string; content: string }[] = [];
+  @Input() items: { title: string; content: string[] }[] = [];
   @Input() title: string = '';
   @Input() backgroundClass: string = 'background-purple-light';
   @Input() hoverColor?: string;

@@ -119,36 +119,59 @@ export class BreathingHomeComponent {
 
     items: [
       {
-        title: 'Headline 1',
-        content: 'Content 1',
+        title: 'Observe Your Current Breathing Patterns',
+        content: ['Content 1'],
       },
       {
-        title: 'Headline 2',
-        content: 'Content 2',
+        title: 'Why Choose Nasal Breathing?',
+        content: [
+          'Breathing through your nose offers numerous benefits for your body and mind. Unlike mouth breathing, nasal breathing naturally slows down your breath, as air passes through two smaller openings rather than one larger one. This slower, steadier rhythm helps your body relax and promotes efficient oxygen exchange. ',
+          'Nasal breathing also acts as a natural filter, cleaning the air by trapping dust, allergens, and other particles. Additionally, it warms and humidifies the air, making it gentler on your lungs. ',
+          'While nasal breathing is generally preferred, there are exceptions—some breathing techniques encourage mouth breathing for specific purposes, such as releasing tension or energizing the body. ',
+        ],
       },
       {
-        title: 'Headline 3',
-        content: 'Content 3',
+        title: 'Exploring Different Breathing Styles',
+        content: [
+          'Breathing takes many forms, each with its unique effects on the body and mind. Diaphragmatic breathing, or "belly breathing," engages the diaphragm to encourage deep, relaxed breaths that fully oxygenate the body. In contrast, shallow chest breathing can sometimes signal stress or tension, offering an opportunity to consciously reconnect with a more supportive breath.',
+          'Eupnea, or normal breathing, is the steady, effortless rhythm your body naturally adopts at rest, maintaining balance without conscious effort. Hyperpnea, on the other hand, refers to deeper or faster breathing, often occurring during physical exertion or as a response to heightened oxygen needs.',
+          'Understanding these styles helps you identify your current breathing patterns and explore ways to optimize your breath for relaxation, energy, or mindfulness.',
+        ],
       },
       {
-        title: 'Headline 4',
-        content: 'Content 4',
+        title: 'Unlocking the Power of Breathing Ratios',
+        content: ['Content 1'],
       },
       {
-        title: 'Headline 5',
-        content: 'Content 5',
+        title: "Pranayama vs. Breathwork: What's the Difference?",
+        content: [
+          'Pranayama is rooted in ancient yogic traditions and is often seen as the art of controlling the breath. The word itself means "extension of life force" in Sanskrit, and practices typically include structured breathing patterns designed to calm the mind, energize the body, or deepen spiritual awareness. Pranayama is closely tied to yoga philosophy, emphasizing mindfulness, balance, and harmony.',
+          'Breathwork, on the other hand, is a more modern, broader term encompassing a variety of techniques that involve conscious breathing. While some forms of breathwork are inspired by yogic practices, others integrate contemporary approaches like therapeutic or somatic breathing for emotional healing, stress relief, or personal growth. Breathwork often focuses on self-discovery and emotional release.',
+          'Both practices offer incredible benefits but may resonate differently depending on your goals. If you’re drawn to a traditional, meditative approach, Pranayama might be your path. If you’re seeking a flexible, therapeutic method for relaxation or exploration, Breathwork could be a perfect fit.',
+        ],
       },
       {
-        title: 'Headline 6',
-        content: 'Content 6',
+        title: 'Breathing and Your Nervous System',
+        content: [
+          'One of the most remarkable effects of intentional breathing is its ability to influence your nervous system. By regulating your breath, you can shift from the body’s stress response (sympathetic nervous system) to the relaxation response (parasympathetic nervous system).',
+          'When stress or anxiety takes hold, the sympathetic nervous system is activated. This often shows up as short, rapid, and shallow breathing. However, when you consciously slow your breath, extend the exhalation, and find a steady rhythm, it sends a powerful signal to your body: You are safe.',
+          'This simple yet profound act activates the parasympathetic nervous system, which helps calm your mind, relax your body, and restore a sense of peace and clarity. With each slow, steady breath, you’re not just breathing—you’re communicating safety, balance, and well-being to your entire nervous system.',
+        ],
       },
       {
-        title: 'Headline 7',
-        content: 'Content 7',
+        title: 'Relaxing with a Couple of Deep Breaths',
+        content: ['Content 1'],
       },
       {
-        title: 'Headline 8',
-        content: 'Content 8',
+        title: 'Emotions and Your Breath',
+        content: [
+          'Your breath is a bridge between your mind and body, offering a simple way to find balance during emotional intensity. Deep breathing not only soothes your body but also brings emotional relief, helping you feel steady, calm, and at ease.',
+          'When anxiety takes hold, your breath becomes quick and shallow, signaling your body to stay on high alert. By contrast, slow, deep breathing sends a message of safety to your brain, easing stress and inviting relaxation. This gentle rhythm can even help you process emotions, bringing clarity and calm to moments of overwhelm.',
+        ],
+      },
+      {
+        title: 'Practicing Safe Breathing Techniques',
+        content: ['Content 1'],
       },
     ],
   };
