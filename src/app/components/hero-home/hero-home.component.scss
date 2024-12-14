@@ -1,0 +1,38 @@
+@use "./../../../styles/variables" as variables;
+
+#hero-home {
+  margin-top: -(variables.$space-10);
+}
+
+.intro-text {
+  max-width: 500px;
+  text-align: left;
+  padding-top: variables.$space-10;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: variables.$space-6;
+  width: 50%;
+}
+
+.grid-item {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Keeps each image square */
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    max-width: 100%;
+    padding-top: 0;
+  }
+  .image-grid {
+    gap: variables.$space-3;
+    width: 100%;
+  }
+}

@@ -1,0 +1,6 @@
+@use "./../../../styles/variables" as variables;
+
+.flex-container {
+  flex-wrap: wrap;
+  gap: variables.$space-6;
+}

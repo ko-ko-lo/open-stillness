@@ -1,0 +1,18 @@
+@use "./../../../styles/variables" as variables;
+
+.flex-container {
+  flex-wrap: wrap;
+  gap: variables.$space-6;
+}
+
+.card {
+  flex: 1 1 calc(50% - variables.$space-3);
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .flex-item {
+    flex: 1 1 100%;
+  }
+}

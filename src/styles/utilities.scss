@@ -93,14 +93,22 @@
   &-32 {
     padding-top: variables.$space-6;
   }
+  &-88 {
+    padding-top: variables.$space-12;
+  }
   &-96 {
     padding-top: variables.$space-13;
   }
 }
 
 // Padding bottom
-.padding-bottom-96 {
-  padding-bottom: variables.$space-13;
+.padding-bottom {
+  &-88 {
+    padding-bottom: variables.$space-12;
+  }
+  &-96 {
+    padding-bottom: variables.$space-13;
+  }
 }
 
 // ========================================================================
