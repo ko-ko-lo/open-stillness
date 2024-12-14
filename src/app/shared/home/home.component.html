@@ -12,10 +12,34 @@
   </div>
 </div>
 
-<div class="container">
+<section class="background-green-light padding-bottom-88 padding-top-88">
+  <div class="container">
+    <app-preview-sections
+      [headline2]="'Discover Routines'"
+      [previews]="[
+        {
+          headline3: 'Breathing Routines',
+          description:
+            'Discover a variety of breathing techniques designed to help you find calm, focus, and clarity. Whether you need quick stress relief or a mindful pause, there’s a routine for every moment.',
+          buttonLabel: 'Discover Routines',
+          buttonLink: '/breathing/routines-overview'
+        },
+        {
+          headline3: 'Yin-Style Yoga Routines',
+          description:
+            'Explore gentle, grounding yoga sequences that ease tension, promote flexibility, and help you reconnect with your body. Perfect for relaxation, restoration, and inner strength.',
+          buttonLabel: 'Discover Routines',
+          buttonLink: '/yin-style-yoga/routines-overview'
+        }
+      ]"
+    ></app-preview-sections>
+  </div>
+</section>
+
+<div id="startingRoutines" class="container">
   <div class="padding-top-88 padding-bottom-88">
     <h2>Start with These Routines</h2>
-    <p class="max-width-821 margin-bottom-40">
+    <p class="max-width-821 margin-bottom-48">
       Explore a sample of what's possible. These routines are designed to help
       you start small and experience the benefits of Yin-Style Yoga and
       Breathing Techniques right away.
@@ -30,6 +54,42 @@
     ></app-training-card>
   </div>
 </div>
+
+<section class="background-blue-light padding-bottom-88 padding-top-88">
+  <div class="container">
+    <app-preview-sections
+      [headline2]="'Explore the Libraries'"
+      [previews]="[
+        {
+          headline3: 'Breathing Techniques',
+          description:
+            'Learn powerful breathing techniques to calm your mind and center your body. Each technique includes a description, preparation tips, step-by-step guidance, and possible tips and variations.',
+          buttonLabel: 'Explore the Libraries',
+          buttonLink: '/breathing/library'
+        },
+        {
+          headline3: 'Yin-Style Yoga',
+          description:
+            'Discover Yin-Style Yoga poses organized by target areas to help you focus where it matters most. Each pose includes a description, step-by-step guide, and possible variations to suit your needs.',
+          buttonLabel: 'Explore the Libraries',
+          buttonLink: '/yin-style-yoga/library'
+        }
+      ]"
+    ></app-preview-sections>
+    <div class="flex-container gap-32 margin-top-40">
+      <div
+        class="flex-item align-center justify-center radius-l box-shadow-xs"
+        [ngClass]="backgroundClass"
+        *ngFor="let image of images"
+      >
+        <picture>
+          <source [srcset]="getWebpImage(image.src)" type="image/webp" />
+          <img [src]="image.src" [alt]="image.alt" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
 
 <app-accordion
   [backgroundClass]="'background-white'"

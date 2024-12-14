@@ -1,0 +1,24 @@
+.flex-container {
+  flex-direction: row;
+}
+
+:host .flex-item:nth-child(2) {
+  order: 0 !important; /* Reset the order for the second item */
+  margin: initial !important; /* Reset margin */
+}
+
+@media (max-width: 767px) {
+  :host .flex-container {
+    flex-direction: column !important; /* Switch to column only below 767px */
+  }
+
+  :host .flex-item:nth-child(3) {
+    order: 1 !important; /* Reapply order at 767px */
+    margin: 0 auto !important;
+  }
+
+  :host .flex-item:nth-child(1),
+  :host .flex-item:nth-child(2) {
+    display: none; /* Hide the second and third images */
+  }
+}

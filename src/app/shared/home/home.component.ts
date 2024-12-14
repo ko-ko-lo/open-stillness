@@ -4,6 +4,7 @@ import { AccordionComponent } from '../../components/accordion/accordion.compone
 import { BreathingRoutinesCardComponent } from '../../components/breathing-routines-card/breathing-routines-card.component';
 import { HeroHomeComponent } from '../../components/hero-home/hero-home.component';
 import { PathwaysCardComponent } from '../../components/pathways-card/pathways-card.component';
+import { PreviewSectionsComponent } from '../../components/preview-sections/preview-sections.component';
 import { ShortIntroComponent } from '../../components/short-intro/short-intro.component';
 import { TrainingCardComponent } from '../../components/training-card/training-card.component';
 
@@ -18,11 +19,24 @@ import { TrainingCardComponent } from '../../components/training-card/training-c
     CommonModule,
     BreathingRoutinesCardComponent,
     TrainingCardComponent,
+    PreviewSectionsComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+  backgroundClass: string = 'background-white';
+
+  images = [
+    { src: 'public/yoga-poses/dangling.png', alt: '' },
+    { src: 'public/yoga-poses/meditation.png', alt: '' },
+    { src: 'public/yoga-poses/cat-pulling-its-tail.png', alt: '' },
+  ];
+
+  getWebpImage(imagePath: string): string {
+    return imagePath.replace(/\.(png|jpg|jpeg)$/, '.webp');
+  }
+
   shortIntro = {
     text: 'Cultivate stillness and strength with ease. Explore Yin-Style Yoga and Breathing Techniques through introductions, libraries, and routines designed to guide your journey.',
   };

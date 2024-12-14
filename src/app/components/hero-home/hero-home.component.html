@@ -8,7 +8,11 @@
       <div *ngFor="let desc of description">
         <p class="margin-bottom-16">{{ desc }}</p>
       </div>
-      <button class="margin-top-32 margin-bottom-16" [routerLink]="buttonLink">
+      <button
+        class="margin-top-32 margin-bottom-16"
+        [routerLink]="[buttonLink]"
+        fragment="startingRoutines"
+      >
         {{ buttonLabel }}
       </button>
     </div>

@@ -17,24 +17,22 @@ export class HeroHomeComponent {
   ];
   buttonLabel: string = 'Start Your Journey';
   buttonLink: string = '';
-  imagePath: string = '';
-  imagePathWebP: string = '';
 
   images: Array<{ src: string; alt: string }> = [
     {
-      src: this.imagePath + 'public/breathing-poses/full-yogic-breath.png',
+      src: 'public/breathing-poses/full-yogic-breath.png',
       alt: '',
     },
     {
-      src: this.imagePath + 'public/yoga-poses/deer.png',
+      src: 'public/yoga-poses/deer.png',
       alt: '',
     },
     {
-      src: this.imagePath + 'public/yoga-poses/ankle-stretch.png',
+      src: 'public/yoga-poses/ankle-stretch.png',
       alt: '',
     },
     {
-      src: this.imagePath + 'public/yoga-poses/supported-saddle.png',
+      src: 'public/yoga-poses/supported-saddle.png',
       alt: '',
     },
   ];
