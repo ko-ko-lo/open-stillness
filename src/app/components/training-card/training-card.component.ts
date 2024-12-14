@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { FilteringComponent } from '../filtering/filtering.component';
 
@@ -12,6 +12,8 @@ import { FilteringComponent } from '../filtering/filtering.component';
   styleUrl: './training-card.component.scss',
 })
 export class TrainingCardComponent implements OnInit {
+  @Input() routine?: any;
+  @Input() showFilter: boolean = true;
   routines: any[] = [];
   filteredRoutines: any[] = [];
   selectedFilter: string = 'All Yoga Routines';
@@ -26,13 +28,16 @@ export class TrainingCardComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<any[]>('data/yoga-routines.json').subscribe((data) => {
-      this.routines = data;
-      this.filteredRoutines = this.routines;
-    });
+    if (this.routine) {
+      this.filteredRoutines = [this.routine];
+    } else {
+      this.http.get<any[]>('data/yoga-routines.json').subscribe((data) => {
+        this.routines = data;
+        this.filteredRoutines = this.routines;
+      });
+    }
   }
 
-  // Handle filter changes
   onFilterChange(selectedFilter: string): void {
     this.selectedFilter = selectedFilter;
 

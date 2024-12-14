@@ -1,4 +1,5 @@
 <app-filtering
+  *ngIf="showFilter"
   [filterOptions]="filterOptions"
   [selectedFilter]="selectedFilter"
   (filterChange)="onFilterChange($event)"
@@ -44,7 +45,7 @@
         <img
           class="radius-l box-shadow-s w-100"
           [src]="routine?.image"
-          alt="{{ routine?.name }}"
+          alt=""
         />
       </picture>
     </div>

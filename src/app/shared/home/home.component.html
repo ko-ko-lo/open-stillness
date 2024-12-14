@@ -1,1 +1,38 @@
-<p>home works!</p>
+<app-hero-home></app-hero-home>
+
+<app-short-intro
+  [text]="shortIntro.text"
+  [backgroundClass]="'background-white'"
+></app-short-intro>
+
+<div class="background-purple-light padding-top-88 padding-bottom-88">
+  <div class="container">
+    <h2 class="">Pathways to Well-Being</h2>
+    <app-pathways-card></app-pathways-card>
+  </div>
+</div>
+
+<div class="container">
+  <div class="padding-top-88 padding-bottom-88">
+    <h2>Start with These Routines</h2>
+    <p class="max-width-821 margin-bottom-40">
+      Explore a sample of what's possible. These routines are designed to help
+      you start small and experience the benefits of Yin-Style Yoga and
+      Breathing Techniques right away.
+    </p>
+    <app-breathing-routines-card
+      [routine]="singleRoutine"
+      [showFilter]="false"
+    ></app-breathing-routines-card>
+    <app-training-card
+      [routine]="singleRoutineYoga"
+      [showFilter]="false"
+    ></app-training-card>
+  </div>
+</div>
+
+<app-accordion
+  [backgroundClass]="'background-white'"
+  [title]="accordionData.title"
+  [items]="accordionData.items"
+></app-accordion>

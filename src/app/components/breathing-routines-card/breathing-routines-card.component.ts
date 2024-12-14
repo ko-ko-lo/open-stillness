@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { FilteringComponent } from '../filtering/filtering.component';
 
@@ -12,18 +12,27 @@ import { FilteringComponent } from '../filtering/filtering.component';
   styleUrl: './breathing-routines-card.component.scss',
 })
 export class BreathingRoutinesCardComponent implements OnInit {
-  routineData: any[] = []; // Updated to use routineData consistently
-  filteredRoutines: any[] = [];
+  @Input() routine?: any;
+  @Input() showFilter: boolean = true;
+  routineData: any[] = [];
+  filteredRoutines = this.routine || [];
+
   selectedFilter: string = 'All Intensities';
   filterOptions: string[] = ['All Intensities', 'Easy', 'Medium'];
 
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<any[]>('data/breathing-routines.json').subscribe((data) => {
-      this.routineData = data;
-      this.filteredRoutines = this.routineData;
-    });
+    if (this.routine) {
+      // If a single routine is passed, wrap it in an array for consistent use with *ngFor
+      this.filteredRoutines = [this.routine];
+    } else {
+      // Fetch data from JSON and initialize filteredRoutines
+      this.http.get<any[]>('data/breathing-routines.json').subscribe((data) => {
+        this.routineData = data;
+        this.filteredRoutines = this.routineData; // Default to all routines
+      });
+    }
   }
 
   // Handle filter changes

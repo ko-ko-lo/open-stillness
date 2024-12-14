@@ -1,0 +1,28 @@
+<section
+  id="hero-home"
+  class="background-blue-light padding-bottom-88 padding-top-88"
+>
+  <div class="flex-container justify-between container">
+    <div class="intro-text flex-item">
+      <h1>{{ headline }}</h1>
+      <div *ngFor="let desc of description">
+        <p class="margin-bottom-16">{{ desc }}</p>
+      </div>
+      <button class="margin-top-32 margin-bottom-16" [routerLink]="buttonLink">
+        {{ buttonLabel }}
+      </button>
+    </div>
+
+    <div class="image-grid">
+      <div
+        class="grid-item align-center justify-center radius-l box-shadow-xs background-white"
+        *ngFor="let image of images"
+      >
+        <picture>
+          <source [srcset]="getWebpImage(image.src)" type="image/webp" />
+          <img [src]="image.src" [alt]="image.alt" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
