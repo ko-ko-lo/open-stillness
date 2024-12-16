@@ -30,7 +30,7 @@ ul {
       top: 100%;
       left: 0;
       list-style: none;
-      padding: variables.$space-4;
+      padding: variables.$space-4 0;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       z-index: 9999;
       background-color: rgba(255, 255, 255, 0.95);
@@ -58,7 +58,6 @@ ul {
     }
   }
 
-  /* Mobile menu styles */
   &.active {
     display: flex;
     flex-direction: column;
@@ -106,9 +105,13 @@ ul {
     display: block;
     position: relative;
     top: 0;
-    width: 100%; /* Match the parent width */
-    box-shadow: none; /* Remove shadow for mobile */
+    width: 100%;
+    box-shadow: none;
     padding: variables.$space-4 0;
+  }
+
+  .container .nav-menu.active {
+    padding: 0;
   }
 
   .menu-toggle {

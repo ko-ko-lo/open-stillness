@@ -13,7 +13,7 @@ import { filter } from 'rxjs/operators';
 })
 export class MainNavigationComponent implements OnInit {
   menuItems: any[] = []; // To store the menu data
-  isYogaRoutinePage: boolean = false; // Detect if the page is a yoga routine page
+  isRoutinePage: boolean = false; // Detect if the page is a yoga routine page
   menuOpen = false; // State for the mobile menu
 
   constructor(private router: Router, private http: HttpClient) {}
@@ -28,7 +28,7 @@ export class MainNavigationComponent implements OnInit {
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {
-        this.isYogaRoutinePage = event.url.includes('/routine/');
+        this.isRoutinePage = event.url.includes('/routine/');
       });
   }
 
