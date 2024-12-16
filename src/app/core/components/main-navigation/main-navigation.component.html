@@ -1,5 +1,5 @@
 <div
-  [class.no-margin]="isYogaRoutinePage"
+  [class.no-margin]="isRoutinePage"
   class="border-bottom margin-bottom-64 menu-position background-white"
 >
   <div class="container">
@@ -42,10 +42,7 @@
             {{ item.label }}
           </a>
           <!-- Submenu -->
-          <ul
-            *ngIf="item.children?.length"
-            class="submenu radius-s border-bottom"
-          >
+          <ul *ngIf="item.children?.length" class="submenu border-bottom">
             <li *ngFor="let child of item.children">
               <a
                 [routerLink]="child.link"

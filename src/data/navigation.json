@@ -1,16 +1,5 @@
 [
   {
-    "label": "Yin-Style Yoga",
-    "link": "/yin-style-yoga",
-    "children": [
-      { "label": "Library", "link": "/yin-style-yoga/library" },
-      {
-        "label": "Routines",
-        "link": "/yin-style-yoga/routines-overview"
-      }
-    ]
-  },
-  {
     "label": "Breathing Techniques",
     "link": "/breathing",
     "children": [
@@ -18,6 +7,17 @@
       {
         "label": "Routines",
         "link": "/breathing/routines-overview"
+      }
+    ]
+  },
+  {
+    "label": "Yin-Style Yoga",
+    "link": "/yin-style-yoga",
+    "children": [
+      { "label": "Library", "link": "/yin-style-yoga/library" },
+      {
+        "label": "Routines",
+        "link": "/yin-style-yoga/routines-overview"
       }
     ]
   }
