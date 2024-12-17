@@ -6,6 +6,7 @@
     "description": "This Yin-Style Yoga Routine is all about strengthening and relaxing your back. You start with a short Meditation, followed by a series of poses such as Butterfly, Deer and Sphinx.",
     "introText": "Do something good for your back. This Yin-Style Yoga Routine is all about strengthening and relaxing your back. You start with a short Meditation to prepare you for the routine, followed by a series of gentle and focused poses such as Butterfly, Deer and Sphinx. Each exercise has been chosen to soothe your back.",
     "image": "/public/routines/preview-sphinx.png",
+    "imageWebp": "/public/routines/preview-sphinx.webp",
     "slug": "healthy-back",
     "lists": [
       {
@@ -78,6 +79,7 @@
     "description": "This Yin-Style Yoga Routine will help you open and relax your hips and stretch your legs. It begins with a short Meditation and continues with a series of poses such as Dangling, Yoga Squat and Caterpillar.",
     "introText": "This Yin-Style Yoga Routine is designed to gently open your hips and deeply stretch your legs, promoting relaxation and flexibility. Begin with a short mindfulness meditation to center yourself, followed by poses such as Dangling, Yoga Squat, and Caterpillar. Each pose is held to allow a deep release, with the routine gradually progressing toward restorative postures like Supine Spinal Twist and Shavasana to leave you feeling grounded and relaxed.",
     "image": "/public/routines/preview-swan.png",
+    "imageWebp": "/public/routines/preview-swan.webp",
     "slug": "relaxed-hips-legs",
     "lists": [
       {
@@ -156,6 +158,7 @@
     "description": "Reconnect with your body through this Full Body Routine designed to stretch and relax you from head to toe. Whether you're looking for strength, flexibility or deep relaxation, this sequence will leave you feeling balanced and calm.",
     "introText": "Welcome to this Yin-Style Yoga Routine that combines mindful movement with deep stretches to awaken and rejuvenate every part of your body. This routine offers a perfect balance of grounding poses, gentle stretches and restorative postures to build strength and flexibility. From the quiet stillness of meditation to the deep relaxation of Shavasana, each pose invites you to connect with your breath and inner peace. This sequence will leave you deeply relaxed.",
     "image": "/public/routines/preview-square.png",
+    "imageWebp": "/public/routines/preview-square.webp",
     "slug": "full-body-yoga-flow-ground-stretch-restore",
     "lists": [
       {
@@ -234,6 +237,7 @@
     "description": "This Yin-Style Yoga routine focuses on releasing tension in the upper body through gentle stretches and mindful relaxation. Perfect for soothing the shoulders, chest, and spine, it leaves you feeling refreshed and rejuvenated.",
     "introText": "This upper body-focused Yin-Style Yoga sequence offers a soothing blend of gentle heart openers, shoulder stretches, and spinal twists, designed to ease tension and promote deep relaxation. Starting with meditation and progressing through supportive poses, it invites you to slow down, breathe deeply, and connect with your body. Each pose is held for several minutes, allowing your muscles to soften and release, especially in areas like the shoulders and chest. By the end, you'll feel more spacious and open in your upper body, leaving with a sense of calm and well-being.",
     "image": "/public/routines/preview-saddle.png",
+    "imageWebp": "/public/routines/preview-saddle.webp",
     "slug": "upper-body-yin-style-yoga-routine",
     "lists": [
       {

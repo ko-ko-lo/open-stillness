@@ -22,11 +22,14 @@
       </p>
     </div>
 
-    <img
-      [src]="routineData?.image"
-      alt="{{ routineData?.name }}"
-      class="max-width-s w-100 radius-l box-shadow-s"
-    />
+    <picture>
+      <source [srcset]="routineData?.imageWebp" type="image/webp" />
+      <img
+        [src]="routineData?.image"
+        alt=""
+        class="max-width-s w-100 radius-l box-shadow-s"
+      />
+    </picture>
 
     <h2 class="margin-top-72 max-width-s">
       The techniques for this Breathing Routine

@@ -81,21 +81,21 @@ export class BreathingHomeComponent {
         description:
           'Focusing on your breath anchors your awareness to the present moment, cultivating mindfulness and presence.',
       },
-      {
+      /*{
         title: 'Increased Focus & Clarity',
         description:
           'Structured breathing patterns sharpen your focus and mental clarity, making it easier to stay present and productive.',
-      },
+      },*/
       {
         title: 'Connection to Yourself',
         description:
           'Intentional breathing fosters self-awareness, deepening your connection to your thoughts, emotions, and body.',
       },
-      {
+      /*{
         title: 'Better Sleep Quality',
         description:
           'Relaxing breathwork soothes your mind and body, making it easier to transition into restful, rejuvenating sleep.',
-      },
+      },*/
       {
         title: 'Slower Breathing for a Calmer Nervous System',
         description:
