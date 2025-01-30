@@ -1,5 +1,10 @@
 [
   {
+    "label": "Meditation",
+    "link": "/meditation",
+    "children": [{ "label": "Library", "link": "/meditation/library" }]
+  },
+  {
     "label": "Breathwork",
     "link": "/breathing",
     "children": [

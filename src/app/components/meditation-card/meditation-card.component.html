@@ -1,28 +1,32 @@
-<div
-  *ngFor="let meditation of meditations"
-  class="card background-purple-light"
->
+<div class="card background-purple-light">
   <h2>{{ meditation.name }}</h2>
 
   <div class="flex-container">
     <div class="flex-item">
-      <div class="content">
-        <p>{{ meditation.description }}</p>
+      <div class="pill">{{ meditation.targetMeditation }}</div>
+      <p>{{ meditation.description }}</p>
 
-        <p class="bold">Step-by-Step Guide</p>
-        <ol>
-          <li *ngFor="let step of meditation.stepByStep">{{ step }}</li>
-        </ol>
+      <p class="bold">Step by Step Guide</p>
+      <ol>
+        <li *ngFor="let step of meditation.stepBystep">{{ step }}</li>
+      </ol>
 
-        <p class="bold">Suggestion</p>
-        <p>{{ meditation.suggestion }}</p>
-      </div>
+      <p class="bold">Suggestions</p>
+      <ul>
+        <li *ngFor="let variant of meditation.suggestion">
+          {{ variant }}
+        </li>
+      </ul>
     </div>
 
     <div class="flex-item">
       <picture>
         <source [srcset]="getWebpImage(meditation.image)" type="image/webp" />
-        <img [src]="meditation.image" alt="{{ meditation.name }}" />
+        <img
+          class="w-100"
+          [src]="meditation.image"
+          alt="{{ meditation.name }}"
+        />
       </picture>
     </div>
   </div>

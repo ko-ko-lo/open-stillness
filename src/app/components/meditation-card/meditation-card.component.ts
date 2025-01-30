@@ -1,6 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-meditation-card',
@@ -9,16 +8,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './meditation-card.component.html',
   styleUrl: './meditation-card.component.scss',
 })
-export class MeditationCardComponent implements OnInit {
-  meditations: any[] = [];
+export class MeditationCardComponent {
+  @Input() meditation: any;
 
-  constructor(private http: HttpClient) {}
-
-  ngOnInit(): void {
-    this.http.get<any[]>('data/meditations.json').subscribe((data) => {
-      this.meditations = data;
-    });
-  }
   getWebpImage(imagePath: string): string {
     return imagePath.replace(/\.(png|jpg|jpeg)$/, '.webp');
   }
