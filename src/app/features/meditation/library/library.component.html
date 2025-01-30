@@ -1,0 +1,15 @@
+<div class="container">
+  <section>
+    <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
+  </section>
+
+  <app-filtering
+    [filterOptions]="filterOptions"
+    [selectedFilter]="selectedFilter"
+    (filterChange)="onFilterChange($event)"
+  ></app-filtering>
+
+  <div *ngFor="let meditation of filteredMeditation">
+    <app-meditation-card [meditation]="meditation"></app-meditation-card>
+  </div>
+</div>

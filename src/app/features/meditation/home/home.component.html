@@ -1,0 +1,36 @@
+<app-hero
+  [subheadline]="heroData.subheadline"
+  [headline]="heroData.headline"
+  [description]="heroData.description"
+  [buttonLabel]="heroData.buttonLabel"
+  [buttonLink]="heroData.buttonLink"
+  [imagePath]="heroData.imagePath"
+  [imagePathWebP]="heroData.imagePathWebP"
+></app-hero>
+
+<app-short-intro
+  [text]="shortIntro.text"
+  [backgroundClass]="'background-purple-light'"
+></app-short-intro>
+
+<app-library-discover
+  [title]="libraryData.title"
+  [description]="libraryData.description"
+  [buttonLabel]="libraryData.buttonLabel"
+  [buttonLink]="libraryData.buttonLink"
+  [images]="libraryData.images"
+  [backgroundClass]="'background-purple-light'"
+></app-library-discover>
+
+<div class="background-blue-light">
+  <app-benefits
+    [title]="benefitsData.title"
+    [benefits]="benefitsData.benefits"
+  ></app-benefits>
+</div>
+
+<app-accordion
+  [backgroundClass]="'background-white'"
+  [title]="accordionData.title"
+  [items]="accordionData.items"
+></app-accordion>
