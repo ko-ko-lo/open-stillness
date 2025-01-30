@@ -1,8 +1,9 @@
 [
   {
     "name": "Short Mindfulness Meditation",
+    "targetMeditation": "Modern",
     "description": "This simple meditation will help you focus your attention on mindful breathing and calm your mind. It will make it easier for you to focus on the present moment.",
-    "stepByStep": [
+    "stepBystep": [
       "Sit in a comfortable position. Sit up straight and relaxed.",
       "Close or half-open your eyes and look down slightly. Turn your attention inwards.",
       "Start by taking a long, deep breath through your nose. Feel the air entering your lungs and your stomach rising.",
@@ -11,7 +12,10 @@
       "When the time is up, sit in silence for a moment. Feel the calm and relaxation created by the mindful breathing.",
       "Slowly open your eyes and end the meditation."
     ],
-    "suggestion": "To keep your attention on breathing, you can count your breaths: Breathe in (1), breathe out (2), breathe in (3) and so on. Count up to 10 and then start again from 1.",
-    "image": "/public/yoga-poses/meditation.png"
+    "suggestion": [
+      "To keep your attention on breathing, you can count your breaths: Breathe in (1), breathe out (2), breathe in (3) and so on. Count up to 10 and then start again from 1."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
   }
 ]

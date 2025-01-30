@@ -28,11 +28,10 @@ export class LibraryComponent implements OnInit {
   selectedFilter: string = 'All Target Areas';
   filterOptions: string[] = [
     'All Target Areas',
-    'Back and Spine',
-    'Chest',
-    'Hips',
-    'Legs',
+    'Full Body',
     'Upper Body',
+    'Back & Spine',
+    'Hips & Legs',
   ];
 
   constructor(private http: HttpClient, private titleService: TitleService) {}
