@@ -28,10 +28,9 @@ export class LibraryComponent implements OnInit {
   selectedFilter: string = 'All Target Areas';
   filterOptions: string[] = [
     'All Target Areas',
-    'Full Body',
+    'Spinal Movement',
     'Upper Body',
-    'Back & Spine',
-    'Hips & Legs',
+    'Lower Body',
   ];
 
   constructor(private http: HttpClient, private titleService: TitleService) {}
