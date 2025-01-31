@@ -1,7 +1,7 @@
 [
   {
     "name": "Ankle Stretch",
-    "targetAreas": ["Legs"],
+    "targetAreas": ["Lower Body"],
     "targetDescription": "Stretches the front of the ankles and shins, promoting flexibility and relieving tension in the lower legs.",
     "startingPosition": "Sitting on your heels",
     "stepsIntoPose": [
@@ -25,7 +25,7 @@
 
   {
     "name": "Bananasana",
-    "targetAreas": ["Back and Spine", "Upper Body"],
+    "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Stretches the entire side body, lengthening the spine, providing a deep release to the hips and obliques.",
     "startingPosition": "Lying on your back",
     "stepsIntoPose": [
@@ -48,7 +48,7 @@
 
   {
     "name": "Butterfly",
-    "targetAreas": ["Hips", "Back and Spine"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Gently opens the hips and groin while stretching the inner thighs, promoting flexibility in the lower back and pelvis.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -72,7 +72,7 @@
 
   {
     "name": "Cat Pulling Its Tail",
-    "targetAreas": ["Back and Spine", "Hips", "Legs"],
+    "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Provides a gentle twist for the spine while stretching the hips and quads, promoting release in the back and legs.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -96,7 +96,7 @@
 
   {
     "name": "Caterpillar",
-    "targetAreas": ["Back and Spine", "Hips", "Legs"],
+    "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Primarily stretches the entire spine and upper back, offering relief to the back and calming the nervous system.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -119,7 +119,7 @@
 
   {
     "name": "Child's Pose",
-    "targetAreas": ["Back and Spine", "Hips", "Legs"],
+    "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently stretches the hips, thighs, and lower back, promoting relaxation and grounding the body while calming the mind.",
     "startingPosition": "Sitting on your heels",
     "stepsIntoPose": [
@@ -141,7 +141,7 @@
 
   {
     "name": "Dangling",
-    "targetAreas": ["Back and Spine", "Upper Body"],
+    "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently stretches the hamstrings and lower back, decompressing the spine while promoting circulation and calming the nervous system.",
     "startingPosition": "Standing with feet hip-width apart",
     "stepsIntoPose": [
@@ -166,7 +166,7 @@
 
   {
     "name": "Deer",
-    "targetAreas": ["Legs", "Back and Spine"],
+    "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently opens the hips and stretches the quads, while providing a mild twist to the spine, promoting flexibility in the lower back and pelvis.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -190,7 +190,7 @@
 
   {
     "name": "Dragonfly",
-    "targetAreas": ["Hips", "Back and Spine", "Legs"],
+    "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Targets the inner thighs and hamstrings, while gently stretching the lower back, providing a deep release to the hips and spine.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -216,7 +216,7 @@
 
   {
     "name": "Frog",
-    "targetAreas": ["Legs", "Hips", "Back and Spine"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Deeply opens the hips and inner thighs, promoting flexibility and release in the groin and lower back.",
     "startingPosition": "Table top",
     "stepsIntoPose": [
@@ -241,7 +241,7 @@
 
   {
     "name": "Half Butterfly",
-    "targetAreas": ["Back and Spine", "Hips", "Legs"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Gently stretches the hamstrings and lower back, while also opening the hips and promoting relaxation in the spine.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -266,7 +266,7 @@
 
   {
     "name": "Happy Baby",
-    "targetAreas": ["Hips", "Back and Spine", "Legs"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Stretches the hips, inner thighs, and lower back, creating a deep release in the lower spine and encouraging relaxation.",
     "startingPosition": "Lying on your back",
     "stepsIntoPose": [
@@ -290,8 +290,8 @@
 
   {
     "name": "Low-Flying Dragon",
-    "targetAreas": ["Hips", "Back and Spine"],
-    "targetDescription": "Stretches the hip flexors and quads while opening the hips and lower back, promoting deep release in the legs and pelvis.",
+    "targetAreas": ["Lower Body"],
+    "targetDescription": "Stretches the hip flexors and quads while deeply opening the hips. Provides a passive release in the pelvis and may gently decompress the lower back.",
     "startingPosition": "Table top",
     "stepsIntoPose": [
       "Step your right foot between your hands. Place your foot so that your knee is over your heel.",
@@ -315,8 +315,8 @@
 
   {
     "name": "Melting Heart",
-    "targetAreas": ["Back and Spine", "Upper Body"],
-    "targetDescription": "Opens the chest and shoulders while deeply stretching the upper back, releasing tension in the spine.",
+    "targetAreas": ["Upper Body", "Spinal Movement"],
+    "targetDescription": "Also known as Puppy Pose, opens the chest and shoulders while deeply stretching the upper back, releasing tension in the spine.",
     "startingPosition": "Table top",
     "stepsIntoPose": [
       "From the Table top position, slowly come down on your elbows.",
@@ -339,7 +339,7 @@
 
   {
     "name": "Seal",
-    "targetAreas": ["Back and Spine"],
+    "targetAreas": ["Spinal Movement", "Upper Body"],
     "targetDescription": "Offers a deep extension to the spine, opening the chest and stretching the lower back, providing relief for tightness along the back.",
     "startingPosition": "Lying on your belly",
     "stepsIntoPose": [
@@ -387,7 +387,7 @@
 
   {
     "name": "Shoelace",
-    "targetAreas": ["Hips", "Back and Spine"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Targets the outer hips and glutes, offering a deep stretch to the lower back and pelvis, while promoting flexibility in the legs.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -411,7 +411,7 @@
 
   {
     "name": "Snail",
-    "targetAreas": ["Back and Spine"],
+    "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Deeply stretches the entire spine, particularly the neck and upper back, offering a profound release to the back and shoulders.",
     "startingPosition": "Lying on your back",
     "stepsIntoPose": [
@@ -436,7 +436,7 @@
 
   {
     "name": "Sphinx",
-    "targetAreas": ["Back and Spine"],
+    "targetAreas": ["Spinal Movement", "Upper Body"],
     "targetDescription": "Targets the lower back and spine through gentle extension, providing a restorative stretch to the back.",
     "startingPosition": "Lying on your belly",
     "stepsIntoPose": [
@@ -460,7 +460,7 @@
 
   {
     "name": "Square",
-    "targetAreas": ["Hips", "Back and Spine"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Opens the hips and stretches the glutes and lower back, enhancing stability and flexibility in the pelvis and lower back.",
     "startingPosition": "Upright sitting posture",
     "stepsIntoPose": [
@@ -484,7 +484,7 @@
 
   {
     "name": "Supine Spinal Twist",
-    "targetAreas": ["Back and Spine", "Hips"],
+    "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently twists the spine, releasing tension in the lower back and hips, while promoting flexibility in the upper and middle back and calming the nervous system.",
     "startingPosition": "Lying on your back",
     "stepsIntoPose": [
@@ -508,7 +508,7 @@
 
   {
     "name": "Supported Bridge",
-    "targetAreas": ["Back and Spine", "Chest", "Upper Body"],
+    "targetAreas": ["Spinal Movement", "Lower Body", "Upper Body"],
     "targetDescription": "Engages the glutes and lower back, lifting the spine into a gentle backbend while stretching the chest and shoulders.",
     "startingPosition": "Lying on your back",
     "stepsIntoPose": [
@@ -531,7 +531,7 @@
 
   {
     "name": "Supported Saddle",
-    "targetAreas": ["Back and Spine", "Legs", "Chest", "Hips"],
+    "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Deeply stretches the front of the thighs and hip flexors, while gently extending the spine and opening the chest in a supported backbend.",
     "startingPosition": "Sitting on your heels or beside your heels",
     "stepsIntoPose": [
@@ -554,7 +554,7 @@
 
   {
     "name": "Swan",
-    "targetAreas": ["Hips", "Back and Spine", "Legs"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Targets the hips and glutes through a deep stretch, while also gently extending the lower back, providing  flexibility to the lower spine and pelvis.",
     "startingPosition": "Table top",
     "stepsIntoPose": [
@@ -580,7 +580,7 @@
 
   {
     "name": "Toe Squat",
-    "targetAreas": ["Legs"],
+    "targetAreas": ["Lower Body"],
     "targetDescription": "Stretches the toes and feet, promoting flexibility and relieving tension in the arches of the feet, while engaging the ankles and lower legs.",
     "startingPosition": "Table top",
     "stepsIntoPose": [
@@ -604,7 +604,7 @@
 
   {
     "name": "Yoga Squat",
-    "targetAreas": ["Hips", "Legs", "Back and Spine"],
+    "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Opens the hips and groin, while strengthening and stretching the ankles, promoting mobility in the legs and lower back.",
     "startingPosition": "Standing position, feet apart and slightly turned outwards",
     "stepsIntoPose": [
