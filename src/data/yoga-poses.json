@@ -338,6 +338,28 @@
   },
 
   {
+    "name": "Neck Side Stretch",
+    "targetAreas": ["Upper Body"],
+    "targetDescription": "Gently releases tension in the side of the neck while softening the shoulders and upper back.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Gently drop one ear toward your shoulder, allowing the side of your neck to soften and stretch. Lower the opposite shoulder slightly to enhance the lengthening effect.",
+      "To lengthen the stretch, slowly walk your hand away from the shoulder you are leaning toward, until you find a nice edge."
+    ],
+    "stepsOutOfPose": [
+      "To deepen the stretch, gently rest your hand above your ear, allowing the natural weight of your arm to enhance the lengthening without applying pressure or pulling.",
+      "For a deeper release in the shoulder and side of the neck, bring your opposite arm behind your back, resting your hand on your lower back or hip on the same side as your tilted head."
+    ],
+    "possibleVariants": [
+      "To deepen the stretch, gently rest your hand above your ear, allowing the natural weight of your arm to enhance the lengthening without applying pressure or pulling.",
+      "For a deeper release in the shoulder and side of the neck, bring your opposite arm behind your back, resting your hand on your lower back or hip on the same side as your tilted head."
+    ],
+    "practiceOnBothSides": true,
+    "image": "/public/yoga-poses/neck-side-stretch.png",
+    "imageWebp": "/public/yoga-poses/neck-side-stretch.webp"
+  },
+
+  {
     "name": "Seal",
     "targetAreas": ["Spinal Movement", "Upper Body"],
     "targetDescription": "Offers a deep extension to the spine, opening the chest and stretching the lower back, providing relief for tightness along the back.",
