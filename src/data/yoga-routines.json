@@ -8,6 +8,7 @@
     "image": "/public/routines/preview-sphinx.png",
     "imageWebp": "/public/routines/preview-sphinx.webp",
     "slug": "healthy-back",
+    "meditation": "Short Mindfulness Meditation",
     "lists": [
       {
         "name": "Meditation",
@@ -81,6 +82,7 @@
     "image": "/public/routines/preview-swan.png",
     "imageWebp": "/public/routines/preview-swan.webp",
     "slug": "relaxed-hips-legs",
+    "meditation": "Short Mindfulness Meditation",
     "lists": [
       {
         "name": "Meditation",
@@ -160,6 +162,7 @@
     "image": "/public/routines/preview-square.png",
     "imageWebp": "/public/routines/preview-square.webp",
     "slug": "full-body-yoga-flow-ground-stretch-restore",
+    "meditation": "Short Mindfulness Meditation",
     "lists": [
       {
         "name": "Meditation",
@@ -239,6 +242,7 @@
     "image": "/public/routines/preview-saddle.png",
     "imageWebp": "/public/routines/preview-saddle.webp",
     "slug": "upper-body-yin-style-yoga-routine",
+    "meditation": "Short Mindfulness Meditation",
     "lists": [
       {
         "name": "Meditation",
@@ -295,6 +299,57 @@
       "Melting Heart",
       "Bananasana",
       "Shavasana"
+    ]
+  },
+
+  {
+    "name": "Quick Upper Body Reset",
+    "time": "10",
+    "targetAreas": "Upper Body",
+    "description": "This simple 10-minute practice focuses on releasing tension in the neck, shoulders, and chest through gentle stretches and mindful movement.",
+    "introText": "This simple 10-minute practice is designed to release tension in the neck, shoulders, and chest. The sequence begins with gentle mobility for the neck before moving into stretches that target the shoulders, spine, and upper body. Each pose is chosen to gradually create more space.",
+    "image": "/public/routines/preview-neck-side-stretch.png",
+    "imageWebp": "/public/routines/preview-neck-side-stretch.webp",
+    "slug": "quick-upper-body-reset",
+    "lists": [
+      {
+        "name": "Half Neck Rolls",
+        "time": "1",
+        "repeat": false
+      },
+      {
+        "name": "Neck Side Stretch",
+        "time": "1",
+        "repeat": true
+      },
+      {
+        "name": "Neck Forward Stretch",
+        "time": "1",
+        "repeat": false
+      },
+      {
+        "name": "Seated Spinal Twist",
+        "time": "1",
+        "repeat": true
+      },
+      {
+        "name": "Seated Side Bend",
+        "time": "1",
+        "repeat": true
+      },
+      {
+        "name": "Seated Chest Opener",
+        "time": "1",
+        "repeat": false
+      }
+    ],
+    "poses": [
+      "Half Neck Rolls",
+      "Neck Side Stretch",
+      "Neck Forward Stretch",
+      "Seated Spinal Twist",
+      "Seated Side Bend",
+      "Seated Chest Opener"
     ]
   }
 ]
