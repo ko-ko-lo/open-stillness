@@ -50,7 +50,10 @@
       </p>
     </div>
   </div>
-  <app-meditation-card></app-meditation-card>
+  <app-meditation-card
+    *ngIf="selectedMeditation"
+    [meditation]="selectedMeditation"
+  ></app-meditation-card>
 
   <!-- Display the relevant yoga cards for this routine -->
   <div class="pose-cards">

@@ -7,6 +7,7 @@ import { MeditationCardComponent } from '../../../components/meditation-card/med
 import { RoutineEndComponent } from '../../../components/routine-end/routine-end.component';
 import { YogaCardComponent } from '../../../components/yoga-card/yoga-card.component';
 import { TitleService } from '../../../services/title.service';
+import meditations from './../../../../data/meditations.json';
 
 @Component({
   selector: 'app-yoga-routine',
@@ -22,6 +23,11 @@ import { TitleService } from '../../../services/title.service';
   styleUrl: './yoga-routine.component.scss',
 })
 export class YogaRoutinesComponent implements OnInit {
+  meditationName = 'Short Mindfulness Meditation';
+  selectedMeditation = meditations.find(
+    (m) => m.meditationName === this.meditationName
+  );
+
   routineSlug: string | null = null;
   routineData: any = null;
   yogaPoses: any[] = [];
