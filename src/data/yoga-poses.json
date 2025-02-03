@@ -3,7 +3,7 @@
     "name": "Ankle Stretch",
     "targetAreas": ["Lower Body"],
     "targetDescription": "Stretches the front of the ankles and shins, promoting flexibility and relieving tension in the lower legs.",
-    "startingPosition": "Sitting on your heels",
+    "startingPosition": "Resting on your heels.",
     "stepsIntoPose": [
       "Place your hands on the ground behind you and bend back slightly.",
       "As you lean back, raise your knees as high as comfortable.",
@@ -27,7 +27,7 @@
     "name": "Bananasana",
     "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Stretches the entire side body, lengthening the spine, providing a deep release to the hips and obliques.",
-    "startingPosition": "Lying on your back",
+    "startingPosition": "Lying comfortably on your back.",
     "stepsIntoPose": [
       "Place your legs together in a straight line on the floor.",
       "Raise arms overhead and grasp hands or elbows.",
@@ -50,7 +50,7 @@
     "name": "Butterfly",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Gently opens the hips and groin while stretching the inner thighs, promoting flexibility in the lower back and pelvis.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Make a diamond shape with your legs by bringing the soles of your feet together and sliding them away from you as far as you like.",
       "Straighten your spine and slowly fold your body forward in the direction of your feet. Allow your back to round.",
@@ -74,7 +74,7 @@
     "name": "Cat Pulling Its Tail",
     "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Provides a gentle twist for the spine while stretching the hips and quads, promoting release in the back and legs.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Stretch your legs straight out in front of you.",
       "Turn to one side of your body and lean on your elbow.",
@@ -98,7 +98,7 @@
     "name": "Caterpillar",
     "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Primarily stretches the entire spine and upper back, offering relief to the back and calming the nervous system.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Stretch your legs straight out in front of you. Straighten your spine and relax your shoulders.",
       "Slowly bend your upper body forward from the hips. Allow your spine to round."
@@ -121,7 +121,7 @@
     "name": "Child's Pose",
     "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently stretches the hips, thighs, and lower back, promoting relaxation and grounding the body while calming the mind.",
-    "startingPosition": "Sitting on your heels",
+    "startingPosition": "Resting on your heels.",
     "stepsIntoPose": [
       "Slowly bend forward, bringing your upper body to your thighs and gently lowering your forehead to the ground.",
       "Stretch your arms forward over your head, keeping your elbows and shoulders relaxed."
@@ -140,10 +140,34 @@
   },
 
   {
+    "name": "Cowface Arms",
+    "targetAreas": ["Upper Body"],
+    "targetDescription": "Opens the shoulders, stretches the arms, and releases tension in the upper back and chest.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Extend both arms out to the sides, palms facing forward.",
+      "Sweep one arm behind your back, walking your hand up between your shoulder blades, palm facing outward.",
+      "Stretch the other arm up overhead, fingertips pointing toward the ceiling, keeping the palm facing forward.",
+      "Bend the elbow and reach down toward your lower hand, aiming to hook your fingers together. If they don’t connect, simply point them toward each other or use a strap for support."
+    ],
+    "stepsOutOfPose": [
+      "Gently release your arms, allowing them to unwind with ease.",
+      "Roll your shoulders back and down, letting go of any tension.",
+      "Pause for a moment, noticing any sensations in your shoulders before switching sides."
+    ],
+    "possibleVariants": [
+      "For an alternative shoulder and chest opening, bring your hands into Reverse Prayer behind your back. Press your palms together gently, keeping your elbows relaxed and your shoulders drawing back."
+    ],
+    "practiceOnBothSides": true,
+    "image": "/public/yoga-poses/cowface-arms.png",
+    "imageWebp": "/public/yoga-poses/cowface-arms.webp"
+  },
+
+  {
     "name": "Dangling",
     "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently stretches the hamstrings and lower back, decompressing the spine while promoting circulation and calming the nervous system.",
-    "startingPosition": "Standing with feet hip-width apart",
+    "startingPosition": "Standing with feet hip-width apart, grounded and steady.",
     "stepsIntoPose": [
       "Bend your knees slightly.",
       "Bend your upper body forward and allow your spine to round.",
@@ -168,7 +192,7 @@
     "name": "Deer",
     "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently opens the hips and stretches the quads, while providing a mild twist to the spine, promoting flexibility in the lower back and pelvis.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Make a diamond shape with your legs by bringing the soles of your feet together and sliding them away from you as far as you like.",
       "Swing one leg behind you and bring your foot behind your hip.",
@@ -192,7 +216,7 @@
     "name": "Dragonfly",
     "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Targets the inner thighs and hamstrings, while gently stretching the lower back, providing a deep release to the hips and spine.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Spread your legs apart so that they are well stretched but still comfortable.",
       "Bend forward from the hips, allowing your spine to round. Your neck is relaxed.",
@@ -215,10 +239,34 @@
   },
 
   {
+    "name": "Eagle Arms",
+    "targetAreas": ["Upper Body"],
+    "targetDescription": "Opens the shoulders and upper back while stretching the arms and releasing tension between the shoulder blades.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Extend your arms out to the sides in a cactus shape, elbows bent at 90 degrees.",
+      "Bring both arms forward and cross one elbow under the other.",
+      "Wrap your forearms around each other, bringing your palms together if possible.",
+      "Gently lift your elbows up and away from your body while keeping your shoulders relaxed and down."
+    ],
+    "stepsOutOfPose": [
+      "Gently release your arms, untangling them with ease.",
+      "Open your arms wide, lifting through the chest to create a gentle backbend and heart-opening stretch. Switch Sides."
+    ],
+    "possibleVariants": [
+      "Slowly tilt your head forward, bringing your chin toward your chest to add a gentle stretch in the neck and upper back.",
+      "For a deeper release in the upper back, gently hinge forward from the hips while keeping your arms in position."
+    ],
+    "practiceOnBothSides": true,
+    "image": "/public/yoga-poses/eagle-arms.png",
+    "imageWebp": "/public/yoga-poses/eagle-arms.webp"
+  },
+
+  {
     "name": "Frog",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Deeply opens the hips and inner thighs, promoting flexibility and release in the groin and lower back.",
-    "startingPosition": "Table top",
+    "startingPosition": "Finding a stable Tabletop position.",
     "stepsIntoPose": [
       "Spread your knees as far apart as comfortable, keeping your shins parallel. The feet should point outwards.",
       "With your arms extended, slide both hands forward. Slowly lower the upper body towards the ground.",
@@ -243,7 +291,7 @@
     "name": "Half Butterfly",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Gently stretches the hamstrings and lower back, while also opening the hips and promoting relaxation in the spine.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Draw one foot towards you.",
       "Stretch your other leg straight out to the side.",
@@ -265,10 +313,33 @@
   },
 
   {
+    "name": "Half Neck Rolls",
+    "targetAreas": ["Upper Body"],
+    "targetDescription": "Gently releases stiffness in the neck while inviting ease in the shoulders and upper back.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Drop one ear toward your shoulder, allowing the side of your neck to soften and stretch.",
+      "Slowly roll your chin down toward your chest, releasing any tension in the back of your neck.",
+      "Continue the movement to the opposite side, bringing your other ear toward your shoulder with ease."
+    ],
+    "stepsOutOfPose": [
+      "After completing your repetitions, gently bring your head back to center, allowing your neck to settle into a neutral position.",
+      "Pause for a moment and notice any sensations in your neck and shoulders before continuing."
+    ],
+    "possibleVariants": [
+      "Sync your breathing with the movement: As you roll one ear towards your shoulder, inhale; as you roll down towards your chest and over to the other side, exhale.",
+      "Slow down the movement by taking longer, deeper breaths."
+    ],
+    "practiceOnBothSides": false,
+    "image": "/public/yoga-poses/half-neck-rolls.png",
+    "imageWebp": "/public/yoga-poses/half-neck-rolls.webp"
+  },
+
+  {
     "name": "Happy Baby",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Stretches the hips, inner thighs, and lower back, creating a deep release in the lower spine and encouraging relaxation.",
-    "startingPosition": "Lying on your back",
+    "startingPosition": "Lying comfortably on your back.",
     "stepsIntoPose": [
       "Bring your knees in towards your chest and point the soles of your feet upwards.",
       "Grab the outside of your feet and pull your knees towards the floor, along your chest. Push the tailbone towards the ground.",
@@ -292,7 +363,7 @@
     "name": "Low-Flying Dragon",
     "targetAreas": ["Lower Body"],
     "targetDescription": "Stretches the hip flexors and quads while deeply opening the hips. Provides a passive release in the pelvis and may gently decompress the lower back.",
-    "startingPosition": "Table top",
+    "startingPosition": "Finding a stable Tabletop position.",
     "stepsIntoPose": [
       "Step your right foot between your hands. Place your foot so that your knee is over your heel.",
       "Lower your left knee to the floor and slide your leg back as far as comfortable. ",
@@ -317,9 +388,9 @@
     "name": "Melting Heart",
     "targetAreas": ["Upper Body", "Spinal Movement"],
     "targetDescription": "Also known as Puppy Pose, opens the chest and shoulders while deeply stretching the upper back, releasing tension in the spine.",
-    "startingPosition": "Table top",
+    "startingPosition": "Finding a stable Tabletop position.",
     "stepsIntoPose": [
-      "From the Table top position, slowly come down on your elbows.",
+      "From the table top position, slowly come down on your elbows.",
       "Straighten your arms out in front of you, one at a time. Find the optimum position for the distance between your arms.",
       "Keep your hips above your knees and your chest in contact with the ground.",
       "Gently lower your forehead to the ground."
@@ -338,17 +409,38 @@
   },
 
   {
+    "name": "Neck Forward Stretch",
+    "targetAreas": ["Upper Body"],
+    "targetDescription": "Gently releases tension in the back of the neck while softening the upper back and shoulders.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Slowly lower your chin toward your chest, allowing the back of your neck to gently soften and lengthen.",
+      "To deepen the stretch, interlace your fingers and rest your hands lightly on the back of your head, letting the natural weight of your arms enhance the stretch without applying pressure or pulling."
+    ],
+    "stepsOutOfPose": [
+      "Gently release your hands, allowing your arms to relax by your sides.",
+      "Slowly bring your head back to center, pausing for a moment to notice any sensations."
+    ],
+    "possibleVariants": [
+      "For a gentler stretch, simply lower your chin toward your chest and allow gravity to create the release, without using your hands for support."
+    ],
+    "practiceOnBothSides": false,
+    "image": "/public/yoga-poses/neck-forward-stretch.png",
+    "imageWebp": "/public/yoga-poses/neck-forward-stretch.webp"
+  },
+
+  {
     "name": "Neck Side Stretch",
     "targetAreas": ["Upper Body"],
     "targetDescription": "Gently releases tension in the side of the neck while softening the shoulders and upper back.",
     "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
     "stepsIntoPose": [
       "Gently drop one ear toward your shoulder, allowing the side of your neck to soften and stretch. Lower the opposite shoulder slightly to enhance the lengthening effect.",
-      "To lengthen the stretch, slowly walk your hand away from the shoulder you are leaning toward, until you find a nice edge."
+      "To intensify the stretch, slowly walk your hand away from the shoulder you are leaning toward, until you find a nice edge."
     ],
     "stepsOutOfPose": [
-      "To deepen the stretch, gently rest your hand above your ear, allowing the natural weight of your arm to enhance the lengthening without applying pressure or pulling.",
-      "For a deeper release in the shoulder and side of the neck, bring your opposite arm behind your back, resting your hand on your lower back or hip on the same side as your tilted head."
+      "Walk your hand back toward your body.",
+      "Slowly bring your head back to center, pausing for a moment to notice any sensations before switching sides."
     ],
     "possibleVariants": [
       "To deepen the stretch, gently rest your hand above your ear, allowing the natural weight of your arm to enhance the lengthening without applying pressure or pulling.",
@@ -363,7 +455,7 @@
     "name": "Seal",
     "targetAreas": ["Spinal Movement", "Upper Body"],
     "targetDescription": "Offers a deep extension to the spine, opening the chest and stretching the lower back, providing relief for tightness along the back.",
-    "startingPosition": "Lying on your belly",
+    "startingPosition": "Lying on your belly, allowing your body to relax.",
     "stepsIntoPose": [
       "Place your palms a little more than shoulder width apart in front of you. Your hands are turned slightly outwards.",
       "Adjust the distance of your hands from your body. Bringing your hands further forward makes the stretch more accessible.",
@@ -383,10 +475,79 @@
   },
 
   {
+    "name": "Seated Chest Opener",
+    "targetAreas": ["Upper Body"],
+    "targetDescription": "Opens the chest and shoulders while gently stretching the arms and upper back.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Slowly walk your hands back behind you, coming up onto your fingertips.",
+      "Bend your elbows slightly and lean into your hands, gently drawing your shoulder blades together.",
+      "Press through your fingertips as you lift your chest upward, creating space in your heart center."
+    ],
+    "stepsOutOfPose": [
+      "Slowly straighten your arms, walk your hands forward, releasing any engagement in your chest and shoulders.",
+      "Pause for a moment, noticing any sensations."
+    ],
+    "possibleVariants": [
+      "For a more intense stretch, interlace your fingers behind your back and straighten your arms as you lift your chest. Keep the shoulders relaxed and avoid forcing the movement."
+    ],
+    "practiceOnBothSides": false,
+    "image": "/public/yoga-poses/seated-chest-opener.png",
+    "imageWebp": "/public/yoga-poses/seated-chest-opener.webp"
+  },
+
+  {
+    "name": "Seated Side Bend",
+    "targetAreas": ["Upper Body", "Spinal Movement"],
+    "targetDescription": "Stretches the side body, and releases tension in the shoulders and spine.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Reach one arm up and over, bending gently to the opposite side while keeping both sit bones grounded.",
+      "Let your other hand walk away from you, creating length through your side body.",
+      "Relax your neck and head, allowing them to follow the natural curve of the stretch."
+    ],
+    "stepsOutOfPose": [
+      "Slowly walk your lower hand back toward your body, bringing yourself upright.",
+      "Lower your top arm gently to your side, returning to a neutral position.",
+      "Pause for a moment, noticing any sensations in your side body before switching sides."
+    ],
+    "possibleVariants": [
+      "From Seated Side Bend, gently rotate your chest downward, bringing your chin toward your chest. Imagine someone softly pulling your extended arm forward, deepening the stretch along your side body and upper back."
+    ],
+    "practiceOnBothSides": true,
+    "image": "/public/yoga-poses/seated-side-bend.png",
+    "imageWebp": "/public/yoga-poses/seated-side-bend.webp"
+  },
+
+  {
+    "name": "Seated Spinal Twist",
+    "targetAreas": ["Upper Body", "Spinal Movement"],
+    "targetDescription": "Gently releases tension in the spine while stretching the shoulders and chest.",
+    "startingPosition": "Sit comfortably in an upright position, allowing your spine to lengthen. Relax your shoulders, gently rolling them back.",
+    "stepsIntoPose": [
+      "Bring one hand to the opposite knee, grounding your palm gently.",
+      "Begin to twist your upper and mid-body to the same side, allowing your spine to lengthen as you move.",
+      "At the same time, place your other hand behind you near your hip, keeping your hips facing forward and your chest open.",
+      "Turn your head gently in the direction of your twist, finding a soft gaze."
+    ],
+    "stepsOutOfPose": [
+      "Gently turn your head back to center, bringing your gaze forward.",
+      "Allow your body to slowly unwind, returning to a neutral position.",
+      "Pause for a moment to notice any sensations before switching sides."
+    ],
+    "possibleVariants": [
+      "For a deeper twist and an intensified hip stretch, settle into Shoelace Pose. From here, gently twist toward the top knee as instructed above."
+    ],
+    "practiceOnBothSides": true,
+    "image": "/public/yoga-poses/seated-spinal-twist.png",
+    "imageWebp": "/public/yoga-poses/seated-spinal-twist.webp"
+  },
+
+  {
     "name": "Shavasana",
     "targetAreas": [],
     "targetDescription": "Encourages full body relaxation and surrender, helping the body to integrate and rest after practice, calming both body and mind.",
-    "startingPosition": "Lying on your back",
+    "startingPosition": "Lying comfortably on your back.",
     "stepsIntoPose": [
       "Your arms point slightly outwards with your palms facing upwards.",
       "Your feet fall slightly outwards.",
@@ -411,7 +572,7 @@
     "name": "Shoelace",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Targets the outer hips and glutes, offering a deep stretch to the lower back and pelvis, while promoting flexibility in the legs.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Come to sit cross-legged.",
       "Draw one foot under the opposite thigh and the other foot over to the opposite hip. Your knees are roughly on top of each other.",
@@ -435,7 +596,7 @@
     "name": "Snail",
     "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Deeply stretches the entire spine, particularly the neck and upper back, offering a profound release to the back and shoulders.",
-    "startingPosition": "Lying on your back",
+    "startingPosition": "Lying comfortably on your back.",
     "stepsIntoPose": [
       "Lift your hips up and use your hands to support them.",
       "Move your feet up and over your head and towards the floor.",
@@ -460,7 +621,7 @@
     "name": "Sphinx",
     "targetAreas": ["Spinal Movement", "Upper Body"],
     "targetDescription": "Targets the lower back and spine through gentle extension, providing a restorative stretch to the back.",
-    "startingPosition": "Lying on your belly",
+    "startingPosition": "Lying on your belly, allowing your body to relax.",
     "stepsIntoPose": [
       "Place your palms about shoulder width apart in front of you. Your fingertips are pointing forward. ",
       "Bring your elbows close to your body at shoulder height.",
@@ -484,7 +645,7 @@
     "name": "Square",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Opens the hips and stretches the glutes and lower back, enhancing stability and flexibility in the pelvis and lower back.",
-    "startingPosition": "Upright sitting posture",
+    "startingPosition": "Sitting upright with a relaxed posture.",
     "stepsIntoPose": [
       "Your legs are crossed. From here, place your left foot in front of your right knee. So one leg is in front of the other. ",
       "Keep your shins parallel as much as possible.",
@@ -508,7 +669,7 @@
     "name": "Supine Spinal Twist",
     "targetAreas": ["Spinal Movement", "Lower Body"],
     "targetDescription": "Gently twists the spine, releasing tension in the lower back and hips, while promoting flexibility in the upper and middle back and calming the nervous system.",
-    "startingPosition": "Lying on your back",
+    "startingPosition": "Lying comfortably on your back.",
     "stepsIntoPose": [
       "Bend your legs and place your feet on the ground. Open your arms out to the sides like wings. Keep your shoulders on the ground.",
       "Move your hips slightly to the left side. Pull your knees towards your chest and drop your legs to the right side.",
@@ -532,7 +693,7 @@
     "name": "Supported Bridge",
     "targetAreas": ["Spinal Movement", "Lower Body", "Upper Body"],
     "targetDescription": "Engages the glutes and lower back, lifting the spine into a gentle backbend while stretching the chest and shoulders.",
-    "startingPosition": "Lying on your back",
+    "startingPosition": "Lying comfortably on your back.",
     "stepsIntoPose": [
       "Place your feet hip width apart and close to your buttocks. Your arms are on the floor, pointing slightly outwards.",
       "Raise your hips so that you can place a block or yoga bolster under your pelvis.",
@@ -555,7 +716,7 @@
     "name": "Supported Saddle",
     "targetAreas": ["Spinal Movement", "Upper Body", "Lower Body"],
     "targetDescription": "Deeply stretches the front of the thighs and hip flexors, while gently extending the spine and opening the chest in a supported backbend.",
-    "startingPosition": "Sitting on your heels or beside your heels",
+    "startingPosition": "Sitting on your heels or beside them, whichever feels best.",
     "stepsIntoPose": [
       "Place a pillow lengthwise behind your spine as support.",
       "Place your hands behind you and carefully start to lean backwards. Your back is slightly rounded.",
@@ -578,7 +739,7 @@
     "name": "Swan",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Targets the hips and glutes through a deep stretch, while also gently extending the lower back, providing  flexibility to the lower spine and pelvis.",
-    "startingPosition": "Table top",
+    "startingPosition": "Finding a stable Tabletop position.",
     "stepsIntoPose": [
       "Slide your right knee forward close to your right wrist.",
       "Bring your right foot close to your left hip and flex your foot.",
@@ -604,7 +765,7 @@
     "name": "Toe Squat",
     "targetAreas": ["Lower Body"],
     "targetDescription": "Stretches the toes and feet, promoting flexibility and relieving tension in the arches of the feet, while engaging the ankles and lower legs.",
-    "startingPosition": "Table top",
+    "startingPosition": "Finding a stable Tabletop position.",
     "stepsIntoPose": [
       "Start by tucking in your toes.",
       "Now sit back on your heels.",
@@ -628,7 +789,7 @@
     "name": "Yoga Squat",
     "targetAreas": ["Lower Body", "Spinal Movement"],
     "targetDescription": "Opens the hips and groin, while strengthening and stretching the ankles, promoting mobility in the legs and lower back.",
-    "startingPosition": "Standing position, feet apart and slightly turned outwards",
+    "startingPosition": "Standing with feet apart, gently turned outward, feeling balanced.",
     "stepsIntoPose": [
       "Bend your knees and squat down. Make sure your knees point in the same direction as your toes. Keep your arms in front of you for balance. Your body weight is evenly distributed over your feet.",
       "When you are all the way down, bring your hands into a prayer position. Press your elbows against the inside of your thighs and vice versa."

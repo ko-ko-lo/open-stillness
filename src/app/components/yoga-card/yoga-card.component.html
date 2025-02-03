@@ -11,6 +11,9 @@
       </div>
       <p>{{ pose.targetDescription }}</p>
 
+      <p class="bold">Starting Position</p>
+      <p>{{ pose.startingPosition }}</p>
+
       <p class="bold">Steps into the Pose</p>
       <ol>
         <li *ngFor="let step of pose.stepsIntoPose">{{ step }}</li>
