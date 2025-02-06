@@ -3,7 +3,16 @@
 
   <div class="flex-container">
     <div class="flex-item">
-      <div class="pill">{{ meditation.targetMeditation }}</div>
+      <!--<div class="pill">{{ meditation.targetMeditation }}</div>-->
+
+      <div class="target-areas d-flex flex-wrap gap-8">
+        <span
+          *ngFor="let targetMeditation of meditation.targetMeditation"
+          class="pill"
+          >{{ targetMeditation }}</span
+        >
+      </div>
+
       <p>{{ meditation.description }}</p>
 
       <p class="bold">Preparation</p>

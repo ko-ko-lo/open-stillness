@@ -1,7 +1,7 @@
 [
   {
     "meditationName": "Breathing Meditation",
-    "targetMeditation": "Traditional",
+    "targetMeditation": ["Traditional"],
     "description": "A breath-focused meditation rooted in Buddhist tradition. By observing each inhale and exhale without interference, you cultivate stillness, mindful awareness, and a deeper connection between body and mind.",
     "preparation": "Sit comfortably with a relaxed, upright posture. Close your eyes or soften your gaze. Notice any tension and let it go.",
     "stepBystep": [
@@ -19,7 +19,7 @@
 
   {
     "meditationName": "Short Mindfulness Meditation",
-    "targetMeditation": "Modern",
+    "targetMeditation": ["Modern"],
     "description": "A simple and accessible meditation designed to cultivate mindfulness through the breath. By gently focusing on your inhalation and exhalation, this practice helps calm the mind, ease tension, and bring awareness to the present moment.",
     "preparation": "Sit comfortably with a relaxed, upright posture. Close your eyes or soften your gaze. Notice any tension and let it go.",
     "stepBystep": [
@@ -31,6 +31,26 @@
     "completion": "When you're ready, gently transition out of the meditation. Notice any lingering sensations or insights. Slowly open your eyes and return to the present moment.",
     "suggestion": [
       "If your mind wanders, try counting your breaths: Inhale (1), exhale (2), up to 10, then restart at 1. This helps maintain focus and presence."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
+    "meditationName": "Walking Meditation",
+    "targetMeditation": ["Movement-Based", "Modern"],
+    "description": "Walking meditation is an opportunity to gather awareness and step out of the distracted autopilot we often live in. Whether moving in a room, between floors, on a street, or in the woods, this practice gently guides you back to the present moment by focusing on the rhythm of movement and sensation.",
+    "preparation": "Stand still and take a moment to feel your entire body. Keep your eyes open but soft and unfocused, looking slightly downward a few steps ahead.",
+    "stepBystep": [
+      "Focus on one foot, noticing sensations in the toes and sole.",
+      "Slowly lift that foot and take a step, bringing full awareness to the motion.",
+      "As your foot touches the ground, notice the contact - the way your sole meets the ground.",
+      "Observe your whole body - the natural swing of your arms, the balance in your pelvis, the alignment of your head and neck.",
+      "Repeat with each step, staying present with every movement."
+    ],
+    "completion": "At the end of your meditation, stand still for a few moments. Observe the sense of clarity and calmness within you before transitioning back to your day.",
+    "suggestion": [
+      "Acknowledge any thoughts that arise without judgment. If the mind wanders, gently return attention to your whole body, not just one movement."
     ],
     "image": "/public/yoga-poses/meditation.png",
     "imageWebp": "/public/yoga-poses/meditation.webp"
