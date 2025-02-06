@@ -1,5 +1,28 @@
 [
   {
+    "meditationName": "Body Scan Meditation",
+    "targetMeditation": ["Modern"],
+    "description": "A deeply relaxing meditation that guides awareness through different parts of the body, releasing tension and enhancing presence. By bringing attention to each area, the practice cultivates deep relaxation and connection with the body.",
+    "preparation": "Find a comfortable position, either lying down or sitting with a relaxed, upright posture. Close your eyes or soften your gaze. Take a deep breath and let your body settle.",
+    "stepBystep": [
+      "Start at your feet, noticing any sensations - warmth, tingling, or tension.",
+      "Move your awareness up to your lower legs, observing any tightness or ease.",
+      "Continue scanning upward - knees, thighs, hips - without judgment, simply noticing.",
+      "Bring attention to your abdomen and chest, feeling the rhythm of your breath.",
+      "Observe your shoulders, arms, and hands, allowing them to relax.",
+      "Bring awareness to your neck, jaw, and facial muscles, releasing tension.",
+      "Finally, focus on the crown of your head, sensing your entire body as a whole."
+    ],
+    "completion": "Take a moment to rest in stillness, noticing how your body feels after the scan. When you're ready, gently bring movement back, stretch if needed, and open your eyes.",
+    "suggestion": [
+      "For a deeper practice, imagine sending warmth or breath to each body part.",
+      "For a shorter version: Focus only on major areas (legs, torso, arms, head)."
+    ],
+    "image": "/public/yoga-poses/shavasana.png",
+    "imageWebp": "/public/yoga-poses/shavasana.webp"
+  },
+
+  {
     "meditationName": "Breathing Meditation",
     "targetMeditation": ["Traditional"],
     "description": "A breath-focused meditation rooted in Buddhist tradition. By observing each inhale and exhale without interference, you cultivate stillness, mindful awareness, and a deeper connection between body and mind.",
