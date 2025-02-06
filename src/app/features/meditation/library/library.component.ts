@@ -31,7 +31,7 @@ export class MeditationLibraryComponent {
   }
 
   title: string = 'Find your Meditation Routine in the Library';
-  text: string = 'Preparing';
+  text: string = 'Did not write the introduction text yet....';
 
   meditationExercises: any[] = [];
 
@@ -48,7 +48,7 @@ export class MeditationLibraryComponent {
   onFilterChange(selectedFilter: string): void {
     this.selectedFilter = selectedFilter;
 
-    if (selectedFilter === 'All Breathing Techniques') {
+    if (selectedFilter === 'All Meditation Techniques') {
       this.filteredMeditation = this.meditationExercises; // Show all poses when "All Breathing Techniques" is selected
     } else {
       this.filteredMeditation = this.meditationExercises.filter((meditation) =>

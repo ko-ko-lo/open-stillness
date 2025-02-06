@@ -1,19 +1,36 @@
 [
   {
+    "meditationName": "Breathing Meditation",
+    "targetMeditation": "Traditional",
+    "description": "A breath-focused meditation rooted in Buddhist tradition. By observing each inhale and exhale without interference, you cultivate stillness, mindful awareness, and a deeper connection between body and mind.",
+    "preparation": "Sit comfortably with a relaxed, upright posture. Close your eyes or soften your gaze. Notice any tension and let it go.",
+    "stepBystep": [
+      "Breathe naturally and gently, bringing your awareness to the subtle sensations of the breath flowing in and out of your nostrils.",
+      "Observe the full process of each inhalation and exhalation without trying to control it - simply notice the breath as it is.",
+      "If your mind wanders, gently bring your attention back to the breath, without judgment. Each new breath is an opportunity to return to the present moment."
+    ],
+    "completion": "Gently transition out of the meditation. Notice any sensations or insights that have arisen. When you're ready, slowly open your eyes and return to the present moment.",
+    "suggestion": [
+      "If your mind wanders, try counting your breaths: Inhale (1), exhale (2), up to 10, then restart at 1. This helps maintain focus and presence."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
     "meditationName": "Short Mindfulness Meditation",
     "targetMeditation": "Modern",
-    "description": "This simple meditation will help you focus your attention on mindful breathing and calm your mind. It will make it easier for you to focus on the present moment.",
+    "description": "A simple and accessible meditation designed to cultivate mindfulness through the breath. By gently focusing on your inhalation and exhalation, this practice helps calm the mind, ease tension, and bring awareness to the present moment.",
+    "preparation": "Sit comfortably with a relaxed, upright posture. Close your eyes or soften your gaze. Notice any tension and let it go.",
     "stepBystep": [
-      "Sit in a comfortable position. Sit up straight and relaxed.",
-      "Close or half-open your eyes and look down slightly. Turn your attention inwards.",
       "Start by taking a long, deep breath through your nose. Feel the air entering your lungs and your stomach rising.",
       "Exhale slowly and evenly through your mouth or nose. Feel the air leaving your lungs and your stomach dropping as you exhale.",
       "Give your full attention to your mindful breathing and focus on the present moment.",
-      "When the time is up, sit in silence for a moment. Feel the calm and relaxation created by the mindful breathing.",
-      "Slowly open your eyes and end the meditation."
+      "When the time is up, sit in silence for a moment. Feel the calm and relaxation created by the mindful breathing."
     ],
+    "completion": "When you're ready, gently transition out of the meditation. Notice any lingering sensations or insights. Slowly open your eyes and return to the present moment.",
     "suggestion": [
-      "To keep your attention on breathing, you can count your breaths: Breathe in (1), breathe out (2), breathe in (3) and so on. Count up to 10 and then start again from 1."
+      "If your mind wanders, try counting your breaths: Inhale (1), exhale (2), up to 10, then restart at 1. This helps maintain focus and presence."
     ],
     "image": "/public/yoga-poses/meditation.png",
     "imageWebp": "/public/yoga-poses/meditation.webp"
