@@ -3,7 +3,7 @@
     "meditationName": "Body Scan Meditation",
     "targetMeditation": ["Modern"],
     "description": "A deeply relaxing meditation that guides awareness through different parts of the body, releasing tension and enhancing presence. By bringing attention to each area, the practice cultivates deep relaxation and connection with the body.",
-    "preparation": "Find a comfortable position, either lying down or sitting with a relaxed, upright posture. Close your eyes or soften your gaze. Take a deep breath and let your body settle.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
     "stepBystep": [
       "Start at your feet, noticing any sensations - warmth, tingling, or tension.",
       "Move your awareness up to your lower legs, observing any tightness or ease.",
@@ -35,6 +35,26 @@
     "completion": "Gently transition out of the meditation. Notice any sensations or insights that have arisen. When you're ready, slowly open your eyes and return to the present moment.",
     "suggestion": [
       "If your mind wanders, try counting your breaths: Inhale (1), exhale (2), up to 10, then restart at 1. This helps maintain focus and presence."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
+    "meditationName": "Loving-Kindness Meditation",
+    "targetMeditation": ["Traditional"],
+    "description": "Loving-Kindness Meditation, or Metta Meditation, is rooted in Buddhist tradition. This practice cultivates compassion, kindness, and goodwill - toward yourself and others. By silently repeating well-wishes, you nurture warmth, connection, and emotional balance.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Begin with yourself. Silently repeat: \"May I be filled with loving kindness. May I be well, in body and in mind. May I be peaceful. May I be safe. May I live with ease.\"",
+      "Extend loving-kindness to a loved one. Visualize someone close to you and send them the same wishes.",
+      "Expand to a neutral person. Think of someone you don’t know well, like a colleague or neighbor, and offer them kindness.",
+      "Embrace all beings. Finally, imagine all living beings and silently wish them peace, happiness, and freedom from suffering."
+    ],
+    "completion": "Take a deep breath and rest in the feeling of warmth and connection for a few moments. When you're ready, gently return your awareness to the present moment and open your eyes.",
+    "suggestion": [
+      "Modify the phrases to words that feel personal and meaningful to you.",
+      "For a deeper practice, include a difficult person. If you're ready, extend well-wishes even to someone you struggle with. This step fosters forgiveness and helps release negative emotions over time."
     ],
     "image": "/public/yoga-poses/meditation.png",
     "imageWebp": "/public/yoga-poses/meditation.webp"
