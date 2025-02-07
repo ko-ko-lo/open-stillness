@@ -1,19 +1,159 @@
 [
   {
-    "meditationName": "Short Mindfulness Meditation",
-    "targetMeditation": "Modern",
-    "description": "This simple meditation will help you focus your attention on mindful breathing and calm your mind. It will make it easier for you to focus on the present moment.",
+    "meditationName": "Body Scan Meditation",
+    "targetMeditation": ["Modern"],
+    "description": "A deeply relaxing meditation that guides awareness through different parts of the body, releasing tension and enhancing presence. By bringing attention to each area, the practice cultivates deep relaxation and connection with the body.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
     "stepBystep": [
-      "Sit in a comfortable position. Sit up straight and relaxed.",
-      "Close or half-open your eyes and look down slightly. Turn your attention inwards.",
+      "Start at your feet, noticing any sensations - warmth, tingling, or tension.",
+      "Move your awareness up to your lower legs, observing any tightness or ease.",
+      "Continue scanning upward - knees, thighs, hips - without judgment, simply noticing.",
+      "Bring attention to your abdomen and chest, feeling the rhythm of your breath.",
+      "Observe your shoulders, arms, and hands, allowing them to relax.",
+      "Bring awareness to your neck, jaw, and facial muscles, releasing tension.",
+      "Finally, focus on the crown of your head, sensing your entire body as a whole."
+    ],
+    "completion": "Take a moment to rest in stillness, noticing how your body feels after the scan. When you're ready, gently bring movement back, stretch if needed, and open your eyes.",
+    "suggestion": [
+      "For a deeper practice, imagine sending warmth or breath to each body part.",
+      "For a shorter version: Focus only on major areas (legs, torso, arms, head)."
+    ],
+    "image": "/public/yoga-poses/shavasana.png",
+    "imageWebp": "/public/yoga-poses/shavasana.webp"
+  },
+
+  {
+    "meditationName": "Breathing Meditation",
+    "targetMeditation": ["Traditional"],
+    "description": "A breath-focused meditation rooted in Buddhist tradition. By observing each inhale and exhale without interference, you cultivate stillness, mindful awareness, and a deeper connection between body and mind.",
+    "preparation": "Sit comfortably with a relaxed, upright posture. Close your eyes or soften your gaze. Notice any tension and let it go.",
+    "stepBystep": [
+      "Breathe naturally and gently, bringing your awareness to the subtle sensations of the breath flowing in and out of your nostrils.",
+      "Observe the full process of each inhalation and exhalation without trying to control it - simply notice the breath as it is.",
+      "If your mind wanders, gently bring your attention back to the breath, without judgment. Each new breath is an opportunity to return to the present moment."
+    ],
+    "completion": "Gently transition out of the meditation. Notice any sensations or insights that have arisen. When you're ready, slowly open your eyes and return to the present moment.",
+    "suggestion": [
+      "If your mind wanders, try counting your breaths: Inhale (1), exhale (2), up to 10, then restart at 1. This helps maintain focus and presence.",
+      "Try applying this practice to tasks like writing, reading, or creative work to strengthen focus."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
+    "meditationName": "Gratitude Meditation",
+    "targetMeditation": ["Modern"],
+    "description": "Gratitude Meditation gently shifts your focus toward appreciation and thankfulness. By recognizing the people, experiences, and small joys in your life, you cultivate contentment and well-being. This practice can reduce stress, lift your mood, and promote a positive outlook.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Start with yourself. Bring to mind something about yourself that you are grateful for - your strength, your kindness, your attitude.",
+      "Reflect on a person. Think of someone who has positively impacted your life - a friend, family member, teacher, or even a stranger who showed kindness.",
+      "Expand to life experiences. Recall a moment, opportunity, or simple joy that brought you happiness - like a shared laugh, a delicious meal, or a beautiful sunrise.",
+      "Acknowledge the present. Notice something in this very moment that you are grateful for - your breath, the quiet, the warmth of your space.",
+      "Rest in gratitude. Take a few breaths, allowing the feeling of gratitude to fill your heart and mind."
+    ],
+    "completion": "Take a deep breath and soak in the gratitude you've cultivated. When you're ready, gently return to the present, opening your eyes and carrying this sense of appreciation with you.",
+    "suggestion": [
+      "If it feels right, extend gratitude toward a difficulty that helped you grow."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+  {
+    "meditationName": "Loving-Kindness Meditation",
+    "targetMeditation": ["Traditional"],
+    "description": "Loving-Kindness Meditation, or Metta Meditation, is rooted in Buddhist tradition. This practice cultivates compassion, kindness, and goodwill - toward yourself and others. By silently repeating well-wishes, you nurture warmth, connection, and emotional balance.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Begin with yourself. Silently repeat: \"May I be filled with loving kindness. May I be well, in body and in mind. May I be peaceful. May I be safe. May I live with ease.\"",
+      "Extend loving-kindness to a loved one. Visualize someone close to you and send them the same wishes.",
+      "Expand to a neutral person. Think of someone you don’t know well, like a colleague or neighbor, and offer them kindness.",
+      "Embrace all beings. Finally, imagine all living beings and silently wish them peace, happiness, and freedom from suffering."
+    ],
+    "completion": "Take a deep breath and rest in the feeling of warmth and connection for a few moments. When you're ready, gently return your awareness to the present moment and open your eyes.",
+    "suggestion": [
+      "Modify the phrases to words that feel personal and meaningful to you.",
+      "For a deeper practice, include a difficult person. If you're ready, extend well-wishes even to someone you struggle with. This step fosters forgiveness and helps release negative emotions over time."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
+    "meditationName": "Nature Gratitude Meditation",
+    "targetMeditation": ["Modern"],
+    "description": "Nature Gratitude Meditation deepens your appreciation for the natural world that sustains and nurtures life. By focusing on the elements - earth, water, air, and sunlight - you cultivate a sense of awe, connection, and thankfulness. This meditation can ground you, bring a sense of belonging, and inspire a greater appreciation for the world around you.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Acknowledge the Earth beneath you. Feel its stability and support, recognizing that it holds all life.",
+      "Appreciate the air around you. Notice each breath, feeling gratitude for the oxygen that nourishes your body.",
+      "Honor the water that sustains life. Reflect on the rivers, oceans, rain, and the water within you, appreciating its flow and renewal.",
+      "Feel gratitude for the warmth of the sun. Imagine its light touching your skin, nourishing plants, and bringing energy to life.",
+      "Expand your gratitude outward. Extend appreciation to trees, animals, mountains, oceans, and all of nature’s wonders."
+    ],
+    "completion": "Take a deep breath and soak in the sense of connection and gratitude. When you're ready, gently bring awareness back to your surroundings, open your eyes, and carry this appreciation with you.",
+    "suggestion": [
+      "Practice outdoors - Meditate in a park, near a tree, or by a river to deepen the connection.",
+      "If you feel drawn to the earth, air, water, or sun, spend more time appreciating that element."
+    ],
+    "image": "/public/yoga-poses/shavasana.png",
+    "imageWebp": "/public/yoga-poses/shavasana.webp"
+  },
+
+  {
+    "meditationName": "Peaceful Place Visualization",
+    "targetMeditation": ["Modern"],
+    "description": "Peaceful Place Visualization is a simple yet powerful meditation that guides you to a mental sanctuary of calm and safety. By imagining a serene environment, you can ease stress, center your mind, and cultivate deep relaxation. Commonly used for stress relief, sleep support, and emotional balance.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Picture a peaceful place. It could be a beach, a forest, a meadow, a mountaintop, or anywhere that feels safe and calming.",
+      "Engage your senses: What do you see? What do you hear? What do you feel? What do you smell?",
+      "Immerse yourself fully. Take a few minutes to \"be\" in this place, letting go of worries.",
+      "Let the feeling of peace settle within you. Carry this sense of calm as you prepare to return to the present."
+    ],
+    "completion": "Take a deep breath and gently let go of the visualization. Notice how you feel - calm, light, or refreshed. When you're ready, gently open your eyes.",
+    "suggestion": [
+      "Make it personal - Your peaceful place can be real or imaginary, like a dreamlike landscape, a mystical forest, or even a castle on the clouds."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
+    "meditationName": "Short Mindfulness Meditation",
+    "targetMeditation": ["Modern"],
+    "description": "A simple and accessible meditation designed to cultivate mindfulness through the breath. By gently focusing on your inhalation and exhalation, this practice helps calm the mind, ease tension, and bring awareness to the present moment.",
+    "preparation": "Sit comfortably with a relaxed, upright posture. Close your eyes or soften your gaze. Notice any tension and let it go.",
+    "stepBystep": [
       "Start by taking a long, deep breath through your nose. Feel the air entering your lungs and your stomach rising.",
       "Exhale slowly and evenly through your mouth or nose. Feel the air leaving your lungs and your stomach dropping as you exhale.",
       "Give your full attention to your mindful breathing and focus on the present moment.",
-      "When the time is up, sit in silence for a moment. Feel the calm and relaxation created by the mindful breathing.",
-      "Slowly open your eyes and end the meditation."
+      "When the time is up, sit in silence for a moment. Feel the calm and relaxation created by the mindful breathing."
     ],
+    "completion": "When you're ready, gently transition out of the meditation. Notice any lingering sensations or insights. Slowly open your eyes and return to the present moment.",
     "suggestion": [
-      "To keep your attention on breathing, you can count your breaths: Breathe in (1), breathe out (2), breathe in (3) and so on. Count up to 10 and then start again from 1."
+      "If your mind wanders, try counting your breaths: Inhale (1), exhale (2), up to 10, then restart at 1. This helps maintain focus and presence."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
+    "meditationName": "Walking Meditation",
+    "targetMeditation": ["Movement-Based", "Modern"],
+    "description": "Walking meditation is an opportunity to gather awareness and step out of the distracted autopilot we often live in. Whether moving in a room, between floors, on a street, or in the woods, this practice gently guides you back to the present moment by focusing on the rhythm of movement and sensation.",
+    "preparation": "Stand still and take a moment to feel your entire body. Keep your eyes open but soft and unfocused, looking slightly downward a few steps ahead.",
+    "stepBystep": [
+      "Focus on one foot, noticing sensations in the toes and sole.",
+      "Slowly lift that foot and take a step, bringing full awareness to the motion.",
+      "As your foot touches the ground, notice the contact - the way your sole meets the ground.",
+      "Observe your whole body - the natural swing of your arms, the balance in your pelvis, the alignment of your head and neck.",
+      "Repeat with each step, staying present with every movement."
+    ],
+    "completion": "At the end of your meditation, stand still for a few moments. Observe the sense of clarity and calmness within you before transitioning back to your day.",
+    "suggestion": [
+      "Acknowledge any thoughts that arise without judgment. If the mind wanders, gently return attention to your whole body, not just one movement."
     ],
     "image": "/public/yoga-poses/meditation.png",
     "imageWebp": "/public/yoga-poses/meditation.webp"

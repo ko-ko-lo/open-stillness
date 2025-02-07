@@ -3,15 +3,28 @@
 
   <div class="flex-container">
     <div class="flex-item">
-      <div class="pill">{{ meditation.targetMeditation }}</div>
+      <div class="target-areas d-flex flex-wrap gap-8">
+        <span
+          *ngFor="let targetMeditation of meditation.targetMeditation"
+          class="pill"
+          >{{ targetMeditation }}</span
+        >
+      </div>
+
       <p>{{ meditation.description }}</p>
+
+      <p class="bold">Preparation</p>
+      <p>{{ meditation.preparation }}</p>
 
       <p class="bold">Step by Step Guide</p>
       <ol>
         <li *ngFor="let step of meditation.stepBystep">{{ step }}</li>
       </ol>
 
-      <p class="bold">Suggestions</p>
+      <p class="bold">Completion</p>
+      <p>{{ meditation.completion }}</p>
+
+      <p class="bold">Guidance &amp; Variations</p>
       <ul>
         <li *ngFor="let variant of meditation.suggestion">
           {{ variant }}
