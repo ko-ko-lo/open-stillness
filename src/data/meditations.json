@@ -80,6 +80,27 @@
   },
 
   {
+    "meditationName": "Nature Gratitude Meditation",
+    "targetMeditation": ["Modern"],
+    "description": "Nature Gratitude Meditation deepens your appreciation for the natural world that sustains and nurtures life. By focusing on the elements - earth, water, air, and sunlight - you cultivate a sense of awe, connection, and thankfulness. This meditation can ground you, bring a sense of belonging, and inspire a greater appreciation for the world around you.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Acknowledge the Earth beneath you. Feel its stability and support, recognizing that it holds all life.",
+      "Appreciate the air around you. Notice each breath, feeling gratitude for the oxygen that nourishes your body.",
+      "Honor the water that sustains life. Reflect on the rivers, oceans, rain, and the water within you, appreciating its flow and renewal.",
+      "Feel gratitude for the warmth of the sun. Imagine its light touching your skin, nourishing plants, and bringing energy to life.",
+      "Expand your gratitude outward. Extend appreciation to trees, animals, mountains, oceans, and all of nature’s wonders."
+    ],
+    "completion": "Take a deep breath and soak in the sense of connection and gratitude. When you're ready, gently bring awareness back to your surroundings, open your eyes, and carry this appreciation with you.",
+    "suggestion": [
+      "Practice outdoors - Meditate in a park, near a tree, or by a river to deepen the connection.",
+      "If you feel drawn to the earth, air, water, or sun, spend more time appreciating that element."
+    ],
+    "image": "/public/yoga-poses/shavasana.png",
+    "imageWebp": "/public/yoga-poses/shavasana.webp"
+  },
+
+  {
     "meditationName": "Peaceful Place Visualization",
     "targetMeditation": ["Modern"],
     "description": "Peaceful Place Visualization is a simple yet powerful meditation that guides you to a mental sanctuary of calm and safety. By imagining a serene environment, you can ease stress, center your mind, and cultivate deep relaxation. Commonly used for stress relief, sleep support, and emotional balance.",
