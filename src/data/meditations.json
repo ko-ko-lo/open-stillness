@@ -41,6 +41,25 @@
   },
 
   {
+    "meditationName": "Gratitude Meditation",
+    "targetMeditation": ["Modern"],
+    "description": "Gratitude Meditation gently shifts your focus toward appreciation and thankfulness. By recognizing the people, experiences, and small joys in your life, you cultivate contentment and well-being. This practice can reduce stress, lift your mood, and promote a positive outlook.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Start with yourself. Bring to mind something about yourself that you are grateful for - your strength, your kindness, your attitude.",
+      "Reflect on a person. Think of someone who has positively impacted your life - a friend, family member, teacher, or even a stranger who showed kindness.",
+      "Expand to life experiences. Recall a moment, opportunity, or simple joy that brought you happiness - like a shared laugh, a delicious meal, or a beautiful sunrise.",
+      "Acknowledge the present. Notice something in this very moment that you are grateful for - your breath, the quiet, the warmth of your space.",
+      "Rest in gratitude. Take a few breaths, allowing the feeling of gratitude to fill your heart and mind."
+    ],
+    "completion": "Take a deep breath and soak in the gratitude you've cultivated. When you're ready, gently return to the present, opening your eyes and carrying this sense of appreciation with you.",
+    "suggestion": [
+      "If it feels right, extend gratitude toward a difficulty that helped you grow."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+  {
     "meditationName": "Loving-Kindness Meditation",
     "targetMeditation": ["Traditional"],
     "description": "Loving-Kindness Meditation, or Metta Meditation, is rooted in Buddhist tradition. This practice cultivates compassion, kindness, and goodwill - toward yourself and others. By silently repeating well-wishes, you nurture warmth, connection, and emotional balance.",
