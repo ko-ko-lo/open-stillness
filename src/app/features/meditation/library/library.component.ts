@@ -30,8 +30,9 @@ export class MeditationLibraryComponent {
     });
   }
 
-  title: string = 'Find your Meditation Routine in the Library';
-  text: string = 'Did not write the introduction text yet....';
+  title: string = 'Discover Meditation Techniques for Your Practice';
+  text: string =
+    "Explore a collection of guided meditations designed to support inner balance, mindfulness, and well-being. Whether you're seeking calm, clarity, focus, or connection, these meditations invite you to move at your own pace and practice in a way that feels right for you. There is no perfect way to meditate - simply find a comfortable position, follow the guidance, and allow yourself to be present. If at any point a meditation doesn’t feel right, feel free to adjust or pause.  You are encouraged to listen to your own experience and take what serves you best.";
 
   meditationExercises: any[] = [];
 

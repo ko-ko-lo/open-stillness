@@ -19,7 +19,7 @@ import { TitleService } from '../../../services/title.service';
   styleUrls: ['./library.component.scss'],
 })
 export class LibraryComponent implements OnInit {
-  title: string = 'Find your Yin-Style Yoga Poses in the Library';
+  title: string = 'Discover Yin-Style Yoga Poses for Your Practice';
   text: string =
     "Explore a variety of Yin-Style Yoga Poses. Hold each pose for as long as feels comfortable, which could be several minutes. Remember to take short breaks between poses to tune into your body. Avoid pushing yourself into discomfort, listen to your body's signals. If a pose is performed on both sides, a note will indicate this.";
 
@@ -36,7 +36,7 @@ export class LibraryComponent implements OnInit {
   constructor(private http: HttpClient, private titleService: TitleService) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Library');
+    this.titleService.setFullTitle('Library Yin-Style Yoga');
 
     this.http.get<any[]>('data/yoga-poses.json').subscribe((data) => {
       this.yogaPoses = data;

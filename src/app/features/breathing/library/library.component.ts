@@ -19,7 +19,7 @@ import { TitleService } from '../../../services/title.service';
   styleUrl: './library.component.scss',
 })
 export class BreathingLibraryComponent implements OnInit {
-  title: string = 'Find your Breathing Routine in the Library';
+  title: string = 'Discover Breathwork Techniques for Your Practice';
   text: string =
     'Explore Breathing Techniques from both ancient traditions and modern innovations. Traditional techniques, rooted in yoga philosophy, offer time-tested practices for balance and energy. Modern techniques, inspired by contemporary science, focus on stress relief, clarity, and mindfulness. Choose your path or blend the best of both worlds.';
 
@@ -37,7 +37,7 @@ export class BreathingLibraryComponent implements OnInit {
   constructor(private http: HttpClient, private titleService: TitleService) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Breathing Library');
+    this.titleService.setFullTitle('Library Breathwork');
 
     this.http.get<any[]>('data/breathing.json').subscribe((data) => {
       this.breathingExercises = data;
