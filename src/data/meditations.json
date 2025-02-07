@@ -61,6 +61,25 @@
   },
 
   {
+    "meditationName": "Peaceful Place Visualization",
+    "targetMeditation": ["Modern"],
+    "description": "Peaceful Place Visualization is a simple yet powerful meditation that guides you to a mental sanctuary of calm and safety. By imagining a serene environment, you can ease stress, center your mind, and cultivate deep relaxation. Commonly used for stress relief, sleep support, and emotional balance.",
+    "preparation": "Find a comfortable seated or lying down position. Close your eyes or soften your gaze. Take a deep breath and allow your body to relax.",
+    "stepBystep": [
+      "Picture a peaceful place. It could be a beach, a forest, a meadow, a mountaintop, or anywhere that feels safe and calming.",
+      "Engage your senses: What do you see? What do you hear? What do you feel? What do you smell?",
+      "Immerse yourself fully. Take a few minutes to \"be\" in this place, letting go of worries.",
+      "Let the feeling of peace settle within you. Carry this sense of calm as you prepare to return to the present."
+    ],
+    "completion": "Take a deep breath and gently let go of the visualization. Notice how you feel - calm, light, or refreshed. When you're ready, gently open your eyes.",
+    "suggestion": [
+      "Make it personal - Your peaceful place can be real or imaginary, like a dreamlike landscape, a mystical forest, or even a castle on the clouds."
+    ],
+    "image": "/public/yoga-poses/meditation.png",
+    "imageWebp": "/public/yoga-poses/meditation.webp"
+  },
+
+  {
     "meditationName": "Short Mindfulness Meditation",
     "targetMeditation": ["Modern"],
     "description": "A simple and accessible meditation designed to cultivate mindfulness through the breath. By gently focusing on your inhalation and exhalation, this practice helps calm the mind, ease tension, and bring awareness to the present moment.",
