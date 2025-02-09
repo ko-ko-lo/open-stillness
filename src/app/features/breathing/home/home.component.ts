@@ -24,7 +24,7 @@ import { TitleService } from '../../../services/title.service';
 export class BreathingHomeComponent {
   heroData = {
     subheadline: 'Explore Breathing Techniques',
-    headline: 'Breathing is like texting your Nervous System to Relax',
+    headline: 'Breathing is like texting your Nervous System to Relax.',
     description:
       'Discover different Breathing Routines to support your well-being, improve your focus, and bring a sense of calm to your day.',
     buttonLabel: 'Explore Routines',
