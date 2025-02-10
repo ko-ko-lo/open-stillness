@@ -23,11 +23,16 @@
           <div class="accordion-content" *ngIf="activeIndex === i">
             <!-- Render paragraphs and lists -->
             <ng-container *ngFor="let paragraph of item.content">
-              <p class="margin-bottom-16" *ngIf="!paragraph.list">
-                {{ paragraph.text }}
-              </p>
+              <p
+                class="margin-bottom-16"
+                *ngIf="!paragraph.list"
+                [innerHTML]="paragraph.text"
+              ></p>
               <ul *ngIf="paragraph.list" class="margin-bottom-16">
-                <li *ngFor="let point of paragraph.list">{{ point }}</li>
+                <li
+                  *ngFor="let point of paragraph.list"
+                  [innerHTML]="point"
+                ></li>
               </ul>
             </ng-container>
           </div>
