@@ -29,7 +29,8 @@ export class MeditationHomeComponent {
   heroData = {
     subheadline: 'Explore Meditation Techniques',
     headline: 'Unfold your own awareness by Meditation.',
-    description: 'Preparing',
+    description:
+      'Meditation is a lifelong journey - there is no race, no finish line, just the unfolding of your own awareness, moment by moment.',
     buttonLabel: 'Preparing',
     buttonLink: 'Preparing',
     imagePath: 'public/yoga-poses/meditation.png',
@@ -56,32 +57,39 @@ export class MeditationHomeComponent {
     title: 'The Benefits of Meditation Practice',
     benefits: [
       {
-        title: 'Preparing',
-        description: 'Preparing',
+        title: 'Encourages a Balanced Nervous System',
+        description:
+          "A balanced nervous system means being able to handle stress without feeling overwhelmed and to relax without feeling stuck in exhaustion. Meditation helps regulate the body's response to challenges, promoting a sense of calm and physical ease.",
       },
+
       {
-        title: 'Preparing',
-        description: 'Preparing',
+        title: 'Reduced Stress & Emotional Balance',
+        description:
+          'Meditation can help regulate stress hormones and support emotional resilience, allowing you to navigate challenges with greater ease. By creating moments of stillness, it fosters a sense of inner calm and balance.',
       },
+
       {
-        title: 'Preparing',
-        description: 'Preparing',
+        title: 'Better Sleep & Relaxation',
+        description:
+          'Meditation helps quiet racing thoughts and promotes deep relaxation, which may lead to improved sleep quality over time. It creates a soothing space for the body and mind to unwind and restore balance.',
       },
+
       {
-        title: 'Preparing',
-        description: 'Preparing',
+        title: 'Increased Focus & Mental Clarity',
+        description:
+          'By training the mind to return to the present moment, meditation may enhance attention, memory, and cognitive function over time. Regular practice supports mental sharpness and the ability to stay present.',
       },
+
       {
-        title: 'Preparing',
-        description: 'Preparing',
+        title: 'Emotional Regulation & Stability',
+        description:
+          'Meditation helps cultivate awareness of emotions, allowing you to pause, reflect, and respond more mindfully rather than reacting impulsively. With regular practice, you may experience greater emotional stability and a deeper sense of control over your reactions.',
       },
+
       {
-        title: 'Preparing',
-        description: 'Preparing',
-      },
-      {
-        title: 'Preparing',
-        description: 'Preparing',
+        title: 'Deeper Self-Awareness',
+        description:
+          'Turning inward helps build a stronger connection with your thoughts, emotions, and inner world, fostering greater self-understanding. Over time, meditation encourages insight, self-acceptance, and inner growth.',
       },
     ],
   };
