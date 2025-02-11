@@ -1,7 +1,4 @@
-<div
-  class="accordion padding-top-96 padding-bottom-96"
-  [ngClass]="backgroundClass"
->
+<div class="accordion" [ngClass]="backgroundClass">
   <div class="container">
     <div class="flex-container d-flex">
       <div class="column-4">
@@ -23,11 +20,16 @@
           <div class="accordion-content" *ngIf="activeIndex === i">
             <!-- Render paragraphs and lists -->
             <ng-container *ngFor="let paragraph of item.content">
-              <p class="margin-bottom-16" *ngIf="!paragraph.list">
-                {{ paragraph.text }}
-              </p>
+              <p
+                class="margin-bottom-16"
+                *ngIf="!paragraph.list"
+                [innerHTML]="paragraph.text"
+              ></p>
               <ul *ngIf="paragraph.list" class="margin-bottom-16">
-                <li *ngFor="let point of paragraph.list">{{ point }}</li>
+                <li
+                  *ngFor="let point of paragraph.list"
+                  [innerHTML]="point"
+                ></li>
               </ul>
             </ng-container>
           </div>

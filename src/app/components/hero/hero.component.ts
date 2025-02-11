@@ -9,7 +9,6 @@ import { RouterModule } from '@angular/router';
   styleUrl: './hero.component.scss',
 })
 export class HeroComponent {
-  @Input() subheadline: string = '';
   @Input() headline: string = '';
   @Input() description: string = '';
   @Input() buttonLabel: string = '';

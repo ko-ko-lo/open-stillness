@@ -24,7 +24,8 @@ import { TitleService } from '../../../services/title.service';
 export class YinStyleYogaHomeComponent implements OnInit {
   heroData = {
     subheadline: 'Explore Yin\u2011Style Yoga',
-    headline: 'Embrace the calm and meditative practice of Yin\u2011Style Yoga',
+    headline:
+      'Embrace the calm and meditative practice of Yin\u2011Style Yoga.',
     description:
       'Discover Yin\u2011Style Yoga routines that target key areas of your body while deepening your connection to yourself. Unwind, restore, and explore your inner calm.',
     buttonLabel: 'Explore Routines',
