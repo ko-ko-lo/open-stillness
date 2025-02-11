@@ -6,8 +6,13 @@
 }
 
 .card {
+  cursor: pointer;
+}
+
+/*
+.card {
   flex: 1 1 calc(50% - variables.$space-3);
-  box-sizing: border-box; /* Include padding and border in the width calculation */
+  box-sizing: border-box; /* Include padding and border in the width calculation
   margin-bottom: 0;
 }
 
@@ -16,3 +21,4 @@
     flex: 1 1 100%;
   }
 }
+*/

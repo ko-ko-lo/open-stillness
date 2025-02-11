@@ -32,12 +32,14 @@
       </p>
       <p class="bold margin-top-24 margin-bottom-4">Description</p>
       <p>{{ routine?.description }}</p>
-      <button
+      <!--
+<button
         class="margin-top-40"
         [routerLink]="['/breathing/routine', routine?.slug]"
       >
         View Routine
       </button>
+      -->
     </div>
     <div class="flex-item">
       <picture *ngIf="routine?.image">

@@ -3,6 +3,7 @@ import { AccordionComponent } from '../../../components/accordion/accordion.comp
 import { BenefitsComponent } from '../../../components/benefits/benefits.component';
 import { HeroComponent } from '../../../components/hero/hero.component';
 import { LibraryDiscoverComponent } from '../../../components/library-discover/library-discover.component';
+import { ShortInformationComponent } from '../../../components/short-information/short-information.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
 import { TitleService } from '../../../services/title.service';
 
@@ -15,6 +16,7 @@ import { TitleService } from '../../../services/title.service';
     LibraryDiscoverComponent,
     BenefitsComponent,
     AccordionComponent,
+    ShortInformationComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
@@ -27,24 +29,29 @@ export class MeditationHomeComponent {
   }
 
   heroData = {
-    subheadline: 'Explore Meditation Techniques',
-    headline: 'Unfold your own awareness by Meditation.',
+    headline: 'Unfold Your Awareness Through Meditation.',
     description:
-      'Meditation is a lifelong journey - there is no race, no finish line, just the unfolding of your own awareness, moment by moment.',
-    buttonLabel: 'Preparing',
-    buttonLink: 'Preparing',
+      'Meditation is the space where stillness and growth meet - a lifelong journey with no race, no finish line, only the quiet unfolding of awareness, moment by moment.',
+    buttonLabel: 'Explore Meditations',
+    buttonLink: './library',
     imagePath: 'public/yoga-poses/meditation.png',
     imagePathWebP: 'public/yoga-poses/meditation.webp',
   };
 
   shortIntro = {
-    text: 'Meditation is a lifelong journey - there is no race, no finish line, just the unfolding of your own awareness, moment by moment.',
+    text: 'Meditation cultivates clarity and peace of mind - qualities that bring depth and meaning to everyday life. Whether you seek stillness, self-awareness, or a sense of balance, meditation is a practice that unfolds at your own pace, one breath at a time.',
+  };
+
+  shortInformation = {
+    headline: 'Trust the Process, Every Moment Matters',
+    text: "Meditation isn't about feeling calm all the time - it's about being present with whatever arises. Some days will feel peaceful, others restless, and that’s okay. Every meditation, even a difficult one, is valuable because you are showing up for yourself. Trust the process, meet your experience with kindness, and know that growth unfolds in its own time.",
   };
 
   libraryData = {
-    title: 'Preparing',
-    description: `Preparing`,
-    buttonLabel: 'Preparing',
+    title:
+      'Discover a Library of Meditations for Stillness, Awareness & Growth',
+    description: `Explore a diverse collection of meditation techniques, ranging from deeply grounding body scans to traditional practices rooted in mindfulness and self-awareness. Whether you're looking to relax, sharpen your focus, or cultivate inner peace, you'll find meditations to support your journey.`,
+    buttonLabel: 'Explore Meditations',
     buttonLink: '/meditation/library',
     images: [
       { src: 'public/yoga-poses/meditation.png', alt: '' },
@@ -95,7 +102,7 @@ export class MeditationHomeComponent {
   };
 
   accordionData = {
-    title: 'Meditation Techniques: Your Questions Answered and More',
+    title: 'Meditation: Your Questions Answered and More',
 
     items: [
       {

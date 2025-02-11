@@ -12,33 +12,42 @@ import { RouterModule } from '@angular/router';
 export class PathwaysCardComponent {
   headline: string = '';
   description: string[] = [];
-  buttonLabel: string = '';
   buttonLink: string = '';
   imagePath: string = '';
   imagePathWebP: string = '';
 
   cards = [
     {
-      headline: 'Breathing Techniques',
+      headline: 'Meditation',
+      description: [
+        'Meditation invites you to slow down, quiet the mind, and reconnect with the present moment. ',
+        "Whether you're seeking inner stillness, emotional balance, or greater self-awareness, meditation is a practice that unfolds at your own pace.",
+      ],
+      buttonLink: '/meditation',
+      imagePath: 'public/shared/pathway-meditation.png',
+      imagePathWebP: 'public/shared/pathway-meditation.webp',
+    },
+
+    {
+      headline: 'Breathwork',
       description: [
         'Harness the power of your breath to find calm and balance.',
         'Breathing techniques guide your awareness to your breath, helping you cultivate healthier breathing habits. This can alleviate stress, and benefit both your body and mind.',
       ],
-      buttonLabel: 'Explore Breathing Techniques',
       buttonLink: '/breathing',
-      imagePath: 'public/routines/preview-humming.png',
-      imagePathWebP: 'public/routines/preview-humming.webp',
+      imagePath: 'public/shared/pathway-breathwork.png',
+      imagePathWebP: 'public/shared/pathway-breathwork.webp',
     },
+
     {
       headline: 'Yin-Style Yoga',
       description: [
         'Ease tension and reconnect with your body through movement.',
-        "Yin-Style Yoga focuses on long-held postures that gently stretch and nourish the body, while calming the mind. Whether you're looking to release tension, increase flexibility, or find stillness.",
+        "Yin-Style Yoga focuses on postures that gently stretch and nourish the body, while calming the mind. Whether you're looking to release tension, increase flexibility, or find stillness.",
       ],
-      buttonLabel: 'Explore Yin-Style Yoga',
       buttonLink: '/yin-style-yoga',
-      imagePath: 'public/routines/preview-square.png',
-      imagePathWebP: 'public/routines/preview-square.webp',
+      imagePath: 'public/shared/pathway-yin-style-yoga.png',
+      imagePathWebP: 'public/shared/pathway-yin-style-yoga.webp',
     },
   ];
 

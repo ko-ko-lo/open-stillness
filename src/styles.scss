@@ -200,8 +200,9 @@ button {
 // ========================================================================
 
 .benefits,
-.library-discovery {
-  padding: variables.$space-13 0;
+.library-discovery,
+.accordion {
+  padding: variables.$space-14 0;
 }
 
 .max-width-821 {
@@ -213,7 +214,7 @@ button {
 // ========================================================================
 .card,
 .training-card {
-  padding: variables.$space-7 variables.$space-6 variables.$space-10;
+  padding: variables.$space-7 variables.$space-6 variables.$space-9;
   border-radius: variables.$radius-l;
   margin-bottom: variables.$space-8;
   box-shadow: variables.$elevation-xs;
@@ -366,6 +367,17 @@ a:active {
   font-weight: variables.$font-weight-semibold;
   max-width: 1034px;
   text-align: center;
+}
+
+// Intro- & Information Component
+.short-intro {
+  padding: variables.$space-14 variables.$space-13;
+}
+
+@media (max-width: 390px) {
+  .short-intro {
+    padding: variables.$space-10 variables.$space-3;
+  }
 }
 
 // ========================================================================
