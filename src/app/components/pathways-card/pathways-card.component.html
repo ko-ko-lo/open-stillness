@@ -1,21 +1,21 @@
 <div class="flex-container">
-  <div class="flex-item background-white card" *ngFor="let card of cards">
+  <div
+    class="flex-item background-white card"
+    *ngFor="let card of cards"
+    [routerLink]="card.buttonLink"
+    tabindex="0"
+    role="link"
+  >
     <h3>{{ card.headline }}</h3>
     <div *ngFor="let desc of card.description">
       <p class="margin-bottom-16">{{ desc }}</p>
     </div>
-    <button
-      class="margin-top-32 margin-bottom-48"
-      [routerLink]="card.buttonLink"
-    >
-      {{ card.buttonLabel }}
-    </button>
     <picture>
       <source [srcset]="getWebpImage(card.imagePathWebP)" type="image/webp" />
       <img
         [src]="card.imagePath"
         alt="{{ card.headline }}"
-        class="radius-l box-shadow-xs"
+        class="radius-m box-shadow-xs margin-top-24"
       />
     </picture>
   </div>

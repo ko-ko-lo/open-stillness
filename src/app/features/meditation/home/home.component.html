@@ -1,5 +1,4 @@
 <app-hero
-  [subheadline]="heroData.subheadline"
   [headline]="heroData.headline"
   [description]="heroData.description"
   [buttonLabel]="heroData.buttonLabel"
@@ -18,9 +17,18 @@
   [description]="libraryData.description"
   [buttonLabel]="libraryData.buttonLabel"
   [buttonLink]="libraryData.buttonLink"
+></app-library-discover>
+
+<!--
+  <app-library-discover
+  [title]="libraryData.title"
+  [description]="libraryData.description"
+  [buttonLabel]="libraryData.buttonLabel"
+  [buttonLink]="libraryData.buttonLink"
   [images]="libraryData.images"
   [backgroundClass]="'background-purple-light'"
 ></app-library-discover>
+-->
 
 <div class="background-blue-light">
   <app-benefits
@@ -28,6 +36,12 @@
     [benefits]="benefitsData.benefits"
   ></app-benefits>
 </div>
+
+<app-short-information
+  [headline]="shortInformation.headline"
+  [text]="shortInformation.text"
+  [backgroundClass]="'background-green-light'"
+></app-short-information>
 
 <app-accordion
   [backgroundClass]="'background-white'"

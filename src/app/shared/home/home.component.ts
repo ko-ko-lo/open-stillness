@@ -28,8 +28,8 @@ export class HomeComponent {
   backgroundClass: string = 'background-white';
 
   images = [
-    { src: 'public/yoga-poses/dangling.png', alt: '' },
     { src: 'public/yoga-poses/meditation.png', alt: '' },
+    { src: 'public/breathing-poses/full-yogic-breath.png', alt: '' },
     { src: 'public/yoga-poses/cat-pulling-its-tail.png', alt: '' },
   ];
 
