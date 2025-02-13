@@ -54,9 +54,9 @@ export class MeditationHomeComponent {
     buttonLabel: 'Explore Meditations',
     buttonLink: '/meditation/library',
     images: [
-      { src: 'public/yoga-poses/meditation.png', alt: '' },
-      { src: 'public/yoga-poses/meditation.png', alt: '' },
-      { src: 'public/yoga-poses/meditation.png', alt: '' },
+      { src: 'public/meditations/meditation-3.png', alt: '' },
+      { src: 'public/meditations/meditation-5.png', alt: '' },
+      { src: 'public/meditations/meditation-6.png', alt: '' },
     ],
   };
 
