@@ -27,7 +27,7 @@ export class BreathingHomeComponent {
     description:
       'Discover different Breathing Routines to support your well-being, improve your focus, and bring a sense of calm to your day.',
     buttonLabel: 'Explore Routines',
-    buttonLink: '/breathing/routines-overview',
+    buttonLink: '/breathwork/routines-overview',
     imagePath: 'public/breathing-poses/full-yogic-breath.png',
     imagePathWebP: 'public/breathing-poses/full-yogic-breath.webp',
   };
@@ -41,7 +41,7 @@ export class BreathingHomeComponent {
       'Discover a Library of Modern, Traditional and Movement-Based Breathing Techniques',
     description: `Explore a diverse collection of breathing techniques to support your well-being, from modern practices backed by science to traditional methods rooted in ancient wisdom, and movement-based exercises for added energy.`,
     buttonLabel: 'Explore Techniques',
-    buttonLink: '/breathing/library',
+    buttonLink: '/breathwork/library',
     images: [
       { src: 'public/breathing-poses/humming-bee-breath.png', alt: '' },
       {
@@ -57,7 +57,7 @@ export class BreathingHomeComponent {
     description:
       'Discover Breathing Routines thoughtfully designed to match your skill level, mood, and energy through their intensity. Whether you’re looking to calm, find balance, or energize your day, these Routines help you connect with your breath and deepen your practice.',
     buttonLabel: 'Explore Routines',
-    buttonLink: '/breathing/routines-overview',
+    buttonLink: '/breathwork/routines-overview',
     imagePath: 'public/routines/preview-humming.png',
     imagePathWebP: 'public/routines/preview-humming.webp',
   };
@@ -272,6 +272,6 @@ export class BreathingHomeComponent {
   constructor(private titleService: TitleService) {}
 
   ngOnInit() {
-    this.titleService.setFullTitle('Home Breathing');
+    this.titleService.setFullTitle('Breathwork');
   }
 }

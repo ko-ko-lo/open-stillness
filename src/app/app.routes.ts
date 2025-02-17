@@ -34,7 +34,7 @@ export const routes: Routes = [
   },
 
   {
-    path: 'breathing',
+    path: 'breathwork',
     children: [
       { path: '', component: BreathingHomeComponent },
       { path: '', redirectTo: 'library', pathMatch: 'full' },

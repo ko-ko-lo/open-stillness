@@ -1,10 +1,10 @@
 <div
   [class.no-margin]="isRoutinePage"
+  [class.menu-open]="menuOpen"
   class="border-bottom margin-bottom-64 menu-position background-white"
 >
   <div class="container">
     <nav class="navbar d-flex justify-between align-center">
-      <!-- Logo -->
       <a routerLink="/" (click)="closeMenuAndNavigate()" class="logo">
         <img src="public/logo.svg" alt="Logo" />
       </a>
@@ -41,18 +41,6 @@
           >
             {{ item.label }}
           </a>
-          <!-- Submenu -->
-          <ul *ngIf="item.children?.length" class="submenu border-bottom">
-            <li *ngFor="let child of item.children">
-              <a
-                [routerLink]="child.link"
-                routerLinkActive="active-link"
-                (click)="closeMenuAndNavigate()"
-              >
-                {{ child.label }}
-              </a>
-            </li>
-          </ul>
         </li>
       </ul>
     </nav>

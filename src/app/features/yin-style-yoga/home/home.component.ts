@@ -29,8 +29,8 @@ export class YinStyleYogaHomeComponent implements OnInit {
       'Discover Yin\u2011Style Yoga routines that target key areas of your body while deepening your connection to yourself. Unwind, restore, and explore your inner calm.',
     buttonLabel: 'Explore Routines',
     buttonLink: '/yin-style-yoga/routines-overview',
-    imagePath: 'public/yoga-poses/meditation.png',
-    imagePathWebP: 'public/yoga-poses/meditation.webp',
+    imagePath: 'public/yoga-poses/seated-spinal-twist.png',
+    imagePathWebP: 'public/yoga-poses/seated-spinal-twist.webp',
   };
 
   shortIntro = {
@@ -200,6 +200,6 @@ export class YinStyleYogaHomeComponent implements OnInit {
   constructor(private titleService: TitleService) {}
 
   ngOnInit() {
-    this.titleService.setFullTitle('Home Yin-Style Yoga');
+    this.titleService.setFullTitle('Yin-Style Yoga');
   }
 }

@@ -25,7 +25,7 @@ export class MeditationHomeComponent {
   constructor(private titleService: TitleService) {}
 
   ngOnInit() {
-    this.titleService.setFullTitle('Home Meditation');
+    this.titleService.setFullTitle('Meditation');
   }
 
   heroData = {
@@ -34,8 +34,8 @@ export class MeditationHomeComponent {
       'Meditation is the space where stillness and growth meet - a lifelong journey with no race, no finish line, only the quiet unfolding of awareness, moment by moment.',
     buttonLabel: 'Explore Meditations',
     buttonLink: './library',
-    imagePath: 'public/yoga-poses/meditation.png',
-    imagePathWebP: 'public/yoga-poses/meditation.webp',
+    imagePath: 'public/meditations/meditation-1.png',
+    imagePathWebP: 'public/meditations/meditation-1.webp',
   };
 
   shortIntro = {
@@ -54,9 +54,9 @@ export class MeditationHomeComponent {
     buttonLabel: 'Explore Meditations',
     buttonLink: '/meditation/library',
     images: [
-      { src: 'public/meditations/meditation-3.png', alt: '' },
+      { src: 'public/yoga-poses/meditation.png', alt: '' },
       { src: 'public/meditations/meditation-5.png', alt: '' },
-      { src: 'public/meditations/meditation-6.png', alt: '' },
+      { src: 'public/meditations/walking-meditation.png', alt: '' },
     ],
   };
 

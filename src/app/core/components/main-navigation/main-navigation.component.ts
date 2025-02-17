@@ -14,17 +14,17 @@ import { filter } from 'rxjs/operators';
 export class MainNavigationComponent implements OnInit {
   menuItems: any[] = []; // To store the menu data
   isRoutinePage: boolean = false; // Detect if the page is a yoga routine page
-  menuOpen = false; // State for the mobile menu
+  menuOpen = false;
 
   constructor(private router: Router, private http: HttpClient) {}
 
   ngOnInit(): void {
-    // Fetch the navigation structure from the JSON file
-    this.http.get<any[]>('data/navigation.json').subscribe((data) => {
-      this.menuItems = data;
-    });
+    if (this.menuItems.length === 0) {
+      this.http.get<any[]>('data/navigation.json').subscribe((data) => {
+        this.menuItems = data;
+      });
+    }
 
-    // Detect the current route for dynamic styling
     this.router.events
       .pipe(filter((event) => event instanceof NavigationEnd))
       .subscribe((event: any) => {
@@ -38,7 +38,7 @@ export class MainNavigationComponent implements OnInit {
   }
 
   closeMenuAndNavigate(): void {
-    this.menuOpen = false; // Close the menu
+    this.menuOpen = false;
     document.body.classList.remove('no-scroll'); // Re-enable scrolling
   }
 }
