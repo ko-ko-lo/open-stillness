@@ -380,6 +380,13 @@ a:active {
   }
 }
 
+// Mobile Menu
+.no-scroll {
+  overflow: hidden !important; /* Prevent scrolling */
+  position: fixed; /* Ensure no accidental movement */
+  width: 100%; /* Prevent horizontal movement */
+}
+
 // ========================================================================
 // Responsive Design
 // ========================================================================

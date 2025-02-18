@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
@@ -16,7 +16,11 @@ export class MainNavigationComponent implements OnInit {
   isRoutinePage: boolean = false; // Detect if the page is a yoga routine page
   menuOpen = false;
 
-  constructor(private router: Router, private http: HttpClient) {}
+  constructor(
+    private router: Router,
+    private http: HttpClient,
+    private renderer: Renderer2
+  ) {}
 
   ngOnInit(): void {
     if (this.menuItems.length === 0) {
@@ -33,8 +37,9 @@ export class MainNavigationComponent implements OnInit {
   }
 
   toggleMenu(): void {
-    this.menuOpen = !this.menuOpen; // Toggle the menu open/close state
-    document.body.classList.toggle('no-scroll', this.menuOpen); // Prevent body scrolling when menu is open
+    this.menuOpen = !this.menuOpen;
+    console.log('Menu Open:', this.menuOpen);
+    document.body.classList.toggle('no-scroll', this.menuOpen);
   }
 
   closeMenuAndNavigate(): void {
