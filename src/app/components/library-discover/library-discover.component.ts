@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { ROUTES } from '../../constants/routes';
 
 @Component({
   selector: 'app-library-discover',
@@ -20,4 +21,6 @@ export class LibraryDiscoverComponent {
   getWebpImage(imagePath: string): string {
     return imagePath.replace(/\.(png|jpg|jpeg)$/, '.webp');
   }
+
+  ROUTES = ROUTES;
 }

@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { ROUTES } from './constants/routes';
 import { BreathingHomeComponent } from './features/breathing/home/home.component';
 import { BreathingLibraryComponent } from './features/breathing/library/library.component';
 import { BreathingRoutineComponent } from './features/breathing/routine/routine.component';
@@ -13,38 +14,44 @@ import { HomeComponent } from './shared/home/home.component';
 import { NotFoundComponent } from './shared/not-found/not-found.component';
 
 export const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: ROUTES.HOME, component: HomeComponent },
+
+  // Meditation Routes
+  { path: ROUTES.MEDITATION.ROOT, component: MeditationHomeComponent },
   {
-    path: 'meditation',
-    children: [
-      { path: '', component: MeditationHomeComponent },
-      { path: '', redirectTo: 'library', pathMatch: 'full' },
-      { path: 'library', component: MeditationLibraryComponent },
-    ],
-  },
-  {
-    path: 'yin-style-yoga',
-    children: [
-      { path: '', component: YinStyleYogaHomeComponent },
-      { path: '', redirectTo: 'library', pathMatch: 'full' },
-      { path: 'library', component: LibraryComponent },
-      { path: 'routines-overview', component: RoutinesComponent },
-      { path: 'routine/:slug', component: YogaRoutinesComponent },
-    ],
+    path: ROUTES.MEDITATION.LIBRARY,
+    component: MeditationLibraryComponent,
   },
 
+  // Yin-Style Yoga Routes
+  { path: ROUTES.YIN_STYLE_YOGA.ROOT, component: YinStyleYogaHomeComponent },
   {
-    path: 'breathwork',
-    children: [
-      { path: '', component: BreathingHomeComponent },
-      { path: '', redirectTo: 'library', pathMatch: 'full' },
-      { path: 'library', component: BreathingLibraryComponent },
-      {
-        path: 'routines-overview',
-        component: BreathingRoutinesOverviewComponent,
-      },
-      { path: 'routine/:slug', component: BreathingRoutineComponent },
-    ],
+    path: ROUTES.YIN_STYLE_YOGA.LIBRARY,
+    component: LibraryComponent,
   },
-  { path: '**', component: NotFoundComponent },
+  {
+    path: ROUTES.YIN_STYLE_YOGA.ROUTINES_OVERVIEW,
+    component: RoutinesComponent,
+  },
+  {
+    path: ROUTES.YIN_STYLE_YOGA.ROUTINE,
+    component: YogaRoutinesComponent,
+  },
+
+  // Breathwork Routes
+  { path: ROUTES.BREATHWORK.ROOT, component: BreathingHomeComponent },
+  {
+    path: ROUTES.BREATHWORK.LIBRARY,
+    component: BreathingLibraryComponent,
+  },
+  {
+    path: ROUTES.BREATHWORK.ROUTINES_OVERVIEW,
+    component: BreathingRoutinesOverviewComponent,
+  },
+  {
+    path: ROUTES.BREATHWORK.ROUTINE,
+    component: BreathingRoutineComponent,
+  },
+
+  { path: ROUTES.NOT_FOUND, component: NotFoundComponent },
 ];

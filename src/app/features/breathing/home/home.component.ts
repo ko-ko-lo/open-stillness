@@ -5,6 +5,7 @@ import { ExploreRoutinesComponent } from '../../../components/explore-routines/e
 import { HeroComponent } from '../../../components/hero/hero.component';
 import { LibraryDiscoverComponent } from '../../../components/library-discover/library-discover.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
+import { ROUTES } from '../../../constants/routes';
 import { TitleService } from '../../../services/title.service';
 
 @Component({
@@ -27,7 +28,7 @@ export class BreathingHomeComponent {
     description:
       'Discover different Breathing Routines to support your well-being, improve your focus, and bring a sense of calm to your day.',
     buttonLabel: 'Explore Routines',
-    buttonLink: '/breathwork/routines-overview',
+    buttonLink: `/${ROUTES.BREATHWORK.ROUTINES_OVERVIEW}`,
     imagePath: 'public/breathing-poses/full-yogic-breath.png',
     imagePathWebP: 'public/breathing-poses/full-yogic-breath.webp',
   };
@@ -41,7 +42,7 @@ export class BreathingHomeComponent {
       'Discover a Library of Modern, Traditional and Movement-Based Breathing Techniques',
     description: `Explore a diverse collection of breathing techniques to support your well-being, from modern practices backed by science to traditional methods rooted in ancient wisdom, and movement-based exercises for added energy.`,
     buttonLabel: 'Explore Techniques',
-    buttonLink: '/breathwork/library',
+    buttonLink: `/${ROUTES.BREATHWORK.LIBRARY}`,
     images: [
       { src: 'public/breathing-poses/humming-bee-breath.png', alt: '' },
       {
@@ -57,7 +58,7 @@ export class BreathingHomeComponent {
     description:
       'Discover Breathing Routines thoughtfully designed to match your skill level, mood, and energy through their intensity. Whether you’re looking to calm, find balance, or energize your day, these Routines help you connect with your breath and deepen your practice.',
     buttonLabel: 'Explore Routines',
-    buttonLink: '/breathwork/routines-overview',
+    buttonLink: `/${ROUTES.BREATHWORK.ROUTINES_OVERVIEW}`,
     imagePath: 'public/routines/preview-humming.png',
     imagePathWebP: 'public/routines/preview-humming.webp',
   };

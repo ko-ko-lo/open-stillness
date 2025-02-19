@@ -5,6 +5,7 @@ import { HeroComponent } from '../../../components/hero/hero.component';
 import { LibraryDiscoverComponent } from '../../../components/library-discover/library-discover.component';
 import { ShortInformationComponent } from '../../../components/short-information/short-information.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
+import { ROUTES } from '../../../constants/routes';
 import { TitleService } from '../../../services/title.service';
 
 @Component({
@@ -33,7 +34,7 @@ export class MeditationHomeComponent {
     description:
       'Meditation is the space where stillness and growth meet - a lifelong journey with no race, no finish line, only the quiet unfolding of awareness, moment by moment.',
     buttonLabel: 'Explore Meditations',
-    buttonLink: './library',
+    buttonLink: `/${ROUTES.MEDITATION.LIBRARY}`,
     imagePath: 'public/meditations/meditation-1.png',
     imagePathWebP: 'public/meditations/meditation-1.webp',
   };
@@ -52,7 +53,7 @@ export class MeditationHomeComponent {
       'Discover a Library of Meditations for Stillness, Awareness & Growth',
     description: `Explore a diverse collection of meditation techniques, ranging from deeply grounding body scans to traditional practices rooted in mindfulness and self-awareness. Whether you're looking to relax, sharpen your focus, or cultivate inner peace, you'll find meditations to support your journey.`,
     buttonLabel: 'Explore Meditations',
-    buttonLink: '/meditation/library',
+    buttonLink: `/${ROUTES.MEDITATION.LIBRARY}`,
     images: [
       { src: 'public/yoga-poses/meditation.png', alt: '' },
       { src: 'public/meditations/meditation-5.png', alt: '' },

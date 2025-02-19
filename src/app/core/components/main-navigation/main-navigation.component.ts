@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { filter } from 'rxjs/operators';
+import { ROUTES } from '../../../constants/routes';
 
 @Component({
   selector: 'app-main-navigation',
@@ -15,18 +16,33 @@ export class MainNavigationComponent implements OnInit {
   // Define submenus for each section
   subMenus: { [key: string]: { label: string; link: string }[] } = {
     meditation: [
-      { label: 'Intro', link: '/meditation' },
-      { label: 'Library', link: '/meditation/library' },
+      { label: 'Intro', link: ROUTES.MEDITATION.ROOT },
+      {
+        label: 'Library',
+        link: ROUTES.MEDITATION.LIBRARY,
+      },
     ],
     breathwork: [
-      { label: 'Intro', link: '/breathwork' },
-      { label: 'Library', link: '/breathwork/library' },
-      { label: 'Routines', link: '/breathwork/routines-overview' },
+      { label: 'Intro', link: ROUTES.BREATHWORK.ROOT },
+      {
+        label: 'Library',
+        link: ROUTES.BREATHWORK.LIBRARY,
+      },
+      {
+        label: 'Routines',
+        link: ROUTES.BREATHWORK.ROUTINES_OVERVIEW,
+      },
     ],
     'yin-style-yoga': [
-      { label: 'Intro', link: '/yin-style-yoga' },
-      { label: 'Library', link: '/yin-style-yoga/library' },
-      { label: 'Routines', link: '/yin-style-yoga/routines-overview' },
+      { label: 'Intro', link: ROUTES.YIN_STYLE_YOGA.ROOT },
+      {
+        label: 'Library',
+        link: ROUTES.YIN_STYLE_YOGA.LIBRARY,
+      },
+      {
+        label: 'Routines',
+        link: ROUTES.YIN_STYLE_YOGA.ROUTINES_OVERVIEW,
+      },
     ],
   };
 
