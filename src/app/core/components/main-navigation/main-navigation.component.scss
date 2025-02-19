@@ -1,10 +1,19 @@
 @use "./../../../../styles/variables" as variables;
 
+.logo {
+  max-width: 11.5rem;
+}
+
 .navbar {
-  padding: variables.$space-4 0;
+  padding: variables.$space-3 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar ul,
+.sub-nav ul {
+  font-size: variables.$space-3;
 }
 
 ul {
@@ -33,7 +42,7 @@ ul {
           content: "";
           position: absolute;
           left: 0;
-          bottom: -25px;
+          bottom: -24px;
           width: 100%;
           border-radius: variables.$radius-m;
           height: 2px;
@@ -50,7 +59,6 @@ ul {
 
 .menu-toggle {
   display: none; /* Hamburger: Hidden on larger screens */
-  position: absolute;
   right: 0;
   z-index: 10000;
 }
@@ -64,6 +72,47 @@ ul {
   &.no-margin {
     margin-bottom: 0; /* No margin on yoga-routines pages */
   }
+}
+
+/* Submenu */
+.sub-nav {
+  & ul {
+    gap: variables.$space-6;
+    background-color: variables.$color-green-50;
+    padding: variables.$space-1 variables.$space-7;
+    border-radius: variables.$radius-full;
+  }
+  & ul li {
+    list-style: none;
+  }
+  & ul li a {
+    text-decoration: none;
+    color: variables.$font-color-body;
+    position: relative; /* Needed for the underline positioning */
+    font-weight: 500;
+
+    &.active-link {
+      text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6); /* bold without friction when hovering */
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -13px;
+        width: 100%;
+        border-radius: variables.$radius-m;
+        height: 2px;
+        background-color: variables.$color-green-400;
+      }
+    }
+  }
+}
+
+/* Exclude navigation elements from the fade-in effect */
+.navbar,
+.sub-nav {
+  opacity: 1 !important;
+  animation: none !important;
 }
 
 @media (max-width: 767px) {
@@ -87,6 +136,10 @@ ul {
     visibility: visible;
     display: flex; /* Show menu */
     top: 70px;
+  }
+
+  .navbar ul li {
+    font-size: 1.5rem;
   }
 
   .menu-open .container {
@@ -119,9 +172,5 @@ ul {
 
   ul li:first-child.nav-item {
     padding-top: variables.$space-6;
-  }
-
-  ul li {
-    font-size: 1.5rem;
   }
 }

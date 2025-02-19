@@ -38,7 +38,7 @@ export class HomeComponent {
   }
 
   shortIntro = {
-    text: 'Cultivate stillness and strength with ease. Explore Yin-Style Yoga and Breathing Techniques through introductions, libraries, and routines designed to guide your journey.',
+    text: 'Cultivate stillness and strength with ease. Explore Meditation, Breathwork and Yin-Style Yoga through introductions, libraries, and routines designed to guide your journey.',
   };
 
   singleRoutine = {
