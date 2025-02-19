@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 export class HeroHomeComponent {
   headline: string = 'Welcome to Your Space for Calm and Connection';
   description: string[] = [
-    'This application is here to help you connect with yourself through Yin-Style Yoga and Breathing practices that are gentle, effective, and grounded in care. ',
+    'This application is here to help you connect with yourself through Meditation, Breathwork and Yin-Style Yoga practices that are gentle, effective, and grounded in care. ',
     'Designed for everyone, especially those who are sensitive or navigating challenges like anxiety and depression.',
   ];
   buttonLabel: string = 'Start Your Journey';

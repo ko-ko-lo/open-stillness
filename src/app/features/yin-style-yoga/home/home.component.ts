@@ -5,6 +5,7 @@ import { ExploreRoutinesComponent } from '../../../components/explore-routines/e
 import { HeroComponent } from '../../../components/hero/hero.component';
 import { LibraryDiscoverComponent } from '../../../components/library-discover/library-discover.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
+import { ROUTES } from '../../../constants/routes';
 import { TitleService } from '../../../services/title.service';
 
 @Component({
@@ -28,9 +29,9 @@ export class YinStyleYogaHomeComponent implements OnInit {
     description:
       'Discover Yin\u2011Style Yoga routines that target key areas of your body while deepening your connection to yourself. Unwind, restore, and explore your inner calm.',
     buttonLabel: 'Explore Routines',
-    buttonLink: '/yin-style-yoga/routines-overview',
-    imagePath: 'public/yoga-poses/meditation.png',
-    imagePathWebP: 'public/yoga-poses/meditation.webp',
+    buttonLink: `/${ROUTES.YIN_STYLE_YOGA.ROUTINES_OVERVIEW}`,
+    imagePath: 'public/yoga-poses/seated-spinal-twist.png',
+    imagePathWebP: 'public/yoga-poses/seated-spinal-twist.webp',
   };
 
   shortIntro = {
@@ -41,7 +42,7 @@ export class YinStyleYogaHomeComponent implements OnInit {
     title: 'Discover a Library of Yin-Style Yoga Poses',
     description: `Explore a comprehensive collection of Yin-Style Yoga poses in the Library. Each pose is designed to help you target specific areas of your body, promoting flexibility, balance, and relaxation. Whether you're new to Yin Yoga or looking to deepen your practice.`,
     buttonLabel: 'Explore Poses',
-    buttonLink: '/yin-style-yoga/library',
+    buttonLink: `/${ROUTES.YIN_STYLE_YOGA.LIBRARY}`,
     images: [
       { src: 'public/yoga-poses/dangling.png', alt: '' },
       { src: 'public/yoga-poses/yoga-squat.png', alt: '' },
@@ -54,7 +55,7 @@ export class YinStyleYogaHomeComponent implements OnInit {
     description:
       "Discover a collection of carefully curated Yin-Style Yoga routines designed to target different areas of the body and help you achieve balance, flexibility, and relaxation. Whether you're looking for a gentle stretch, a focused hip release, or a full-body experience, our routines guide you through sequences that support your well-being.",
     buttonLabel: 'Explore Routines',
-    buttonLink: '/yin-style-yoga/routines-overview',
+    buttonLink: `/${ROUTES.YIN_STYLE_YOGA.ROUTINES_OVERVIEW}`,
     imagePath: 'public/routines/preview-sphinx.png',
     imagePathWebP: 'public/routines/preview-sphinx.webp',
   };
@@ -200,6 +201,6 @@ export class YinStyleYogaHomeComponent implements OnInit {
   constructor(private titleService: TitleService) {}
 
   ngOnInit() {
-    this.titleService.setFullTitle('Home Yin-Style Yoga');
+    this.titleService.setFullTitle('Yin-Style Yoga');
   }
 }

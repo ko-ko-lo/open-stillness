@@ -6,12 +6,12 @@
   },
   {
     "label": "Breathwork",
-    "link": "/breathing",
+    "link": "/breathwork",
     "children": [
-      { "label": "Library", "link": "/breathing/library" },
+      { "label": "Library", "link": "/breathwork/library" },
       {
         "label": "Routines",
-        "link": "/breathing/routines-overview"
+        "link": "/breathwork/routines-overview"
       }
     ]
   },

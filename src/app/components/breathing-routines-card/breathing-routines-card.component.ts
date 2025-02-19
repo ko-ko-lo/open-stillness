@@ -27,7 +27,6 @@ export class BreathingRoutinesCardComponent implements OnInit {
       // If a single routine is passed, wrap it in an array for consistent use with *ngFor
       this.filteredRoutines = [this.routine];
     } else {
-      // Fetch data from JSON and initialize filteredRoutines
       this.http.get<any[]>('data/breathing-routines.json').subscribe((data) => {
         this.routineData = data;
         this.filteredRoutines = this.routineData; // Default to all routines
@@ -35,7 +34,6 @@ export class BreathingRoutinesCardComponent implements OnInit {
     }
   }
 
-  // Handle filter changes
   onFilterChange(selectedFilter: string): void {
     this.selectedFilter = selectedFilter;
 

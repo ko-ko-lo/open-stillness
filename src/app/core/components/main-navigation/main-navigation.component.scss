@@ -1,7 +1,19 @@
 @use "./../../../../styles/variables" as variables;
 
+.logo {
+  max-width: 11.5rem;
+}
+
 .navbar {
-  padding: variables.$space-4 0;
+  padding: variables.$space-3 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul,
+.sub-nav ul {
+  font-size: variables.$space-3;
 }
 
 ul {
@@ -9,75 +21,46 @@ ul {
 }
 
 .nav-menu {
+  display: none;
   list-style: none;
   display: flex;
   gap: variables.$space-6;
 
   .nav-item {
+    position: relative; /* Allows absolute positioning inside */
+
     a {
       text-decoration: none;
       color: variables.$font-color-body;
+      position: relative; /* Needed for the underline positioning */
+      font-weight: 500;
 
-      &:hover {
-        text-decoration: underline;
-        text-decoration-thickness: 2px;
-      }
-    }
+      &.active-link {
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6); /* bold without friction when hovering */
 
-    .submenu {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      list-style: none;
-      padding: variables.$space-4 0;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      z-index: 9999;
-      background-color: rgba(255, 255, 255, 0.95);
-
-      li {
-        a {
-          padding: variables.$space-2 variables.$space-4;
-          display: block;
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -24px;
+          width: 100%;
+          border-radius: variables.$radius-m;
+          height: 2px;
+          background-color: variables.$color-green-400;
         }
       }
 
-      opacity: 0;
-      transform: translateY(-10px);
-      transition: opacity 0.3s ease, transform 0.3s ease;
-    }
-
-    .nav-item:hover .submenu {
-      display: block; /* Make it visible */
-      opacity: 1; /* Fade in */
-      transform: translateY(0); /* Slide into position */
-    }
-
-    &:hover .submenu {
-      display: block; /* Show submenu on hover */
+      &:hover {
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6);
+      }
     }
   }
-
-  &.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 100%;
-    height: calc(100vh - 68px);
-    background: variables.$color-neutral-50;
-    z-index: 9999;
-  }
-}
-
-.nav-item:hover .submenu {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .menu-toggle {
   display: none; /* Hamburger: Hidden on larger screens */
+  right: 0;
+  z-index: 10000;
 }
 
 .menu-position {
@@ -91,27 +74,93 @@ ul {
   }
 }
 
-@media (max-width: 768px) {
+/* Submenu */
+.sub-nav {
+  & ul {
+    gap: variables.$space-6;
+    background-color: variables.$color-green-50;
+    padding: variables.$space-1 variables.$space-7;
+    border-radius: variables.$radius-full;
+  }
+  & ul li {
+    list-style: none;
+  }
+  & ul li a {
+    text-decoration: none;
+    color: variables.$font-color-body;
+    position: relative; /* Needed for the underline positioning */
+    font-weight: 500;
+
+    &.active-link {
+      text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.6); /* bold without friction when hovering */
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -13px;
+        width: 100%;
+        border-radius: variables.$radius-m;
+        height: 2px;
+        background-color: variables.$color-green-400;
+      }
+    }
+  }
+}
+
+/* Exclude navigation elements from the fade-in effect */
+.navbar,
+.sub-nav {
+  opacity: 1 !important;
+  animation: none !important;
+}
+
+@media (max-width: 767px) {
   .nav-menu {
-    display: none; /* Hidden by default on mobile */
+    opacity: 0;
+    visibility: hidden;
     flex-direction: column;
+    position: fixed; /* Make sure it overlays everything */
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh; /* Full screen */
+    background: variables.$color-neutral-50;
+    z-index: 9999;
+    padding-top: variables.$space-12;
+    align-items: center;
   }
 
   .nav-menu.active {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    display: flex; /* Show menu */
+    top: 70px;
   }
 
-  .nav-menu .nav-item .submenu {
-    display: block;
-    position: relative;
-    top: 0;
-    width: 100%;
-    box-shadow: none;
-    padding: variables.$space-4 0;
+  .navbar ul li {
+    font-size: 1.5rem;
   }
 
-  .container .nav-menu.active {
+  .menu-open .container {
     padding: 0;
+  }
+
+  .menu-open .navbar {
+    padding: 1.125rem 0;
+  }
+
+  .menu-open .container .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .nav-menu .nav-item a.active-link::after {
+    bottom: -8px;
+  }
+
+  .menu-open .menu-toggle {
+    padding-right: 1rem;
   }
 
   .menu-toggle {

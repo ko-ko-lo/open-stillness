@@ -34,7 +34,7 @@ export class PathwaysCardComponent {
         'Harness the power of your breath to find calm and balance.',
         'Breathing techniques guide your awareness to your breath, helping you cultivate healthier breathing habits. This can alleviate stress, and benefit both your body and mind.',
       ],
-      buttonLink: '/breathing',
+      buttonLink: '/breathwork',
       imagePath: 'public/shared/pathway-breathwork.png',
       imagePathWebP: 'public/shared/pathway-breathwork.webp',
     },

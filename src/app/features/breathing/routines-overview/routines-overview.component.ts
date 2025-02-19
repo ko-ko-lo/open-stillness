@@ -18,6 +18,6 @@ export class BreathingRoutinesOverviewComponent {
   constructor(private titleService: TitleService) {}
 
   ngOnInit() {
-    this.titleService.setFullTitle('Breathing Routines');
+    this.titleService.setFullTitle('Breathwork Routines');
   }
 }

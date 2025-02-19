@@ -7,6 +7,7 @@ import { PathwaysCardComponent } from '../../components/pathways-card/pathways-c
 import { PreviewSectionsComponent } from '../../components/preview-sections/preview-sections.component';
 import { ShortIntroComponent } from '../../components/short-intro/short-intro.component';
 import { TrainingCardComponent } from '../../components/training-card/training-card.component';
+import { ROUTES } from '../../constants/routes';
 
 @Component({
   selector: 'app-home',
@@ -25,10 +26,12 @@ import { TrainingCardComponent } from '../../components/training-card/training-c
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
+  ROUTES = ROUTES;
+
   backgroundClass: string = 'background-white';
 
   images = [
-    { src: 'public/meditations/meditation-1.png', alt: '' },
+    { src: 'public/yoga-poses/meditation.png', alt: '' },
     { src: 'public/breathing-poses/full-yogic-breath.png', alt: '' },
     { src: 'public/yoga-poses/cat-pulling-its-tail.png', alt: '' },
   ];
@@ -38,7 +41,7 @@ export class HomeComponent {
   }
 
   shortIntro = {
-    text: 'Cultivate stillness and strength with ease. Explore Yin-Style Yoga and Breathing Techniques through introductions, libraries, and routines designed to guide your journey.',
+    text: 'Cultivate stillness and strength with ease. Explore Meditation, Breathwork and Yin-Style Yoga through introductions, libraries, and routines designed to guide your journey.',
   };
 
   singleRoutine = {

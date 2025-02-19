@@ -17,10 +17,12 @@ html {
   padding: 0 variables.$global-padding-desktop;
 }
 
+/*
 * {
   opacity: 0;
   animation: fadeIn variables.$fade-duration variables.$fade-ease forwards;
 }
+*/
 
 // ========================================================================
 // Typography
@@ -89,7 +91,7 @@ p {
   background-color: variables.$button-default-bg;
   color: variables.$button-standard-font-color;
   border: none;
-  border-radius: variables.$radius-s;
+  border-radius: variables.$radius-m;
   padding: variables.$space-3 variables.$space-6;
   font-size: variables.$font-size-body;
   font-weight: variables.$font-weight-regular;
@@ -378,6 +380,13 @@ a:active {
   .short-intro {
     padding: variables.$space-10 variables.$space-3;
   }
+}
+
+// Mobile Menu
+.no-scroll {
+  overflow: hidden !important; /* Prevent scrolling */
+  position: fixed; /* Ensure no accidental movement */
+  width: 100%; /* Prevent horizontal movement */
 }
 
 // ========================================================================
