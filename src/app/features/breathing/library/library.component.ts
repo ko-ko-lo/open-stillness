@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
 import { BreathingCardComponent } from '../../../components/breathing-card/breathing-card.component';
 import { FilteringComponent } from '../../../components/filtering/filtering.component';
 import { IntroSubpagesComponent } from '../../../components/intro-subpages/intro-subpages.component';
-import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-library',
@@ -34,11 +33,9 @@ export class BreathingLibraryComponent implements OnInit {
     'Movement-Based',
   ];
 
-  constructor(private http: HttpClient, private titleService: TitleService) {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Library Breathwork');
-
     this.http.get<any[]>('data/breathing.json').subscribe((data) => {
       this.breathingExercises = data;
       this.filteredBreathing = this.breathingExercises; // Initially show all techniques

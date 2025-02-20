@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
 import { FilteringComponent } from '../../../components/filtering/filtering.component';
 import { IntroSubpagesComponent } from '../../../components/intro-subpages/intro-subpages.component';
 import { YogaCardComponent } from '../../../components/yoga-card/yoga-card.component';
-import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-library',
@@ -33,11 +32,9 @@ export class LibraryComponent implements OnInit {
     'Lower Body',
   ];
 
-  constructor(private http: HttpClient, private titleService: TitleService) {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Library Yin-Style Yoga');
-
     this.http.get<any[]>('data/yoga-poses.json').subscribe((data) => {
       this.yogaPoses = data;
       this.filteredPoses = this.yogaPoses; // Initially show all poses

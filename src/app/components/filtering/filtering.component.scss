@@ -10,6 +10,8 @@
   border: 1px solid variables.$color-neutral-200;
   cursor: pointer;
   color: variables.$font-color-body;
+  margin-top: variables.$space-5;
+  font-size: 1rem;
 }
 
 .filter-buttons button:hover {

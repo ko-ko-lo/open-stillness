@@ -1,9 +1,5 @@
 @use "./../../../../styles/variables" as variables;
 
-.logo {
-  max-width: 12.5rem;
-}
-
 .navbar {
   padding: variables.$space-3 0;
   display: flex;

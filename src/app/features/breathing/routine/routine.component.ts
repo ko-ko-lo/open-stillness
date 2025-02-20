@@ -33,17 +33,20 @@ export class BreathingRoutineComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Breathing Routine');
-
     this.routineSlug = this.route.snapshot.paramMap.get('slug');
 
     this.http.get<any[]>('data/breathing-routines.json').subscribe((data) => {
-      this.routineData = data.find((routine) => {
-        return routine.slug === this.routineSlug;
-      });
+      this.routineData = data.find(
+        (routine) => routine.slug === this.routineSlug
+      );
 
       if (this.routineData) {
         this.loadbreathingTechniques(this.routineData.breathings);
+        this.titleService.setFullTitle(
+          `Breathwork Routine: ${this.routineData.name}`
+        );
+      } else {
+        this.titleService.setFullTitle('Breathwork Routine: A Guided Practice');
       }
     });
   }
