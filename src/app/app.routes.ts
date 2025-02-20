@@ -14,10 +14,18 @@ import { HomeComponent } from './shared/home/home.component';
 import { NotFoundComponent } from './shared/not-found/not-found.component';
 
 export const routes: Routes = [
-  { path: ROUTES.HOME, component: HomeComponent },
+  {
+    path: ROUTES.HOME,
+    component: HomeComponent,
+    title: 'OpenStillness: A plattform to serve your mental health',
+  },
 
   // Meditation Routes
-  { path: ROUTES.MEDITATION.ROOT, component: MeditationHomeComponent },
+  {
+    path: ROUTES.MEDITATION.ROOT,
+    component: MeditationHomeComponent,
+    title: 'Meditation: an overview of the topic',
+  },
   {
     path: ROUTES.MEDITATION.LIBRARY,
     component: MeditationLibraryComponent,

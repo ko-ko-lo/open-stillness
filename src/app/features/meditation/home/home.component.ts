@@ -6,7 +6,6 @@ import { LibraryDiscoverComponent } from '../../../components/library-discover/l
 import { ShortInformationComponent } from '../../../components/short-information/short-information.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
 import { ROUTES } from '../../../constants/routes';
-import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-home',
@@ -23,12 +22,6 @@ import { TitleService } from '../../../services/title.service';
   styleUrl: './home.component.scss',
 })
 export class MeditationHomeComponent {
-  constructor(private titleService: TitleService) {}
-
-  ngOnInit() {
-    this.titleService.setFullTitle('Meditation');
-  }
-
   heroData = {
     headline: 'Unfold Your Awareness Through Meditation.',
     description:

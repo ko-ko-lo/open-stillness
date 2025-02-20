@@ -10,5 +10,5 @@ import { MainNavigationComponent } from './core/components/main-navigation/main-
   templateUrl: './app.component.html',
 })
 export class AppComponent {
-  title = 'kokolo-yoga';
+  title = 'open-stillness';
 }
