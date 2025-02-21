@@ -10,15 +10,27 @@
           *ngFor="let item of items; let i = index"
           class="accordion-item d-block"
         >
+          <!-- Accordion Header -->
+          <h3 class="margin-0">
+            <button
+              class="accordion-header d-flex justify-between align-center"
+              (click)="togglePanel(i)"
+              [attr.aria-expanded]="activeIndex === i"
+              [attr.aria-controls]="'accordion-content-' + i"
+            >
+              {{ item.title }}
+              <span class="icon">{{ activeIndex === i ? "-" : "+" }}</span>
+            </button>
+          </h3>
+
+          <!-- Accordion Content -->
           <div
-            class="accordion-header d-flex justify-between align-center"
-            (click)="togglePanel(i)"
+            class="accordion-content"
+            *ngIf="activeIndex === i"
+            [id]="'accordion-content-' + i"
+            role="region"
+            [attr.aria-labelledby]="'accordion-header-' + i"
           >
-            <h3 class="margin-0">{{ item.title }}</h3>
-            <span class="icon">{{ activeIndex === i ? "-" : "+" }}</span>
-          </div>
-          <div class="accordion-content" *ngIf="activeIndex === i">
-            <!-- Render paragraphs and lists -->
             <ng-container *ngFor="let paragraph of item.content">
               <p
                 class="margin-bottom-16"

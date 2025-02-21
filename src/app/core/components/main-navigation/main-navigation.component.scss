@@ -54,6 +54,7 @@ ul {
 }
 
 .menu-toggle {
+  all: unset;
   display: none; /* Hamburger: Hidden on larger screens */
   right: 0;
   z-index: 10000;
@@ -153,10 +154,6 @@ ul {
 
   .nav-menu .nav-item a.active-link::after {
     bottom: -8px;
-  }
-
-  .menu-open .menu-toggle {
-    padding-right: 1rem;
   }
 
   .menu-toggle {
