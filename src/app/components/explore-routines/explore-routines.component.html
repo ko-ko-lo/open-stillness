@@ -5,16 +5,12 @@
       class="flexcontent flex-column d-flex w-100 max-width-821 margin-bottom-56 gap-32"
     >
       <p>{{ description }}</p>
-      <button [routerLink]="buttonLink">{{ buttonLabel }}</button>
+      <a class="button" [routerLink]="buttonLink">{{ buttonLabel }}</a>
     </div>
-    <div class="explore-routines-img d-flex justifiy-end">
+    <div class="explore-routines-img d-flex justify-end">
       <picture>
         <source [srcset]="imagePathWebP" type="image/webp" />
-        <img
-          class="radius-l box-shadow-s"
-          [src]="imagePath"
-          alt="Yoga Routine Preview"
-        />
+        <img class="radius-l box-shadow-s" [src]="imagePath" alt="" />
       </picture>
     </div>
   </div>

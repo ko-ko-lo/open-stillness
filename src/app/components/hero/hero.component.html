@@ -1,10 +1,10 @@
-<div class="flex-container container justify-between">
+<header class="flex-container container justify-between" role="banner">
   <div class="flex-item align-self-center">
     <h1>{{ headline }}</h1>
     <p>{{ description }}</p>
-    <button class="margin-top-32" [routerLink]="buttonLink">
+    <a class="button margin-top-32" [routerLink]="buttonLink">
       {{ buttonLabel }}
-    </button>
+    </a>
   </div>
 
   <div class="flex-item">
@@ -13,4 +13,4 @@
       <img [src]="imagePath" alt="" />
     </picture>
   </div>
-</div>
+</header>

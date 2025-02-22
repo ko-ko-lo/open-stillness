@@ -18,3 +18,8 @@
   background-color: variables.$color-neutral-800;
   color: variables.$color-neutral-100;
 }
+
+fieldset {
+  border: none;
+  padding: 0;
+}

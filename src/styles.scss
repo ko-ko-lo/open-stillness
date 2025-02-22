@@ -94,13 +94,15 @@ p {
   border-radius: variables.$radius-m;
   padding: variables.$space-3 variables.$space-6;
   font-size: variables.$font-size-body;
-  font-weight: variables.$font-weight-regular;
+  font-weight: variables.$font-weight-medium;
   cursor: pointer;
   box-shadow: variables.$elevation-xs;
   align-self: flex-start;
+  font-family: variables.$font-family-base;
 }
 
-button {
+button,
+.button {
   @include button-style;
 
   &:hover {
@@ -135,6 +137,16 @@ button {
 
 .icon-setup i {
   margin-right: variables.$space-1;
+}
+
+// Navigational Buttons
+a.button:hover {
+  text-decoration: none;
+  color: variables.$color-neutral-50;
+}
+
+.button {
+  display: inline-block;
 }
 
 // ========================================================================
@@ -461,7 +473,8 @@ a:active {
 
   p,
   .pill,
-  button {
+  button,
+  .button {
     font-size: variables.$font-size-body-phone;
   }
   .library-discovery,

@@ -43,9 +43,9 @@ export class YinStyleYogaHomeComponent {
     buttonLabel: 'Explore Poses',
     buttonLink: `/${ROUTES.YIN_STYLE_YOGA.LIBRARY}`,
     images: [
-      { src: 'public/yoga-poses/dangling.png', alt: '' },
-      { src: 'public/yoga-poses/yoga-squat.png', alt: '' },
-      { src: 'public/yoga-poses/toe-squat.png', alt: '' },
+      { src: 'public/yoga-poses/dangling.png' },
+      { src: 'public/yoga-poses/yoga-squat.png' },
+      { src: 'public/yoga-poses/toe-squat.png' },
     ],
   };
 

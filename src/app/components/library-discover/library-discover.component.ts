@@ -15,7 +15,7 @@ export class LibraryDiscoverComponent {
   @Input() description: string = '';
   @Input() buttonLabel: string = '';
   @Input() buttonLink: string = '';
-  @Input() images: { src: string; alt: string }[] = [];
+  @Input() images: { src: string }[] = [];
   @Input() backgroundClass: string = 'background-green-light';
 
   getWebpImage(imagePath: string): string {

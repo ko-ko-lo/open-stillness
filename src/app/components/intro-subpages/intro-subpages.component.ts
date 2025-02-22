@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core';
 })
 export class IntroSubpagesComponent {
   @Input() title: string = '';
-  @Input() text: string | string[] = '';
+  @Input() text: string = '';
 
   isArray(value: any): value is string[] {
     return Array.isArray(value);

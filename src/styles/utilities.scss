@@ -146,7 +146,7 @@
   justify-content: space-between;
 }
 
-.justifiy-end {
+.justify-end {
   justify-content: flex-end;
 }
 
@@ -289,4 +289,11 @@
 
 .background-green-light {
   background-color: variables.$color-green-50;
+}
+
+// ========================================================================
+// Utility Classes for Visual Effects
+// ========================================================================
+.visually-hidden {
+  display: none;
 }

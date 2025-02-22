@@ -1,0 +1,7 @@
+@use "./../../../styles/variables" as variables;
+
+h3 {
+  font-weight: 700;
+  font-size: variables.$font-size-body;
+  margin: variables.$space-5 0 variables.$space-0;
+}

@@ -18,22 +18,18 @@ export class HeroHomeComponent {
   buttonLabel: string = 'Start Your Journey';
   buttonLink: string = '';
 
-  images: Array<{ src: string; alt: string }> = [
+  images: Array<{ src: string }> = [
     {
       src: 'public/breathing-poses/full-yogic-breath.png',
-      alt: '',
     },
     {
       src: 'public/yoga-poses/deer.png',
-      alt: '',
     },
     {
       src: 'public/yoga-poses/ankle-stretch.png',
-      alt: '',
     },
     {
       src: 'public/yoga-poses/supported-saddle.png',
-      alt: '',
     },
   ];
 

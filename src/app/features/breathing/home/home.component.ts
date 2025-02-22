@@ -43,12 +43,11 @@ export class BreathingHomeComponent {
     buttonLabel: 'Explore Techniques',
     buttonLink: `/${ROUTES.BREATHWORK.LIBRARY}`,
     images: [
-      { src: 'public/breathing-poses/humming-bee-breath.png', alt: '' },
+      { src: 'public/breathing-poses/humming-bee-breath.png' },
       {
         src: 'public/breathing-poses/alternate-nostril-breathing.png',
-        alt: '',
       },
-      { src: 'public/breathing-poses/abdominal-breathing.png', alt: '' },
+      { src: 'public/breathing-poses/abdominal-breathing.png' },
     ],
   };
 

@@ -1,9 +1,9 @@
-<div class="library-discovery">
+<section class="library-discovery">
   <div class="container">
     <h2 class="max-width-821">{{ title }}</h2>
     <div class="flexcontent d-flex flex-column w-100 margin-bottom-56 gap-32">
       <p class="max-width-821">{{ description }}</p>
-      <button [routerLink]="buttonLink">{{ buttonLabel }}</button>
+      <a [routerLink]="buttonLink">{{ buttonLabel }}</a>
     </div>
     <div class="flex-container gap-32">
       <div
@@ -13,9 +13,9 @@
       >
         <picture>
           <source [srcset]="getWebpImage(image.src)" type="image/webp" />
-          <img [src]="image.src" [alt]="image.alt" />
+          <img [src]="image.src" alt="" />
         </picture>
       </div>
     </div>
   </div>
-</div>
+</section>

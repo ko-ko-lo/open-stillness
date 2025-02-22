@@ -1,4 +1,4 @@
-<div *ngIf="meditation" class="card background-purple-light">
+<article *ngIf="meditation" class="card background-purple-light">
   <h2>{{ meditation.meditationName }}</h2>
 
   <div class="flex-container">
@@ -7,24 +7,25 @@
         <span
           *ngFor="let targetMeditation of meditation.targetMeditation"
           class="pill"
+          [attr.aria-label]="'Meditation Focus: ' + targetMeditation"
           >{{ targetMeditation }}</span
         >
       </div>
 
       <p>{{ meditation.description }}</p>
 
-      <p class="bold">Preparation</p>
+      <h3>How to Prepare for This Meditation</h3>
       <p>{{ meditation.preparation }}</p>
 
-      <p class="bold">Step by Step Guide</p>
+      <h3>Step-by-Step Instructions</h3>
       <ol>
         <li *ngFor="let step of meditation.stepBystep">{{ step }}</li>
       </ol>
 
-      <p class="bold">Completion</p>
+      <h3>How to Complete This Meditation</h3>
       <p>{{ meditation.completion }}</p>
 
-      <p class="bold">Guidance &amp; Variations</p>
+      <h3>Guidance &amp; Alternate Variations</h3>
       <ul>
         <li *ngFor="let variant of meditation.suggestion">
           {{ variant }}
@@ -35,12 +36,8 @@
     <div class="flex-item">
       <picture>
         <source [srcset]="getWebpImage(meditation.image)" type="image/webp" />
-        <img
-          class="w-100"
-          [src]="meditation.image"
-          alt="{{ meditation.name }}"
-        />
+        <img class="w-100" [src]="meditation.image" alt="" />
       </picture>
     </div>
   </div>
-</div>
+</article>

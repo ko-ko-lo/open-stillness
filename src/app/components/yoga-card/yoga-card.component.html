@@ -1,34 +1,38 @@
-<div class="card background-neutral-light">
+<article class="card background-neutral-light">
   <h2>{{ pose.name }}</h2>
 
   <div class="flex-container">
     <div class="flex-item">
-      <p class="bold">Main Target Areas</p>
+      <h3>Main Target Areas</h3>
       <div class="target-areas d-flex flex-wrap gap-8">
-        <span *ngFor="let target of pose.targetAreas" class="pill">{{
-          target
-        }}</span>
+        <span
+          *ngFor="let target of pose.targetAreas"
+          class="pill"
+          [attr.aria-label]="'Target Area: ' + target"
+          >{{ target }}</span
+        >
       </div>
       <p>{{ pose.targetDescription }}</p>
 
-      <p class="bold">Starting Position</p>
+      <h3>Starting Position</h3>
       <p>{{ pose.startingPosition }}</p>
 
-      <p class="bold">Steps into the Pose</p>
+      <h3>Steps into the Pose</h3>
       <ol>
         <li *ngFor="let step of pose.stepsIntoPose">{{ step }}</li>
       </ol>
-      <p class="bold">Steps out of the Pose</p>
+      <h3>Steps out of the Pose</h3>
       <ol>
         <li *ngFor="let step of pose.stepsOutOfPose">{{ step }}</li>
       </ol>
-      <p class="bold">Possible Variants</p>
+      <h3>Possible Variants</h3>
       <ul>
         <li *ngFor="let variant of pose.possibleVariants">{{ variant }}</li>
       </ul>
       <div
         *ngIf="pose.practiceOnBothSides"
         class="pill practice-pill align-center gap-8"
+        aria-live="polite"
       >
         Practice on both sides <i class="material-icons">repeat</i>
       </div>
@@ -36,8 +40,8 @@
     <div class="flex-item">
       <picture>
         <source [srcset]="getWebpImage(pose.image)" type="image/webp" />
-        <img class="w-100" [src]="pose.image" alt="{{ pose.name }}" />
+        <img class="w-100" [src]="pose.image" alt="" />
       </picture>
     </div>
   </div>
-</div>
+</article>
