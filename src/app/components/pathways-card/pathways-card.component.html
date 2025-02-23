@@ -1,9 +1,8 @@
-<div class="flex-container">
-  <div
+<article class="flex-container">
+  <a
     class="flex-item background-white card"
     *ngFor="let card of cards"
     [routerLink]="card.buttonLink"
-    tabindex="0"
     role="link"
   >
     <h3>{{ card.headline }}</h3>
@@ -14,9 +13,9 @@
       <source [srcset]="getWebpImage(card.imagePathWebP)" type="image/webp" />
       <img
         [src]="card.imagePath"
-        alt="{{ card.headline }}"
+        alt=""
         class="radius-m box-shadow-xs margin-top-24"
       />
     </picture>
-  </div>
-</div>
+  </a>
+</article>

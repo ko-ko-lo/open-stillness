@@ -133,6 +133,9 @@ button,
 .icon-setup {
   display: inline-flex;
   align-items: center;
+  color: variables.$font-color-body;
+  font-weight: 500;
+  font-size: variables.$font-size-body;
 }
 
 .icon-setup i {
@@ -300,11 +303,15 @@ a:link {
 
 a:hover {
   color: variables.$color-purple-600;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
   color: variables.$color-purple-500;
+}
+
+a.button {
+  color: variables.$color-neutral-50;
 }
 
 // ========================================================================

@@ -1,15 +1,23 @@
 <div class="container">
-  <section>
-    <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
+  <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
+
+  <section aria-labelledby="filtering-title">
+    <h2 id="filtering-title" class="visually-hidden">
+      Filter Breathing Techniques
+    </h2>
+    <app-filtering
+      [filterOptions]="filterOptions"
+      [selectedFilter]="selectedFilter"
+      (filterChange)="onFilterChange($event)"
+    ></app-filtering>
   </section>
 
-  <app-filtering
-    [filterOptions]="filterOptions"
-    [selectedFilter]="selectedFilter"
-    (filterChange)="onFilterChange($event)"
-  ></app-filtering>
-
-  <div *ngFor="let breathing of filteredBreathing">
-    <app-breathing-card [breathing]="breathing"></app-breathing-card>
-  </div>
+  <section aria-labelledby="breathing-techniques-title">
+    <h2 id="breathing-techniques-title" class="visually-hidden">
+      Available Breathing Techniques
+    </h2>
+    <div *ngFor="let breathing of filteredBreathing">
+      <app-breathing-card [breathing]="breathing"></app-breathing-card>
+    </div>
+  </section>
 </div>

@@ -1,15 +1,23 @@
 <div class="container">
-  <section>
-    <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
+  <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
+
+  <section aria-labelledby="filtering-title">
+    <h2 id="filtering-title" class="visually-hidden">
+      Filter Yin-Style Yoga Poses
+    </h2>
+    <app-filtering
+      [filterOptions]="filterOptions"
+      [selectedFilter]="selectedFilter"
+      (filterChange)="onFilterChange($event)"
+    ></app-filtering>
   </section>
 
-  <app-filtering
-    [filterOptions]="filterOptions"
-    [selectedFilter]="selectedFilter"
-    (filterChange)="onFilterChange($event)"
-  ></app-filtering>
-
-  <div *ngFor="let pose of filteredPoses">
-    <app-yoga-card [pose]="pose"></app-yoga-card>
-  </div>
+  <section aria-labelledby="yin-style-yoga-poses-title">
+    <h2 id="yin-style-yoga-poses-title" class="visually-hidden">
+      Available Yin-Style Yoga Poses
+    </h2>
+    <div *ngFor="let pose of filteredPoses">
+      <app-yoga-card [pose]="pose"></app-yoga-card>
+    </div>
+  </section>
 </div>

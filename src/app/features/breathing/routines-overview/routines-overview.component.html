@@ -1,7 +1,10 @@
 <div class="container">
-  <section>
-    <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
-  </section>
+  <app-intro-subpages [title]="title" [text]="text"></app-intro-subpages>
 
-  <app-breathing-routines-card> </app-breathing-routines-card>
+  <section aria-labelledby="breathing-routines-title">
+    <h2 id="breathing-routines-title" class="visually-hidden">
+      Available Breathing Routines
+    </h2>
+    <app-breathing-routines-card> </app-breathing-routines-card>
+  </section>
 </div>

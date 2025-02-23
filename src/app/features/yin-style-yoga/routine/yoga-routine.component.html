@@ -4,9 +4,13 @@
 
     <div class="intro">
       <h1>{{ routineData?.name }}</h1>
-      <p class="margin-bottom-40 icon-setup">
-        <i class="material-icons">schedule</i> {{ routineData?.time }} minutes
-      </p>
+      <time
+        class="margin-bottom-40 icon-setup"
+        [attr.datetime]="'PT' + routineData?.time + 'M'"
+      >
+        <i class="material-icons" aria-hidden="true">schedule</i>
+        {{ routineData?.time }} minutes
+      </time>
       <p class="margin-bottom-40">{{ routineData?.introText }}</p>
       <p class="pill">{{ routineData?.targetAreas }}</p>
     </div>
@@ -15,7 +19,7 @@
       <source [srcset]="routineData?.imageWebp" type="image/webp" />
       <img
         [src]="routineData?.image"
-        alt="{{ routineData?.name }}"
+        alt=""
         class="max-width-s w-100 radius-l box-shadow-s"
       />
     </picture>
@@ -25,15 +29,15 @@
     </h2>
   </div>
   <!-- List with Yoga Poses and Time -->
-  <div class="max-width-s" id="list">
-    <ol>
+  <section class="max-width-s" id="list">
+    <ol aria-label="List of Yin-Style Yoga poses for this routine">
       <li *ngFor="let list of routineData?.lists" class="d-flex">
         <div class="pose-info d-flex justify-between align-center w-100">
           <span class="pose-name">{{ list.name }}</span>
 
           <div class="pose-time d-flex align-center">
             <span *ngIf="list?.repeat" class="icon-repeat"
-              ><i class="material-icons">repeat</i></span
+              ><i class="material-icons" aria-hidden="true">repeat</i></span
             >
             <span>{{ list?.time }} min</span>
           </div>
@@ -43,22 +47,26 @@
 
     <div class="legend padding-top-24 margin-bottom-72">
       <p>
-        <i class="material-icons align-center justifiy-end d-inline-flex"
+        <i
+          class="material-icons align-center justifiy-end d-inline-flex"
+          aria-hidden="true"
           >repeat</i
         >
         = Practice on both sides
       </p>
     </div>
-  </div>
+  </section>
+
   <app-meditation-card
     *ngIf="selectedMeditation"
     [meditation]="selectedMeditation"
   ></app-meditation-card>
 
   <!-- Display the relevant yoga cards for this routine -->
-  <div class="pose-cards">
+  <section class="pose-cards">
+    <h2 class="visually-hidden">Yin-Style Yoga Poses in this Routine</h2>
     <app-yoga-card *ngFor="let pose of yogaPoses" [pose]="pose"></app-yoga-card>
-  </div>
+  </section>
 
   <div *ngIf="!routineData">
     <p>Routine not found!</p>
