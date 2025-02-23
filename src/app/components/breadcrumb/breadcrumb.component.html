@@ -1,8 +1,13 @@
-<nav class="breadcrumb">
-  <ul class="flex-wrap align-start align-center d-flex padding-0">
-    <li><a [routerLink]="routinesLink">ROUTINES</a></li>
-    <li *ngIf="routineName">&gt;</li>
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol class="flex-wrap align-start align-center d-flex padding-0">
+    <li>
+      <a [routerLink]="routinesLink">Routines</a>
+    </li>
 
-    <li *ngIf="routineName">{{ routineName }}</li>
-  </ul>
+    <li *ngIf="routineName" aria-hidden="true">&gt;</li>
+
+    <li *ngIf="routineName" aria-current="page">
+      {{ routineName }}
+    </li>
+  </ol>
 </nav>

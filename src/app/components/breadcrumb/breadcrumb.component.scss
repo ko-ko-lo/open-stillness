@@ -1,7 +1,7 @@
 @use "./../../../styles/variables" as variables;
 
 .breadcrumb {
-  ul {
+  ol {
     list-style: none;
     padding: 0;
     margin: variables.$space-5 0 variables.$space-6;

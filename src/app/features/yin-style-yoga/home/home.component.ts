@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AccordionComponent } from '../../../components/accordion/accordion.component';
 import { BenefitsComponent } from '../../../components/benefits/benefits.component';
 import { ExploreRoutinesComponent } from '../../../components/explore-routines/explore-routines.component';
@@ -6,7 +6,6 @@ import { HeroComponent } from '../../../components/hero/hero.component';
 import { LibraryDiscoverComponent } from '../../../components/library-discover/library-discover.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
 import { ROUTES } from '../../../constants/routes';
-import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-home',
@@ -22,7 +21,7 @@ import { TitleService } from '../../../services/title.service';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class YinStyleYogaHomeComponent implements OnInit {
+export class YinStyleYogaHomeComponent {
   heroData = {
     headline:
       'Embrace the calm and meditative practice of Yin\u2011Style Yoga.',
@@ -44,9 +43,9 @@ export class YinStyleYogaHomeComponent implements OnInit {
     buttonLabel: 'Explore Poses',
     buttonLink: `/${ROUTES.YIN_STYLE_YOGA.LIBRARY}`,
     images: [
-      { src: 'public/yoga-poses/dangling.png', alt: '' },
-      { src: 'public/yoga-poses/yoga-squat.png', alt: '' },
-      { src: 'public/yoga-poses/toe-squat.png', alt: '' },
+      { src: 'public/yoga-poses/dangling.png' },
+      { src: 'public/yoga-poses/yoga-squat.png' },
+      { src: 'public/yoga-poses/toe-squat.png' },
     ],
   };
 
@@ -197,10 +196,4 @@ export class YinStyleYogaHomeComponent implements OnInit {
       },
     ],
   };
-
-  constructor(private titleService: TitleService) {}
-
-  ngOnInit() {
-    this.titleService.setFullTitle('Yin-Style Yoga');
-  }
 }

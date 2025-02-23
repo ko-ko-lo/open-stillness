@@ -1,14 +1,16 @@
-<h2>{{ headline2 }}</h2>
-<div class="flex-container">
-  <div class="flex-item" *ngFor="let preview of previews">
-    <h3>{{ preview.headline3 }}</h3>
+<article>
+  <h2>{{ headline2 }}</h2>
+  <div class="flex-container">
+    <div class="flex-item" *ngFor="let preview of previews">
+      <h3>{{ preview.headline3 }}</h3>
 
-    <p class="margin-bottom-16">{{ preview.description }}</p>
-    <button
-      class="margin-top-32 margin-bottom-48"
-      [routerLink]="preview.buttonLink"
-    >
-      {{ preview.buttonLabel }}
-    </button>
+      <p class="margin-bottom-16">{{ preview.description }}</p>
+      <a
+        class="button margin-top-32 margin-bottom-48"
+        [routerLink]="preview.buttonLink"
+      >
+        {{ preview.buttonLabel }}
+      </a>
+    </div>
   </div>
-</div>
+</article>

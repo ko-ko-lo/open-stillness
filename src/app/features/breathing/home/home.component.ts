@@ -6,7 +6,6 @@ import { HeroComponent } from '../../../components/hero/hero.component';
 import { LibraryDiscoverComponent } from '../../../components/library-discover/library-discover.component';
 import { ShortIntroComponent } from '../../../components/short-intro/short-intro.component';
 import { ROUTES } from '../../../constants/routes';
-import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-home',
@@ -44,12 +43,11 @@ export class BreathingHomeComponent {
     buttonLabel: 'Explore Techniques',
     buttonLink: `/${ROUTES.BREATHWORK.LIBRARY}`,
     images: [
-      { src: 'public/breathing-poses/humming-bee-breath.png', alt: '' },
+      { src: 'public/breathing-poses/humming-bee-breath.png' },
       {
         src: 'public/breathing-poses/alternate-nostril-breathing.png',
-        alt: '',
       },
-      { src: 'public/breathing-poses/abdominal-breathing.png', alt: '' },
+      { src: 'public/breathing-poses/abdominal-breathing.png' },
     ],
   };
 
@@ -269,10 +267,4 @@ export class BreathingHomeComponent {
       },
     ],
   };
-
-  constructor(private titleService: TitleService) {}
-
-  ngOnInit() {
-    this.titleService.setFullTitle('Breathwork');
-  }
 }

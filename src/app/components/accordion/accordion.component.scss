@@ -1,5 +1,13 @@
 @use "./../../../styles/variables" as variables;
 
+button {
+  all: unset;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .accordion {
   .accordion-item {
     border: none;
@@ -10,7 +18,7 @@
     }
 
     .accordion-header {
-      padding: variables.$space-6 variables.$space-2;
+      padding: variables.$space-6 0;
       cursor: pointer;
       transition: background-color 0.3s ease;
 

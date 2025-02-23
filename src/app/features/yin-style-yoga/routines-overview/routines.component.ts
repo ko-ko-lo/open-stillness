@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IntroSubpagesComponent } from '../../../components/intro-subpages/intro-subpages.component';
 import { TrainingCardComponent } from '../../../components/training-card/training-card.component';
-import { TitleService } from '../../../services/title.service';
 
 @Component({
   selector: 'app-routines',
@@ -13,22 +12,17 @@ import { TitleService } from '../../../services/title.service';
   styleUrl: './routines.component.scss',
 })
 export class RoutinesComponent implements OnInit {
-  title: string = 'Find your Yin-Style Yoga Routine, enjoy the practice';
+  title: string =
+    'Move with Ease: Yin-Style Yoga Routines to Support Your Body';
   text: string =
-    "Explore a variety of Yin-Style Yoga Poses. Hold each pose for as long as feels comfortable, which could be several minutes. Remember to take short breaks between poses to tune into your body. Avoid pushing yourself into discomfort - listen to your body's signals. If a pose is performed on both sides, a note will indicate this.";
+    "Explore these carefully curated Yin-Style Yoga routines, moving at the suggested pace or in your own time. Between poses, take a moment to pause, breathe, and reconnect with your body. Notice any sensations that arise, and honor your body's signals - comfort and safety come first. Some poses are practiced on both sides, and you'll find gentle reminders when this is the case.";
 
   routineSlug: string | null = null;
   routineData: any;
 
-  constructor(
-    private route: ActivatedRoute,
-    private http: HttpClient,
-    private titleService: TitleService
-  ) {}
+  constructor(private route: ActivatedRoute, private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.titleService.setFullTitle('Routine Overview');
-
     this.routineSlug = this.route.snapshot.paramMap.get('slug');
 
     // Fetch routine data from JSON

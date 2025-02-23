@@ -1,55 +1,53 @@
-<div
-  [class.no-margin]="isRoutinePage"
-  [class.menu-open]="menuOpen"
-  class="border-bottom margin-bottom-12 menu-position background-white"
->
-  <div class="container">
-    <nav class="navbar d-flex justify-between align-center">
-      <a routerLink="/" (click)="closeMenuAndNavigate()" class="logo">
-        <img src="public/logo.svg" alt="Logo" />
-      </a>
+<header class="menu-position">
+  <div
+    [class.no-margin]="isRoutinePage"
+    [class.menu-open]="menuOpen"
+    class="border-bottom margin-bottom-12 background-white"
+  >
+    <div class="container">
+      <nav class="navbar d-flex justify-between align-center">
+        <a routerLink="/" (click)="closeMenuAndNavigate()" class="logo">
+          <img src="public/logo.svg" alt="OpenStillness Home" />
+        </a>
 
-      <!-- Menu Toggle for Mobile -->
-      <div
-        class="menu-toggle flex-column gap-4"
-        (click)="toggleMenu()"
-        role="button"
-        aria-label="Toggle menu"
-        [attr.aria-expanded]="menuOpen"
-      >
-        <ng-container *ngIf="!menuOpen; else closeIcon">
-          <i class="material-icons">menu</i>
-        </ng-container>
-        <ng-template #closeIcon>
-          <span class="close-icon">
-            <i class="material-icons">close</i>
-          </span>
-        </ng-template>
-      </div>
+        <!-- Menu Toggle for Mobile -->
+        <button
+          class="menu-toggle flex-column gap-4"
+          (click)="toggleMenu()"
+          role="button"
+          aria-label="Toggle menu"
+          [attr.aria-expanded]="menuOpen"
+        >
+          <ng-container *ngIf="!menuOpen; else closeIcon">
+            <i class="material-icons">menu</i>
+          </ng-container>
+          <ng-template #closeIcon>
+            <span class="close-icon">
+              <i class="material-icons">close</i>
+            </span>
+          </ng-template>
+        </button>
 
-      <!-- Main Navigation -->
-      <ul
-        class="nav-menu d-flex gap-32"
-        [class.active]="menuOpen"
-        role="navigation"
-      >
-        <li *ngFor="let item of menuItems" class="nav-item">
-          <a
-            [routerLink]="item.link"
-            routerLinkActive="active-link"
-            (click)="closeMenuAndNavigate()"
-          >
-            {{ item.label }}
-          </a>
-        </li>
-      </ul>
-    </nav>
+        <!-- Main Navigation -->
+        <ul class="nav-menu d-flex gap-32" [class.active]="menuOpen">
+          <li *ngFor="let item of menuItems" class="nav-item">
+            <a
+              [routerLink]="item.link"
+              routerLinkActive="active-link"
+              (click)="closeMenuAndNavigate()"
+            >
+              {{ item.label }}
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
-</div>
-
+</header>
 <!-- Second-Level Navigation (Only for Meditation, Breathwork, Yin-Style Yoga) -->
 <nav
   *ngIf="showSecondLevelNav()"
+  aria-label="Sub Navigation"
   class="sub-nav d-flex justify-center margin-bottom-64"
 >
   <ul class="d-flex">
