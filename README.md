@@ -3,7 +3,7 @@
 A space to explore Yin-Style Yoga, Meditation, and Breathwork. This web application is designed to support relaxation, mindfulness, and well-being, offering a curated library of yoga poses, guided meditations, and breathwork techniques.
 
 ### 🌎 Live Demo
-Experience the app here: [Web Application](https://kokoloyoga.com)
+Experience the app here: [Web Application](https://openstillness.com)
 
 
 ## Technologies Used
