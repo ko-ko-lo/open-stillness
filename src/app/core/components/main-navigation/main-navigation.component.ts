@@ -94,4 +94,20 @@ export class MainNavigationComponent implements OnInit {
   showSecondLevelNav(): boolean {
     return this.subMenuItems.length > 0;
   }
+
+  isCurrentPage(link: string, isSubmenu = false): boolean {
+    const currentUrl = this.router.url.split('?')[0].split('#')[0]; // Normalize URL
+    const normalizedLink = link.startsWith('/') ? link : `/${link}`; // Ensure leading `/`
+
+    // If it's a submenu, allow focus unless it's the active page
+    if (isSubmenu) {
+      return currentUrl === normalizedLink; // Return true only if it's the active page
+    }
+
+    // For main navigation items, mark as active if it's the exact match or a parent
+    return (
+      currentUrl === normalizedLink ||
+      currentUrl.startsWith(normalizedLink + '/')
+    );
+  }
 }
