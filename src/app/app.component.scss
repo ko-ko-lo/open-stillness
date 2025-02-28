@@ -1,0 +1,16 @@
+@use "./../styles/variables" as variables;
+
+.skip-link {
+  position: absolute;
+  top: variables.$space-2;
+  left: variables.$space-2;
+  z-index: 1000;
+
+  /* Hides the link visually but keeps it focusable */
+  transform: translateY(-150%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0); /* Shows when focused */
+}

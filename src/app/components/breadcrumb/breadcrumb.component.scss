@@ -22,6 +22,9 @@
       &:hover {
         text-decoration: underline;
       }
+      &:focus {
+        font-weight: variables.$font-weight-semibold;
+      }
     }
   }
 }

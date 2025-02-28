@@ -32,9 +32,13 @@
         <ul class="nav-menu d-flex gap-32" [class.active]="menuOpen">
           <li *ngFor="let item of menuItems" class="nav-item">
             <a
-              [routerLink]="item.link"
+              [routerLink]="'/' + item.link"
               routerLinkActive="active-link"
               (click)="closeMenuAndNavigate()"
+              [attr.aria-current]="
+                isCurrentPage(item.link, false) ? 'page' : null
+              "
+              [attr.tabindex]="isCurrentPage(item.link, false) ? '-1' : null"
             >
               {{ item.label }}
             </a>
@@ -53,9 +57,11 @@
   <ul class="d-flex">
     <li *ngFor="let subItem of subMenuItems">
       <a
-        [routerLink]="subItem.link"
+        [routerLink]="'/' + subItem.link"
         routerLinkActive="active-link"
         [routerLinkActiveOptions]="{ exact: true }"
+        [attr.aria-current]="isCurrentPage(subItem.link, true) ? 'page' : null"
+        [attr.tabindex]="isCurrentPage(subItem.link, true) ? '-1' : '0'"
       >
         {{ subItem.label }}
       </a>

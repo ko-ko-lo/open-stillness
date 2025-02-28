@@ -8,6 +8,7 @@
     (click)="onFilterSelect(filter)"
     [class.active]="selectedFilter === filter"
     [attr.aria-label]="'Filter by ' + filter"
+    [disabled]="selectedFilter === filter"
   >
     {{ filter }}
   </button>
