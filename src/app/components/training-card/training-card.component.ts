@@ -12,6 +12,7 @@ import { FilteringComponent } from '../filtering/filtering.component';
   styleUrl: './training-card.component.scss',
 })
 export class TrainingCardComponent implements OnInit {
+  @Input() headingLevel: 'h2' | 'h3' = 'h2';
   @Input() routine?: any;
   @Input() showFilter: boolean = true;
   routines: any[] = [];
