@@ -7,7 +7,7 @@
 .filter-buttons button {
   padding: variables.$space-1 variables.$space-02;
   background-color: transparent;
-  border: 1px solid variables.$color-neutral-200;
+  border: 1px solid variables.$color-neutral-400;
   cursor: pointer;
   color: variables.$font-color-body;
   margin-top: variables.$space-5;
@@ -22,4 +22,11 @@
 fieldset {
   border: none;
   padding: 0;
+}
+
+.active {
+  pointer-events: none;
+  cursor: default;
+  border: 1px solid variables.$color-neutral-100;
+  opacity: 60%;
 }

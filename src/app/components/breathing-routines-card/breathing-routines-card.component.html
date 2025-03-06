@@ -13,7 +13,17 @@
     [routerLink]="['/breathwork/routine', routine?.slug]"
     [attr.aria-label]="'View details for ' + routine?.name"
   >
-    <h2 class="margin-top-0 margin-bottom-32">{{ routine?.name }}</h2>
+    <ng-container
+      [ngSwitch]="headingLevel"
+      class="margin-top-0 margin-bottom-32"
+    >
+      <h2 *ngSwitchCase="'h2'">
+        {{ routine?.name }}
+      </h2>
+      <h3 *ngSwitchCase="'h3'">
+        {{ routine?.name }}
+      </h3>
+    </ng-container>
 
     <div class="flex-container">
       <div class="flex-item">

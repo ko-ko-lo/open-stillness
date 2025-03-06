@@ -30,6 +30,7 @@
             [id]="'accordion-content-' + i"
             role="region"
             [attr.aria-labelledby]="'accordion-header-' + i"
+            aria-live="polite"
           >
             <ng-container *ngFor="let paragraph of item.content">
               <p
